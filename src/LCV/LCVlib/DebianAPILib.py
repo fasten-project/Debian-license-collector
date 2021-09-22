@@ -144,15 +144,15 @@ def RetrieveDirectoryInfoNotRecursive(packageName,path):
             #print(jsonResponse)
             fname = 'collectingDebianLicenses/'+packageName+"/"+directory+"/"+fileName+'_dir.json'
             # this control is required to scan nested directories
-            #if os.path.isfile(fname):
-            with open(fname, 'w', encoding='utf-8') as f:
-                json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-                root = 'collectingDebianLicenses/'+packageName+'/'+directory
-                jsonFile = fileName+'_dir.json'
-                print(root)
-                print(jsonFile)
-            ScanJsonDir(packageName,root,jsonFile)
-            return jsonResponse
+            if os.path.isfile(fname):
+                with open(fname, 'w', encoding='utf-8') as f:
+                    json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+                    root = 'collectingDebianLicenses/'+packageName+'/'+directory
+                    jsonFile = fileName+'_dir.json'
+                    print(root)
+                    print(jsonFile)
+                ScanJsonDir(packageName,root,jsonFile)
+                return jsonResponse
         else:
             jsonResponse = "404"
             output = jsonResponse+", 404 - page not found"
