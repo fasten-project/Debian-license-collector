@@ -144,15 +144,15 @@ def RetrieveDirectoryInfoNotRecursive(packageName,path):
             #print(jsonResponse)
             fname = 'collectingDebianLicenses/'+packageName+"/"+directory+"/"+fileName+'_dir.json'
             # this control is required to scan nested directories
-            #if os.path.isfile(fname):
-            with open(fname, 'w', encoding='utf-8') as f:
-                json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-                root = 'collectingDebianLicenses/'+packageName+'/'+directory
-                jsonFile = fileName+'_dir.json'
-                print(root)
-                print(jsonFile)
-            ScanJsonDir(packageName,root,jsonFile)
-            return jsonResponse
+            if os.path.isfile(fname):
+                with open(fname, 'w', encoding='utf-8') as f:
+                    json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+                    root = 'collectingDebianLicenses/'+packageName+'/'+directory
+                    jsonFile = fileName+'_dir.json'
+                    print(root)
+                    print(jsonFile)
+                ScanJsonDir(packageName,root,jsonFile)
+                return jsonResponse
         else:
             jsonResponse = "404"
             output = jsonResponse+", 404 - page not found"
@@ -177,47 +177,50 @@ def ScanJsonDir(packageName,root,jsonFile):
             print(currentPath)
             #if fname == None or f == '':
             #    print('I got a null or empty string value for data in a file')
-            dict = json.load(f)
-            print(dict)
-            if "content" in dict:
-                subDict = dict["content"]
-                for item in subDict:
-                    if item["type"] == "directory":
-                        directory = item["name"]
-                        path = root + "/" + directory
-                        print("This is the path of a directory found in the :"+ path)
-                        print(path)
-                        if "//" in path:
-                            path = path.replace("//","/")
-                            print("ModPath:")
+            if f == None or f == '':
+                print("this file is empty")
+            else:
+                dict = json.load(f)
+                #print(dict)
+                if "content" in dict:
+                    subDict = dict["content"]
+                    for item in subDict:
+                        if item["type"] == "directory":
+                            directory = item["name"]
+                            path = root + "/" + directory
+                            print("This is the path of a directory found in the :"+ path)
                             print(path)
-                        if not os.path.isdir(path):
-                            path = CreateDirectory(root,directory)
-                            path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-                            print (path)
-                            print ("Inside of type directory in ScanJsonDir")
-                            time.sleep(1.2)
-                            RetrieveDirectoryInfoNotRecursive(packageName,path)
-                        else:
-                            print("Directory already exist")
-                    if item["type"] == "file":
-                        fileName = item["name"]
-                        path = root+"/"+fileName
-                        print("This is the path of a file found in the :"+ path)
-                        print(path)
-                        if "//" in path:
-                            path = path.replace("//","/")
-                            print("ModPath:")
+                            if "//" in path:
+                                path = path.replace("//","/")
+                                print("ModPath:")
+                                print(path)
+                            if not os.path.isdir(path):
+                                path = CreateDirectory(root,directory)
+                                path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                                print (path)
+                                print ("Inside of type directory in ScanJsonDir")
+                                time.sleep(1.2)
+                                RetrieveDirectoryInfoNotRecursive(packageName,path)
+                            else:
+                                print("Directory already exist")
+                        if item["type"] == "file":
+                            fileName = item["name"]
+                            path = root+"/"+fileName
+                            print("This is the path of a file found in the :"+ path)
                             print(path)
-                        if not os.path.isfile(path+".json"):
-                            #print(fileName)
-                            #print(root)
-                            path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-                            print("Path generated inside of ScanJsonDir for FILE type")
-                            print(path)
-                            RetrieveFilesInfo(packageName,path)
-                        else:
-                            print("File already exist")
+                            if "//" in path:
+                                path = path.replace("//","/")
+                                print("ModPath:")
+                                print(path)
+                            if not os.path.isfile(path+".json"):
+                                #print(fileName)
+                                #print(root)
+                                path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                                print("Path generated inside of ScanJsonDir for FILE type")
+                                print(path)
+                                RetrieveFilesInfo(packageName,path)
+                            else:
+                                print("File already exist")
 # currently not used
 def ScanJsonFile(packageName,root,jsonFile):
     print("this is from inside ScanJsonFile")
