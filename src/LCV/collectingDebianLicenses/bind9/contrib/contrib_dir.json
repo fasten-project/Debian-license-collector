@@ -1,0 +1,126 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dane",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dlz",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dnspriv",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "kasp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "contrib",
+    "package": "bind9",
+    "path": "bind9/1:9.16.15-1/contrib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bind9/1:9.16.15-1/",
+        "metric": {
+            "size": 40952
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bind9",
+        "sloc": [
+            [
+                "ansic",
+                331489
+            ],
+            [
+                "sh",
+                49814
+            ],
+            [
+                "perl",
+                7681
+            ],
+            [
+                "makefile",
+                3621
+            ],
+            [
+                "python",
+                2258
+            ],
+            [
+                "cpp",
+                2156
+            ],
+            [
+                "xml",
+                114
+            ],
+            [
+                "lisp",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dns-team/bind9",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:9.16.15-1"
+}

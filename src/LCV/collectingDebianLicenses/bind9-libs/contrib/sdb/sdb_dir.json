@@ -1,0 +1,137 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bdb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ldap",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pgsql",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "time",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "sdb",
+    "package": "bind9-libs",
+    "path": "bind9-libs/1:9.11.19+dfsg-2.1/contrib/sdb",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bind9-libs/1:9.11.19+dfsg-2.1/",
+        "metric": {
+            "size": 42008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bind9-libs",
+        "sloc": [
+            [
+                "ansic",
+                341272
+            ],
+            [
+                "sh",
+                38449
+            ],
+            [
+                "xml",
+                22061
+            ],
+            [
+                "perl",
+                8266
+            ],
+            [
+                "makefile",
+                3913
+            ],
+            [
+                "cpp",
+                2086
+            ],
+            [
+                "python",
+                535
+            ],
+            [
+                "tcl",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dns-team/bind9-libs",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:9.11.19+dfsg-2.1"
+}

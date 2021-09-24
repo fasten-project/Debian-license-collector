@@ -1,0 +1,214 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Add_--install-layout%3Ddeb_to_setup.py_call.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-python-fix-for-dist-packages.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Add-patch-to-fix-sphinx-build-failure-on-Ubuntu-Xeni.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Reduce-nsec3-max-iterations-to-150.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Check-dnssec-policy-nsec3param-iterations-limit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Warn-if-there-is-excessive-NSEC3-iterations.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-nsupdate-reject-attempts-to-add-NSEC3PARAM-with-exce.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008-Check-that-named-rejects-excessive-iterations-via-UP.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0009-Check-NSEC3-iterations-with-dnssec-signzone.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010-Check-that-excessive-iterations-in-logged-by-named-w.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0011-dnssec-policy-reduce-NSEC3-iterations-to-150.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0012-Mark-DNSSEC-responses-with-NSEC3-records-that-exceed.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0013-Check-insecure-responses-returned-with-too-many-NSEC.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bind9",
+    "path": "bind9/1:9.16.15-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bind9/1:9.16.15-1/",
+        "metric": {
+            "size": 40952
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bind9",
+        "sloc": [
+            [
+                "ansic",
+                331489
+            ],
+            [
+                "sh",
+                49814
+            ],
+            [
+                "perl",
+                7681
+            ],
+            [
+                "makefile",
+                3621
+            ],
+            [
+                "python",
+                2258
+            ],
+            [
+                "cpp",
+                2156
+            ],
+            [
+                "xml",
+                114
+            ],
+            [
+                "lisp",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dns-team/bind9",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:9.16.15-1"
+}

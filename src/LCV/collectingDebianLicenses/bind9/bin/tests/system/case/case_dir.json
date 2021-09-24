@@ -1,0 +1,148 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "clean.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 636,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dynamic.good",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ns1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ns2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "postns1.good",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postupdate.good",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tests.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "case",
+    "package": "bind9",
+    "path": "bind9/1:9.16.15-1/bin/tests/system/case",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bind9/1:9.16.15-1/",
+        "metric": {
+            "size": 40952
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bind9",
+        "sloc": [
+            [
+                "ansic",
+                331489
+            ],
+            [
+                "sh",
+                49814
+            ],
+            [
+                "perl",
+                7681
+            ],
+            [
+                "makefile",
+                3621
+            ],
+            [
+                "python",
+                2258
+            ],
+            [
+                "cpp",
+                2156
+            ],
+            [
+                "xml",
+                114
+            ],
+            [
+                "lisp",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dns-team/bind9",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:9.16.15-1"
+}
