@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "local-apt-repository.list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local-apt-repository.path",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local-apt-repository.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rebuild",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "0.6+nmu1",
+    "package": "local-apt-repository",
+    "path": "local-apt-repository/0.6+nmu1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/local-apt-repository/0.6+nmu1/",
+        "metric": {
+            "size": 84
+        },
+        "pts_link": "https://tracker.debian.org/pkg/local-apt-repository",
+        "sloc": [
+            [
+                "sh",
+                63
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/local-apt-repository.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6+nmu1"
+}
