@@ -1,0 +1,131 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "link_does_not_exist",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 14,
+                "symlink_dest": "does_not_exist",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_test_dir",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 8,
+                "symlink_dest": "test_dir",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "link_test_file",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 9,
+                "symlink_dest": "test_file",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_dir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test_file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test_scandir",
+    "package": "android-platform-development",
+    "path": "android-platform-development/10.0.0+r36-1/vndk/tools/definition-tool/tests/testdata/test_scandir",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/android-platform-development/10.0.0+r36-1/",
+        "metric": {
+            "size": 135564
+        },
+        "pts_link": "https://tracker.debian.org/pkg/android-platform-development",
+        "sloc": [
+            [
+                "java",
+                160253
+            ],
+            [
+                "xml",
+                127434
+            ],
+            [
+                "python",
+                40579
+            ],
+            [
+                "cpp",
+                17579
+            ],
+            [
+                "sh",
+                2569
+            ],
+            [
+                "javascript",
+                1612
+            ],
+            [
+                "ansic",
+                879
+            ],
+            [
+                "lisp",
+                261
+            ],
+            [
+                "ruby",
+                183
+            ],
+            [
+                "makefile",
+                172
+            ],
+            [
+                "sql",
+                140
+            ],
+            [
+                "perl",
+                88
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/android-tools-team/android-platform-development",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "10.0.0+r36-1"
+}
