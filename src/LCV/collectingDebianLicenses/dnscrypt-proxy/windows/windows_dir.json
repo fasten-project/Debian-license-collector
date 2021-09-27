@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "service-install.bat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service-restart.bat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service-uninstall.bat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "windows",
+    "package": "dnscrypt-proxy",
+    "path": "dnscrypt-proxy/2.0.45+ds1-1/windows",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dnscrypt-proxy/2.0.45+ds1-1/",
+        "metric": {
+            "size": 948
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dnscrypt-proxy",
+        "sloc": [
+            [
+                "python",
+                279
+            ],
+            [
+                "sh",
+                20
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/eric/dnscrypt-proxy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.45+ds1-1"
+}

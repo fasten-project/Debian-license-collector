@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_fix_gcc10_issues.patch.",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_spelling_errors.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "dns2tcp",
+    "path": "dns2tcp/0.5.2-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dns2tcp/0.5.2-3/",
+        "metric": {
+            "size": 1116
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dns2tcp",
+        "sloc": [
+            [
+                "ansic",
+                5303
+            ],
+            [
+                "sh",
+                3609
+            ],
+            [
+                "makefile",
+                65
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/dns2tcp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.2-3"
+}

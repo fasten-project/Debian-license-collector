@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "domains-allowlist.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "domains-blocklist-local-additions.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "domains-blocklist.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7636,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "domains-time-restricted.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generate-domains-blocklist.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "generate-domains-blocklist",
+    "package": "dnscrypt-proxy",
+    "path": "dnscrypt-proxy/2.0.45+ds1-1/utils/generate-domains-blocklist",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dnscrypt-proxy/2.0.45+ds1-1/",
+        "metric": {
+            "size": 948
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dnscrypt-proxy",
+        "sloc": [
+            [
+                "python",
+                279
+            ],
+            [
+                "sh",
+                20
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/eric/dnscrypt-proxy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.45+ds1-1"
+}

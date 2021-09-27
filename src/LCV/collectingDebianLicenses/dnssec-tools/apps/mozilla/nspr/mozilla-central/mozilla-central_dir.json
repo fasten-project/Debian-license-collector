@@ -1,0 +1,150 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "nspr-0001-getaddr-patch-for-mozilla-bug-699055.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nspr-0002-add-NSPR-log-module-for-DNS.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21084,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nspr-0003-add-dnssec-options-flags-to-configure-and-makefiles.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nspr-0004-add-DNSSEC-error-codes-and-text.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nspr-0005-factor-out-common-code-from-PR_GetAddrInfoByName.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nspr-0006-header-definitions-for-Extended-DNSSEC-and-asynchron.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nspr-0007-add-dnssec-validation-to-prnetdb.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nspr-0008-update-getai-to-test-async-disable-validation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mozilla-central",
+    "package": "dnssec-tools",
+    "path": "dnssec-tools/1.13-1/apps/mozilla/nspr/mozilla-central",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dnssec-tools/1.13-1/",
+        "metric": {
+            "size": 16064
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dnssec-tools",
+        "sloc": [
+            [
+                "perl",
+                44399
+            ],
+            [
+                "ansic",
+                31547
+            ],
+            [
+                "cpp",
+                21306
+            ],
+            [
+                "sh",
+                15813
+            ],
+            [
+                "xml",
+                2113
+            ],
+            [
+                "makefile",
+                1390
+            ],
+            [
+                "pascal",
+                836
+            ],
+            [
+                "python",
+                290
+            ],
+            [
+                "csh",
+                11
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=users/ondrej/dnssec-tools.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13-1"
+}

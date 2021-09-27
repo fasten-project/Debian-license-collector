@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build_with_gcc6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do_not_staically_linking.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_shel_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "resolve_name_space_conflict_fastasort.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "dnaclust",
+    "path": "dnaclust/3-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dnaclust/3-7/",
+        "metric": {
+            "size": 720
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dnaclust",
+        "sloc": [
+            [
+                "cpp",
+                3630
+            ],
+            [
+                "sh",
+                516
+            ],
+            [
+                "makefile",
+                64
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/dnaclust",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3-7"
+}

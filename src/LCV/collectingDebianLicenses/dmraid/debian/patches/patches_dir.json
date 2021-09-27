@@ -1,0 +1,218 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_fix_broken_linking.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_disable_dmreg.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_fix_hyphen-used-as-minus-sign.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_do_not_use_p_for_partition.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_promise-add-offsets.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_exit_code.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12_support_virtio_devices.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15_activate_multiple_raid_sets.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15_isw_incorrect_status_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "17_isw-probe-hpa.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18_pdc_raid10_failure..patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "19_ddf1_lsi_persistent_name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_fix_isw_sectors_calculation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "21_fix_man_page_typos.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1754,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "26_convert-dmraid45-to-dmraid.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "dmraid",
+    "path": "dmraid/1.0.0.rc16-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2679,
+        "license": "/copyright/license/dmraid/1.0.0.rc16-8/",
+        "metric": {
+            "size": 3564
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dmraid",
+        "sloc": [
+            [
+                "ansic",
+                16884
+            ],
+            [
+                "sh",
+                3464
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=users/derevko-guest/dmraid.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0.rc16-8"
+}

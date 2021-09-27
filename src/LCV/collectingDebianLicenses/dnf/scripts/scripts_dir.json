@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dnf_pylint",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pylint_false_positives",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sanitize_po_files.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-copyright-years.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update_releasenotes.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "dnf",
+    "path": "dnf/4.5.2-6/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dnf/4.5.2-6/",
+        "metric": {
+            "size": 10556
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dnf",
+        "sloc": [
+            [
+                "python",
+                26916
+            ],
+            [
+                "xml",
+                778
+            ],
+            [
+                "sh",
+                131
+            ],
+            [
+                "makefile",
+                42
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/fepitre/dnf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.5.2-6"
+}

@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "installpaths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "dnsdbq",
+    "path": "dnsdbq/2.5.5-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dnsdbq/2.5.5-2/",
+        "metric": {
+            "size": 320
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dnsdbq",
+        "sloc": [
+            [
+                "ansic",
+                4101
+            ],
+            [
+                "makefile",
+                217
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/dnsdbq",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.5-2"
+}

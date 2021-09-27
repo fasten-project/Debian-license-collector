@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "RiggerStatusItem",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dnssec-trigger-osx.sh.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnssec-trigger-setdns.sh.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nl.nlnetlabs.dnssec-trigger-hook.plist.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nl.nlnetlabs.dnssec-trigger-panel.plist.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nl.nlnetlabs.dnssec-triggerd.plist.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wakelist.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wakelist.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "osx",
+    "package": "dnssec-trigger",
+    "path": "dnssec-trigger/0.17+repack-5/osx",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dnssec-trigger/0.17+repack-5/",
+        "metric": {
+            "size": 2956
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dnssec-trigger",
+        "sloc": [
+            [
+                "ansic",
+                18699
+            ],
+            [
+                "sh",
+                976
+            ],
+            [
+                "makefile",
+                495
+            ],
+            [
+                "xml",
+                444
+            ],
+            [
+                "objc",
+                421
+            ],
+            [
+                "cpp",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dns-team/dnssec-trigger",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.17+repack-5"
+}

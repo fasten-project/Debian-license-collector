@@ -1,0 +1,183 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "03_disable_presigned.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_donutsd_temporary_directory.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_poderrors.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "588821_check_for_errors.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4891,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bind9utils-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian-defaults.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnssec-tools-donuts-rules-paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnssec-tools-linux-conf-paths-1.2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnssec-tools-maketestzone-bb.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnssec-tools-validator-destdir-fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "dnssec-tools",
+    "path": "dnssec-tools/1.13-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dnssec-tools/1.13-1/",
+        "metric": {
+            "size": 16064
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dnssec-tools",
+        "sloc": [
+            [
+                "perl",
+                44399
+            ],
+            [
+                "ansic",
+                31547
+            ],
+            [
+                "cpp",
+                21306
+            ],
+            [
+                "sh",
+                15813
+            ],
+            [
+                "xml",
+                2113
+            ],
+            [
+                "makefile",
+                1390
+            ],
+            [
+                "pascal",
+                836
+            ],
+            [
+                "python",
+                290
+            ],
+            [
+                "csh",
+                11
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=users/ondrej/dnssec-tools.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13-1"
+}
