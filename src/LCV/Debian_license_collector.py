@@ -89,4 +89,4 @@ for i in range(int(startLine),int(endLine)):
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
                 print(path)
                 ScanJsonDir(packageName,root+"/",file)
-                time.sleep(1.2)
+                time.sleep(0.2)
