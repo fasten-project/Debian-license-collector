@@ -62,11 +62,14 @@ for i in range(int(startLine),int(endLine)):
     ScanJsonDir(packageName,dir,packageName+"_pkg.json")
     #this loop creates recursive all the layers of files and directories
     for (root,dirs,files) in os.walk(dir, topdown=True):
+        # if this is an empty dir
         if not os.listdir(root):
             print("This is an empty dir")
             root = root.replace("collectingDebianLicenses/"+packageName+"/","")
             print("here root is:")
             print(root)
+            # check if the last directory has the same name of the packagename,
+            # after removing the packagename from the path
             path = os.path.normpath(root)
             path = path.split(os.sep)
             lastDir = path[-1]

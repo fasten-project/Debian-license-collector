@@ -166,7 +166,11 @@ def RetrieveDirectoryInfoNotRecursive(packageName,path):
                     jsonFile = fileName+'_dir.json'
                     print(root)
                     print(jsonFile)
-                ScanJsonDir(packageName,root,jsonFile)
+                directory = os.path.normpath(root)
+                path = path.split(os.sep)
+                lastDir = path[-1]
+                if lastDir != packageName:
+                    ScanJsonDir(packageName,root,jsonFile)
                 return jsonResponse
             else:
                 jsonResponse = "404"
