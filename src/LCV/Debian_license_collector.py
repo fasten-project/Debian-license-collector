@@ -60,17 +60,22 @@ for i in range(int(startLine),int(endLine)):
         RetrievePackageFilesAndDirectory(packageName)
     #parse davfs2_pkg.json
     ScanJsonDir(packageName,dir,packageName+"_pkg.json")
-    #this loop create the first layer of files and directories
+    #this loop creates recursive all the layers of files and directories
     for (root,dirs,files) in os.walk(dir, topdown=True):
         if not os.listdir(root):
             print("This is an empty dir")
             root = root.replace("collectingDebianLicenses/"+packageName+"/","")
             print("here root is:")
             print(root)
-            RetrieveDirectoryInfoNotRecursive(packageName,root)
+            path = os.path.normpath(root)
+            path = path.split(os.sep)
+            lastDir = path[-1]
+            if lastDir != packageName:
+                RetrieveDirectoryInfoNotRecursive(packageName,root)
         for directory in dirs:
             print(".. looping through directory ..: " +root+directory)
             for file in os.listdir(root+"/"+directory):
+                # check if there are files in the directory
                 if not os.listdir(root+"/"+directory):
                     print("This is an empty dir")
                     RetrieveDirectoryInfo(packageName,root+"/"+directory)
