@@ -70,10 +70,13 @@ for i in range(int(startLine),int(endLine)):
             print(root)
             # check if the last directory has the same name of the packagename,
             # after removing the packagename from the path
-            path = os.path.normpath(root)
-            path = path.split(os.sep)
-            lastDir = path[-1]
-            if lastDir != packageName:
+            PathList = os.path.normpath(root)
+            PathList = PathList.split(os.sep)
+            if len(PathList) > 1:
+                PathList = PathList[-2:]
+                if PathList[0] != PathList[1]:
+                    RetrieveDirectoryInfoNotRecursive(packageName,root)
+            else:
                 RetrieveDirectoryInfoNotRecursive(packageName,root)
         for directory in dirs:
             print(".. looping through directory ..: " +root+directory)
@@ -81,7 +84,15 @@ for i in range(int(startLine),int(endLine)):
                 # check if there are files in the directory
                 if not os.listdir(root+"/"+directory):
                     print("This is an empty dir")
-                    RetrieveDirectoryInfo(packageName,root+"/"+directory)
+                    dirToSplit = root+"/"+directory
+                    PathList = os.path.normpath(dirToSplit)
+                    PathList = PathList.split(os.sep)
+                    if len(PathList) > 1:
+                        PathList = PathList[-2:]
+                        if PathList[0] != PathList[1]:
+                            RetrieveDirectoryInfo(packageName,root+"/"+directory)
+                    else:
+                        RetrieveDirectoryInfo(packageName,root+"/"+directory)
                 else:
                     for file in os.listdir(root+"/"+directory):
                         print("Inside "+directory+" there is :"+file)
