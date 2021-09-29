@@ -28,13 +28,17 @@ from LCVlib.DebianAPILib import *
 packageName = "grgsma"
 path = "collectingDebianLicenses/gr-gsm/python/grgsm/grgsm"
 print(path)
-print(path)
-print(path)
 path = os.path.normpath(path)
 path = path.split(os.sep)
-lastDir = path[-1]
-if lastDir != packageName:
-    print("they are different")
+print(path)
+path = path[-2:]
+print(path)
+print(len(path))
+if len(path) > 1:
+    if path[0] != path[1]:
+        print("they are different")
+    else:
+        print("they are equals")
 
 
 
