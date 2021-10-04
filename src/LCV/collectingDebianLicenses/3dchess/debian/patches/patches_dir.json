@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_fix_includes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_Makefile.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12_3Dc-rules.html.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13_machine.h.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 756,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wasteful-CPU-consumption.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "3dchess",
+    "path": "3dchess/0.8.1-20/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 470,
+        "license": "/copyright/license/3dchess/0.8.1-20/",
+        "metric": {
+            "size": 528
+        },
+        "pts_link": "https://tracker.debian.org/pkg/3dchess",
+        "sloc": [
+            [
+                "ansic",
+                3034
+            ],
+            [
+                "makefile",
+                45
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/viewvc/pkg-games/packages/trunk/3dchess/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "0.8.1-20"
+}

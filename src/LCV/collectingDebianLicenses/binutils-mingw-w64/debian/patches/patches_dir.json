@@ -1,0 +1,120 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "default-secure-pe-flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dont-run-objcopy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dont-run-pr25662.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reproducible-import-libraries.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 671,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "specify-timestamp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testsuite-timeout.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "binutils-mingw-w64",
+    "path": "binutils-mingw-w64/8.11/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/binutils-mingw-w64/8.11/",
+        "metric": {
+            "size": 132
+        },
+        "pts_link": "https://tracker.debian.org/pkg/binutils-mingw-w64",
+        "sloc": [
+            [
+                "makefile",
+                83
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/mingw-w64-team/binutils-mingw-w64",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "8.11"
+}

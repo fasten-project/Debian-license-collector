@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "acpi_handler-conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acpi_handler.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "battery",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "panasonic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 90,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "power",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "power.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "powerbtn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "samples",
+    "package": "acpid",
+    "path": "acpid/1:2.0.32-1/samples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpid/1:2.0.32-1/",
+        "metric": {
+            "size": 1096
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpid",
+        "sloc": [
+            [
+                "sh",
+                4386
+            ],
+            [
+                "ansic",
+                4314
+            ],
+            [
+                "perl",
+                283
+            ],
+            [
+                "makefile",
+                30
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpid",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.0.32-1"
+}

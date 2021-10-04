@@ -1,0 +1,120 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aegis-4.24.3-allow-white-space.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aegis-4.24.3-fix-debian-643347.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian_install_aefp_binary.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian_remove_manpath_and_use_sensiblepager_in_aedpager.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2759,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sf-3066593-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aegis",
+    "path": "aegis/4.24.3-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 12500,
+        "license": "/copyright/license/aegis/4.24.3-3/",
+        "metric": {
+            "size": 34056
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aegis",
+        "sloc": [
+            [
+                "cpp",
+                178528
+            ],
+            [
+                "sh",
+                79948
+            ],
+            [
+                "makefile",
+                34813
+            ],
+            [
+                "yacc",
+                4610
+            ],
+            [
+                "perl",
+                1499
+            ],
+            [
+                "ansic",
+                492
+            ],
+            [
+                "awk",
+                325
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "4.24.3-3"
+}
