@@ -1,0 +1,239 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "authlogin.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fstools.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init.if",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logging.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lvm.if",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4745,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lvm.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11025,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "miscfiles.fc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modutils.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mount.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "raid.fc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "raid.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "systemd.fc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "systemd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "udev.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unconfined.if",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unconfined.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "system",
+    "package": "refpolicy",
+    "path": "refpolicy/2:2.20210203-7/.pc/0009-misc-kernel-system/policy/modules/system",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/refpolicy/2:2.20210203-7/",
+        "metric": {
+            "size": 16044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/refpolicy",
+        "sloc": [
+            [
+                "python",
+                2171
+            ],
+            [
+                "makefile",
+                626
+            ],
+            [
+                "sh",
+                174
+            ],
+            [
+                "sed",
+                21
+            ],
+            [
+                "xml",
+                13
+            ],
+            [
+                "awk",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/selinux-team/refpolicy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:2.20210203-7"
+}

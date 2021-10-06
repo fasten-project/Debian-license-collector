@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-write_bytes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-fix-639065",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "raptor-1.4.21-cve.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "raptor",
+    "path": "raptor/1.4.21-11/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 6770,
+        "license": "/copyright/license/raptor/1.4.21-11/",
+        "metric": {
+            "size": 14236
+        },
+        "pts_link": "https://tracker.debian.org/pkg/raptor",
+        "sloc": [
+            [
+                "ansic",
+                44523
+            ],
+            [
+                "sh",
+                10713
+            ],
+            [
+                "yacc",
+                3443
+            ],
+            [
+                "lex",
+                1741
+            ],
+            [
+                "makefile",
+                1372
+            ],
+            [
+                "xml",
+                1369
+            ],
+            [
+                "perl",
+                111
+            ],
+            [
+                "cpp",
+                59
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "1.4.21-11"
+}

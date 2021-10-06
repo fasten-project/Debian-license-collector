@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "100_mount_NETFS_path.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "150_save_copy_of_prefix_dir.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "200_check_rsync_relative_option.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 54,
+                "symlink_dest": "../../RSYNC/default/200_check_rsync_relative_option.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "200_make_prefix_dir.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "250_create_lock.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "400_create_include_exclude_files.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "500_make_backup.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17796,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "970_remove_lock.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "980_umount_NETFS_dir.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "default",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/backup/NETFS/default",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

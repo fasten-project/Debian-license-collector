@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Add-build-target-to-Makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "erlang_23.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rebar_port_compiler.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rebar",
+    "path": "rebar/2.6.4-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rebar/2.6.4-3/",
+        "metric": {
+            "size": 2284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rebar",
+        "sloc": [
+            [
+                "erlang",
+                13631
+            ],
+            [
+                "sh",
+                586
+            ],
+            [
+                "python",
+                103
+            ],
+            [
+                "ansic",
+                56
+            ],
+            [
+                "makefile",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/erlang-team/packages/rebar",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.4-3"
+}

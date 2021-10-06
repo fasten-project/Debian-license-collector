@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "050_remount_async.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "500_selinux_autorelabel.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "900_create_missing_directories.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "990_move_away_restored_files.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "995_remount_sync.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "default",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/restore/default",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "300_create_yaboot.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1615,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "310_create_grub2.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "800_create_isofs.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 36,
+                "symlink_dest": "../Linux-ppc64le/800_create_isofs.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "810_prepare_multiple_iso.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 41,
+                "symlink_dest": "../Linux-i386/810_prepare_multiple_iso.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "820_create_iso_image.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 40,
+                "symlink_dest": "../Linux-ppc64le/820_create_iso_image.sh",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Linux-ppc64",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/output/ISO/Linux-ppc64",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

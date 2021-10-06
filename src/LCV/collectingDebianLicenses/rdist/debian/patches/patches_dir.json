@@ -1,0 +1,242 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-debian_legacy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-24165-recognise_ELF_binaries.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-58264-pass_on_the_full_environment.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-82768-temporary_file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-126527-missing_prototypes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-build_with_bison.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-250965-rdist_symlinks.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-367409-fix_nodescend_option_behaviour.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-415149-build_on_GNU_kFreeBSD.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-fedora-links.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-fedora-hardlink.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-fedora-lfs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14-fedora-cleanup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-fedora-svr4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16-fedora-ssh.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18-fedora-stat64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "19-fedora-fix-msgsndnotify-loop.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rdist",
+    "path": "rdist/6.1.5-21/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rdist/6.1.5-21/",
+        "metric": {
+            "size": 1808
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rdist",
+        "sloc": [
+            [
+                "ansic",
+                8379
+            ],
+            [
+                "sh",
+                554
+            ],
+            [
+                "yacc",
+                492
+            ],
+            [
+                "perl",
+                117
+            ],
+            [
+                "makefile",
+                69
+            ]
+        ],
+        "suites": [
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "6.1.5-21"
+}

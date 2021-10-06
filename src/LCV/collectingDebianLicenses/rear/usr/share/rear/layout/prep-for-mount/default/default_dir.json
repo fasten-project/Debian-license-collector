@@ -1,0 +1,172 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "010_prepare_files.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 42,
+                "symlink_dest": "../../prepare/default/010_prepare_files.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "250_compare_disks.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 42,
+                "symlink_dest": "../../prepare/default/250_compare_disks.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "270_overrule_migration_mode.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 52,
+                "symlink_dest": "../../prepare/default/270_overrule_migration_mode.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "300_map_disks.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 38,
+                "symlink_dest": "../../prepare/default/300_map_disks.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "310_remove_exclusions.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 46,
+                "symlink_dest": "../../prepare/default/310_remove_exclusions.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "320_apply_mappings.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 43,
+                "symlink_dest": "../../prepare/default/320_apply_mappings.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "500_confirm_layout_file.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 48,
+                "symlink_dest": "../../prepare/default/500_confirm_layout_file.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "510_list_dependencies.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 46,
+                "symlink_dest": "../../prepare/default/510_list_dependencies.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "520_exclude_components.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 47,
+                "symlink_dest": "../../prepare/default/520_exclude_components.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "540_generate_device_code.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "550_finalize_script.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "600_show_unprocessed.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "default",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/layout/prep-for-mount/default",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

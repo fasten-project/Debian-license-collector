@@ -1,0 +1,118 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build_bundle",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "build_deps_osx",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "build_msi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "compiledir.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_tests.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tools",
+    "package": "reinteract",
+    "path": "reinteract/0.5.0-6/tools",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1244,
+        "license": "/copyright/license/reinteract/0.5.0-6/",
+        "metric": {
+            "size": 1880
+        },
+        "pts_link": "https://tracker.debian.org/pkg/reinteract",
+        "sloc": [
+            [
+                "python",
+                9276
+            ],
+            [
+                "sh",
+                3883
+            ],
+            [
+                "xml",
+                780
+            ],
+            [
+                "objc",
+                311
+            ],
+            [
+                "makefile",
+                253
+            ],
+            [
+                "ansic",
+                201
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "https://github.com/lamby/pkg-reinteract",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.0-6"
+}

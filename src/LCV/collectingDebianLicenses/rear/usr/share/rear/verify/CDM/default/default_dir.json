@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "400_verify_cdm.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "410_use_replica_cdm_cluster_cert.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "430_gen_rbs_uuid_for_cdm.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "450_start_cdm_rbs.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "default",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/verify/CDM/default",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

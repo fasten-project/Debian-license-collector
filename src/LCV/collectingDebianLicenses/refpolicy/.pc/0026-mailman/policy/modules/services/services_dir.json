@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apache.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cron.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mailman.fc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mailman.if",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6940,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mailman.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "services",
+    "package": "refpolicy",
+    "path": "refpolicy/2:2.20210203-7/.pc/0026-mailman/policy/modules/services",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/refpolicy/2:2.20210203-7/",
+        "metric": {
+            "size": 16044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/refpolicy",
+        "sloc": [
+            [
+                "python",
+                2171
+            ],
+            [
+                "makefile",
+                626
+            ],
+            [
+                "sh",
+                174
+            ],
+            [
+                "sed",
+                21
+            ],
+            [
+                "xml",
+                13
+            ],
+            [
+                "awk",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/selinux-team/refpolicy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:2.20210203-7"
+}

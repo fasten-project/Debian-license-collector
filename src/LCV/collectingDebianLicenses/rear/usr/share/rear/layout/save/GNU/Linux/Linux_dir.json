@@ -1,0 +1,216 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "100_create_layout_file.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "150_save_diskbyid_mappings.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "190_opaldisk_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "200_partition_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "210_raid_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "220_lvm_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "230_filesystem_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "240_swaps_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "250_drbd_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "260_crypt_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "270_hpraid_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "280_multipath_layout.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "340_false_blacklisted.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "350_copy_drbdtab.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "500_extract_vgcfg.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "510_current_disk_usage.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Linux",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/layout/save/GNU/Linux",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "040_change_tape_name.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "300_check_iso_dir.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 38,
+                "symlink_dest": "../../ISO/default/300_check_iso_dir.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "320_check_cdrom_size.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 41,
+                "symlink_dest": "../../ISO/default/320_check_cdrom_size.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "400_check_tape_drive.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 42,
+                "symlink_dest": "../../TAPE/default/400_check_tape_drive.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "500_check_tape_label.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "700_write_OBDR_header.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "default",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/prep/OBDR/default",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

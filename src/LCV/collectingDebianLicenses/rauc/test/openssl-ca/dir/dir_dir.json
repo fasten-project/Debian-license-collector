@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "a.cert.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "b.cert.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hash",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "index.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "index.txt.attr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "serial",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dir",
+    "package": "rauc",
+    "path": "rauc/1.5.1-1/test/openssl-ca/dir",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rauc/1.5.1-1/",
+        "metric": {
+            "size": 5956
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rauc",
+        "sloc": [
+            [
+                "ansic",
+                21315
+            ],
+            [
+                "sh",
+                6741
+            ],
+            [
+                "makefile",
+                286
+            ],
+            [
+                "python",
+                98
+            ],
+            [
+                "xml",
+                41
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rauc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.1-1"
+}

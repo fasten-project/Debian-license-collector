@@ -1,0 +1,201 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-base.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-conf-update.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-slaves-reconf.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-runtime-reconf.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-slave-selection.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-manual.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-ckquorum.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-down-conditions.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-hostname-conf.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-acl-support.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-replica-priority.tcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "helpers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "includes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 90,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "redis",
+    "path": "redis/5:6.2.5-4/tests/sentinel/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/redis/5:6.2.5-4/",
+        "metric": {
+            "size": 13348
+        },
+        "pts_link": "https://tracker.debian.org/pkg/redis",
+        "sloc": [
+            [
+                "ansic",
+                148280
+            ],
+            [
+                "tcl",
+                24866
+            ],
+            [
+                "sh",
+                4561
+            ],
+            [
+                "perl",
+                4138
+            ],
+            [
+                "makefile",
+                1548
+            ],
+            [
+                "ruby",
+                721
+            ],
+            [
+                "cpp",
+                364
+            ],
+            [
+                "python",
+                162
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/lamby/pkg-redis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5:6.2.5-4"
+}

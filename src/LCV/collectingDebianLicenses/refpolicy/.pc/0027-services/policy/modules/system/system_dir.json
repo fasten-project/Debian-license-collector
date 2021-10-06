@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fstools.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libraries.if",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mount.if",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "selinuxutil.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sysnetwork.if",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17745,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "systemd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unconfined.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "userdomain.if",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 107507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "system",
+    "package": "refpolicy",
+    "path": "refpolicy/2:2.20210203-7/.pc/0027-services/policy/modules/system",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/refpolicy/2:2.20210203-7/",
+        "metric": {
+            "size": 16044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/refpolicy",
+        "sloc": [
+            [
+                "python",
+                2171
+            ],
+            [
+                "makefile",
+                626
+            ],
+            [
+                "sh",
+                174
+            ],
+            [
+                "sed",
+                21
+            ],
+            [
+                "xml",
+                13
+            ],
+            [
+                "awk",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/selinux-team/refpolicy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:2.20210203-7"
+}

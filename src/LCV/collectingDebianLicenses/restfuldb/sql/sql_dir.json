@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "metatables",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "metatables.sql",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 31,
+                "symlink_dest": "metatables/metatables_0.2.2.sql",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "sql",
+    "package": "restfuldb",
+    "path": "restfuldb/0.15.2+dfsg-1/sql",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/restfuldb/0.15.2+dfsg-1/",
+        "metric": {
+            "size": 16424
+        },
+        "pts_link": "https://tracker.debian.org/pkg/restfuldb",
+        "sloc": [
+            [
+                "sh",
+                23121
+            ],
+            [
+                "perl",
+                11241
+            ],
+            [
+                "sql",
+                1223
+            ],
+            [
+                "javascript",
+                754
+            ],
+            [
+                "makefile",
+                220
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/merkys/restfuldb",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.15.2+dfsg-1"
+}

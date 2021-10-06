@@ -1,0 +1,918 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "R",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "allocMatrix.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocVector.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "anyMissing.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "anyMissing_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "binCounts.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "binCounts_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "binMeans.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "binMeans_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowAlls.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowAlls_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowAnyMissings.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowAnyMissings_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowAnys.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowAnys_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowCounts.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowCounts_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowCummins.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowCummins_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowCumprods.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowCumprods_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowCumsums.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowCumsums_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowDiffs.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowDiffs_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1749,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowLogSumExps.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowLogSumExps_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowMads.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowMads_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowMeans2.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowMeans2_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowMedians.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowMedians_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowMins.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowMins_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowOrderStats.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowOrderStats_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2049,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowProds.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowProds_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowQuantiles.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowQuantiles_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowRanges.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowRanges_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowRanks.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowRanks_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowSums2.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowSums2_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowTabulates.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowTabulates_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowVars.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowVars_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1825,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowWeightedMeans.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowWeightedMeans_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowWeightedMedians.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colRowWeightedMedians_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "count.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "count_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "includes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "index.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indexByRow.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logSumExp.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logSumExp_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "madDiff.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "madDiff_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mean2.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mean2_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "product.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "product_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sum2.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sum2_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t_tx_OP_y.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t_tx_OP_y_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "varDiff.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "varDiff_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "weightedMean.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "weightedMean_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "weightedMedian.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "weightedMedian_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "x_OP_y.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "x_OP_y_subset.md.rsp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "benchmarking",
+    "package": "r-cran-matrixstats",
+    "path": "r-cran-matrixstats/0.61.0-1/inst/benchmarking",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/r-cran-matrixstats/0.61.0-1/",
+        "metric": {
+            "size": 2068
+        },
+        "pts_link": "https://tracker.debian.org/pkg/r-cran-matrixstats",
+        "sloc": [
+            [
+                "ansic",
+                6301
+            ],
+            [
+                "sh",
+                11
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/r-pkg-team/r-cran-matrixstats",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.61.0-1"
+}

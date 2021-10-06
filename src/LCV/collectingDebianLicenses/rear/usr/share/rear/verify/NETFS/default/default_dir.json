@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "050_check_NETFS_requirements.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 59,
+                "symlink_dest": "../../../prep/NETFS/default/050_check_NETFS_requirements.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "050_start_required_nfs_daemons.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "060_mount_NETFS_path.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 53,
+                "symlink_dest": "../../../backup/NETFS/default/100_mount_NETFS_path.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "070_set_backup_archive.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 53,
+                "symlink_dest": "../../../prep/NETFS/default/070_set_backup_archive.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "090_set_readonly_options.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "550_check_backup_archive.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "600_check_encryption_key.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "980_umount_NETFS_dir.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 53,
+                "symlink_dest": "../../../backup/NETFS/default/980_umount_NETFS_dir.sh",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "default",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/verify/NETFS/default",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

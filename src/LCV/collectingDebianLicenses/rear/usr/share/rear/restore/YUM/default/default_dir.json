@@ -1,0 +1,172 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "100_mount_YUM_path.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "400_restore_packages.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "403_binds_for_selinux.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 772,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "405_recreate_users_and_groups.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "410_restore_backup.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "600_restore_selinux_contexts.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "940_generate_fstab.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "950_grub2_mkconfig.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "950_grub_mkconfig.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "970_set_root_password.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "980_initial_network_setup.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "980_umount_YUM_dir.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "default",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/restore/YUM/default",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

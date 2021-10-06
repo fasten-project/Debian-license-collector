@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "all",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tardigrade",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "backend",
+    "package": "rclone",
+    "path": "rclone/1.53.3-1/.pc/ignore_tardigrade_backend.patch/backend",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rclone/1.53.3-1/",
+        "metric": {
+            "size": 30456
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rclone",
+        "sloc": [
+            [
+                "xml",
+                801
+            ],
+            [
+                "sh",
+                800
+            ],
+            [
+                "javascript",
+                526
+            ],
+            [
+                "python",
+                414
+            ],
+            [
+                "makefile",
+                229
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/rclone",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.53.3-1"
+}

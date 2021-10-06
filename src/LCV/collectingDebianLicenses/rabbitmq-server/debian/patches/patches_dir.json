@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "lets-use-python3-not-python-binary.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rabbitmq-dist.mk.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 968,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rabbitmq-server",
+    "path": "rabbitmq-server/3.9.4-1.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rabbitmq-server/3.9.4-1.2/",
+        "metric": {
+            "size": 32072
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rabbitmq-server",
+        "sloc": [
+            [
+                "erlang",
+                189031
+            ],
+            [
+                "javascript",
+                18605
+            ],
+            [
+                "sh",
+                3646
+            ],
+            [
+                "makefile",
+                2395
+            ],
+            [
+                "python",
+                1930
+            ],
+            [
+                "xml",
+                648
+            ],
+            [
+                "cs",
+                368
+            ],
+            [
+                "java",
+                320
+            ],
+            [
+                "ruby",
+                212
+            ],
+            [
+                "php",
+                100
+            ],
+            [
+                "perl",
+                63
+            ],
+            [
+                "awk",
+                13
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/third-party/rabbitmq-server",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.9.4-1.2"
+}

@@ -1,0 +1,257 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dev",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dev-ca.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dev-only-ca.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "manifest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manifest-a1.sig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manifest-a2.sig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manifest-cs1.sig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manifest-ep1.sig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manifest-r1.sig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manifest-ts1.sig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manifest.mail",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openssl.cnf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "provisioning-ca.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rel-ca.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "root",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "root-ca.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "openssl-ca",
+    "package": "rauc",
+    "path": "rauc/1.5.1-1/test/openssl-ca",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rauc/1.5.1-1/",
+        "metric": {
+            "size": 5956
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rauc",
+        "sloc": [
+            [
+                "ansic",
+                21315
+            ],
+            [
+                "sh",
+                6741
+            ],
+            [
+                "makefile",
+                286
+            ],
+            [
+                "python",
+                98
+            ],
+            [
+                "xml",
+                41
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rauc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.1-1"
+}

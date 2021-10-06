@@ -1,0 +1,118 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "MailTo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1033,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "iscsi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mysql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "named",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nfsserver",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgsql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ocft",
+    "package": "resource-agents",
+    "path": "resource-agents/1:4.7.0-1/.pc/ocft-configs.patch/tools/ocft",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/resource-agents/1:4.7.0-1/",
+        "metric": {
+            "size": 4316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/resource-agents",
+        "sloc": [
+            [
+                "sh",
+                36629
+            ],
+            [
+                "ansic",
+                4134
+            ],
+            [
+                "perl",
+                3469
+            ],
+            [
+                "makefile",
+                786
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "xml",
+                89
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ha-team/resource-agents",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:4.7.0-1"
+}

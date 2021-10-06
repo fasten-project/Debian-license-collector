@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "250_populate_efibootimg.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "260_EFISTUB_populate.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "300_create_isolinux.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "700_create_efibootimg.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "800_create_isofs.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "810_prepare_multiple_iso.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "820_create_iso_image.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "830_create_iso_image_EFISTUB.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "850_check_for_errors.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Linux-i386",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/output/ISO/Linux-i386",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

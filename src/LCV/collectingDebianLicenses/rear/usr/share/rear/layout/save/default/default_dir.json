@@ -1,0 +1,194 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "300_list_dependencies.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 46,
+                "symlink_dest": "../../prepare/default/510_list_dependencies.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "310_autoexclude_usb.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "310_include_exclude.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "320_autoexclude.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "330_remove_exclusions.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "335_remove_excluded_multipath_vgs.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "340_generate_mountpoint_device.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1040,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "350_save_partitions.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "400_check_backup_special_files.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "445_guess_bootloader.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "450_check_bootloader_files.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "450_check_network_files.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "600_snapshot_files.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "950_verify_disklayout_file.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "default",
+    "package": "rear",
+    "path": "rear/2.6+dfsg-1/usr/share/rear/layout/save/default",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rear/2.6+dfsg-1/",
+        "metric": {
+            "size": 5844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rear",
+        "sloc": [
+            [
+                "sh",
+                21666
+            ],
+            [
+                "xml",
+                290
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6+dfsg-1"
+}

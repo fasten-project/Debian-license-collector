@@ -1,0 +1,112 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_Makefile.PL.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_fix_empty_attachments_identified_as_spam.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_accept_relative_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "INSTALLMAN5DIR.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-Digest-SHA.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2940,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "razor",
+    "path": "razor/1:2.85-4.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 185,
+        "license": "/copyright/license/razor/1:2.85-4.2/",
+        "metric": {
+            "size": 632
+        },
+        "pts_link": "https://tracker.debian.org/pkg/razor",
+        "sloc": [
+            [
+                "perl",
+                4695
+            ],
+            [
+                "ansic",
+                178
+            ],
+            [
+                "makefile",
+                59
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=users/derevko-guest/razor.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.85-4.2"
+}

@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "appconfig-mcs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "appconfig-mls",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "appconfig-standard",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "file_contexts.subs_dist",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 940,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local.users",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 720,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "config",
+    "package": "refpolicy",
+    "path": "refpolicy/2:2.20210203-7/config",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/refpolicy/2:2.20210203-7/",
+        "metric": {
+            "size": 16044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/refpolicy",
+        "sloc": [
+            [
+                "python",
+                2171
+            ],
+            [
+                "makefile",
+                626
+            ],
+            [
+                "sh",
+                174
+            ],
+            [
+                "sed",
+                21
+            ],
+            [
+                "xml",
+                13
+            ],
+            [
+                "awk",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/selinux-team/refpolicy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:2.20210203-7"
+}
