@@ -1,0 +1,129 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "03_public_getSourcePositionFromStack.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_modify-usage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_preserve-backward-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_fix-context-implementation-version.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_fix-jar-version-number.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script-engine.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rhino",
+    "path": "rhino/1.7.7.2-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rhino/1.7.7.2-3/",
+        "metric": {
+            "size": 31504
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rhino",
+        "sloc": [
+            [
+                "javascript",
+                245619
+            ],
+            [
+                "java",
+                94749
+            ],
+            [
+                "perl",
+                3469
+            ],
+            [
+                "sh",
+                1382
+            ],
+            [
+                "xml",
+                771
+            ],
+            [
+                "makefile",
+                58
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/rhino",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.7.2-3"
+}
