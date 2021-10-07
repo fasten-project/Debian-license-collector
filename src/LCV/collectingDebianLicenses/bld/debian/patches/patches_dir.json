@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-fix_potential_core_dump.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-fix_strip.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-remove_extensions_from_README.postfix.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bld",
+    "path": "bld/0.3.4.1-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 268,
+        "license": "/copyright/license/bld/0.3.4.1-4/",
+        "metric": {
+            "size": 576
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bld",
+        "sloc": [
+            [
+                "ansic",
+                2333
+            ],
+            [
+                "sh",
+                175
+            ],
+            [
+                "makefile",
+                157
+            ],
+            [
+                "perl",
+                135
+            ],
+            [
+                "python",
+                36
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "squeeze",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "0.3.4.1-4"
+}

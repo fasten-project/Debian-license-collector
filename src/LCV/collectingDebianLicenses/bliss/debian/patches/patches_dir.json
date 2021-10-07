@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debianization.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 686,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-autotoolization.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-source-CC2help2man.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-source-libbliss-system_wide_includes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bliss",
+    "path": "bliss/0.73-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bliss/0.73-5/",
+        "metric": {
+            "size": 716
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bliss",
+        "sloc": [
+            [
+                "cpp",
+                6538
+            ],
+            [
+                "makefile",
+                169
+            ],
+            [
+                "sh",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/bliss",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.73-5"
+}

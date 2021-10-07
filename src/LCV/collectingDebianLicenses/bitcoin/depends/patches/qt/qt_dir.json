@@ -1,0 +1,216 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dont_hardcode_pwd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_android_jni_static.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_android_pch.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_android_qmake_conf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_lib_paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_limits_header.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_no_printer.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_qt_pkgconfig.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mac-qmake.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-xlib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no_sdk_version_check.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qt.pro",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qtbase-moc-ignore-gcc-macro.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qttools_src.pro",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "qt",
+    "package": "bitcoin",
+    "path": "bitcoin/22.0-1/depends/patches/qt",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bitcoin/22.0-1/",
+        "metric": {
+            "size": 33796
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bitcoin",
+        "sloc": [
+            [
+                "cpp",
+                163957
+            ],
+            [
+                "python",
+                38149
+            ],
+            [
+                "ansic",
+                19620
+            ],
+            [
+                "sh",
+                6781
+            ],
+            [
+                "makefile",
+                1579
+            ],
+            [
+                "asm",
+                724
+            ],
+            [
+                "lisp",
+                593
+            ],
+            [
+                "xml",
+                32
+            ],
+            [
+                "java",
+                23
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/cryptocoin-team/bitcoin",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "22.0-1"
+}

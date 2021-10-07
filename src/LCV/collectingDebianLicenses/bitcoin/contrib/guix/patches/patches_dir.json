@@ -1,0 +1,161 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "binutils-mingw-w64-disable-flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc-8-sort-libtool-find-output.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glibc-2.24-elfm-loadaddr-dynamic-rewrite.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glibc-2.24-no-build-time-cxx-header-run.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glibc-2.27-riscv64-Use-__has_include__-to-include-asm-syscalls.h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glibc-ldd-x86_64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glibc-versioned-locpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nsis-SConstruct-sde-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oscrypto-hard-code-openssl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bitcoin",
+    "path": "bitcoin/22.0-1/contrib/guix/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bitcoin/22.0-1/",
+        "metric": {
+            "size": 33796
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bitcoin",
+        "sloc": [
+            [
+                "cpp",
+                163957
+            ],
+            [
+                "python",
+                38149
+            ],
+            [
+                "ansic",
+                19620
+            ],
+            [
+                "sh",
+                6781
+            ],
+            [
+                "makefile",
+                1579
+            ],
+            [
+                "asm",
+                724
+            ],
+            [
+                "lisp",
+                593
+            ],
+            [
+                "xml",
+                32
+            ],
+            [
+                "java",
+                23
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/cryptocoin-team/bitcoin",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "22.0-1"
+}

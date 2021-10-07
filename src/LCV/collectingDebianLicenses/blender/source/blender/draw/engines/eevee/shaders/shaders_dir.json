@@ -1,0 +1,1034 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ambient_occlusion_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "background_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bsdf_common_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bsdf_lut_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bsdf_sampling_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "btdf_lut_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "closure_eval_diffuse_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "closure_eval_glossy_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5977,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "closure_eval_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "closure_eval_refraction_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "closure_eval_translucent_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "closure_type_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common_uniforms_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common_utiltex_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cryptomatte_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cubemap_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3609,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_bloom_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6813,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_bokeh_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_dilate_tiles_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_downsample_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_filter_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_flatten_tiles_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_gather_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_reduce_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_resolve_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_scatter_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_scatter_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_dof_setup_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_downsample_cube_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_downsample_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_gtao_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_minmaxz_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_mist_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_motion_blur_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_reflection_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_reflection_resolve_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_reflection_trace_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_subsurface_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_temporal_aa.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_translucency_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_velocity_resolve_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effect_velocity_tile_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irradiance_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_cube_display_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_cube_display_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_filter_diffuse_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_filter_glossy_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_filter_visibility_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_geom.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_grid_display_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_grid_display_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_grid_fill_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_planar_display_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_planar_display_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_planar_downsample_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_planar_downsample_geom.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_planar_downsample_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lightprobe_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lights_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lookdev_world_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ltc_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_motion_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_motion_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "octahedron_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepass_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepass_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "random_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "raytrace_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7971,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "renderpass_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "renderpass_postprocess_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shadow_accum_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shadow_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shadow_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssr_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "surface_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "surface_geom.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "surface_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "surface_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update_noise_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 435,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "volumetric_accum_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "volumetric_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "volumetric_geom.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "volumetric_integration_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "volumetric_lib.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6077,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "volumetric_resolve_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1070,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "volumetric_scatter_frag.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "volumetric_vert.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "shaders",
+    "package": "blender",
+    "path": "blender/2.93.4+dfsg-1/source/blender/draw/engines/eevee/shaders",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/blender/2.93.4+dfsg-1/",
+        "metric": {
+            "size": 268840
+        },
+        "pts_link": "https://tracker.debian.org/pkg/blender",
+        "sloc": [
+            [
+                "ansic",
+                1422815
+            ],
+            [
+                "cpp",
+                751695
+            ],
+            [
+                "python",
+                490908
+            ],
+            [
+                "xml",
+                13230
+            ],
+            [
+                "sh",
+                5713
+            ],
+            [
+                "lisp",
+                1302
+            ],
+            [
+                "makefile",
+                64
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/blender",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.93.4+dfsg-1"
+}

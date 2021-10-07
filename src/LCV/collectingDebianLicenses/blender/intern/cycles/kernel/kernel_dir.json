@@ -1,0 +1,616 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bvh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "closure",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "filter",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "geom",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "kernel.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_accumulate.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_adaptive_sampling.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_bake.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_camera.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_color.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_compat_cpu.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_compat_cuda.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_compat_opencl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_compat_optix.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_differential.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_emission.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_film.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_globals.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_id_passes.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_jitter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_light.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_light_background.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_light_common.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_math.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_montecarlo.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_passes.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_path.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_path_branched.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_path_common.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_path_state.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8850,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_path_subsurface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4877,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_path_surface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_path_volume.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_profiling.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_projection.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_queues.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_random.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_shader.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_shadow.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_subsurface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_textures.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_types.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_volume.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_work_stealing.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_write_passes.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernels",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "osl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "shaders",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "split",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "svm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "kernel",
+    "package": "blender",
+    "path": "blender/2.93.4+dfsg-1/intern/cycles/kernel",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/blender/2.93.4+dfsg-1/",
+        "metric": {
+            "size": 268840
+        },
+        "pts_link": "https://tracker.debian.org/pkg/blender",
+        "sloc": [
+            [
+                "ansic",
+                1422815
+            ],
+            [
+                "cpp",
+                751695
+            ],
+            [
+                "python",
+                490908
+            ],
+            [
+                "xml",
+                13230
+            ],
+            [
+                "sh",
+                5713
+            ],
+            [
+                "lisp",
+                1302
+            ],
+            [
+                "makefile",
+                64
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/blender",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.93.4+dfsg-1"
+}
