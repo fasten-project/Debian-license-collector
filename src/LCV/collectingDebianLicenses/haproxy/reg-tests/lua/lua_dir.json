@@ -1,0 +1,241 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bad_http_clt_req_duration.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bad_http_clt_req_duration.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "close_wait_lf.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "close_wait_lf.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common.pem",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 17,
+                "symlink_dest": "../ssl/common.pem",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "h_txn_get_priv.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "h_txn_get_priv.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lua_socket.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lua_socket.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set_var.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set_var.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "txn_get_priv-print_r.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "txn_get_priv-thread.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1620,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "txn_get_priv.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4912,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "txn_get_priv.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wrong_types_usage.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wrong_types_usage.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "lua",
+    "package": "haproxy",
+    "path": "haproxy/2.4.4-1/reg-tests/lua",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/haproxy/2.4.4-1/",
+        "metric": {
+            "size": 16700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/haproxy",
+        "sloc": [
+            [
+                "ansic",
+                185884
+            ],
+            [
+                "javascript",
+                2442
+            ],
+            [
+                "sh",
+                1943
+            ],
+            [
+                "xml",
+                1756
+            ],
+            [
+                "python",
+                1289
+            ],
+            [
+                "makefile",
+                1005
+            ],
+            [
+                "perl",
+                168
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/haproxy-team/haproxy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.4-1"
+}

@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "greylist",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "greylistd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22825,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "greylistd-setup-exim4",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "program",
+    "package": "greylistd",
+    "path": "greylistd/0.9.0.2/program",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/greylistd/0.9.0.2/",
+        "metric": {
+            "size": 620
+        },
+        "pts_link": "https://tracker.debian.org/pkg/greylistd",
+        "sloc": [
+            [
+                "python",
+                1116
+            ],
+            [
+                "sh",
+                257
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/greylistd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.0.2"
+}

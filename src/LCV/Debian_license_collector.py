@@ -60,20 +60,39 @@ for i in range(int(startLine),int(endLine)):
         RetrievePackageFilesAndDirectory(packageName)
     #parse davfs2_pkg.json
     ScanJsonDir(packageName,dir,packageName+"_pkg.json")
-    #this loop create the first layer of files and directories
+    #this loop creates recursive all the layers of files and directories
     for (root,dirs,files) in os.walk(dir, topdown=True):
+        # if this is an empty dir
         if not os.listdir(root):
             print("This is an empty dir")
             root = root.replace("collectingDebianLicenses/"+packageName+"/","")
             print("here root is:")
             print(root)
-            RetrieveDirectoryInfoNotRecursive(packageName,root)
+            # check if the last directory has the same name of the packagename,
+            # after removing the packagename from the path
+            PathList = os.path.normpath(root)
+            PathList = PathList.split(os.sep)
+            if len(PathList) > 1:
+                PathList = PathList[-2:]
+                if PathList[0] != PathList[1]:
+                    RetrieveDirectoryInfoNotRecursive(packageName,root)
+            else:
+                RetrieveDirectoryInfoNotRecursive(packageName,root)
         for directory in dirs:
             print(".. looping through directory ..: " +root+directory)
             for file in os.listdir(root+"/"+directory):
+                # check if there are files in the directory
                 if not os.listdir(root+"/"+directory):
                     print("This is an empty dir")
-                    RetrieveDirectoryInfo(packageName,root+"/"+directory)
+                    dirToSplit = root+"/"+directory
+                    PathList = os.path.normpath(dirToSplit)
+                    PathList = PathList.split(os.sep)
+                    if len(PathList) > 1:
+                        PathList = PathList[-2:]
+                        if PathList[0] != PathList[1]:
+                            RetrieveDirectoryInfo(packageName,root+"/"+directory)
+                    else:
+                        RetrieveDirectoryInfo(packageName,root+"/"+directory)
                 else:
                     for file in os.listdir(root+"/"+directory):
                         print("Inside "+directory+" there is :"+file)
@@ -84,4 +103,4 @@ for i in range(int(startLine),int(endLine)):
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
                 print(path)
                 ScanJsonDir(packageName,root+"/",file)
-                time.sleep(1.2)
+                time.sleep(0.2)

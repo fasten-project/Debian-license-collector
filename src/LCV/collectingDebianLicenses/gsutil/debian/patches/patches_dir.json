@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "gsutil.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gxp2020.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "gsutil",
+    "path": "gsutil/3.1-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/gsutil/3.1-4/",
+        "metric": {
+            "size": 272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gsutil",
+        "sloc": [
+            [
+                "perl",
+                2664
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/gsutil",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.1-4"
+}

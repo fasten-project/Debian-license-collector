@@ -1,0 +1,154 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "continuous",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dependencies.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "linkage-monitor.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nightly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "presubmit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "release",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "trampoline.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 907,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".kokoro",
+    "package": "google-http-client-java",
+    "path": "google-http-client-java/1.32.1-1/.kokoro",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/google-http-client-java/1.32.1-1/",
+        "metric": {
+            "size": 3124
+        },
+        "pts_link": "https://tracker.debian.org/pkg/google-http-client-java",
+        "sloc": [
+            [
+                "java",
+                23860
+            ],
+            [
+                "xml",
+                2532
+            ],
+            [
+                "python",
+                13
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/google-http-client-java",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.32.1-1"
+}

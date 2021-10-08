@@ -1,0 +1,120 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "basic.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common.pem",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 17,
+                "symlink_dest": "../ssl/common.pem",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "etags_conversion.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lua_validation.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lua_validation.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vary.vtc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "compression",
+    "package": "haproxy",
+    "path": "haproxy/2.4.4-1/reg-tests/compression",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/haproxy/2.4.4-1/",
+        "metric": {
+            "size": 16700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/haproxy",
+        "sloc": [
+            [
+                "ansic",
+                185884
+            ],
+            [
+                "javascript",
+                2442
+            ],
+            [
+                "sh",
+                1943
+            ],
+            [
+                "xml",
+                1756
+            ],
+            [
+                "python",
+                1289
+            ],
+            [
+                "makefile",
+                1005
+            ],
+            [
+                "perl",
+                168
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/haproxy-team/haproxy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.4-1"
+}

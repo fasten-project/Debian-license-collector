@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_ubuntu-britney.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_allow-resuming-interrupted-downloads.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "googleearth-package",
+    "path": "googleearth-package/1.2.2/patches",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 69,
+        "license": "/copyright/license/googleearth-package/1.2.2/",
+        "metric": {
+            "size": 236
+        },
+        "pts_link": "https://tracker.debian.org/pkg/googleearth-package",
+        "sloc": [
+            [
+                "sh",
+                388
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=collab-maint/googleearth-package.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.2"
+}

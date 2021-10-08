@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "add_kfreebsd_support.diff",
+    "package": "hashcat",
+    "path": "hashcat/6.1.1+ds1-1/.pc/add_kfreebsd_support.diff",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/hashcat/6.1.1+ds1-1/",
+        "metric": {
+            "size": 37556
+        },
+        "pts_link": "https://tracker.debian.org/pkg/hashcat",
+        "sloc": [
+            [
+                "lisp",
+                476904
+            ],
+            [
+                "ansic",
+                139366
+            ],
+            [
+                "perl",
+                17810
+            ],
+            [
+                "sh",
+                3088
+            ],
+            [
+                "makefile",
+                584
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/hashcat",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.1.1+ds1-1"
+}

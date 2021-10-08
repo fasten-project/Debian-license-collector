@@ -1,0 +1,1319 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001-verifiers-Move-verifiers-API-to-kernel-image.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002-kern-Add-lockdown-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003-kern-lockdown-Set-a-variable-if-the-GRUB-is-locked-down.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "004-efi-Lockdown-the-GRUB-when-the-UEFI-Secure-Boot-is-enabled.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "005-efi-Use-grub_is_lockdown-instead-of-hardcoding-a-disabled-modules-list.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "006-acpi-Don-t-register-the-acpi-command-when-locked-down.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "007-mmap-Don-t-register-cutmem-and-badram-commands-when-lockdown-is-enforced.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "008-commands-Restrict-commands-that-can-load-BIOS-or-DT-blobs-when-locked-down.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "009-commands-setpci-Restrict-setpci-command-when-locked-down.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "010-commands-hdparm-Restrict-hdparm-command-when-locked-down.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "011-gdb-Restrict-GDB-access-when-locked-down.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "012-loader-xnu-Don-t-allow-loading-extension-and-packages-when-locked-down.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "013-docs-Document-the-cutmem-command.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "014-dl-Only-allow-unloading-modules-that-are-not-dependencies.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "015-usb-Avoid-possible-out-of-bound-accesses-caused-by-malicious-devices.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "016-mmap-Fix-memory-leak-when-iterating-over-mapped-memory.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "017-net-net-Fix-possible-dereference-to-of-a-NULL-pointer.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "018-net-tftp-Fix-dangling-memory-pointer.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "019-kern-parser-Fix-resource-leak-if-argc-0.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020-kern-efi-Fix-memory-leak-on-failure.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "021-kern-efi-mm-Fix-possible-NULL-pointer-dereference.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "022-gnulib-regexec-Resolve-unused-variable.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "023-gnulib-regcomp-Fix-uninitialized-token-structure.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "024-gnulib-argp-help-Fix-dereference-of-a-possibly-NULL-state.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "025-gnulib-regexec-Fix-possible-null-dereference.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "026-gnulib-regcomp-Fix-uninitialized-re_token.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "027-io-lzopio-Resolve-unnecessary-self-assignment-errors.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "028-zstd-Initialize-seq_t-structure-fully.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "029-kern-partition-Check-for-NULL-before-dereferencing-input-string.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "030-disk-ldm-Make-sure-comp-data-is-freed-before-exiting-from-make_vg.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "031-disk-ldm-If-failed-then-free-vg-variable-too.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "032-disk-ldm-Fix-memory-leak-on-uninserted-lv-references.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1676,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "033-disk-cryptodisk-Fix-potential-integer-overflow.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "034-hfsplus-Check-that-the-volume-name-length-is-valid.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "035-zfs-Fix-possible-negative-shift-operation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "036-zfs-Fix-resource-leaks-while-constructing-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "037-zfs-Fix-possible-integer-overflows.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "038-zfsinfo-Correct-a-check-for-error-allocating-memory.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "039-affs-Fix-memory-leaks.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "040-libgcrypt-mpi-Fix-possible-unintended-sign-extension.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "041-libgcrypt-mpi-Fix-possible-NULL-dereference.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "042-syslinux-Fix-memory-leak-while-parsing.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "043-normal-completion-Fix-leaking-of-memory-when-processing-a-completion.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "044-commands-hashsum-Fix-a-memory-leak.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "045-video-efi_gop-Remove-unnecessary-return-value-of-grub_video_gop_fill_mode_info.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "046-video-fb-fbfill-Fix-potential-integer-overflow.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "047-video-fb-video_fb-Fix-multiple-integer-overflows.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "048-video-fb-video_fb-Fix-possible-integer-overflow.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "049-video-readers-jpeg-Test-for-an-invalid-next-marker-reference-from-a-jpeg-file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "050-gfxmenu-gui_list-Remove-code-that-coverity-is-flagging-as-dead.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "051-loader-bsd-Check-for-NULL-arg-up-front.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "052-loader-xnu-Fix-memory-leak.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "053-loader-xnu-Free-driverkey-data-when-an-error-is-detected-in-grub_xnu_writetree_toheap.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "054-loader-xnu-Check-if-pointer-is-NULL-before-using-it.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "055-util-grub-install-Fix-NULL-pointer-dereferences.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "056-util-grub-editenv-Fix-incorrect-casting-of-a-signed-value.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "057-util-glue-efi-Fix-incorrect-use-of-a-possibly-negative-value.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "058-script-execute-Fix-NULL-dereference-in-grub_script_execute_cmdline.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "059-commands-ls-Require-device_name-is-not-NULL-before-printing.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "060-script-execute-Avoid-crash-when-using-outside-a-function-scope.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "061-lib-arg-Block-repeated-short-options-that-require-an-argument.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "062-script-execute-Don-t-crash-on-a-for-loop-with-no-items.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "063-commands-menuentry-Fix-quoting-in-setparams_prefix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1649,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "064-kern-misc-Always-set-end-in-grub_strtoull.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "065-video-readers-jpeg-Catch-files-with-unsupported-quantization-or-Huffman-tables.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "066-video-readers-jpeg-Catch-OOB-reads-writes-in-grub_jpeg_decode_du.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "067-video-readers-jpeg-Don-t-decode-data-before-start-of-stream.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "068-term-gfxterm-Don-t-set-up-a-font-with-glyphs-that-are-too-big.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "069-fs-fshelp-Catch-impermissibly-large-block-sizes-in-read-helper.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "070-fs-hfsplus-Don-t-fetch-a-key-beyond-the-end-of-the-node.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "071-fs-hfsplus-Don-t-use-uninitialized-data-on-corrupt-filesystems.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "072-fs-hfs-Disable-under-lockdown.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "073-fs-sfs-Fix-over-read-of-root-object-name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "074-fs-jfs-Do-not-move-to-leaf-level-if-name-length-is-negative.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "075-fs-jfs-Limit-the-extents-that-getblk-can-consider.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "076-fs-jfs-Catch-infinite-recursion.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "077-fs-nilfs2-Reject-too-large-keys.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "078-fs-nilfs2-Don-t-search-children-if-provided-number-is-too-large.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "079-fs-nilfs2-Properly-bail-on-errors-in-grub_nilfs2_btree_node_lookup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "080-io-gzio-Bail-if-gzio-tl-td-is-NULL.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "081-io-gzio-Add-init_dynamic_block-clean-up-if-unpacking-codes-fails.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1991,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "082-io-gzio-Catch-missing-values-in-huft_build-and-bail.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "083-io-gzio-Zero-gzio-tl-td-in-init_dynamic_block-if-huft_build-fails.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "084-disk-lvm-Don-t-go-beyond-the-end-of-the-data-we-read-from-disk.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "085-disk-lvm-Don-t-blast-past-the-end-of-the-circular-metadata-buffer.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "086-disk-lvm-Bail-on-missing-PV-list.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "087-disk-lvm-Do-not-crash-if-an-expected-string-is-not-found.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "088-disk-lvm-Do-not-overread-metadata.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "089-disk-lvm-Sanitize-rlocn-offset-to-prevent-wild-read.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "090-disk-lvm-Do-not-allow-a-LV-to-be-it-s-own-segment-s-node-s-LV.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "091-fs-btrfs-Validate-the-number-of-stripes-parities-in-RAID5-6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "092-fs-btrfs-Squash-some-uninitialized-reads.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "093-kern-parser-Fix-a-memory-leak.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "094-kern-parser-Introduce-process_char-helper.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "095-kern-parser-Introduce-terminate_arg-helper.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "096-kern-parser-Refactor-grub_parser_split_cmdline-cleanup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "097-kern-buffer-Add-variable-sized-heap-buffer.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "098-kern-parser-Fix-a-stack-buffer-overflow.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "099-kern-efi-Add-initial-stack-protector-implementation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "100-util-mkimage-Remove-unused-code-to-add-BSS-section.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "101-util-mkimage-Use-grub_host_to_target32-instead-of-grub_cpu_to_le32.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "102-util-mkimage-Always-use-grub_host_to_target32-to-initialize-PE-stack-and-heap-stuff.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "103-util-mkimage-Unify-more-of-the-PE32-and-PE32-header-set-up.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "104-util-mkimage-Reorder-PE-optional-header-fields-set-up.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "105-util-mkimage-Improve-data_size-value-calculation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1955,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "106-util-mkimage-Refactor-section-setup-to-use-a-helper.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "107-util-mkimage-Add-an-option-to-import-SBAT-metadata-into-a-.sbat-section.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "108-grub-install-common-Add-sbat-option.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "109-kern-misc-Split-parse_printf_args-into-format-parsing-and-va_list-handling.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "110-kern-misc-Add-STRING-type-for-internal-printf-format-handling.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "111-kern-misc-Add-function-to-check-printf-format-against-expected-format.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "112-gfxmenu-gui-Check-printf-format-in-the-gui_progress_bar-and-gui_label.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "113-kern-mm-Fix-grub_debug_calloc-compilation-error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "2021-02-security",
+    "package": "grub2",
+    "path": "grub2/2.04-20/debian/patches/2021-02-security",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/grub2/2.04-20/",
+        "metric": {
+            "size": 73008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/grub2",
+        "sloc": [
+            [
+                "ansic",
+                404088
+            ],
+            [
+                "asm",
+                16224
+            ],
+            [
+                "sh",
+                9825
+            ],
+            [
+                "cpp",
+                2049
+            ],
+            [
+                "makefile",
+                1551
+            ],
+            [
+                "python",
+                1468
+            ],
+            [
+                "lex",
+                393
+            ],
+            [
+                "yacc",
+                268
+            ],
+            [
+                "awk",
+                79
+            ],
+            [
+                "sed",
+                59
+            ],
+            [
+                "lisp",
+                50
+            ],
+            [
+                "perl",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/grub-team/grub",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.04-20"
+}

@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Don-t-strip-executables-when-DEBUG-0.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_kfreebsd_support.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "change-path-to-ioapi.h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 958,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-spelling-error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "hashcat",
+    "path": "hashcat/6.1.1+ds1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/hashcat/6.1.1+ds1-1/",
+        "metric": {
+            "size": 37556
+        },
+        "pts_link": "https://tracker.debian.org/pkg/hashcat",
+        "sloc": [
+            [
+                "lisp",
+                476904
+            ],
+            [
+                "ansic",
+                139366
+            ],
+            [
+                "perl",
+                17810
+            ],
+            [
+                "sh",
+                3088
+            ],
+            [
+                "makefile",
+                584
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/hashcat",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.1.1+ds1-1"
+}

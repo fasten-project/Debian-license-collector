@@ -1,0 +1,119 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-use-jar-files-from-debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-osgi-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-reproducible-javadoc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-lucene-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TestCrashAPI.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "h2database",
+    "path": "h2database/1.4.197-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/h2database/1.4.197-4/",
+        "metric": {
+            "size": 18516
+        },
+        "pts_link": "https://tracker.debian.org/pkg/h2database",
+        "sloc": [
+            [
+                "java",
+                220567
+            ],
+            [
+                "sql",
+                11992
+            ],
+            [
+                "jsp",
+                832
+            ],
+            [
+                "xml",
+                649
+            ],
+            [
+                "sh",
+                175
+            ],
+            [
+                "makefile",
+                19
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/h2database",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.197-4"
+}
