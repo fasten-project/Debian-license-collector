@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "anchors",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "blocklist",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cacert-ca.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1857,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "distrusted.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extensions.p11-kit",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extensions.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verisign-v1.p11-kit",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "input",
+    "package": "p11-kit",
+    "path": "p11-kit/0.24.0-2/trust/input",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/p11-kit/0.24.0-2/",
+        "metric": {
+            "size": 8452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/p11-kit",
+        "sloc": [
+            [
+                "ansic",
+                63222
+            ],
+            [
+                "sh",
+                5631
+            ],
+            [
+                "xml",
+                1607
+            ],
+            [
+                "makefile",
+                1008
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnutls-team/p11-kit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.24.0-2"
+}

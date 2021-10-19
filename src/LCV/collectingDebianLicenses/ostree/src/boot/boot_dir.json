@@ -1,0 +1,143 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dracut",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "grub2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mkinitcpio",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ostree-finalize-staged.path",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ostree-finalize-staged.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ostree-prepare-root.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ostree-remount.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ostree-tmpfiles.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "boot",
+    "package": "ostree",
+    "path": "ostree/2021.3-2/src/boot",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ostree/2021.3-2/",
+        "metric": {
+            "size": 11080
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ostree",
+        "sloc": [
+            [
+                "ansic",
+                67046
+            ],
+            [
+                "sh",
+                14050
+            ],
+            [
+                "xml",
+                4468
+            ],
+            [
+                "yacc",
+                1236
+            ],
+            [
+                "javascript",
+                527
+            ],
+            [
+                "makefile",
+                226
+            ],
+            [
+                "python",
+                156
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ostree",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2021.3-2"
+}

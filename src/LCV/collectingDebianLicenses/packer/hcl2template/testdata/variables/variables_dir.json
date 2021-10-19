@@ -1,0 +1,202 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "basic.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "complicated",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "duplicate_variable.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "duplicate_variables.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "foo-string.variable.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "invalid_default.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "provisioner_variable_decoding.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "recursive_locals.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set-foo-too-wee.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unknown_key.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unset_unused_string_variable.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unset_used_string_variable.pkr.hcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "validation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "variables",
+    "package": "packer",
+    "path": "packer/1.6.6+ds1-2/hcl2template/testdata/variables",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/packer/1.6.6+ds1-2/",
+        "metric": {
+            "size": 32016
+        },
+        "pts_link": "https://tracker.debian.org/pkg/packer",
+        "sloc": [
+            [
+                "sh",
+                1154
+            ],
+            [
+                "python",
+                619
+            ],
+            [
+                "makefile",
+                251
+            ],
+            [
+                "ruby",
+                205
+            ],
+            [
+                "xml",
+                97
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/packer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.6+ds1-2"
+}

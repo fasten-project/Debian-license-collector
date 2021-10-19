@@ -1,0 +1,136 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dir_no_trailing.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dir_no_trailing_sftp.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dir_with_trailing.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dir_with_trailing_sftp.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_sftp.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "provisioner-file",
+    "package": "packer",
+    "path": "packer/1.6.6+ds1-2/test/fixtures/provisioner-file",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/packer/1.6.6+ds1-2/",
+        "metric": {
+            "size": 32016
+        },
+        "pts_link": "https://tracker.debian.org/pkg/packer",
+        "sloc": [
+            [
+                "sh",
+                1154
+            ],
+            [
+                "python",
+                619
+            ],
+            [
+                "makefile",
+                251
+            ],
+            [
+                "ruby",
+                205
+            ],
+            [
+                "xml",
+                97
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/packer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.6+ds1-2"
+}

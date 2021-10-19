@@ -1,0 +1,243 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2025,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gbp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libosmo-gsup-client-dev.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libosmo-gsup-client0.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libosmo-gsup-client0.symbols",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osmo-hlr.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osmo-hlr.dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osmo-hlr.examples",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osmo-hlr.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osmo-hlr.service",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 35,
+                "symlink_dest": "../contrib/systemd/osmo-hlr.service",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "osmo-hlr",
+    "path": "osmo-hlr/1.2.1+dfsg1-1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/osmo-hlr/1.2.1+dfsg1-1/",
+        "metric": {
+            "size": 892
+        },
+        "pts_link": "https://tracker.debian.org/pkg/osmo-hlr",
+        "sloc": [
+            [
+                "ansic",
+                7454
+            ],
+            [
+                "makefile",
+                426
+            ],
+            [
+                "sh",
+                165
+            ],
+            [
+                "sql",
+                130
+            ],
+            [
+                "python",
+                61
+            ],
+            [
+                "perl",
+                51
+            ],
+            [
+                "sed",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-mobcom-team/osmo-hlr",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.1+dfsg1-1"
+}

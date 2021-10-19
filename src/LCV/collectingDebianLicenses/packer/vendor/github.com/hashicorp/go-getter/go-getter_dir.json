@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "gcs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "s3",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "v2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "go-getter",
+    "package": "packer",
+    "path": "packer/1.6.6+ds1-2/vendor/github.com/hashicorp/go-getter",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/packer/1.6.6+ds1-2/",
+        "metric": {
+            "size": 32016
+        },
+        "pts_link": "https://tracker.debian.org/pkg/packer",
+        "sloc": [
+            [
+                "sh",
+                1154
+            ],
+            [
+                "python",
+                619
+            ],
+            [
+                "makefile",
+                251
+            ],
+            [
+                "ruby",
+                205
+            ],
+            [
+                "xml",
+                97
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/packer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.6+ds1-2"
+}

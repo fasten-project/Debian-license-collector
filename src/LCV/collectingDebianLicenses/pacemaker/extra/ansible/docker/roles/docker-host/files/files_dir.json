@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "docker-enter",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fence_docker_cts",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "launch.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pcmk_remote_start",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pcmk_remote_stop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pcmk_start",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pcmk_stop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "files",
+    "package": "pacemaker",
+    "path": "pacemaker/2.0.5-2/extra/ansible/docker/roles/docker-host/files",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pacemaker/2.0.5-2/",
+        "metric": {
+            "size": 56052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pacemaker",
+        "sloc": [
+            [
+                "xml",
+                140046
+            ],
+            [
+                "ansic",
+                112577
+            ],
+            [
+                "python",
+                5691
+            ],
+            [
+                "sh",
+                5100
+            ],
+            [
+                "makefile",
+                1582
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ha-team/pacemaker",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.5-2"
+}

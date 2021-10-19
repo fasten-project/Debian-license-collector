@@ -1,0 +1,174 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_recode_austria.pal.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_use_default_colors.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_cursor_position_after_multibyte_character.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_lowercase_some_translatable_strings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_replace_deprecated_G_CONST_RETURN_with_const.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_fix_spelling_error_in_manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_remove_duplicate_entry_from_history.pal.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50_debian_fix_example_path_in_manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "51_debian_link_against_ncursesw.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "52_debian_include_ncursesw_headers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "53_debian_rl_hook.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "pal",
+    "path": "pal/0.4.3-8.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 284,
+        "license": "/copyright/license/pal/0.4.3-8.1/",
+        "metric": {
+            "size": 740
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pal",
+        "sloc": [
+            [
+                "ansic",
+                5030
+            ],
+            [
+                "makefile",
+                290
+            ],
+            [
+                "awk",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "0.4.3-8.1"
+}

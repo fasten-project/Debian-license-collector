@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "condpermadmin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "packageadmin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 127,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "permissionadmin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "resolver",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "startlevel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "url",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "service",
+    "package": "osgi-core",
+    "path": "osgi-core/7.0.0-2/org/osgi/service",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/osgi-core/7.0.0-2/",
+        "metric": {
+            "size": 1316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/osgi-core",
+        "sloc": [
+            [
+                "java",
+                7519
+            ],
+            [
+                "xml",
+                37
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/osgi-core",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.0.0-2"
+}

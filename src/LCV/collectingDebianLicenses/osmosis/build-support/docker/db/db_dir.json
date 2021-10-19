@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dockerfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "docker-start.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readme.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 672,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 23,
+                "symlink_dest": "../../../package/script",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "db",
+    "package": "osmosis",
+    "path": "osmosis/0.48.3-1/build-support/docker/db",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/osmosis/0.48.3-1/",
+        "metric": {
+            "size": 6596
+        },
+        "pts_link": "https://tracker.debian.org/pkg/osmosis",
+        "sloc": [
+            [
+                "java",
+                42402
+            ],
+            [
+                "sql",
+                2451
+            ],
+            [
+                "xml",
+                734
+            ],
+            [
+                "sh",
+                396
+            ],
+            [
+                "makefile",
+                19
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-gis-team/osmosis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.48.3-1"
+}

@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "boot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libostree",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8192,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libotutil",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ostree",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rofiles-fuse",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "switchroot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 135,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "ostree",
+    "path": "ostree/2021.3-2/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ostree/2021.3-2/",
+        "metric": {
+            "size": 11080
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ostree",
+        "sloc": [
+            [
+                "ansic",
+                67046
+            ],
+            [
+                "sh",
+                14050
+            ],
+            [
+                "xml",
+                4468
+            ],
+            [
+                "yacc",
+                1236
+            ],
+            [
+                "javascript",
+                527
+            ],
+            [
+                "makefile",
+                226
+            ],
+            [
+                "python",
+                156
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ostree",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2021.3-2"
+}

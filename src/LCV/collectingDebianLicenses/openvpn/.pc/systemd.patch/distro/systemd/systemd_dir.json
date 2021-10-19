@@ -1,0 +1,74 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "openvpn-client%40.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 702,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openvpn-server%40.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd",
+    "package": "openvpn",
+    "path": "openvpn/2.5.1-3/.pc/systemd.patch/distro/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openvpn/2.5.1-3/",
+        "metric": {
+            "size": 10476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openvpn",
+        "sloc": [
+            [
+                "ansic",
+                90938
+            ],
+            [
+                "sh",
+                5519
+            ],
+            [
+                "makefile",
+                689
+            ],
+            [
+                "javascript",
+                73
+            ],
+            [
+                "perl",
+                66
+            ],
+            [
+                "python",
+                47
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/openvpn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.1-3"
+}

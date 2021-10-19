@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mounted",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "linux-boot-probes",
+    "package": "os-prober",
+    "path": "os-prober/1.79/linux-boot-probes",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/os-prober/1.79/",
+        "metric": {
+            "size": 248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/os-prober",
+        "sloc": [
+            [
+                "sh",
+                1696
+            ],
+            [
+                "makefile",
+                37
+            ],
+            [
+                "ansic",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/os-prober",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.79"
+}

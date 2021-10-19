@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "alicloud.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chef.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "user_data.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "chef",
+    "package": "packer",
+    "path": "packer/1.6.6+ds1-2/builder/alicloud/examples/chef",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/packer/1.6.6+ds1-2/",
+        "metric": {
+            "size": 32016
+        },
+        "pts_link": "https://tracker.debian.org/pkg/packer",
+        "sloc": [
+            [
+                "sh",
+                1154
+            ],
+            [
+                "python",
+                619
+            ],
+            [
+                "makefile",
+                251
+            ],
+            [
+                "ruby",
+                205
+            ],
+            [
+                "xml",
+                97
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/packer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.6+ds1-2"
+}

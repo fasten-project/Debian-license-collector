@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "server-mitm.crt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server-mitm.key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server.crt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server.key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "server",
+    "package": "paho.mqtt.c",
+    "path": "paho.mqtt.c/1.3.9-1/test/tls-testing/keys/server",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/paho.mqtt.c/1.3.9-1/",
+        "metric": {
+            "size": 15460
+        },
+        "pts_link": "https://tracker.debian.org/pkg/paho.mqtt.c",
+        "sloc": [
+            [
+                "ansic",
+                44184
+            ],
+            [
+                "javascript",
+                4090
+            ],
+            [
+                "python",
+                3143
+            ],
+            [
+                "makefile",
+                294
+            ],
+            [
+                "xml",
+                281
+            ],
+            [
+                "sh",
+                75
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon-utils/paho.mqtt.c",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.9-1"
+}

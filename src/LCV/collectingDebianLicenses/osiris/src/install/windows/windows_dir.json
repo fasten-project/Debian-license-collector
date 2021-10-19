@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "osimessage.dll",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osiris_install.nsi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osiris_install_agentonly.nsi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service_installer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "windows",
+    "package": "osiris",
+    "path": "osiris/4.2.3-4/src/install/windows",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 12012,
+        "license": "/copyright/license/osiris/4.2.3-4/",
+        "metric": {
+            "size": 11588
+        },
+        "pts_link": "https://tracker.debian.org/pkg/osiris",
+        "sloc": [
+            [
+                "ansic",
+                114200
+            ],
+            [
+                "sh",
+                14677
+            ],
+            [
+                "cpp",
+                2038
+            ],
+            [
+                "makefile",
+                1775
+            ],
+            [
+                "awk",
+                1385
+            ],
+            [
+                "perl",
+                611
+            ],
+            [
+                "tcl",
+                27
+            ],
+            [
+                "asm",
+                14
+            ],
+            [
+                "python",
+                12
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "4.2.3-4"
+}

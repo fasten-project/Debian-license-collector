@@ -1,0 +1,902 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "convert_sse_to_mmx",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generate-bytecode.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generate-emulation.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "meson.build",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opcodes.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orc-stdint.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcarm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcarm.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcbytecode.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcbytecode.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcbytecodes.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccode.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccode.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccodemem.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccompiler.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccompiler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcconstant.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccpu-arm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccpu-mips.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccpu-powerpc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccpu-x86.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccpu.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orccpuinsn.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcdebug.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcdebug.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcemulateopcodes.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110637,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcemulateopcodes.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcexecutor.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcexecutor.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcfunctions.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcfunctions.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcfunctions.orc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcinstruction.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcinternal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orclimits.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcmips.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcmips.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcmmx.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcmmx.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcneon.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1918,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orconce.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1900,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orconce.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcopcode.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcopcodes.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcparse.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcparse.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcpowerpc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcpowerpc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram-altivec.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram-arm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram-c.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram-c64x-c.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram-mips.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram-mmx.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram-neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram-sse.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcprogram.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcrule.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 702,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcrule.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcrules-altivec.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcrules-arm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcrules-mips.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcrules-mmx.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcrules-neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcrules-sse.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcsse.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcsse.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orctarget.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcutils.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcutils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcvariable.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcx86.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcx86.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcx86insn.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orcx86insn.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "orc",
+    "package": "orc",
+    "path": "orc/1:0.4.32-1/orc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/orc/1:0.4.32-1/",
+        "metric": {
+            "size": 2340
+        },
+        "pts_link": "https://tracker.debian.org/pkg/orc",
+        "sloc": [
+            [
+                "ansic",
+                42715
+            ],
+            [
+                "xml",
+                4077
+            ],
+            [
+                "sh",
+                90
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gstreamer-team/orc/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:0.4.32-1"
+}

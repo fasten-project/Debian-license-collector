@@ -1,0 +1,143 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "key1.asc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "key2.asc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1702,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "key3.asc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1702,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pubring.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "revocations",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "secring.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trustdb.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trusted",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "gpghome",
+    "package": "ostree",
+    "path": "ostree/2021.3-2/tests/gpghome",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ostree/2021.3-2/",
+        "metric": {
+            "size": 11080
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ostree",
+        "sloc": [
+            [
+                "ansic",
+                67046
+            ],
+            [
+                "sh",
+                14050
+            ],
+            [
+                "xml",
+                4468
+            ],
+            [
+                "yacc",
+                1236
+            ],
+            [
+                "javascript",
+                527
+            ],
+            [
+                "makefile",
+                226
+            ],
+            [
+                "python",
+                156
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ostree",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2021.3-2"
+}

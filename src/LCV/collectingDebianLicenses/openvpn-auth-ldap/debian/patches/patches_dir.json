@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "auth-ldap-remoteAddress.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "load-ldflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tools-cflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "openvpn-auth-ldap",
+    "path": "openvpn-auth-ldap/2.0.4-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openvpn-auth-ldap/2.0.4-1/",
+        "metric": {
+            "size": 1400
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openvpn-auth-ldap",
+        "sloc": [
+            [
+                "ansic",
+                8366
+            ],
+            [
+                "objc",
+                3799
+            ],
+            [
+                "sh",
+                2711
+            ],
+            [
+                "cpp",
+                594
+            ],
+            [
+                "makefile",
+                190
+            ],
+            [
+                "xml",
+                36
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/openvpn-auth-ldap",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.4-1"
+}

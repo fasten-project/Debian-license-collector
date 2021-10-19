@@ -1,0 +1,112 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "10-replace-sysconfig-etc_default.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-use-debian.init-script.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-disable-start-by-default.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40-fix-port-number-bigger-than-9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-use-var-lock-p910nd-instead-off-var-lock-subsys.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "p910nd",
+    "path": "p910nd/0.97-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 194,
+        "license": "/copyright/license/p910nd/0.97-1/",
+        "metric": {
+            "size": 252
+        },
+        "pts_link": "https://tracker.debian.org/pkg/p910nd",
+        "sloc": [
+            [
+                "ansic",
+                1619
+            ],
+            [
+                "sh",
+                211
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "perl",
+                45
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://tcosproject.org/cgit/p910nd.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.97-1"
+}

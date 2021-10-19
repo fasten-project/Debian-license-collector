@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "baseml",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basemlg",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 6,
+                "symlink_dest": "baseml",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "codeml",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 6,
+                "symlink_dest": "baseml",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mcmctree",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 6,
+                "symlink_dest": "baseml",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pamp",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 6,
+                "symlink_dest": "baseml",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yn00",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 6,
+                "symlink_dest": "baseml",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bin",
+    "package": "paml",
+    "path": "paml/4.9j+dfsg-3/debian/bin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/paml/4.9j+dfsg-3/",
+        "metric": {
+            "size": 8668
+        },
+        "pts_link": "https://tracker.debian.org/pkg/paml",
+        "sloc": [
+            [
+                "ansic",
+                27006
+            ],
+            [
+                "xml",
+                4486
+            ],
+            [
+                "sh",
+                71
+            ],
+            [
+                "makefile",
+                56
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/paml",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.9j+dfsg-3"
+}

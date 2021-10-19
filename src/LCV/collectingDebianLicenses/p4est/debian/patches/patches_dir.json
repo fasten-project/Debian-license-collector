@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "do_not_declare_library_dirty.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do_not_export_arch_dependent_config_h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "increase_limit_in_dmatrix_text.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_loadsave_tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "p4est",
+    "path": "p4est/2.2-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/p4est/2.2-3/",
+        "metric": {
+            "size": 6344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/p4est",
+        "sloc": [
+            [
+                "ansic",
+                76272
+            ],
+            [
+                "makefile",
+                773
+            ],
+            [
+                "sh",
+                509
+            ],
+            [
+                "python",
+                226
+            ],
+            [
+                "perl",
+                206
+            ],
+            [
+                "awk",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/p4est",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2-3"
+}

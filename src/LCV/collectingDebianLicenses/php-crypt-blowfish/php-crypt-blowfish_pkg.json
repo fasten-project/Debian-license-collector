@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Crypt",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 23,
+                "symlink_dest": "Crypt_Blowfish-1.1.0RC2",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Crypt_Blowfish-1.1.0RC2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "package.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "1.1.0~RC2-4",
+    "package": "php-crypt-blowfish",
+    "path": "php-crypt-blowfish/1.1.0~RC2-4",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 182,
+        "license": "/copyright/license/php-crypt-blowfish/1.1.0%7ERC2-4/",
+        "metric": {
+            "size": 220
+        },
+        "pts_link": "https://tracker.debian.org/pkg/php-crypt-blowfish",
+        "sloc": [
+            [
+                "php",
+                664
+            ],
+            [
+                "xml",
+                175
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-php/php-crypt-blowfish.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.0~RC2-4"
+}

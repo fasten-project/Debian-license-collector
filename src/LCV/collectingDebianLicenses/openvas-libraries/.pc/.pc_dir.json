@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Add-patch-to-fix-undeclared-issue-on-hurd-i386-platform.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Fix-PATH_MAX-undeclared-issue-on-hurd-i386-platform.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "openvas-libraries",
+    "path": "openvas-libraries/9.0.3-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openvas-libraries/9.0.3-1/",
+        "metric": {
+            "size": 3668
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openvas-libraries",
+        "sloc": [
+            [
+                "ansic",
+                43509
+            ],
+            [
+                "yacc",
+                1206
+            ],
+            [
+                "makefile",
+                37
+            ],
+            [
+                "sh",
+                31
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/openvas-libraries",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.0.3-1"
+}
