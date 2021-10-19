@@ -1,0 +1,162 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "clk_put.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "devm_free.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ifnullfree.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "iounmap.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kfree.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kfreeaddr.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pci_free_consistent.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "put_device.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "free",
+    "package": "linux",
+    "path": "linux/5.14.6-3/scripts/coccinelle/free",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/linux/5.14.6-3/",
+        "metric": {
+            "size": 1285796
+        },
+        "pts_link": "https://tracker.debian.org/pkg/linux",
+        "sloc": [
+            [
+                "ansic",
+                20745350
+            ],
+            [
+                "asm",
+                260329
+            ],
+            [
+                "sh",
+                86539
+            ],
+            [
+                "makefile",
+                45870
+            ],
+            [
+                "perl",
+                35985
+            ],
+            [
+                "python",
+                33079
+            ],
+            [
+                "cpp",
+                6029
+            ],
+            [
+                "yacc",
+                4760
+            ],
+            [
+                "lex",
+                2711
+            ],
+            [
+                "awk",
+                1230
+            ],
+            [
+                "ruby",
+                25
+            ],
+            [
+                "sed",
+                5
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/kernel-team/linux",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.14.6-3"
+}

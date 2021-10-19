@@ -1,0 +1,126 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-file-with-%28something-in-parenthesis%29.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-or-perhaps-only-one-%7B-which-causes-a-compile-failure.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-even-%5D-is-not-safe.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-Perhaps-even-%7C-will-cause-problems.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-Lets-not-forget-%5E-and-%24-for-added-fun.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "rare-filenames",
+    "package": "lintian",
+    "path": "lintian/2.106.1/t/recipes/checks/debian/copyright/dep5/source-copyright-wildcard-matching/build-spec/orig/rare-filenames",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/lintian/2.106.1/",
+        "metric": {
+            "size": 60060
+        },
+        "pts_link": "https://tracker.debian.org/pkg/lintian",
+        "sloc": [
+            [
+                "perl",
+                38325
+            ],
+            [
+                "javascript",
+                9151
+            ],
+            [
+                "makefile",
+                3904
+            ],
+            [
+                "sh",
+                3200
+            ],
+            [
+                "ansic",
+                727
+            ],
+            [
+                "xml",
+                409
+            ],
+            [
+                "python",
+                65
+            ],
+            [
+                "java",
+                15
+            ],
+            [
+                "cpp",
+                9
+            ],
+            [
+                "tcl",
+                4
+            ],
+            [
+                "lisp",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/lintian/lintian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.106.1"
+}

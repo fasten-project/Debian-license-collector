@@ -1,0 +1,1964 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "LICENSE.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bool.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-bool.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-custom.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-float.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-int.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-map.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-merge.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-null.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-omap.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-pairs.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-seq.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-set.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-str-ascii.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-str.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-timestamp.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct-value.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "duplicate-key.former-loader-error.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "duplicate-mapping-key.former-loader-error.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "duplicate-merge-key.former-loader-error.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "duplicate-value-key.former-loader-error.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "emit-block-scalar-in-simple-key-context-bug.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty-document-bug.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "float.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "int.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "invalid-single-quote-bug.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "merge.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "more-floats.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "negative-float-bug.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "null.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "resolver.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-parser-crash-bug.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scan-document-end-bug.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scan-line-break-bug.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "single-dot-is-not-float-bug.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sloppy-indentation.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-01.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-02.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-03.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-04.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-05.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-06.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-07.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-08.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-09.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-10.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-11.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-12.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-13.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-14.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-15.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-16.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-17.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-18.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-19.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-20.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-21.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-22.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-23.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-24.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-25.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-26.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-27.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-02-28.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-01-utf8.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-02-utf8.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-03.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-04.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-05.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-06.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-07.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-08.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-09.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-10.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-11.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-12.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-13.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-14.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-05-15.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-06-01.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-06-02.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-06-03.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-06-04.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-06-05.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-06-06.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-06-07.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-06-08.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-01.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-02.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-03.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-04.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-05.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-06.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-07a.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-07b.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-08.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-09.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-10.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-11.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-12a.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-12b.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-07-13.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-01.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-02.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-03.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-04.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-05.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-06.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-07.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-08.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-09.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-10.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-11.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-12.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-13.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-14.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-08-15.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-01.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-02.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-03.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-04.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-05.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-06.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-07.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-08.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-09.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-10.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-11.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-12.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-13.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-14.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-15.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-16.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-17.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-18.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-19.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-20.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-21.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-22.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-23.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-24.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-25.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-26.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-29.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-30.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-31.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-32.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-09-33.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-01.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-02.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-03.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-04.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-05.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-06.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-07.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-08.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-09.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-10.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-11.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-12.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-13.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-14.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spec-10-15.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "str.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "timestamp-bugs.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "timestamp.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utf8-implicit.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utf8.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "value.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yaml.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "YAMLParser",
+    "package": "llvm-toolchain-13",
+    "path": "llvm-toolchain-13/1:13.0.0-5/llvm/test/YAMLParser",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-13/1:13.0.0-5/",
+        "metric": {
+            "size": 1417580
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-13",
+        "sloc": [
+            [
+                "cpp",
+                5290303
+            ],
+            [
+                "ansic",
+                996559
+            ],
+            [
+                "asm",
+                544515
+            ],
+            [
+                "python",
+                188212
+            ],
+            [
+                "objc",
+                72027
+            ],
+            [
+                "lisp",
+                30291
+            ],
+            [
+                "f90",
+                25395
+            ],
+            [
+                "sh",
+                24885
+            ],
+            [
+                "javascript",
+                9780
+            ],
+            [
+                "pascal",
+                9405
+            ],
+            [
+                "perl",
+                7484
+            ],
+            [
+                "ml",
+                5432
+            ],
+            [
+                "awk",
+                3523
+            ],
+            [
+                "makefile",
+                2841
+            ],
+            [
+                "xml",
+                953
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                539
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/snapshot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:13.0.0-5"
+}

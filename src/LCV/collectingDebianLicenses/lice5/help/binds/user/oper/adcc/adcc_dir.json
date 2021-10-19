@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adcc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "binds",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 8,
+                "symlink_dest": "../binds",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "commands",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oper",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "../oper",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "user",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "../user",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "adcc",
+    "package": "lice5",
+    "path": "lice5/1:5.3.0-1/help/adcc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 18,
+        "license": "/copyright/license/lice5/1:5.3.0-1/",
+        "metric": {
+            "size": 1720
+        },
+        "pts_link": "https://tracker.debian.org/pkg/lice5",
+        "sloc": [
+            [
+                "ansic",
+                211
+            ],
+            [
+                "lisp",
+                64
+            ],
+            [
+                "makefile",
+                41
+            ],
+            [
+                "sh",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "1:5.3.0-1"
+}

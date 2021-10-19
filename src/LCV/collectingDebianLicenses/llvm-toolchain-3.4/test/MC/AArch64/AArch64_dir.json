@@ -1,0 +1,985 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adrp-relocation.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basic-a64-diagnostics.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 166136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basic-a64-instructions.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 240838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basic-pic.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-extern.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 813,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-globaladdress.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-objdump.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-reloc-addend.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-reloc-addsubimm.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-reloc-condbr.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-reloc-ldrlit.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-reloc-ldstunsimm.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-reloc-movw.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-reloc-pcreladdressing.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-reloc-tstb.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elf-reloc-uncondbrimm.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gicv3-regs-diagnostics.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gicv3-regs.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-asm-modifiers.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jump-table.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lit.local.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mapping-across-sections.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mapping-within-section.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-2velem.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-3vdiff.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-aba-abd.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-across.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-add-pairwise.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-add-sub-instructions.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-bitwise-instructions.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-compare-instructions.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-crypto.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-diagnostics.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 301195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-extract.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-facge-facgt.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-frsqrt-frecp.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-halving-add-sub.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-max-min-pairwise.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-max-min.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5316,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-mla-mls-instructions.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-mov.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-mul-div-instructions.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-perm.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-rounding-halving-add.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-rounding-shift.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-saturating-add-sub.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-saturating-rounding-shift.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-saturating-shift.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-abs.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-add-sub.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-by-elem-mla.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-by-elem-mul.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-by-elem-saturating-mla.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-by-elem-saturating-mul.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-compare.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-cvt.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-dup.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2535,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-extract-narrow.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-fp-compare.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-mul.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-neg.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 933,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-recip.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-reduce-pairwise.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-rounding-shift.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-saturating-add-sub.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-saturating-rounding-shift.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-saturating-shift.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-shift-imm.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-scalar-shift.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-shift-left-long.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-shift.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-simd-copy.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-simd-ldst-multi-elem.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-simd-ldst-one-elem.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-simd-misc.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-simd-post-ldst-multi-elem.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-simd-shift.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon-tbl.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "noneon-diagnostics.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tls-relocs.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace-regs-diagnostics.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace-regs.s",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "AArch64",
+    "package": "llvm-toolchain-3.4",
+    "path": "llvm-toolchain-3.4/1:3.4.2-13/test/MC/AArch64",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 276203,
+        "license": "/copyright/license/llvm-toolchain-3.4/1:3.4.2-13/",
+        "metric": {
+            "size": 253236
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-3.4",
+        "sloc": [
+            [
+                "cpp",
+                1665580
+            ],
+            [
+                "ansic",
+                298647
+            ],
+            [
+                "asm",
+                206157
+            ],
+            [
+                "objc",
+                84350
+            ],
+            [
+                "python",
+                73119
+            ],
+            [
+                "sh",
+                23466
+            ],
+            [
+                "perl",
+                5679
+            ],
+            [
+                "makefile",
+                5542
+            ],
+            [
+                "ml",
+                5250
+            ],
+            [
+                "pascal",
+                2467
+            ],
+            [
+                "lisp",
+                1420
+            ],
+            [
+                "xml",
+                679
+            ],
+            [
+                "cs",
+                236
+            ],
+            [
+                "csh",
+                117
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-llvm/llvm-toolchain/branches/3.4/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1:3.4.2-13"
+}

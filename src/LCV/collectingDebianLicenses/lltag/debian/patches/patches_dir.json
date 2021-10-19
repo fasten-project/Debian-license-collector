@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-fix_rename_case.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-howto_fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debianize_dependencies_in_warnings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "lltag",
+    "path": "lltag/0.14.6-1.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/lltag/0.14.6-1.1/",
+        "metric": {
+            "size": 476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/lltag",
+        "sloc": [
+            [
+                "perl",
+                2833
+            ],
+            [
+                "makefile",
+                120
+            ],
+            [
+                "sh",
+                17
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/bgoglin/lltag",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.14.6-1.1"
+}

@@ -1,0 +1,875 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "X86",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "adaptive_global_redzones.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asan-detect-invalid-pointer-pair.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asan-masked-load-store.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asan-vs-gvn.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asan_address_space_attr.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basic-msvc64.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basic-myriad.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2727,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basic.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "byval-args.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-info-alloca.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-info-global-var.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug_info.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug_info_noninstrumented_alloca.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug_info_noninstrumented_alloca2.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do-not-instrument-globals-darwin.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do-not-instrument-globals-linux.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do-not-instrument-internal-globals.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do-not-instrument-profiling-globals.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do-not-instrument-promotable-allocas.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do-not-instrument-sanitizers.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do-not-touch-comdat-global.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do-not-touch-odr-global.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do-not-touch-threadlocal.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dynamic-shadow-darwin.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "experiment-call.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "experiment.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "force-dynamic-shadow.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "freebsd.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_addrspace.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_cstring_darwin.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_lto_merge.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_metadata.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_metadata_array.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_metadata_bitcasts.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_metadata_darwin.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_metadata_external_comdat.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_metadata_windows.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hoist-argument-init-insts.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instrument-dynamic-allocas.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instrument-no-return.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instrument-stack.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instrument_global.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instrument_initializer_metadata.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instrument_load_then_store.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instrumentation-with-call-threshold.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keep_going.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lifetime-throw.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lifetime-uar-uas.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lifetime.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local_alias.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local_stack_base.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localescape.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-globals.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "odr-check-ignore.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ps4.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scale-offset.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stack-poisoning-and-lifetime-be.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stack-poisoning-and-lifetime.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stack-poisoning-byval-args.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stack-poisoning.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stack_dynamic_alloca.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stack_layout.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "str-nobuiltin.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test64.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "twice.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubsan.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version-mismatch-check.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 671,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "win-sorted-sections.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "win-string-literal.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "with-ifunc.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "AddressSanitizer",
+    "package": "llvm-toolchain-11",
+    "path": "llvm-toolchain-11/1:11.1.0-4/llvm/test/Instrumentation/AddressSanitizer",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-11/1:11.1.0-4/",
+        "metric": {
+            "size": 997052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-11",
+        "sloc": [
+            [
+                "cpp",
+                4767991
+            ],
+            [
+                "ansic",
+                760958
+            ],
+            [
+                "asm",
+                477436
+            ],
+            [
+                "python",
+                170940
+            ],
+            [
+                "objc",
+                69804
+            ],
+            [
+                "lisp",
+                29914
+            ],
+            [
+                "sh",
+                23855
+            ],
+            [
+                "f90",
+                18173
+            ],
+            [
+                "pascal",
+                7551
+            ],
+            [
+                "perl",
+                7471
+            ],
+            [
+                "ml",
+                5603
+            ],
+            [
+                "awk",
+                3489
+            ],
+            [
+                "makefile",
+                2571
+            ],
+            [
+                "xml",
+                915
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                503
+            ],
+            [
+                "javascript",
+                452
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:11.1.0-4"
+}

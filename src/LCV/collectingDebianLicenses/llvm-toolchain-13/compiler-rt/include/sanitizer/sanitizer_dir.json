@@ -1,0 +1,259 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "allocator_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asan_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common_interface_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "coverage_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1054,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dfsan_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwasan_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "linux_syscall_hooks.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 204881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lsan_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memprof_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msan_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netbsd_syscall_hooks.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 355693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scudo_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tsan_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tsan_interface_atomic.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubsan_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sanitizer",
+    "package": "llvm-toolchain-13",
+    "path": "llvm-toolchain-13/1:13.0.0-3/compiler-rt/include/sanitizer",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-13/1:13.0.0-3/",
+        "metric": {
+            "size": 1417536
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-13",
+        "sloc": [
+            [
+                "cpp",
+                5290303
+            ],
+            [
+                "ansic",
+                996559
+            ],
+            [
+                "asm",
+                544515
+            ],
+            [
+                "python",
+                188212
+            ],
+            [
+                "objc",
+                72027
+            ],
+            [
+                "lisp",
+                30291
+            ],
+            [
+                "f90",
+                25395
+            ],
+            [
+                "sh",
+                24885
+            ],
+            [
+                "javascript",
+                9780
+            ],
+            [
+                "pascal",
+                9405
+            ],
+            [
+                "perl",
+                7484
+            ],
+            [
+                "ml",
+                5432
+            ],
+            [
+                "awk",
+                3523
+            ],
+            [
+                "makefile",
+                2841
+            ],
+            [
+                "xml",
+                953
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                539
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/snapshot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:13.0.0-3"
+}

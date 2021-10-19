@@ -1,0 +1,896 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-net-Use-netdev_alloc_skb_ip_align.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-r8169-move-PHY-regs-tables-to-.rodata.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-drivers-net-Move-and-to-end-of-previous-line.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-const-constify-remaining-dev_pm_ops.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-drivers-net-r8169.c-use-pM-to-shown-MAC-address.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-drivers-net-use-DEFINE_PCI_DEVICE_TABLE.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-net-use-netdev_mc_count-and-netdev_mc_empty-when-app.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008-drivers-net-r8196.c-Use-netif_printk-macros.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0009-net-convert-multiple-drivers-to-use-netdev_for_each_.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010-r8169-PCI-PM-Add-simplified-runtime-PM-support-rev.-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0011-r8169-Fix-rtl8169_rx_interrupt.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2877,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0012-r8169-failure-to-enable-mwi-should-not-be-fatal.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0013-r8169-remove-unnecessary-cast-of-readl-s-return-valu.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1041,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0014-r8169-incorrect-identifier-for-a-8168dp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0015-r8169-fix-rx-checksum-offload.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0016-r8169-add-gro-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0017-r8169-use-device-model-DMA-API.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0018-r8169-use-50-less-ram-for-RX-ring.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0019-r8169-check-dma-mapping-failures.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0020-r8169-init-rx-ring-cleanup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0021-r8169-replace-PCI_DMA_-TO-FROM-DEVICE-to-DMA_-TO-FRO.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0022-r8169-use-pointer-to-struct-device-as-local-variable.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6636,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0023-r8169-do-not-account-fragments-as-packets.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0024-r8169-changing-mtu-clean-up.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0025-r8169-re-init-phy-on-resume.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0026-r8169-print-errors-when-dma-mapping-fail.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0027-r8169-fix-sleeping-while-holding-spinlock.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0028-r8169-fix-checksum-broken.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0029-r8169-Fix-runtime-power-management.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0030-drivers-net-.c-Use-static-const.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0031-r8169-remove-the-firmware-of-RTL8111D.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0032-r8169-identify-different-registers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0033-r8169-use-device-dependent-methods-to-access-the-MII.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0034-r8169-8168DP-specific-MII-registers-access-methods.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0035-r8169-phy-power-ops.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0036-r8169-magic.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0037-r8169-rtl_csi_access_enable-rename.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0038-r8169-more-8168dp-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0039-r8169-delay-phy-init-until-device-opens.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0040-net-r8169-Update-the-function-of-parsing-firmware.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0041-r8169-keep-firmware-in-memory.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0042-r8169-RxFIFO-overflow-oddities-with-8168-chipsets.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0043-r8169-prevent-RxFIFO-induced-loops-in-the-irq-handle.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0044-drivers-net-Call-netif_carrier_off-at-the-end-of-the.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0045-r8169-fix-incorrect-args-to-oob-notify.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0046-r8169-correct-settings-of-rtl8102e.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0047-r8169-fix-RTL8168DP-power-off-issue.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0048-r8169-adjust-rtl8169_set_speed_xmii-function.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0049-r8169-support-the-new-chips-for-RTL8105E.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0050-r8169-support-control-of-advertising.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0051-r8169-fix-a-bug-in-rtl8169_init_phy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0052-net-r8169-add-a-new-chip-for-RTL8105.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0053-net-r8169-add-a-new-chip-for-RTL8168DP.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0054-net-r8169-support-RTL8168E.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0055-r8169-TSO-fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14940,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0056-r8169-don-t-request-firmware-when-there-s-no-userspa.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0057-r8169-fix-merge-conflict-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0058-ethtool-Use-full-32-bit-speed-range-in-ethtool-s-set.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0059-ethtool-cosmetic-Use-ethtool-ethtool_cmd_speed-API.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0060-r8169-style-cleanups.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0061-r8169-remove-some-code-duplication.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0062-r8169-rtl8169_set_speed_xmii-cleanup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0063-r8169-link-speed-selection-timer-rework.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0064-r8169-remove-non-NAPI-context-invocation-of-rtl8169_.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0065-r8169-provide-some-firmware-information-via-ethtool.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0066-r8169-merge-firmware-information-into-the-chipset-de.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0067-r8169-avoid-late-chip-identifier-initialisation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0068-Add-appropriate-linux-prefetch.h-include-for-prefetc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0069-r8169-fix-static-initializers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0070-r8169-fix-wrong-register-use.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0071-r8169-Add-support-for-D-Link-530T-rev-C1-Kernel-Bug-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0072-r8169-missing-barriers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0073-r8169-fix-unsigned-int-wraparound-with-TSO.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0074-r8169-remove-the-obsolete-and-incorrect-AMD-workarou.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "r8169",
+    "package": "linux-2.6",
+    "path": "linux-2.6/2.6.32-48squeeze20/debian/patches/features/all/r8169",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1415173,
+        "license": "/copyright/license/linux-2.6/2.6.32-48squeeze20/",
+        "metric": {
+            "size": 494000
+        },
+        "pts_link": "https://tracker.debian.org/pkg/linux-2.6",
+        "sloc": [
+            [
+                "ansic",
+                7636125
+            ],
+            [
+                "asm",
+                225085
+            ],
+            [
+                "xml",
+                32978
+            ],
+            [
+                "makefile",
+                19314
+            ],
+            [
+                "perl",
+                11533
+            ],
+            [
+                "sh",
+                3561
+            ],
+            [
+                "cpp",
+                3365
+            ],
+            [
+                "yacc",
+                2964
+            ],
+            [
+                "python",
+                2893
+            ],
+            [
+                "lex",
+                1824
+            ],
+            [
+                "lisp",
+                218
+            ],
+            [
+                "pascal",
+                116
+            ],
+            [
+                "awk",
+                109
+            ],
+            [
+                "sed",
+                30
+            ]
+        ],
+        "suites": [
+            "squeeze-lts"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/kernel/linux.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.32-48squeeze20"
+}

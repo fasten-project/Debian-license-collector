@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "nvidia.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vboxvideo.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "xserver-xorg",
+    "package": "live-config",
+    "path": "live-config/11.0.3/share/xserver-xorg",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/live-config/11.0.3/",
+        "metric": {
+            "size": 860
+        },
+        "pts_link": "https://tracker.debian.org/pkg/live-config",
+        "sloc": [
+            [
+                "sh",
+                2330
+            ],
+            [
+                "makefile",
+                128
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/live-team/live-config",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "11.0.3"
+}

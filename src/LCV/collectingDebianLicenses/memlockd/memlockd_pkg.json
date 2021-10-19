@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changes.txt",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 16,
+                "symlink_dest": "debian/changelog",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "memlockd.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memlockd.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memlockd.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memlockd.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "1.2.1",
+    "package": "memlockd",
+    "path": "memlockd/1.2.1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/memlockd/1.2.1/",
+        "metric": {
+            "size": 80
+        },
+        "pts_link": "https://tracker.debian.org/pkg/memlockd",
+        "sloc": [
+            [
+                "cpp",
+                451
+            ],
+            [
+                "sh",
+                87
+            ],
+            [
+                "makefile",
+                58
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.2.1"
+}

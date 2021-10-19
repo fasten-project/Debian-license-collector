@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ldlinux.c32",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 42,
+                "symlink_dest": "/usr/lib/syslinux/modules/bios/ldlinux.c32",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pxelinux.0",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 28,
+                "symlink_dest": "/usr/lib/PXELINUX/pxelinux.0",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pxelinux.cfg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "pxelinux",
+    "package": "live-build",
+    "path": "live-build/1:20210902/share/bootloaders/pxelinux",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/live-build/1:20210902/",
+        "metric": {
+            "size": 2732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/live-build",
+        "sloc": [
+            [
+                "sh",
+                8834
+            ],
+            [
+                "makefile",
+                124
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/live-team/live-build",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:20210902"
+}

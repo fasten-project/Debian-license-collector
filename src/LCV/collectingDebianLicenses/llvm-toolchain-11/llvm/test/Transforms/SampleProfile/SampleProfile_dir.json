@@ -1,0 +1,565 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Inputs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "branch.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "calls.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cold-indirect-call.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compressed-profile-symbol-list.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cov-zero-samples.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "coverage-warning.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "discriminator.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "early-inline.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "entry_counts.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "entry_counts_cold.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "entry_counts_missing_dbginfo.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flattened.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fnptr.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "function_metadata.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc-simple.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indirect-call-gcc.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indirect-call.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-act.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-callee-update.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-cold-callsite-samplepgo.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-cold.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-combine.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-coverage.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-mergeprof.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-stats.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-topdown.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nodebug.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nolocinfo.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "offset.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "profile-format-compress.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "profile-format.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "profile-sample-accurate.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "propagate.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remap.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remarks.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "section-accurate-samplepgo.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summary.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syntax.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uncompressed-profile-symbol-list.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-sample-profile-attr.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "warm-inline-instance.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "SampleProfile",
+    "package": "llvm-toolchain-11",
+    "path": "llvm-toolchain-11/1:11.1.0-4/llvm/test/Transforms/SampleProfile",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-11/1:11.1.0-4/",
+        "metric": {
+            "size": 997052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-11",
+        "sloc": [
+            [
+                "cpp",
+                4767991
+            ],
+            [
+                "ansic",
+                760958
+            ],
+            [
+                "asm",
+                477436
+            ],
+            [
+                "python",
+                170940
+            ],
+            [
+                "objc",
+                69804
+            ],
+            [
+                "lisp",
+                29914
+            ],
+            [
+                "sh",
+                23855
+            ],
+            [
+                "f90",
+                18173
+            ],
+            [
+                "pascal",
+                7551
+            ],
+            [
+                "perl",
+                7471
+            ],
+            [
+                "ml",
+                5603
+            ],
+            [
+                "awk",
+                3489
+            ],
+            [
+                "makefile",
+                2571
+            ],
+            [
+                "xml",
+                915
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                503
+            ],
+            [
+                "javascript",
+                452
+            ]
+        ],
+        "suites": [],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:11.1.0-4"
+}

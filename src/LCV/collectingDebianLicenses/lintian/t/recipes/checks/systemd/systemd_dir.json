@@ -1,0 +1,214 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "init.d-general",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "legacy-scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "no-systemd-service-for-init-script",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "no-systemd-timer-for-cron-script",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "service-file-no-install-key",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "systemd-complex-service-file",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "systemd-general",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "systemd-missing-services",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "systemd-service-file-refers-to-var-run",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "systemd-service-file-shutdown-problems",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "systemd-service-file-uses-deprecated-syslog-facility",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "systemd-service-file-uses-nobody-or-nogroup",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tmpfiles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "systemd",
+    "package": "lintian",
+    "path": "lintian/2.106.1/t/recipes/checks/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/lintian/2.106.1/",
+        "metric": {
+            "size": 60060
+        },
+        "pts_link": "https://tracker.debian.org/pkg/lintian",
+        "sloc": [
+            [
+                "perl",
+                38325
+            ],
+            [
+                "javascript",
+                9151
+            ],
+            [
+                "makefile",
+                3904
+            ],
+            [
+                "sh",
+                3200
+            ],
+            [
+                "ansic",
+                727
+            ],
+            [
+                "xml",
+                409
+            ],
+            [
+                "python",
+                65
+            ],
+            [
+                "java",
+                15
+            ],
+            [
+                "cpp",
+                9
+            ],
+            [
+                "tcl",
+                4
+            ],
+            [
+                "lisp",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/lintian/lintian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.106.1"
+}

@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix_missing_header.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system-json-spirit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system-leveldb.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t-skip--fs_tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "litecoin",
+    "path": "litecoin/0.18.1-1.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/litecoin/0.18.1-1.1/",
+        "metric": {
+            "size": 25724
+        },
+        "pts_link": "https://tracker.debian.org/pkg/litecoin",
+        "sloc": [
+            [
+                "cpp",
+                125675
+            ],
+            [
+                "python",
+                24465
+            ],
+            [
+                "ansic",
+                14322
+            ],
+            [
+                "sh",
+                4544
+            ],
+            [
+                "makefile",
+                1594
+            ],
+            [
+                "asm",
+                730
+            ],
+            [
+                "java",
+                438
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/litecoin",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.18.1-1.1"
+}

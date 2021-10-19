@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-MODSIGN-do-not-load-mok-when-secure-boot-disabled.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1435,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-MODSIGN-load-blacklist-from-MOKx.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-MODSIGN-checking-the-blacklisted-hash-before-loading-a-kernel-module.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-MODSIGN-check-the-attributes-of-db-and-mok.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3848,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "KEYS-Make-use-of-platform-keyring-for-module-signature.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modsign-make-shash-allocation-failure-fatal.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "db-mok-keyring",
+    "package": "linux",
+    "path": "linux/5.14.6-3/debian/patches/features/all/db-mok-keyring",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/linux/5.14.6-3/",
+        "metric": {
+            "size": 1285796
+        },
+        "pts_link": "https://tracker.debian.org/pkg/linux",
+        "sloc": [
+            [
+                "ansic",
+                20745350
+            ],
+            [
+                "asm",
+                260329
+            ],
+            [
+                "sh",
+                86539
+            ],
+            [
+                "makefile",
+                45870
+            ],
+            [
+                "perl",
+                35985
+            ],
+            [
+                "python",
+                33079
+            ],
+            [
+                "cpp",
+                6029
+            ],
+            [
+                "yacc",
+                4760
+            ],
+            [
+                "lex",
+                2711
+            ],
+            [
+                "awk",
+                1230
+            ],
+            [
+                "ruby",
+                25
+            ],
+            [
+                "sed",
+                5
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/kernel-team/linux",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.14.6-3"
+}

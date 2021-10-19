@@ -1,0 +1,259 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Inputs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "remove-args.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-attributes-from-intrinsic-like-functions.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-attributes-from-intrinsics.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-bbs.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-call-site-attributes.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-funcs.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-function-attributes.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-global-variable-attributes.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 933,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-global-vars.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-instructions.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-metadata.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-multiple-use-of-args-in-same-instruction.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-multiple-use-of-global-vars-in-same-instruction.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 986,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-operand-bundles.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Reduce",
+    "package": "llvm-toolchain-11",
+    "path": "llvm-toolchain-11/1:11.1.0-4/llvm/test/Reduce",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-11/1:11.1.0-4/",
+        "metric": {
+            "size": 997052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-11",
+        "sloc": [
+            [
+                "cpp",
+                4767991
+            ],
+            [
+                "ansic",
+                760958
+            ],
+            [
+                "asm",
+                477436
+            ],
+            [
+                "python",
+                170940
+            ],
+            [
+                "objc",
+                69804
+            ],
+            [
+                "lisp",
+                29914
+            ],
+            [
+                "sh",
+                23855
+            ],
+            [
+                "f90",
+                18173
+            ],
+            [
+                "pascal",
+                7551
+            ],
+            [
+                "perl",
+                7471
+            ],
+            [
+                "ml",
+                5603
+            ],
+            [
+                "awk",
+                3489
+            ],
+            [
+                "makefile",
+                2571
+            ],
+            [
+                "xml",
+                915
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                503
+            ],
+            [
+                "javascript",
+                452
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:11.1.0-4"
+}

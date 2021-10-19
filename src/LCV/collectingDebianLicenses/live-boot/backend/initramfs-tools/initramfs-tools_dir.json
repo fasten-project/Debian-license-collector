@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "kms.hook",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "live.hook",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "live.script",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "initramfs-tools",
+    "package": "live-boot",
+    "path": "live-boot/1:20210208/backend/initramfs-tools",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/live-boot/1:20210208/",
+        "metric": {
+            "size": 672
+        },
+        "pts_link": "https://tracker.debian.org/pkg/live-boot",
+        "sloc": [
+            [
+                "sh",
+                3321
+            ],
+            [
+                "makefile",
+                151
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/live-team/live-boot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:20210208"
+}

@@ -1,0 +1,304 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CREDITS.TXT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LICENSE.TXT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.TXT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amdgcn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "amdgcn-amdhsa",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "amdgcn-mesa3d",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 13,
+                "symlink_dest": "amdgcn-amdhsa",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "amdgpu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "check_external_calls.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cmake",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "compile-test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libclc.pc.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptx",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ptx-nvidiacl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r600",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "utils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "libclc",
+    "package": "llvm-toolchain-11",
+    "path": "llvm-toolchain-11/1:11.1.0-4/libclc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-11/1:11.1.0-4/",
+        "metric": {
+            "size": 997052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-11",
+        "sloc": [
+            [
+                "cpp",
+                4767991
+            ],
+            [
+                "ansic",
+                760958
+            ],
+            [
+                "asm",
+                477436
+            ],
+            [
+                "python",
+                170940
+            ],
+            [
+                "objc",
+                69804
+            ],
+            [
+                "lisp",
+                29914
+            ],
+            [
+                "sh",
+                23855
+            ],
+            [
+                "f90",
+                18173
+            ],
+            [
+                "pascal",
+                7551
+            ],
+            [
+                "perl",
+                7471
+            ],
+            [
+                "ml",
+                5603
+            ],
+            [
+                "awk",
+                3489
+            ],
+            [
+                "makefile",
+                2571
+            ],
+            [
+                "xml",
+                915
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                503
+            ],
+            [
+                "javascript",
+                452
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:11.1.0-4"
+}

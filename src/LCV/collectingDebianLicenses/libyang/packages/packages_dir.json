@@ -1,0 +1,251 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "create-package.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.control.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.libyang-cpp-dev.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.libyang-cpp.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.libyang-dev.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.libyang.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.python3-yang.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.rules.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libyang.dsc.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libyang.rpmlintrc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libyang.spec.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local-deb.sh.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local-rpm.sh.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upload-package.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "packages",
+    "package": "libyang",
+    "path": "libyang/1.0.225-1.1/packages",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libyang/1.0.225-1.1/",
+        "metric": {
+            "size": 14492
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libyang",
+        "sloc": [
+            [
+                "ansic",
+                101590
+            ],
+            [
+                "xml",
+                9309
+            ],
+            [
+                "cpp",
+                5202
+            ],
+            [
+                "python",
+                1637
+            ],
+            [
+                "java",
+                1448
+            ],
+            [
+                "lex",
+                281
+            ],
+            [
+                "sh",
+                181
+            ],
+            [
+                "makefile",
+                58
+            ],
+            [
+                "javascript",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/CESNET/libyang/tree/debian/master",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.225-1.1"
+}

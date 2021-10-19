@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control.image.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control.source.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image.postinst.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image.postrm.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image.preinst.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image.prerm.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "templates",
+    "package": "linux-signed",
+    "path": "linux-signed/4.4~bpo8+1/debian/templates",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/linux-signed/4.4%7Ebpo8+1/",
+        "metric": {
+            "size": 158844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/linux-signed",
+        "sloc": [
+            [
+                "sh",
+                938
+            ],
+            [
+                "python",
+                291
+            ],
+            [
+                "makefile",
+                54
+            ]
+        ],
+        "suites": [
+            "jessie-backports"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/kernel/linux-signed.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.4~bpo8+1"
+}

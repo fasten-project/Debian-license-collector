@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-java7-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-disable-beastax-driver.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-mxparser.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libxstream-java",
+    "path": "libxstream-java/1.4.18-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libxstream-java/1.4.18-1/",
+        "metric": {
+            "size": 6592
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libxstream-java",
+        "sloc": [
+            [
+                "java",
+                51391
+            ],
+            [
+                "xml",
+                2938
+            ],
+            [
+                "sh",
+                28
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/libxstream-java",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.18-1"
+}

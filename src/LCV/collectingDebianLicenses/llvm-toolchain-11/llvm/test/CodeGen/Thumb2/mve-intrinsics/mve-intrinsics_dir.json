@@ -1,0 +1,853 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "absneg-predicated.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bitwise-imm.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dup.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "idup.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "load-store.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "longshift-const.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "longshift-demand.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23636,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicates.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6903,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scalar-shifts.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scatter-gather.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ternary.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vabavq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vabdq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vadc-multiple.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vadc.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vaddq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vaddv.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vandq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vbicq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vbrsrq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcaddq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcls.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vclzcls-predicated.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcmlaq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcmulq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcvt-fp-int.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5107,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcvt.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcvt_anpm.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vector-shift-imm-dyadic.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vector-shift-imm.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vector-shift-var.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "veorq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vhaddq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vhsubq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vld24.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vldr.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmaxaq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmaxnmaq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmaxnmq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmaxq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vminaq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vminnmaq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vminnmq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vminq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vminvq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmldav.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmlldav.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmovl.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmovn.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmulhq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmullbq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmulltq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmulq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vornq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vorrq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vqaddq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vqdmlad.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vqdmulhq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vqdmull.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vqmovn.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vqrdmulhq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vqsubq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vrev.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vrhaddq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vrint-predicated.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vrintn.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vrmulhq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vshlc.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vsubq.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mve-intrinsics",
+    "package": "llvm-toolchain-11",
+    "path": "llvm-toolchain-11/1:11.1.0-4/llvm/test/CodeGen/Thumb2/mve-intrinsics",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-11/1:11.1.0-4/",
+        "metric": {
+            "size": 997052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-11",
+        "sloc": [
+            [
+                "cpp",
+                4767991
+            ],
+            [
+                "ansic",
+                760958
+            ],
+            [
+                "asm",
+                477436
+            ],
+            [
+                "python",
+                170940
+            ],
+            [
+                "objc",
+                69804
+            ],
+            [
+                "lisp",
+                29914
+            ],
+            [
+                "sh",
+                23855
+            ],
+            [
+                "f90",
+                18173
+            ],
+            [
+                "pascal",
+                7551
+            ],
+            [
+                "perl",
+                7471
+            ],
+            [
+                "ml",
+                5603
+            ],
+            [
+                "awk",
+                3489
+            ],
+            [
+                "makefile",
+                2571
+            ],
+            [
+                "xml",
+                915
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                503
+            ],
+            [
+                "javascript",
+                452
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:11.1.0-4"
+}

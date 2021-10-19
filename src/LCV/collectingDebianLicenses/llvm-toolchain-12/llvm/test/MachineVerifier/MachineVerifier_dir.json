@@ -1,0 +1,688 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "generic-vreg-undef-use.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "live-ins-01.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "live-ins-02.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "live-ins-03.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_copy.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_copy_mismatch_types.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_add.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_addrspacecast.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_bitcast.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_brindirect_is_indirect_branch.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_brjt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_brjt_is_indirect_branch.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_build_vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_build_vector_trunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_concat_vectors.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_constant.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_dyn_stackalloc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_extract.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_fcmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_fconstant.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_icmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_insert.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_intrinsic.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_intrinsic_w_side_effects.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_inttoptr.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_jump_table.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_load.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_memcpy.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_memset.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_merge_values.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_phi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_ptr_add.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 877,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_ptrmask.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_ptrtoint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_sext_inreg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_sextload.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_shuffle_vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_store.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_trunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_g_zextload.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_phis_precede_nonphis.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vector_reductions.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verifier-generic-extend-truncate.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verifier-generic-types-1.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verifier-generic-types-2.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verifier-implicit-virtreg-invalid-physreg-liveness.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verifier-phi-fail0.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verifier-phi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verifier-pseudo-terminators.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verifier-statepoint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verify-regbankselected.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verify-regops.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1671,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verify-selected.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "MachineVerifier",
+    "package": "llvm-toolchain-12",
+    "path": "llvm-toolchain-12/1:12.0.1-9/llvm/test/MachineVerifier",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-12/1:12.0.1-9/",
+        "metric": {
+            "size": 1164708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-12",
+        "sloc": [
+            [
+                "cpp",
+                5002251
+            ],
+            [
+                "ansic",
+                784838
+            ],
+            [
+                "asm",
+                524512
+            ],
+            [
+                "python",
+                176968
+            ],
+            [
+                "objc",
+                71427
+            ],
+            [
+                "lisp",
+                29905
+            ],
+            [
+                "sh",
+                24605
+            ],
+            [
+                "f90",
+                22274
+            ],
+            [
+                "pascal",
+                9487
+            ],
+            [
+                "perl",
+                7475
+            ],
+            [
+                "ml",
+                5600
+            ],
+            [
+                "awk",
+                3523
+            ],
+            [
+                "makefile",
+                2715
+            ],
+            [
+                "xml",
+                917
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                529
+            ],
+            [
+                "javascript",
+                452
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/snapshot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:12.0.1-9"
+}

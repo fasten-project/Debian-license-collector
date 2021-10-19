@@ -1,0 +1,192 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "64-bit-atomics.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-advansys.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-werror.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drm-ttm-build-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enable-pata-platform.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpu-emulator.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mips-DMA-computation-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2070,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mips-Set-io_map_base-for-several-PCI-bridges-lacking.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mips-ide-flush-dcache.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sibyte-m3-tlb-exception.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mips",
+    "package": "linux-2.6",
+    "path": "linux-2.6/2.6.32-48squeeze20/debian/patches/bugfix/mips",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1415173,
+        "license": "/copyright/license/linux-2.6/2.6.32-48squeeze20/",
+        "metric": {
+            "size": 494000
+        },
+        "pts_link": "https://tracker.debian.org/pkg/linux-2.6",
+        "sloc": [
+            [
+                "ansic",
+                7636125
+            ],
+            [
+                "asm",
+                225085
+            ],
+            [
+                "xml",
+                32978
+            ],
+            [
+                "makefile",
+                19314
+            ],
+            [
+                "perl",
+                11533
+            ],
+            [
+                "sh",
+                3561
+            ],
+            [
+                "cpp",
+                3365
+            ],
+            [
+                "yacc",
+                2964
+            ],
+            [
+                "python",
+                2893
+            ],
+            [
+                "lex",
+                1824
+            ],
+            [
+                "lisp",
+                218
+            ],
+            [
+                "pascal",
+                116
+            ],
+            [
+                "awk",
+                109
+            ],
+            [
+                "sed",
+                30
+            ]
+        ],
+        "suites": [
+            "squeeze-lts"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/kernel/linux.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.32-48squeeze20"
+}

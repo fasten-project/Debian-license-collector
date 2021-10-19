@@ -1,0 +1,303 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "external_shell",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fail.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lit.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-test-line.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pass.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "requires-missing.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "requires-present.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "requires-star.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "requires-triple.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsupported-expr-false.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsupported-expr-true.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsupported-star.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsupported_dir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xfail-expr-false.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xfail-expr-true.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xfail-feature.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xfail-target.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xfail.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xpass.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "shtest-format",
+    "package": "llvm-toolchain-12",
+    "path": "llvm-toolchain-12/1:12.0.1-9/llvm/utils/lit/tests/Inputs/shtest-format",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-12/1:12.0.1-9/",
+        "metric": {
+            "size": 1164708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-12",
+        "sloc": [
+            [
+                "cpp",
+                5002251
+            ],
+            [
+                "ansic",
+                784838
+            ],
+            [
+                "asm",
+                524512
+            ],
+            [
+                "python",
+                176968
+            ],
+            [
+                "objc",
+                71427
+            ],
+            [
+                "lisp",
+                29905
+            ],
+            [
+                "sh",
+                24605
+            ],
+            [
+                "f90",
+                22274
+            ],
+            [
+                "pascal",
+                9487
+            ],
+            [
+                "perl",
+                7475
+            ],
+            [
+                "ml",
+                5600
+            ],
+            [
+                "awk",
+                3523
+            ],
+            [
+                "makefile",
+                2715
+            ],
+            [
+                "xml",
+                917
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                529
+            ],
+            [
+                "javascript",
+                452
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/snapshot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:12.0.1-9"
+}

@@ -1,0 +1,247 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable-scsi_acard.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kirkwood-reset-pcie-restrict.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kirkwood-reset-pcie.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-dest-sglist-diff.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1636,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-exec-code-via-func-pointers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-fix-compiler-warning.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-generic-async-requests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-invoke-softirq-context.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 782,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-make-copy-back-optional.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-process-data-previous-requests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-rename-variable.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-sha1-async-drivers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv_cesa-src-sglist-more.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prevent-heap-corruption-in-OABI-semtimedop.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scsi-osd-build-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "arm",
+    "package": "linux-2.6",
+    "path": "linux-2.6/2.6.32-48squeeze20/debian/patches/bugfix/arm",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1415173,
+        "license": "/copyright/license/linux-2.6/2.6.32-48squeeze20/",
+        "metric": {
+            "size": 494000
+        },
+        "pts_link": "https://tracker.debian.org/pkg/linux-2.6",
+        "sloc": [
+            [
+                "ansic",
+                7636125
+            ],
+            [
+                "asm",
+                225085
+            ],
+            [
+                "xml",
+                32978
+            ],
+            [
+                "makefile",
+                19314
+            ],
+            [
+                "perl",
+                11533
+            ],
+            [
+                "sh",
+                3561
+            ],
+            [
+                "cpp",
+                3365
+            ],
+            [
+                "yacc",
+                2964
+            ],
+            [
+                "python",
+                2893
+            ],
+            [
+                "lex",
+                1824
+            ],
+            [
+                "lisp",
+                218
+            ],
+            [
+                "pascal",
+                116
+            ],
+            [
+                "awk",
+                109
+            ],
+            [
+                "sed",
+                30
+            ]
+        ],
+        "suites": [
+            "squeeze-lts"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/kernel/linux.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.32-48squeeze20"
+}

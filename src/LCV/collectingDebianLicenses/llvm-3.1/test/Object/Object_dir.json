@@ -1,0 +1,221 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Inputs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "X86",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 126,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lit.local.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nm-archive.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nm-shared-object.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nm-trivial-object.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objdump-file-header.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objdump-relocations.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objdump-section-content.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objdump-sectionheaders.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objdump-symbol-table.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readobj-elf-versioning.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 819,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readobj-shared-object.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Object",
+    "package": "llvm-3.1",
+    "path": "llvm-3.1/3.1-1/test/Object",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-3.1/3.1-1/",
+        "metric": {
+            "size": 80224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-3.1",
+        "sloc": [
+            [
+                "cpp",
+                491014
+            ],
+            [
+                "asm",
+                110971
+            ],
+            [
+                "ansic",
+                14579
+            ],
+            [
+                "sh",
+                13120
+            ],
+            [
+                "python",
+                6152
+            ],
+            [
+                "ml",
+                4719
+            ],
+            [
+                "makefile",
+                1830
+            ],
+            [
+                "pascal",
+                1553
+            ],
+            [
+                "perl",
+                874
+            ],
+            [
+                "xml",
+                283
+            ],
+            [
+                "lisp",
+                187
+            ],
+            [
+                "csh",
+                117
+            ],
+            [
+                "exp",
+                4
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-llvm/llvm/trunk/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "3.1-1"
+}

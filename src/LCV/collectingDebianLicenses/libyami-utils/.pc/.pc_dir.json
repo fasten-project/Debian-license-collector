@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-decode-avformat-av_register_all-is-deprecated-since-.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0002-decode-avformat-use-LIBAVFORMAT_VERSION_INT-instead.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Use-libmd-instead-of-libbsd-for-message-digest-funct.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "libyami-utils",
+    "path": "libyami-utils/1.3.0-3/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libyami-utils/1.3.0-3/",
+        "metric": {
+            "size": 1856
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libyami-utils",
+        "sloc": [
+            [
+                "cpp",
+                8782
+            ],
+            [
+                "ansic",
+                1116
+            ],
+            [
+                "sh",
+                507
+            ],
+            [
+                "python",
+                352
+            ],
+            [
+                "makefile",
+                219
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/libyami-utils",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.0-3"
+}

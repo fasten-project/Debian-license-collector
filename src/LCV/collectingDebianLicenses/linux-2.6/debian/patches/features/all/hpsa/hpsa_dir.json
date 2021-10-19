@@ -1,0 +1,1567 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-SCSI-hpsa-add-driver-for-HP-Smart-Array-controllers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-SCSI-hpsa-fix-typo-in-comments.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-SCSI-hpsa-Use-kernel-integer-types-not-userland-ones.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-SCSI-hpsa-avoid-unwanted-promotion-from-unsigned-to-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-SCSI-hpsa-Use-BUG_ON-instead-of-an-if-statement.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-SCSI-hpsa-make-adjust_hpsa_scsi_table-return-void.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-SCSI-hpsa-remove-superfluous-returns-from-void-funct.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008-SCSI-hpsa-return-proper-error-codes-not-minus-one.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0009-SCSI-hpsa-use-sizeof-not-an-inline-constant-in-memse.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010-SCSI-hpsa-use-kzalloc-not-kmalloc-plus-memset.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0011-SCSI-hpsa-remove-unwanted-debug-code.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0012-SCSI-hpsa-eliminate-unnecessary-memcpys.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0013-SCSI-hpsa-make-tag-macros-into-functions.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0014-SCSI-hpsa-fix-some-debug-printks-to-use-dev_dbg-inst.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0015-SCSI-hpsa-interrupt-pending-function-should-return-b.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0016-SCSI-hpsa-Allow-multiple-command-completions-per-int.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0017-SCSI-hpsa-add-pci-ids-for-storageworks-1210m-remove-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2754,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0018-SCSI-hpsa-Fix-p1210m-LUN-assignment.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0019-SCSI-hpsa-Return-DID_RESET-for-commands-which-comple.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0020-SCSI-hpsa-Retry-commands-completing-with-a-sense-key.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0021-SCSI-hpsa-Don-t-return-DID_NO_CONNECT-when-a-device-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0022-SCSI-hpsa-Add-an-shost_to_hba-helper-function.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0023-SCSI-hpsa-use-scan_start-and-scan_finished-entry-poi.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0024-SCSI-hpsa-when-resetting-devices-print-out-which-dev.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0025-SCSI-hpsa-print-all-the-bytes-of-the-CDB-not-just-th.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0026-SCSI-hpsa-clarify-obscure-comment-in-adjust_hpsa_scs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0027-SCSI-hpsa-Fix-hpsa_find_scsi_entry-so-that-it-doesn-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0028-SCSI-hpsa-fix-bug-in-adjust_hpsa_scsi_table.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0029-SCSI-hpsa-eliminate-lock_kernel-in-compat_ioctl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0030-SCSI-hpsa-Reorder-compat-ioctl-functions-to-eliminat.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0031-SCSI-hpsa-update-driver-version-to-2.0.1-3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0033-SCSI-hpsa-fix-firmwart-typo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0034-SCSI-hpsa-fix-scsi-status-mis-shift.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 980,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0035-SCSI-hpsa-return-ENOMEM-not-1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0036-SCSI-hpsa-remove-scan-thread.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0037-SCSI-hpsa-mark-hpsa_pci_init-as-__devinit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0038-SCSI-hpsa-Clarify-calculation-of-padding-for-command.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0039-SCSI-hpsa-Increase-the-number-of-scatter-gather-elem.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0040-SCSI-hpsa-remove-unused-members-next-prev-and-retry_.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0041-SCSI-hpsa-remove-unneeded-defines.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0042-SCSI-hpsa-save-pdev-pointer-in-per-hba-structure-ear.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0043-SCSI-hpsa-factor-out-hpsa_lookup_board_id.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0044-SCSI-hpsa-factor-out-hpsa_board_disabled.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0045-SCSI-hpsa-remove-redundant-board_id-parameter-from-h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1982,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0046-SCSI-hpsa-factor-out-hpsa_find_memory_BAR.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0047-SCSI-hpsa-factor-out-hpsa_wait_for_board_ready.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0048-SCSI-hpsa-factor-out-hpsa_find_cfgtables.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0049-SCSI-hpsa-fix-leak-of-ioremapped-memory-in-hpsa_pci_.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0050-SCSI-hpsa-hpsa-factor-out-hpsa_find_board_params.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0051-SCSI-hpsa-factor-out-hpsa-CISS-signature-present.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0052-SCSI-hpsa-factor-out-hpsa_enable_scsi_prefetch.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0053-SCSI-hpsa-factor-out-hpsa_p600_dma_prefetch_quirk.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0054-SCSI-hpsa-factor-out-hpsa_enter_simple_mode.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0055-SCSI-hpsa-check-that-simple-mode-is-supported.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1060,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0056-SCSI-hpsa-clean-up-debug-ifdefs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0057-SCSI-hpsa-mark-hpsa_mark_hpsa_put_ctlr_into_performa.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0058-SCSI-hpsa-factor-out-hpsa_wait_for_mode_change_ack.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0059-SCSI-hpsa-remove-unused-variable-trans_offset.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0060-SCSI-hpsa-factor-out-hpsa_enter_performant_mode.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0061-SCSI-hpsa-remove-unused-firm_ver-member-of-the-per-h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0062-SCSI-hpsa-Add-hpsa.txt-to-Documentation-scsi.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0063-SCSI-hpsa-expose-controller-firmware-revision-via-sy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0064-SCSI-hpsa-fix-block-fetch-table-problem.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0065-SCSI-hpsa-add-new-controllers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0066-SCSI-hpsa-Make-hpsa_allow_any-1-boot-param-enable-Co.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0067-SCSI-hpsa-make-hpsa_find_memory_BAR-not-require-the-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0068-SCSI-hpsa-factor-out-hpsa_find_cfg_addrs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0069-SCSI-hpsa-factor-out-the-code-to-reset-controllers-o.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0070-SCSI-hpsa-Fix-hard-reset-code.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0071-SCSI-hpsa-forbid-hard-reset-of-640x-boards.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0072-SCSI-hpsa-separate-intx-and-msi-msix-interrupt-handl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0073-SCSI-hpsa-sanitize-max-commands.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0074-SCSI-hpsa-disable-doorbell-reset-on-reset_devices.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0077-SCSI-hpsa-fix-redefinition-of-PCI_DEVICE_ID_CISSF.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0078-SCSI-hpsa-do-not-consider-firmware-revision-when-loo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0079-SCSI-hpsa-do-not-consider-RAID-level-to-be-part-of-d.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 986,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0080-hpsa-defend-against-zero-sized-buffers-in-passthru-i.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0081-hpsa-fixup-DMA-address-before-freeing.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0082-hpsa-Remove-duplicate-defines-of-DIRECT_LOOKUP_-cons.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0083-hpsa-fix-board-status-waiting-code.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0084-hpsa-Use-kernel-provided-PCI-state-save-and-restore-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0085-hpsa-limit-commands-allocated-on-reset_devices.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0086-hpsa-do-not-reset-unknown-boards-on-reset_devices.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0087-hpsa-take-the-adapter-lock-in-hpsa_wait_for_mode_cha.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0088-hpsa-allow-driver-to-put-controller-in-either-simple.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0089-hpsa-Add-a-per-controller-commands_outstanding-entry.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0090-hpsa-fix-use-of-uninitialized-variable-in-hpsa_add_m.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0091-hpsa-Fix-problem-that-CMD_UNABORTABLE-command-status.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0092-hpsa-avoid-leaking-stack-contents-to-userland.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0093-hpsa-do-not-re-order-commands-in-internal-queues.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0094-hpsa-make-hpsa.hpsa_simple_mode-1-module-parameter-a.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0095-hpsa-Add-transport_mode-host-attribute-in-sys.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0096-hpsa-Inform-controller-we-are-using-32-bit-tags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0097-hpsa-Do-not-attempt-kdump-if-we-detect-resetting-con.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0098-hpsa-fix-bad-comparison.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0099-hpsa-fix-incorrect-PCI-IDs-and-add-two-new-ones-2nd-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0100-hpsa-move-device-attributes-to-avoid-forward-declara.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0101-hpsa-export-resettable-host-attribute.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0102-hpsa-do-readl-after-writel-in-main-i-o-path-to-ensur.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0103-hpsa-add-readl-after-writel-in-interrupt-mask-settin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0104-hpsa-remove-unused-parameter-from-hpsa_complete_scsi.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0105-hpsa-delete-old-unused-padding-garbage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0106-hpsa-do-a-better-job-of-detecting-controller-reset-f.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0107-hpsa-wait-longer-for-no-op-to-complete-after-resetti.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0108-hpsa-factor-out-cmd-pool-allocation-functions.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0109-hpsa-factor-out-irq-request-code.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0110-hpsa-increase-time-to-wait-for-board-reset.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0111-hpsa-clarify-messages-around-reset-behavior.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1942,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0112-hpsa-remove-atrophied-hpsa_scsi_setup-function.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0113-hpsa-use-new-doorbell-bit-5-reset-method.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0114-hpsa-do-soft-reset-if-hard-reset-is-broken.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0115-hpsa-remove-superfluous-sleeps-around-reset-code.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0116-hpsa-do-not-attempt-PCI-power-management-reset-metho.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0117-hpsa-add-P2000-to-list-of-shared-SAS-devices.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0118-hpsa-Change-memset-using-sizeof-ptr-to-sizeof-ptr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0119-hpsa-fix-dma-unmap-error-in-hpsa_passthru_ioctl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0120-hpsa-fix-potential-overrun-while-memcpy-ing-sense-da.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0121-hpsa-do-not-attempt-to-read-from-a-write-only-regist.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0122-hpsa-retry-commands-completing-with-status-of-UNSOLI.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0123-hpsa-fix-problem-that-OBDR-devices-are-not-detected.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0124-hpsa-fix-physical-device-lun-and-target-numbering-pr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0125-hpsa-change-confusing-message-to-be-more-clear.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0126-hpsa-add-small-delay-when-using-PCI-Power-Management.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0127-hpsa-set-max-sectors-instead-of-taking-the-default.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0128-hpsa-remove-unused-busy_initializing-and-busy_scanni.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1620,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0129-hpsa-rename-HPSA_MAX_SCSI_DEVS_PER_HBA.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0130-hpsa-fix-potential-array-overflow-in-hpsa_update_scs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0131-hpsa-fix-flush-cache-transfer-length.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0132-hpsa-detect-controller-lockup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10298,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0133-hpsa-Disable-ASPM.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0134-hpsa-Fix-problem-with-MSA2xxx-devices.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0135-hpsa-Add-IRQF_SHARED-back-in-for-the-non-MSI-X-inter.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0136-hpsa-fix-handling-of-protocol-error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0137-hpsa-Use-LUN-reset-instead-of-target-reset.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0138-hpsa-dial-down-lockup-detection-during-firmware-flas.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "hpsa",
+    "package": "linux-2.6",
+    "path": "linux-2.6/2.6.32-48squeeze20/debian/patches/features/all/hpsa",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1415173,
+        "license": "/copyright/license/linux-2.6/2.6.32-48squeeze20/",
+        "metric": {
+            "size": 494000
+        },
+        "pts_link": "https://tracker.debian.org/pkg/linux-2.6",
+        "sloc": [
+            [
+                "ansic",
+                7636125
+            ],
+            [
+                "asm",
+                225085
+            ],
+            [
+                "xml",
+                32978
+            ],
+            [
+                "makefile",
+                19314
+            ],
+            [
+                "perl",
+                11533
+            ],
+            [
+                "sh",
+                3561
+            ],
+            [
+                "cpp",
+                3365
+            ],
+            [
+                "yacc",
+                2964
+            ],
+            [
+                "python",
+                2893
+            ],
+            [
+                "lex",
+                1824
+            ],
+            [
+                "lisp",
+                218
+            ],
+            [
+                "pascal",
+                116
+            ],
+            [
+                "awk",
+                109
+            ],
+            [
+                "sed",
+                30
+            ]
+        ],
+        "suites": [
+            "squeeze-lts"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/kernel/linux.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.32-48squeeze20"
+}

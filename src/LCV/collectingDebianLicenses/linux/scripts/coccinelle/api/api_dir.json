@@ -1,0 +1,294 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "alloc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "atomic_as_refcounter.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_bq27xxx_data.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d_find_alias.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debugfs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "device_attr_show.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "err_cast.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kfree_mismatch.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kfree_sensitive.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kstrdup.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kvmalloc.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memdup.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memdup_user.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform_get_irq.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform_no_drv_owner.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pm_runtime.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "resource_size.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_open.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stream_open.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vma_pages.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "api",
+    "package": "linux",
+    "path": "linux/5.14.6-3/scripts/coccinelle/api",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/linux/5.14.6-3/",
+        "metric": {
+            "size": 1285796
+        },
+        "pts_link": "https://tracker.debian.org/pkg/linux",
+        "sloc": [
+            [
+                "ansic",
+                20745350
+            ],
+            [
+                "asm",
+                260329
+            ],
+            [
+                "sh",
+                86539
+            ],
+            [
+                "makefile",
+                45870
+            ],
+            [
+                "perl",
+                35985
+            ],
+            [
+                "python",
+                33079
+            ],
+            [
+                "cpp",
+                6029
+            ],
+            [
+                "yacc",
+                4760
+            ],
+            [
+                "lex",
+                2711
+            ],
+            [
+                "awk",
+                1230
+            ],
+            [
+                "ruby",
+                25
+            ],
+            [
+                "sed",
+                5
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/kernel-team/linux",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.14.6-3"
+}

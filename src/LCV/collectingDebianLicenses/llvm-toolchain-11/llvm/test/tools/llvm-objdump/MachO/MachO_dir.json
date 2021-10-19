@@ -1,0 +1,851 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AArch64",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ARM",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Inputs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8192,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "LLVM-bundle.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "archive-headers.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bad-bind.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bad-dysymtab.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bad-ordinal.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bad-trie.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bind.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 649,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bind2.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-version.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compact-unwind-i386.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compact-unwind-x86_64.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cstring-dump.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data-in-code.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dis-no-leading-addr.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dis-symname.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disassemble-all.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disassemble-g-dsym.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disassemble-kextbundle.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disassemble-relocs-data-x86_64.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disassemble-stab.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disassemble-stripped.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dylib.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "eh_frame-arm64.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exports-trie.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hex-displacement.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image-info.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indirect-symbols.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "info-plist-nofollow.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "info-plist.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lazy-bind.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lit.local.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "literal-pointers-i386.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "literal-pointers-x86_64.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "literals.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "maccatalyst-build-version.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "macho-objc-meta-data.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "malformed-machos.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "malformed-unwind-x86_64.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "malformed.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nofirst-symbol-disassembly.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nontext-disasm.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objc-meta-data.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preload-relocations.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print-thread.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private-header.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private-headers.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rebase.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "relocations.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "section-contents.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 964,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "section-headers.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "section.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sections.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stabs.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stub-nosyms-disassembly.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stubbed-dylib.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbol-table.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolized-disassembly.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolized-subtractor-i386.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolized-subtractor.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "truncated-section.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "universal-x86_64.i386.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unwind-info-arm64.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unwind-info-no-relocs.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unwind-info-x86_64.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unwind-info.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "weak-bind.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "MachO",
+    "package": "llvm-toolchain-11",
+    "path": "llvm-toolchain-11/1:11.1.0-4/llvm/test/tools/llvm-objdump/MachO",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-11/1:11.1.0-4/",
+        "metric": {
+            "size": 997052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-11",
+        "sloc": [
+            [
+                "cpp",
+                4767991
+            ],
+            [
+                "ansic",
+                760958
+            ],
+            [
+                "asm",
+                477436
+            ],
+            [
+                "python",
+                170940
+            ],
+            [
+                "objc",
+                69804
+            ],
+            [
+                "lisp",
+                29914
+            ],
+            [
+                "sh",
+                23855
+            ],
+            [
+                "f90",
+                18173
+            ],
+            [
+                "pascal",
+                7551
+            ],
+            [
+                "perl",
+                7471
+            ],
+            [
+                "ml",
+                5603
+            ],
+            [
+                "awk",
+                3489
+            ],
+            [
+                "makefile",
+                2571
+            ],
+            [
+                "xml",
+                915
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                503
+            ],
+            [
+                "javascript",
+                452
+            ]
+        ],
+        "suites": [],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:11.1.0-4"
+}

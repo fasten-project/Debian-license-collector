@@ -1,0 +1,5517 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arm64-atomic-128.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-atomic.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-callingconv-ios.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-callingconv.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-fallback.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-irtranslator-fmuladd.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-irtranslator-gep.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-irtranslator-stackprotect.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 903,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-irtranslator-switch.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-irtranslator.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64-regbankselect.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "artifact-combine-unmerge.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "artifact-find-value.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "builtin-return-address-pacret.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "byval-call.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-lowering-const-bitcast-func.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-lowering-i128-on-stack.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-lowering-i256-crash.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-lowering-signext.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-lowering-vectors.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-lowering-zeroext.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-translator-cse.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-translator-ios.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-translator-musttail.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-translator-tail-call-sret.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-translator-tail-call-weak.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-translator-tail-call.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-translator-variadic-musttail.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call-translator.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-anyext-crash.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-build-vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-copy.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-ext-debugloc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-ext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-extract-vec-elt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-fabs.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-fconstant.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-flog2.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-fneg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-fptrunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-fsqrt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-insert-vec-elt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-inttoptr-ptrtoint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-mul-to-shl.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3071,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-mul.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-ptradd-int2ptr.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-ptradd-reassociation.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-ptrtoint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-sext-debugloc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-sext-trunc-sextload.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-shift-immed-mismatch-crash.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-shl.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-trunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combine-unmerge.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "combiner-load-store-indexing.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "constant-dbg-loc.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3709,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "constant-mir-debugify.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1933,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "contract-store.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "darwin-tls-call-clobber.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-cpp.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-insts.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-loc-legalize-tail-call.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dynamic-alloca-lifetime.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dynamic-alloca.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fallback-nofastisel.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fconstant-dbg-loc.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1107,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fold-brcond-fcmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fold-fp-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fold-global-offsets-target-features.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fold-global-offsets.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fold-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2907,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "form-bitfield-extract-from-and.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "form-bitfield-extract-from-sextinreg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fp128-legalize-crash-pr35690.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fp16-copy-gpr.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "freeze.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gisel-abort.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gisel-commandline-option-fastisel.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gisel-commandline-option.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3942,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gisel-fail-intermediate-legalizer.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "huge-switch.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "implicit_def_rbs_crash.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-asm.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-memcpy-forced.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-memcpy.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-memmove.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-memset.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inline-small-memcpy.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3095,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "integration-shuffle-vector.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-arguments.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-atomic-metadata.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-bitcast.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-block-order.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-condbr-lower-tree.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-convert-fp16-intrinsics.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-dilocation.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-duplicate-types-param.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 609,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-exceptions.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-extends.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-extract-used-by-dbg.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-fixed-point-intrinsics.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-fp-min-max-intrinsics.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-indirect-br-repeated-block.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-inline-asm.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-invoke-probabilities.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-load-metadata.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-localescape.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-max-address-space.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-memcpy-inline.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-memfunc-undef.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-no-op-intrinsics.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-no-unwind-inline-asm.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-one-by-n-vector-ptr-add.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-reductions.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-split-vector-arg.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-stack-evt-bug47619.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-stack-objects.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-stackprotect-check.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-store-metadata.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-switch-bittest.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-tbaa.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-unwind-inline-asm.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-volatile-load-pr36018.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-weird-alloca-size.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "labels-are-not-dead.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-abs.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-add.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-and.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-atomicrmw.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-bitreverse.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-blockaddress.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-bswap.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-build-vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-bzero-unsupported.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-bzero.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ceil.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-cmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-cmpxchg-128.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-cmpxchg-with-success.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-cmpxchg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-combines.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-concat-vectors.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-constant.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9028,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-cos.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ctlz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ctpop-no-implicit-float.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ctpop.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-cttz-zero-undef.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-cttz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-div.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2803,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-divrem.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-dyn-alloca.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-exceptions.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-exp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ext-cse.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ext-csedebug-output.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-extload.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-extract-vector-elt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-extracts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fcmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 991,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fexp2.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fma.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fp-arith.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fp128-fconstant.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fp16-fconstant.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fpext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fptoi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fptrunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4923,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-freeze.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-frint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fshl.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-fshr.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-global-pic.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-global.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ignore-hint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ignore-non-generic.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-insert-vector-elt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-inserts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-intrinsic-min-max.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-intrinsic-round.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-intrinsic-trunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-inttoptr-xfail-1.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-inttoptr-xfail-2.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-inttoptr.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-itofp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8968,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-load-store-fewerElts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-load-store-vector-of-ptr-debugloc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-load-store-vector-of-ptr.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-load-store.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-load-trunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-log.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-log10.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-log2.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-lrint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-memcpy-et-al.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-memcpy-with-debug-info.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-memlib-debug-loc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-merge-values.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-min-max.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-mul.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-nearbyint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-non-pow2-load-store.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-or.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1980,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-phi-insertpt-decrement.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3940,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-phi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-pow.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-property.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ptr-add.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-reduce-add.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-reduce-fadd.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-rem.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-rotr-rotl.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-s128-div.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sadde.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-saddo.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sbfx.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sext-128.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sext-128.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sext-copy.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sext-zext-128.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sextload.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-shift-imm-promote-dloc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-shift.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-shuffle-vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-simple.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sin.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sqrt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ssube.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ssubo.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-sub.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-uadd-sat.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-uadde.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-uaddo.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-ubfx.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-undef.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-unmerge-values.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-usub-sat.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-usube.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-usubo.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-vaarg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-vector-cmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-vector-shift.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-xor.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalize-zextload.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalizer-combiner-zext-trunc-crash.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalizer-combiner.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legalizer-info-validation.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lifetime-marker-no-dce.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "load-addressing-modes.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21964,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "load-wro-addressing-modes.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localizer-arm64-tti.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localizer-in-O0-pipeline.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3417,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localizer.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lower-neon-vector-fcmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "machine-cse-mid-pipeline.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memcpy_chk_no_tail.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-neon-no-fp.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-regclass.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "non-pow-2-extload-combine.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "observer-change-crash.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opt-and-tbnz-tbz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opt-fold-and-tbz-tbnz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opt-fold-compare.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19649,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opt-fold-ext-tbz-tbnz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opt-fold-shift-tbz-tbnz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opt-fold-trunc-tbz-tbnz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opt-fold-xor-tbz-tbnz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opt-overlapping-and.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opt-shifted-reg-compare.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "phi-mir-debugify.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-combiner-and-trivial-mask.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-combiner-constant-fold.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-combiner-copy-prop.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-combiner-identity.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-combiner-merge.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-combiner-redundant-sextinreg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-combiner-store-undef.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-adjust-icmp-imm.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-build-vector-to-dup.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-ext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-rev.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-shuf-to-ins.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-shuffle-duplane.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5819,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-shuffle-splat.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-swap-compare-operands.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-trn.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-truncstore.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-uzp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4685,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-vashr-vlshr.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5053,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizer-lowering-zip.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizercombiner-extending-loads.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizercombiner-extractvec-faddp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizercombiner-hoist-same-hands.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizercombiner-mulpow2.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1054,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizercombiner-rotate.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postlegalizercombiner-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1955,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postselectopt-constrain-new-regop.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postselectopt-dead-cc-defs-in-fcmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizer-combiner-divrem-insertpt-crash.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizer-combiner-icmp-to-true-false-known-bits.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizer-combiner-load-or-pattern-align.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizer-combiner-load-or-pattern.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-ashr-shl-to-sext-inreg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-binop-same-val.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-br.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-bzero.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-concat-vectors.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-copy-prop-disabled.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-extending-loads-cornercases.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-extending-loads-s1.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-extending-loads.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11942,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-funnel-shifts-to-rotates.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-hoist-same-hands.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-icmp-redundant-trunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-invert-cmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-not-really-equiv-insts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-prop-extends-phi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-ptradd-chain.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-sextload-from-sextinreg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4054,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-shuffle-vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-simplify-add.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-trivial-arith.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-undef.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelegalizercombiner-xor-of-and-with-same-reg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preselect-process-phis.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reg-bank-128bit.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-assert-sext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-assert-zext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-ceil.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-dup.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-extract-vector-elt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-extract.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-fcmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-fma.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-fp-use-def.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-inlineasm.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-insert-vector-elt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-intrinsic-round.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-intrinsic-trunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-intrinsic.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-nearbyint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-shift-imm-64.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbank-trunc-s128.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbankselect-build-vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbankselect-dbg-value.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbankselect-default.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbankselect-reductions.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbankselect-reg_sequence.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regbankselect-unmerge-vec.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ret-1x-vec.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ret-vec-promote.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "retry-artifact-combine.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-abs.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-add-low.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-arith-extended-reg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-arith-shifted-reg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-atomic-load-store.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-atomicrmw.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-binop.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-bitcast-bigendian.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-bitcast.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-bitfield-insert.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3903,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-bitreverse.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-blockaddress.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-br.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-brcond-of-binop.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-bswap.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-build-vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-cbz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-ceil.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-cmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-cmpxchg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-concat-vectors.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-const-pool.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-const-vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-constant.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-ctlz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-ctpop.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-dbg-value.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2756,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-dup.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-ext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-extload.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-extract-vector-elt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-extract.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-fabs.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-faddp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-fcmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4757,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-floor.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-fma.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-fmul-indexed.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-fp-casts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-fp16-fconstant.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-frameaddr.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-frint-nofp16.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-frint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-gv-cmodel-large.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-gv-cmodel-tiny.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-gv-with-offset.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-hint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4757,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-imm.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-implicit-def.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-insert-extract.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-insert-vector-elt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-int-ext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-int-ptr-casts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-intrinsic-aarch64-hint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-intrinsic-aarch64-sdiv.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-intrinsic-crypto-aesmc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-intrinsic-round.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-intrinsic-trunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-intrinsic-uaddlv.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-jump-table-brjt-constrain.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-jump-table-brjt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-ldaxr-intrin.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-ldxr-intrin.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-load-store-vector-of-ptr.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-load.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-logical-imm.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-logical-shifted-reg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-mul.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-muladd.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-nearbyint.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-neon-vcvtfxu2fp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-neon-vector-fcmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-phi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-pr32733.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-property.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 535,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-ptr-add.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-reduce-add.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-reduce-fadd.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-redundant-zext-of-load.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-redundant-zext.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-returnaddr.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-returnaddress-liveins.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-rev.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-saddo.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-sbfx.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-scalar-merge.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1091,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-scalar-shift-imm.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23087,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-sextload.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-shuffle-vector.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-shufflevec-undef-mask-elt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-sqrt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-ssubo.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-st2.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8177,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-static.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-stlxr-intrin.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-store.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-stx.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-trap.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-trn.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-trunc.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-uaddo.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-ubfx.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-unmerge.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8709,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-usubo.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-uzp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-vector-icmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-vector-shift.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-with-no-legality-check.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-xor.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-zext-as-copy.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-zextload.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5049,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-zip.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sext-inreg-ldrow-16b.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "speculative-hardening-brcond.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "store-addressing-modes.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "store-wro-addressing-modes.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subreg-copy.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "swifterror.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "swiftself.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tail-call-no-save-fp-lr.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tbnz-slt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tbz-sgt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "translate-constant-dag.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "translate-gep.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "translate-ret.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubsantrap.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unknown-intrinsic.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unwind-inline-asm.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "varargs-ios-translator.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vastart.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vec-s16-param.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "widen-narrow-tbz-tbnz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xro-addressing-mode-constant.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "GlobalISel",
+    "package": "llvm-toolchain-13",
+    "path": "llvm-toolchain-13/1:13.0.0-4/llvm/test/CodeGen/AArch64/GlobalISel",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-13/1:13.0.0-4/",
+        "metric": {
+            "size": 1417588
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-13",
+        "sloc": [
+            [
+                "cpp",
+                5290303
+            ],
+            [
+                "ansic",
+                996559
+            ],
+            [
+                "asm",
+                544515
+            ],
+            [
+                "python",
+                188212
+            ],
+            [
+                "objc",
+                72027
+            ],
+            [
+                "lisp",
+                30291
+            ],
+            [
+                "f90",
+                25395
+            ],
+            [
+                "sh",
+                24885
+            ],
+            [
+                "javascript",
+                9780
+            ],
+            [
+                "pascal",
+                9405
+            ],
+            [
+                "perl",
+                7484
+            ],
+            [
+                "ml",
+                5432
+            ],
+            [
+                "awk",
+                3523
+            ],
+            [
+                "makefile",
+                2841
+            ],
+            [
+                "xml",
+                953
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                539
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/snapshot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:13.0.0-4"
+}

@@ -1,0 +1,145 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bullseye",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 8,
+                "symlink_dest": "squeeze/",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "buster",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "squeeze",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "jessie",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "squeeze",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "kali-dev",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 3,
+                "symlink_dest": "sid",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "kali-last-snapshot",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 3,
+                "symlink_dest": "sid",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "kali-rolling",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 3,
+                "symlink_dest": "sid",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sid",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "squeeze",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "squeeze",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "stretch",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "squeeze",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "unstable",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "squeeze",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "debian-cd",
+    "package": "live-build",
+    "path": "live-build/1:20210902/data/debian-cd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/live-build/1:20210902/",
+        "metric": {
+            "size": 2732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/live-build",
+        "sloc": [
+            [
+                "sh",
+                8834
+            ],
+            [
+                "makefile",
+                124
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/live-team/live-build",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:20210902"
+}

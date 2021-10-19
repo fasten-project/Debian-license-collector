@@ -1,0 +1,413 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "benchmark_matmul.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "benchmark_matmul_column_major_as_row_major.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "benchmark_matmul_i8_i8_i32.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "matmul-vs-matvec.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2980,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rank-reducing-subview.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1644,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-collapse-tensor.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-comprehensive-bufferize.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-1d-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2938,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-1d-input-ncw-filter-wcf-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-1d-input-nwc-filter-wcf-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-1d-ncw-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-1d-nwc-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-2d-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-2d-input-nchw-filter-hwcf-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-2d-input-nhwc-filter-hwcf-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-2d-nchw-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-2d-nhwc-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-3d-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-3d-input-ncdhw-filter-dhwcf-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-3d-input-ndhwc-filter-dhwcf-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-3d-ncdhw-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-conv-3d-ndhwc-call.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-elementwise.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-expand-tensor.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-padtensor.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-subtensor-insert-multiple-uses.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-subtensor-insert.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-tensor-e2e.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-tensor-matmul.mlir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "CPU",
+    "package": "llvm-toolchain-13",
+    "path": "llvm-toolchain-13/1:13.0.0-5/mlir/test/Integration/Dialect/Linalg/CPU",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-13/1:13.0.0-5/",
+        "metric": {
+            "size": 1417580
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-13",
+        "sloc": [
+            [
+                "cpp",
+                5290303
+            ],
+            [
+                "ansic",
+                996559
+            ],
+            [
+                "asm",
+                544515
+            ],
+            [
+                "python",
+                188212
+            ],
+            [
+                "objc",
+                72027
+            ],
+            [
+                "lisp",
+                30291
+            ],
+            [
+                "f90",
+                25395
+            ],
+            [
+                "sh",
+                24885
+            ],
+            [
+                "javascript",
+                9780
+            ],
+            [
+                "pascal",
+                9405
+            ],
+            [
+                "perl",
+                7484
+            ],
+            [
+                "ml",
+                5432
+            ],
+            [
+                "awk",
+                3523
+            ],
+            [
+                "makefile",
+                2841
+            ],
+            [
+                "xml",
+                953
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                539
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/snapshot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:13.0.0-5"
+}

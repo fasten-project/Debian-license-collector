@@ -1,0 +1,765 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arm-call-lowering.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-instruction-select-cmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-instruction-select-combos.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-instruction-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-irtranslator.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-isel-divmod.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2850,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-isel-fp.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-isel-globals-pic.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-isel-globals-ropi-rwpi.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-isel-globals-static.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-isel.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-binops-neon.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1455,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-binops.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-bitcounts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-casts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-cmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-consts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-control-flow.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4001,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-divmod.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24001,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-exts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-fp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-globals.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-load-store.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalize-vfp4.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-legalizer.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-param-lowering.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-regbankselect.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-select-copy_to_regclass-of-fptosi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-select-globals-pic.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-select-globals-ropi-rwpi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-select-globals-static.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm-unsupported.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irtranslator-varargs-lowering.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5022,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lit.local.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr35375.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-clz.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-dbg.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-fp-const.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-fp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-neon.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1703,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-pkhbt.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-pr35926.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select-revsh.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-instruction-select-cmp.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-isel-globals-pic.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-isel-globals-ropi-rwpi.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-isel-globals-static.ll",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-arithmetic-ops.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-br.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-casts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-exts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-globals-pic.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-globals-ropi-rwpi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-globals-static.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-imm.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-load-store.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-logical-ops.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-phi.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-select.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thumb-select-shifts.mir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "GlobalISel",
+    "package": "llvm-toolchain-11",
+    "path": "llvm-toolchain-11/1:11.1.0-4/llvm/test/CodeGen/ARM/GlobalISel",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/llvm-toolchain-11/1:11.1.0-4/",
+        "metric": {
+            "size": 997052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/llvm-toolchain-11",
+        "sloc": [
+            [
+                "cpp",
+                4767991
+            ],
+            [
+                "ansic",
+                760958
+            ],
+            [
+                "asm",
+                477436
+            ],
+            [
+                "python",
+                170940
+            ],
+            [
+                "objc",
+                69804
+            ],
+            [
+                "lisp",
+                29914
+            ],
+            [
+                "sh",
+                23855
+            ],
+            [
+                "f90",
+                18173
+            ],
+            [
+                "pascal",
+                7551
+            ],
+            [
+                "perl",
+                7471
+            ],
+            [
+                "ml",
+                5603
+            ],
+            [
+                "awk",
+                3489
+            ],
+            [
+                "makefile",
+                2571
+            ],
+            [
+                "xml",
+                915
+            ],
+            [
+                "cs",
+                573
+            ],
+            [
+                "fortran",
+                503
+            ],
+            [
+                "javascript",
+                452
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:11.1.0-4"
+}

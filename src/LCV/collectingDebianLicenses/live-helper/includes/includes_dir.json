@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "etch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lenny",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sid",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 5,
+                "symlink_dest": "lenny",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "squeeze",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 5,
+                "symlink_dest": "lenny",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "includes",
+    "package": "live-helper",
+    "path": "live-helper/1.0.3-2/includes",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 470,
+        "license": "/copyright/license/live-helper/1.0.3-2/",
+        "metric": {
+            "size": 7272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/live-helper",
+        "sloc": [
+            [
+                "sh",
+                8609
+            ],
+            [
+                "makefile",
+                152
+            ],
+            [
+                "python",
+                47
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ],
+        "vcs_browser": "http://git.debian.net/?p=debian-live/live-helper.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.3-2"
+}

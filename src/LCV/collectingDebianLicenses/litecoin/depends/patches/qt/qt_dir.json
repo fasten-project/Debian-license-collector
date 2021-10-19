@@ -1,0 +1,133 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix_configure_mac.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_no_printer.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_qt_pkgconfig.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_rcc_determinism.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 765,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_riscv64_arch.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mac-qmake.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xkb-default.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 749,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "qt",
+    "package": "litecoin",
+    "path": "litecoin/0.18.1-1.1/depends/patches/qt",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/litecoin/0.18.1-1.1/",
+        "metric": {
+            "size": 25724
+        },
+        "pts_link": "https://tracker.debian.org/pkg/litecoin",
+        "sloc": [
+            [
+                "cpp",
+                125675
+            ],
+            [
+                "python",
+                24465
+            ],
+            [
+                "ansic",
+                14322
+            ],
+            [
+                "sh",
+                4544
+            ],
+            [
+                "makefile",
+                1594
+            ],
+            [
+                "asm",
+                730
+            ],
+            [
+                "java",
+                438
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/litecoin",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.18.1-1.1"
+}
