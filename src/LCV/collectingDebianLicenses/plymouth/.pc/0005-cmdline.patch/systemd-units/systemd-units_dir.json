@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "plymouth-halt.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plymouth-kexec.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plymouth-poweroff.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plymouth-reboot.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plymouth-start.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "systemd-ask-password-plymouth.path.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "systemd-ask-password-plymouth.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd-units",
+    "package": "plymouth",
+    "path": "plymouth/0.9.5-3/.pc/0005-cmdline.patch/systemd-units",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/plymouth/0.9.5-3/",
+        "metric": {
+            "size": 6872
+        },
+        "pts_link": "https://tracker.debian.org/pkg/plymouth",
+        "sloc": [
+            [
+                "ansic",
+                32655
+            ],
+            [
+                "sh",
+                5859
+            ],
+            [
+                "makefile",
+                951
+            ],
+            [
+                "xml",
+                575
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/plymouth",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.5-3"
+}

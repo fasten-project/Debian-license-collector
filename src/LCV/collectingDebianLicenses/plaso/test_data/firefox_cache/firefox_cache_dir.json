@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cache2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "firefox28",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "firefox3",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "invalid_file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "firefox_cache",
+    "package": "plaso",
+    "path": "plaso/20201007-2/test_data/firefox_cache",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/plaso/20201007-2/",
+        "metric": {
+            "size": 519924
+        },
+        "pts_link": "https://tracker.debian.org/pkg/plaso",
+        "sloc": [
+            [
+                "python",
+                79002
+            ],
+            [
+                "sh",
+                629
+            ],
+            [
+                "xml",
+                72
+            ],
+            [
+                "sql",
+                14
+            ],
+            [
+                "vhdl",
+                11
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/plaso",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20201007-2"
+}

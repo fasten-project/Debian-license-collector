@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-add-junit-dependency.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-propertyutils-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-maven-plugin-testing-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-ignore-jmh-benchmarks.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "plexus-utils2",
+    "path": "plexus-utils2/3.3.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/plexus-utils2/3.3.0-1/",
+        "metric": {
+            "size": 2024
+        },
+        "pts_link": "https://tracker.debian.org/pkg/plexus-utils2",
+        "sloc": [
+            [
+                "java",
+                25796
+            ],
+            [
+                "xml",
+                166
+            ],
+            [
+                "makefile",
+                8
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/plexus-utils2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.3.0-1"
+}

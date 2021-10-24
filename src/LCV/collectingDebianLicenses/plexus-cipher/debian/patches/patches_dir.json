@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "eclipse-sisu.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sisu-maven-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "plexus-cipher",
+    "path": "plexus-cipher/1.8-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/plexus-cipher/1.8-2/",
+        "metric": {
+            "size": 216
+        },
+        "pts_link": "https://tracker.debian.org/pkg/plexus-cipher",
+        "sloc": [
+            [
+                "java",
+                745
+            ],
+            [
+                "xml",
+                143
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/plexus-cipher",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8-2"
+}

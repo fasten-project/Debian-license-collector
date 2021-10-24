@@ -1,0 +1,165 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aRegularDir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fileR.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileW.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileX.txt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symDir",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "targetDir/",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "symLinkToDirOnTheOutside",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 19,
+                "symlink_dest": "../dirOnTheOutside/",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "symLinkToFileOnTheOutside",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 19,
+                "symlink_dest": "../onTheOutside.txt",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symR",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 9,
+                "symlink_dest": "fileR.txt",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symW",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 9,
+                "symlink_dest": "fileW.txt",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symX",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 9,
+                "symlink_dest": "fileX.txt",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "targetDir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "plexus-io",
+    "path": "plexus-io/3.2.0-1.1/src/test/resources/symlinks/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/plexus-io/3.2.0-1.1/",
+        "metric": {
+            "size": 652
+        },
+        "pts_link": "https://tracker.debian.org/pkg/plexus-io",
+        "sloc": [
+            [
+                "java",
+                4113
+            ],
+            [
+                "xml",
+                250
+            ],
+            [
+                "sh",
+                5
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/plexus-io",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.0-1.1"
+}

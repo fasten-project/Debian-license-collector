@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix_installation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_debian_packaged_genometester.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "plasmidseeker",
+    "path": "plasmidseeker/1.3+dfsg-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/plasmidseeker/1.3+dfsg-2/",
+        "metric": {
+            "size": 248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/plasmidseeker",
+        "sloc": [
+            [
+                "perl",
+                520
+            ],
+            [
+                "sh",
+                41
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/plasmidseeker",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3+dfsg-2"
+}

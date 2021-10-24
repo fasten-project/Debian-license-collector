@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dpkg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dpkg-query",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vim",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "vim.gtk",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vim.gtk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "File",
+    "package": "pk4",
+    "path": "pk4/5/cmd/pk4/testdata/File",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pk4/5/",
+        "metric": {
+            "size": 1016
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pk4",
+        "sloc": [
+            [
+                "sh",
+                146
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/Debian/pk4",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5"
+}

@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "system.journal",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8388608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.journal.lz4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8388608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system%4000053f9c9a4c1e0e-2e18a70e8b327fed.journalTILDE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8388608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "journal",
+    "package": "plaso",
+    "path": "plaso/20201007-2/test_data/systemd/journal",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/plaso/20201007-2/",
+        "metric": {
+            "size": 519924
+        },
+        "pts_link": "https://tracker.debian.org/pkg/plaso",
+        "sloc": [
+            [
+                "python",
+                79002
+            ],
+            [
+                "sh",
+                629
+            ],
+            [
+                "xml",
+                72
+            ],
+            [
+                "sql",
+                14
+            ],
+            [
+                "vhdl",
+                11
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/plaso",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20201007-2"
+}

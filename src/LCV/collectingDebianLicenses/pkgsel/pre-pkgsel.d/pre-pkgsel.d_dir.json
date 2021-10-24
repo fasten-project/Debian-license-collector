@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "10laptop-detect",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20update-policy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "90popcon",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "pre-pkgsel.d",
+    "package": "pkgsel",
+    "path": "pkgsel/0.73/pre-pkgsel.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pkgsel/0.73/",
+        "metric": {
+            "size": 684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pkgsel",
+        "sloc": [
+            [
+                "sh",
+                201
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/pkgsel",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.73"
+}
