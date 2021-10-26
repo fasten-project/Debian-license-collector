@@ -1,0 +1,143 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-misspelling-loose.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-uint8-char.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-build-flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-static-inline.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-reboot-on-esc.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-change-colors.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2757,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-pause.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-speed-up.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1049,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "invaders",
+    "path": "invaders/1.0.0-15/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/invaders/1.0.0-15/",
+        "metric": {
+            "size": 316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/invaders",
+        "sloc": [
+            [
+                "ansic",
+                2215
+            ],
+            [
+                "sh",
+                54
+            ],
+            [
+                "asm",
+                28
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/invaders",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0-15"
+}

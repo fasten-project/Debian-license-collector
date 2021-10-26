@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ipvsadm.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipvsadm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "limit-weight-to-int-max.patch",
+    "package": "ipvsadm",
+    "path": "ipvsadm/1:1.31-1/.pc/limit-weight-to-int-max.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ipvsadm/1:1.31-1/",
+        "metric": {
+            "size": 496
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ipvsadm",
+        "sloc": [
+            [
+                "ansic",
+                4070
+            ],
+            [
+                "sh",
+                288
+            ],
+            [
+                "makefile",
+                135
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/formorer/pkg-ipvsadm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.31-1"
+}

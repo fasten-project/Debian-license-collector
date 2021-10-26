@@ -1,0 +1,97 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "commons-codec-Base64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7796,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exclude-barcode4j-and-barbecue.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-commons-javaflow.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "jasperreports",
+    "path": "jasperreports/6.2.2-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 40578,
+        "license": "/copyright/license/jasperreports/6.2.2-3/",
+        "metric": {
+            "size": 24524
+        },
+        "pts_link": "https://tracker.debian.org/pkg/jasperreports",
+        "sloc": [
+            [
+                "java",
+                265345
+            ],
+            [
+                "xml",
+                7255
+            ],
+            [
+                "makefile",
+                10
+            ],
+            [
+                "sh",
+                8
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/jasperreports.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.2.2-3"
+}

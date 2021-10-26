@@ -1,0 +1,59 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "client",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "dhclient-release.patch",
+    "package": "isc-dhcp",
+    "path": "isc-dhcp/4.4.1-2.3/.pc/dhclient-release.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/isc-dhcp/4.4.1-2.3/",
+        "metric": {
+            "size": 8204
+        },
+        "pts_link": "https://tracker.debian.org/pkg/isc-dhcp",
+        "sloc": [
+            [
+                "ansic",
+                93168
+            ],
+            [
+                "perl",
+                4383
+            ],
+            [
+                "sh",
+                3702
+            ],
+            [
+                "xml",
+                680
+            ],
+            [
+                "makefile",
+                304
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dhcp-team/isc-dhcp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.4.1-2.3"
+}

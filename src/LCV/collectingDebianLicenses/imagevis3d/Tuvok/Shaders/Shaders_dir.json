@@ -1,0 +1,901 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "1D-slice-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2D-slice-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "BBox-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "BBox-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "BTF.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Compose-AF-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Compose-Anaglyphs-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Compose-CV-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Compose-Color-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Compose-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Compose-SBS-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Compose-Scanline-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Compositing.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "FTB.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-GradientTools.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-1D-L-color.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-1D-L.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-1D-color.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-1D.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1605,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-2D-L-color.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-2D-L.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2535,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-2D-color.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-2D.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-iso-color.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-Method-iso.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-NearPlane-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-blend.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-entry-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-frontfaces-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLGridLeaper-iso.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7958,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-1D-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-1D-light-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-2D-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-2D-light-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-Color-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-ISO-CV-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4819,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-ISO-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-MIP-Rot-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycaster-frontfaces-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLRaycasterNoTransform-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-1D-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-1D-light-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-2D-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-2D-light-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-Color-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-ISO-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-MIP-Rot-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-Mesh-1D-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-Mesh-1D-light-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-Mesh-2D-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-Mesh-2D-light-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3877,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-Mesh-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1879,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GLSBVR-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "MIP-slice-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Mesh-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Mesh-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RefineIsosurface.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SlicesIn3D.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Transfer-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Transfer-MIP-FS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Transfer-VS.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRender1D-BScale.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRender1D-Color-BScale.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRender1D-Color.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRender1D.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRender1DLit-BScale.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRender1DLit-Color-BScale.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRender1DLit-Color.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRender1DLit.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRender1DProxy.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Volume2D-linear.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Volume2D-nearest.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Volume3D.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lighting.glsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Shaders",
+    "package": "imagevis3d",
+    "path": "imagevis3d/3.1.0-7/Tuvok/Shaders",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/imagevis3d/3.1.0-7/",
+        "metric": {
+            "size": 20840
+        },
+        "pts_link": "https://tracker.debian.org/pkg/imagevis3d",
+        "sloc": [
+            [
+                "cpp",
+                125470
+            ],
+            [
+                "ansic",
+                83889
+            ],
+            [
+                "sh",
+                959
+            ],
+            [
+                "python",
+                557
+            ],
+            [
+                "perl",
+                467
+            ],
+            [
+                "xml",
+                258
+            ],
+            [
+                "makefile",
+                115
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/imagevis3d",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.1.0-7"
+}

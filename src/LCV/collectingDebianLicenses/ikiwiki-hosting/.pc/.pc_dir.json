@@ -1,0 +1,120 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Avoid-directly-running-init-scripts-instead-use-the-servi.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Avoid-running-apache2ctl-graceful-which-may-restart-apach.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shut-up-apache2ctl-configtest-output.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "ikiwiki-hosting",
+    "path": "ikiwiki-hosting/0.20180719-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ikiwiki-hosting/0.20180719-2/",
+        "metric": {
+            "size": 1212
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ikiwiki-hosting",
+        "sloc": [
+            [
+                "perl",
+                5406
+            ],
+            [
+                "sh",
+                183
+            ],
+            [
+                "ansic",
+                169
+            ],
+            [
+                "makefile",
+                61
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ikiwiki-hosting",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.20180719-2"
+}

@@ -1,0 +1,942 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CommandParser.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CommandParser.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Common.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 87483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Common.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CreateGoalCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CreateGoalCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CreateNamespaceCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 990,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DeleteDimmCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DeleteDimmCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DeleteGoalCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DeleteGoalCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DeleteNamespaceCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DeletePcdCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DeletePcdCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DumpDebugCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DumpDebugCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DumpGoalCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5095,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DumpGoalCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DumpSessionCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DumpSessionCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LoadCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LoadCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LoadGoalCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14064,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LoadGoalCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LoadSessionCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LoadSessionCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NvmDimmCli.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NvmDimmCli.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SetDimmCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SetDimmCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SetNamespaceCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 837,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SetPreferencesCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SetPreferencesCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SetSensorCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SetSensorCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowAcpiCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowAcpiCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowCelCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11938,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowCelCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowCmdAccessPolicyCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowCmdAccessPolicyCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowDimmsCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowDimmsCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowErrorCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowErrorCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowFirmwareCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowFirmwareCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowGoalCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowGoalCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowMemoryResourcesCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowMemoryResourcesCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowNamespaceCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1484,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowPcdCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowPcdCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowPerformanceCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowPerformanceCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowPreferencesCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowPreferencesCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowRegionsCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowRegionsCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowRegisterCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowRegisterCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowSensorCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowSensorCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowSessionCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowSessionCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowSmbiosCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowSocketsCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowSocketsCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowSystemCapabilitiesCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowSystemCapabilitiesCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowTopologyCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowTopologyCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StartDiagnosticCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StartDiagnosticCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StartFormatCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StartFormatCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StartSessionCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StartSessionCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StopSessionCommand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StopSessionCommand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "cli",
+    "package": "ipmctl",
+    "path": "ipmctl/02.00.00.3885+ds-1/DcpmPkg/cli",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ipmctl/02.00.00.3885+ds-1/",
+        "metric": {
+            "size": 54540
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ipmctl",
+        "sloc": [
+            [
+                "ansic",
+                618786
+            ],
+            [
+                "asm",
+                12841
+            ],
+            [
+                "cpp",
+                110
+            ],
+            [
+                "python",
+                81
+            ],
+            [
+                "sh",
+                49
+            ],
+            [
+                "makefile",
+                22
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/kilobyte/ipmctl/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "02.00.00.3885+ds-1"
+}

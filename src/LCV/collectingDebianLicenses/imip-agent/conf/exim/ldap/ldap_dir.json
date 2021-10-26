@@ -1,0 +1,119 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "010_exim4-config_ldap_people_outgoing",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_exim4-config_ldap_people",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_exim4-config_ldap_people_local_system",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_exim4-config_ldap_people_outgoing_recipients",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_exim4-config_ldap_resources",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "890_exim4-config_cyrus_lmtp_local_lmtp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "890_exim4-config_dovecot_lmtp_local_lmtp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ldap",
+    "package": "imip-agent",
+    "path": "imip-agent/0.3-2/conf/exim/ldap",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/imip-agent/0.3-2/",
+        "metric": {
+            "size": 2056
+        },
+        "pts_link": "https://tracker.debian.org/pkg/imip-agent",
+        "sloc": [
+            [
+                "python",
+                9888
+            ],
+            [
+                "sh",
+                4480
+            ],
+            [
+                "sql",
+                144
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/imip-agent",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3-2"
+}

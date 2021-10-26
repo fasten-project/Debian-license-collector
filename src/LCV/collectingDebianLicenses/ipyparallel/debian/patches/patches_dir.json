@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix_docs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_test_expecting_public_ip_addr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mark_async_test_xfail.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-local-intershpinx-inventory-files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_etc_without_usr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ipyparallel",
+    "path": "ipyparallel/7.1.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ipyparallel/7.1.0-1/",
+        "metric": {
+            "size": 6132
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ipyparallel",
+        "sloc": [
+            [
+                "python",
+                20682
+            ],
+            [
+                "javascript",
+                263
+            ],
+            [
+                "makefile",
+                175
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/ipyparallel",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.1.0-1"
+}

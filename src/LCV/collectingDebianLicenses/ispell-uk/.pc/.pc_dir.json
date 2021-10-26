@@ -1,0 +1,112 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "perl5.26-encoding.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "ispell-uk",
+    "path": "ispell-uk/1.7.1-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 70,
+        "license": "/copyright/license/ispell-uk/1.7.1-2/",
+        "metric": {
+            "size": 9536
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ispell-uk",
+        "sloc": [
+            [
+                "makefile",
+                372
+            ],
+            [
+                "sh",
+                252
+            ],
+            [
+                "perl",
+                214
+            ],
+            [
+                "awk",
+                31
+            ],
+            [
+                "xml",
+                20
+            ],
+            [
+                "python",
+                19
+            ],
+            [
+                "sed",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/ispell-uk.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.1-2"
+}

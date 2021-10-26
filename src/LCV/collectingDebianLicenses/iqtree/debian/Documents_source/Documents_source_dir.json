@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "create_example_script",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "example.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 22,
+                "symlink_dest": "../tests/run-unit-test",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "iqtree-manual-1.0.tex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Documents_source",
+    "package": "iqtree",
+    "path": "iqtree/1.6.12+dfsg-1/debian/Documents_source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/iqtree/1.6.12+dfsg-1/",
+        "metric": {
+            "size": 12140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/iqtree",
+        "sloc": [
+            [
+                "cpp",
+                111752
+            ],
+            [
+                "ansic",
+                53619
+            ],
+            [
+                "python",
+                242
+            ],
+            [
+                "sh",
+                195
+            ],
+            [
+                "makefile",
+                52
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/iqtree",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.12+dfsg-1"
+}

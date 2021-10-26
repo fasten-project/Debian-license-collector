@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-noportresolve.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-ippl-conf.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-manpage.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40-privilege-drop-420933.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4982,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-nostrip.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "60-format-security.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ippl",
+    "path": "ippl/1.4.14-12.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 244,
+        "license": "/copyright/license/ippl/1.4.14-12.2/",
+        "metric": {
+            "size": 452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ippl",
+        "sloc": [
+            [
+                "ansic",
+                1649
+            ],
+            [
+                "sh",
+                794
+            ],
+            [
+                "yacc",
+                434
+            ],
+            [
+                "lex",
+                160
+            ],
+            [
+                "makefile",
+                93
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "1.4.14-12.2"
+}

@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001-debian-changes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002-reproducible-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003-fix-ftbfs-with-glibc-2.28.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 782,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 90,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "icon",
+    "path": "icon/9.4.3-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/icon/9.4.3-7/",
+        "metric": {
+            "size": 16312
+        },
+        "pts_link": "https://tracker.debian.org/pkg/icon",
+        "sloc": [
+            [
+                "ansic",
+                52463
+            ],
+            [
+                "makefile",
+                1482
+            ],
+            [
+                "yacc",
+                926
+            ],
+            [
+                "lisp",
+                873
+            ],
+            [
+                "asm",
+                364
+            ],
+            [
+                "sh",
+                335
+            ],
+            [
+                "perl",
+                64
+            ],
+            [
+                "sed",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "9.4.3-7"
+}

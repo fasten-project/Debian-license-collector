@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0005-check-input-length-before-reading.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PATH_MAX-may-be-undefined.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "respect_dpkg_buildflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system-strlcpy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ii",
+    "path": "ii/1.8-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ii/1.8-2/",
+        "metric": {
+            "size": 224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ii",
+        "sloc": [
+            [
+                "ansic",
+                3052
+            ],
+            [
+                "makefile",
+                84
+            ],
+            [
+                "sh",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/itd-guest/ii",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8-2"
+}

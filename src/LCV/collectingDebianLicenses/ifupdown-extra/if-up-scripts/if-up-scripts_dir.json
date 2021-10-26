@@ -1,0 +1,90 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "check-duplicate-ip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-duplicate-ip6",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4177,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-gateway",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-network-cable",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "static-routes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "if-up-scripts",
+    "package": "ifupdown-extra",
+    "path": "ifupdown-extra/0.33/if-up-scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ifupdown-extra/0.33/",
+        "metric": {
+            "size": 3320
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ifupdown-extra",
+        "sloc": [
+            [
+                "sh",
+                1052
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://git.debian.org/?p=collab-maint/ifupdown-extra.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.33"
+}

@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Don-t-install-OUI-and-use-Debian-provided.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Fix-scan6-loop-undefined-behavior.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1639,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Fix-misuse-of-hyphen-in-udp6.1-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Allow-compilation-under-GCC-10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Silence-compiler-warnings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Silence-misleading-indentation-warnings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1071,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-strncpy-len-must-include-the-terminating-nul-byte.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ipv6toolkit",
+    "path": "ipv6toolkit/2.0+ds.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ipv6toolkit/2.0+ds.1-1/",
+        "metric": {
+            "size": 3260
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ipv6toolkit",
+        "sloc": [
+            [
+                "ansic",
+                26831
+            ],
+            [
+                "perl",
+                1058
+            ],
+            [
+                "makefile",
+                137
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/alvarezp/ipv6toolkit/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0+ds.1-1"
+}

@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "30_exim4-config_cyrus_lmtp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30_exim4-config_dovecot_lmtp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "890_exim4-config_cyrus_lmtp_local_system",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "890_exim4-config_dovecot_lmtp_local_system",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "lmtp",
+    "package": "imip-agent",
+    "path": "imip-agent/0.3-2/conf/exim/lmtp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/imip-agent/0.3-2/",
+        "metric": {
+            "size": 2056
+        },
+        "pts_link": "https://tracker.debian.org/pkg/imip-agent",
+        "sloc": [
+            [
+                "python",
+                9888
+            ],
+            [
+                "sh",
+                4480
+            ],
+            [
+                "sql",
+                144
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/imip-agent",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3-2"
+}

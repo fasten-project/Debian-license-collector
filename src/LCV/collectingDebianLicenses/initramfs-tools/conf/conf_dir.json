@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "initramfs.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-initramfs.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "conf",
+    "package": "initramfs-tools",
+    "path": "initramfs-tools/0.140/conf",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/initramfs-tools/0.140/",
+        "metric": {
+            "size": 552
+        },
+        "pts_link": "https://tracker.debian.org/pkg/initramfs-tools",
+        "sloc": [
+            [
+                "sh",
+                1862
+            ],
+            [
+                "makefile",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/kernel-team/initramfs-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.140"
+}

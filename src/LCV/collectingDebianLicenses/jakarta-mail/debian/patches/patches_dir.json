@@ -1,0 +1,129 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-disable-modules.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 907,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-rename-jars.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-disable-unstable-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-disable-external-network-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-remove-module-info.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-mailapi-version.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "jakarta-mail",
+    "path": "jakarta-mail/2.0.0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/jakarta-mail/2.0.0-2/",
+        "metric": {
+            "size": 6372
+        },
+        "pts_link": "https://tracker.debian.org/pkg/jakarta-mail",
+        "sloc": [
+            [
+                "java",
+                67965
+            ],
+            [
+                "xml",
+                3546
+            ],
+            [
+                "jsp",
+                284
+            ],
+            [
+                "sh",
+                97
+            ],
+            [
+                "ansic",
+                73
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/jakarta-mail",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.0-2"
+}

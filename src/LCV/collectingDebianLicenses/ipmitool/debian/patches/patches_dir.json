@@ -1,0 +1,248 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0005-gcc10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010-utf8.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0100-fix_buf_overflow.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 874,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0110-getpass-prototype.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0115-typo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0120-openssl1.1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0125-nvidia-iana.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0130-Correct_lanplus_segment_violation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0500-fix_CVE-2011-4339.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0505-fix_CVE-2020-5208.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0600-manpage_longlines.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0615-manpage_typo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2020-5208_1_Fix_buffer_overflow_vulnerabilities.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2020-5208_2-fru-Fix-buffer-overflow-in-ipmi_spd_print_fru.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2020-5208_3-session-Fix-buffer-overflow-in-ipmi_get_session_info.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2020-5208_4-channel-Fix-buffer-overflow.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2020-5208_5_lanp-Fix-buffer-overflows-in-get_lan_param_select.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2020-5208_6-fru-sdr-Fix-id_string-buffer-overflows.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ipmitool",
+    "path": "ipmitool/1.8.18-11/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ipmitool/1.8.18-11/",
+        "metric": {
+            "size": 6600
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ipmitool",
+        "sloc": [
+            [
+                "ansic",
+                64803
+            ],
+            [
+                "sh",
+                12784
+            ],
+            [
+                "makefile",
+                191
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://jff.email/cgit/ipmitool.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8.18-11"
+}

@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "telnet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0001-telnet-Don-t-infloop-for-malicious-server.patch",
+    "package": "inetutils",
+    "path": "inetutils/2:2.2-2/.pc/0001-telnet-Don-t-infloop-for-malicious-server.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/inetutils/2:2.2-2/",
+        "metric": {
+            "size": 13980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/inetutils",
+        "sloc": [
+            [
+                "ansic",
+                113723
+            ],
+            [
+                "sh",
+                9986
+            ],
+            [
+                "yacc",
+                1651
+            ],
+            [
+                "makefile",
+                630
+            ],
+            [
+                "perl",
+                72
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://git.hadrons.org/cgit/debian/pkgs/inetutils.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:2.2-2"
+}

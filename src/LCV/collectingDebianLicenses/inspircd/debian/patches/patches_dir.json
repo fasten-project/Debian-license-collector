@@ -1,0 +1,118 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "SA-2021-01.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.set-script-interpreter-directly.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.stop-suppressing-make-stderr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3825,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.use-http-parser-lib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream.enhance-service-file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "inspircd",
+    "path": "inspircd/3.8.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/inspircd/3.8.1-2/",
+        "metric": {
+            "size": 5160
+        },
+        "pts_link": "https://tracker.debian.org/pkg/inspircd",
+        "sloc": [
+            [
+                "cpp",
+                57216
+            ],
+            [
+                "ansic",
+                5327
+            ],
+            [
+                "perl",
+                2310
+            ],
+            [
+                "sh",
+                113
+            ],
+            [
+                "makefile",
+                50
+            ],
+            [
+                "sql",
+                35
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/inspircd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.8.1-2"
+}

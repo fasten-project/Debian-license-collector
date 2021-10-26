@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "icinga",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "icinga.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "icingaweb2.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "docker-entrypoint-initdb.d",
+    "package": "icingaweb2-module-toplevelview",
+    "path": "icingaweb2-module-toplevelview/0.3.1-1.1/test/docker/docker-entrypoint-initdb.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/icingaweb2-module-toplevelview/0.3.1-1.1/",
+        "metric": {
+            "size": 2404
+        },
+        "pts_link": "https://tracker.debian.org/pkg/icingaweb2-module-toplevelview",
+        "sloc": [
+            [
+                "javascript",
+                8674
+            ],
+            [
+                "php",
+                2518
+            ],
+            [
+                "sql",
+                1458
+            ],
+            [
+                "sh",
+                83
+            ],
+            [
+                "xml",
+                31
+            ],
+            [
+                "makefile",
+                22
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/david-guest/icingaweb2-module-toplevelview",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.1-1.1"
+}

@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "functions",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init-top",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "local",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local-premount",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "nfs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "initramfs-tools",
+    "path": "initramfs-tools/0.140/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/initramfs-tools/0.140/",
+        "metric": {
+            "size": 552
+        },
+        "pts_link": "https://tracker.debian.org/pkg/initramfs-tools",
+        "sloc": [
+            [
+                "sh",
+                1862
+            ],
+            [
+                "makefile",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/kernel-team/initramfs-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.140"
+}

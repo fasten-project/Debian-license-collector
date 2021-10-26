@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "interimap.remote",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 35,
+                "symlink_dest": "../auth-sasl-plain/interimap.remote",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remote.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "auth-sasl-plain-no-ir",
+    "package": "interimap",
+    "path": "interimap/0.5.6-1/tests/auth-sasl-plain-no-ir",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/interimap/0.5.6-1/",
+        "metric": {
+            "size": 1100
+        },
+        "pts_link": "https://tracker.debian.org/pkg/interimap",
+        "sloc": [
+            [
+                "perl",
+                3330
+            ],
+            [
+                "sh",
+                851
+            ],
+            [
+                "makefile",
+                71
+            ],
+            [
+                "sql",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/interimap",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.6-1"
+}

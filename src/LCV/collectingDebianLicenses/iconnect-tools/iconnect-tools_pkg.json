@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "99-usb-leds.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fw_env.config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legacy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 148,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "set-leds.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trigger-usb-leds.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "0.1",
+    "package": "iconnect-tools",
+    "path": "iconnect-tools/0.1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/iconnect-tools/0.1/",
+        "metric": {
+            "size": 100
+        },
+        "pts_link": "https://tracker.debian.org/pkg/iconnect-tools",
+        "sloc": [
+            [
+                "sh",
+                162
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/tijuca/iconnect-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1"
+}

@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1978,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dependee",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "depender",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "settings",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "dependence",
+    "package": "ivy",
+    "path": "ivy/2.5.0-1/src/example/dependence",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ivy/2.5.0-1/",
+        "metric": {
+            "size": 5020
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ivy",
+        "sloc": [
+            [
+                "java",
+                52160
+            ],
+            [
+                "xml",
+                2718
+            ],
+            [
+                "makefile",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/ivy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.0-1"
+}
