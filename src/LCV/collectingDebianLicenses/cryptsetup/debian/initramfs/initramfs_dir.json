@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "conf-hook",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conf-hooks.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cryptroot-unlock",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5686,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hooks",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "initramfs",
+    "package": "cryptsetup",
+    "path": "cryptsetup/2:2.4.0-1+exp1/debian/initramfs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cryptsetup/2:2.4.0-1+exp1/",
+        "metric": {
+            "size": 17312
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cryptsetup",
+        "sloc": [
+            [
+                "ansic",
+                51174
+            ],
+            [
+                "sh",
+                13155
+            ],
+            [
+                "xml",
+                902
+            ],
+            [
+                "makefile",
+                330
+            ],
+            [
+                "perl",
+                76
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/cryptsetup-team/cryptsetup",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:2.4.0-1+exp1"
+}

@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-fix-pythonpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-do-not-rebuild-translation-files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-fix-ftbfs-libav9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-fix-swig-detection.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libav10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "dff",
+    "path": "dff/1.3.0+dfsg.1-4.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 9254,
+        "license": "/copyright/license/dff/1.3.0+dfsg.1-4.1/",
+        "metric": {
+            "size": 12388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dff",
+        "sloc": [
+            [
+                "python",
+                37790
+            ],
+            [
+                "cpp",
+                32294
+            ],
+            [
+                "yacc",
+                477
+            ],
+            [
+                "lex",
+                362
+            ],
+            [
+                "makefile",
+                28
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "1.3.0+dfsg.1-4.1"
+}

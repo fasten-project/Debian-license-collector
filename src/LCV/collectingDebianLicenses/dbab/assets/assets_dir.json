@@ -1,0 +1,170 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dbab-add-list.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab-chk-list.8",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 15,
+                "symlink_dest": "dbab-add-list.8",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab-dnsmasq.DHCP.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab-dnsmasq.DNS.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab-get-list.8",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 15,
+                "symlink_dest": "dbab-add-list.8",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab-squid.localnet.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab-squid.service.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab.addr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab.list%2B",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab.list-",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbab.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dhcp-add-wpad.8",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 15,
+                "symlink_dest": "dbab-add-list.8",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "assets",
+    "package": "dbab",
+    "path": "dbab/1.5.7-1/assets",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dbab/1.5.7-1/",
+        "metric": {
+            "size": 172
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dbab",
+        "sloc": [
+            [
+                "perl",
+                79
+            ],
+            [
+                "sh",
+                53
+            ],
+            [
+                "makefile",
+                40
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/dbab",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.7-1"
+}

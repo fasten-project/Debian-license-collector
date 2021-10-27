@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_system_packaged_libhdf5-dev.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "dextractor",
+    "path": "dextractor/1.0-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dextractor/1.0-5/",
+        "metric": {
+            "size": 300
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dextractor",
+        "sloc": [
+            [
+                "ansic",
+                3446
+            ],
+            [
+                "makefile",
+                80
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/dextractor",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0-5"
+}

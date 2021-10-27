@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "md5sums",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postinst",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prerm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "DEBIAN",
+    "package": "debichem",
+    "path": "debichem/0.0.11/debian/debichem-input-generation-output-processing/DEBIAN",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debichem/0.0.11/",
+        "metric": {
+            "size": 768
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debichem",
+        "sloc": [
+            [
+                "sh",
+                192
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/blends-team/debichem",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.11"
+}

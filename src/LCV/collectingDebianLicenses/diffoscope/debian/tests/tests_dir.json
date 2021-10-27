@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "basic-command-line",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pytest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pytest-with-recommends",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 6,
+                "symlink_dest": "pytest",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "diffoscope",
+    "path": "diffoscope/187/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/diffoscope/187/",
+        "metric": {
+            "size": 8116
+        },
+        "pts_link": "https://tracker.debian.org/pkg/diffoscope",
+        "sloc": [
+            [
+                "python",
+                15603
+            ],
+            [
+                "makefile",
+                97
+            ],
+            [
+                "sh",
+                81
+            ],
+            [
+                "xml",
+                26
+            ],
+            [
+                "javascript",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/reproducible-builds/diffoscope",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "187"
+}

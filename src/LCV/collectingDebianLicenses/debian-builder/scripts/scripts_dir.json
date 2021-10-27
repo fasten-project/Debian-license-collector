@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian-builder-recursive",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "getBasePackages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "getRequired",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "debian-builder",
+    "path": "debian-builder/1.8.0/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debian-builder/1.8.0/",
+        "metric": {
+            "size": 120
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debian-builder",
+        "sloc": [
+            [
+                "perl",
+                434
+            ],
+            [
+                "makefile",
+                60
+            ],
+            [
+                "sh",
+                17
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.8.0"
+}

@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bullseye",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "buster",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "jessie",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "kali-dev",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 3,
+                "symlink_dest": "sid",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "kali-last-snapshot",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 3,
+                "symlink_dest": "sid",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "kali-rolling",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 3,
+                "symlink_dest": "sid",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sid",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 8,
+                "symlink_dest": "bullseye",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "stretch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "boot",
+    "package": "debian-cd",
+    "path": "debian-cd/3.1.35/tools/boot",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debian-cd/3.1.35/",
+        "metric": {
+            "size": 8304
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debian-cd",
+        "sloc": [
+            [
+                "sh",
+                6955
+            ],
+            [
+                "perl",
+                4866
+            ],
+            [
+                "makefile",
+                417
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/images-team/debian-cd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.1.35"
+}

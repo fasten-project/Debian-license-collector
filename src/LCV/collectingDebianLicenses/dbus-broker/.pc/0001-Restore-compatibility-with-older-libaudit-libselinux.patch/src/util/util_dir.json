@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "audit.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "selinux.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "util",
+    "package": "dbus-broker",
+    "path": "dbus-broker/29-1/.pc/0001-Restore-compatibility-with-older-libaudit-libselinux.patch/src/util",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dbus-broker/29-1/",
+        "metric": {
+            "size": 2532
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dbus-broker",
+        "sloc": [
+            [
+                "ansic",
+                29534
+            ],
+            [
+                "makefile",
+                123
+            ],
+            [
+                "sh",
+                33
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/utopia-team/dbus-broker",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "29-1"
+}

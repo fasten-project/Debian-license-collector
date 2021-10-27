@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "postinst-py3compile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postinst-pycompile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postinst-pypycompile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prerm-py3clean",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prerm-pyclean",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prerm-pypyclean",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "autoscripts",
+    "package": "dh-python",
+    "path": "dh-python/4.20201102+nmu1/autoscripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dh-python/4.20201102+nmu1/",
+        "metric": {
+            "size": 1168
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dh-python",
+        "sloc": [
+            [
+                "python",
+                4356
+            ],
+            [
+                "makefile",
+                407
+            ],
+            [
+                "perl",
+                226
+            ],
+            [
+                "sh",
+                26
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/tools/dh-python",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.20201102+nmu1"
+}

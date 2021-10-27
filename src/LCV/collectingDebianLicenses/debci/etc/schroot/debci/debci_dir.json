@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "copyfiles",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fstab",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nssdatabases",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debci",
+    "package": "debci",
+    "path": "debci/3.2/etc/schroot/debci",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debci/3.2/",
+        "metric": {
+            "size": 1388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debci",
+        "sloc": [
+            [
+                "ruby",
+                5219
+            ],
+            [
+                "sh",
+                2853
+            ],
+            [
+                "javascript",
+                98
+            ],
+            [
+                "makefile",
+                86
+            ],
+            [
+                "perl",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ci-team/debci",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2"
+}

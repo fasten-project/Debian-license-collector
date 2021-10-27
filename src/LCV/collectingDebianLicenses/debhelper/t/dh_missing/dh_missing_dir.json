@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-no-missing.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-fail-on-missing.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-dh_install-redirection.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-not-installed-glob.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "dh_missing",
+    "package": "debhelper",
+    "path": "debhelper/13.5.2/t/dh_missing",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debhelper/13.5.2/",
+        "metric": {
+            "size": 4732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debhelper",
+        "sloc": [
+            [
+                "perl",
+                12503
+            ],
+            [
+                "makefile",
+                125
+            ],
+            [
+                "sh",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/debhelper",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.5.2"
+}

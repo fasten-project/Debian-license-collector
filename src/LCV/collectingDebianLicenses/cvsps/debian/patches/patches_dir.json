@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_ignoretrunk.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_dynamicbufferalloc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_diffoptstypo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-inet_addr_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-discard-extra-version-lines.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-manpage",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "cvsps",
+    "path": "cvsps/2.1-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cvsps/2.1-8/",
+        "metric": {
+            "size": 612
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cvsps",
+        "sloc": [
+            [
+                "ansic",
+                4724
+            ],
+            [
+                "makefile",
+                60
+            ],
+            [
+                "sh",
+                26
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "2.1-8"
+}

@@ -1,0 +1,116 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "development.rb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "integration.rb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "integration1.rb",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 14,
+                "symlink_dest": "integration.rb",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "integration2.rb",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 14,
+                "symlink_dest": "integration.rb",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "production.rb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.rb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "environments",
+    "package": "diaspora",
+    "path": "diaspora/0.7.15.0-7/config/environments",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/diaspora/0.7.15.0-7/",
+        "metric": {
+            "size": 40772
+        },
+        "pts_link": "https://tracker.debian.org/pkg/diaspora",
+        "sloc": [
+            [
+                "ruby",
+                189572
+            ],
+            [
+                "javascript",
+                18238
+            ],
+            [
+                "sh",
+                815
+            ],
+            [
+                "yacc",
+                46
+            ],
+            [
+                "xml",
+                26
+            ],
+            [
+                "makefile",
+                14
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/diaspora",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.15.0-7"
+}

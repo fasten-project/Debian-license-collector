@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "first-init.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "getty-hook.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 772,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate-to-disk.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "occupy-space.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tools.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "init",
+    "package": "debootstick",
+    "path": "debootstick/2.5/scripts/live/init",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debootstick/2.5/",
+        "metric": {
+            "size": 292
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debootstick",
+        "sloc": [
+            [
+                "sh",
+                1231
+            ],
+            [
+                "makefile",
+                34
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/drakkar-lig/debootstick",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5"
+}

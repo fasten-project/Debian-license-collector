@@ -1,0 +1,118 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-lucene-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-skip-jardriftcheck.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-offline-package-list.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-java10-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "json-simple-3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "derby",
+    "path": "derby/10.14.2.0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/derby/10.14.2.0-2/",
+        "metric": {
+            "size": 78896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/derby",
+        "sloc": [
+            [
+                "java",
+                691930
+            ],
+            [
+                "sql",
+                42686
+            ],
+            [
+                "xml",
+                20511
+            ],
+            [
+                "sh",
+                3373
+            ],
+            [
+                "sed",
+                96
+            ],
+            [
+                "makefile",
+                60
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/derby",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "10.14.2.0-2"
+}

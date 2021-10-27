@@ -1,0 +1,216 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "backend-agent",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-agent-fake",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-agent-knot2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-agent-msdns",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-akamai",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-akamai-v2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-bind9",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-designate",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-dynect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-fake",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-infoblox",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-ns1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-pdns4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-pdns4-mysql-db.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2948,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backend-pdns4-pgsql-db.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "designate_plugins",
+    "package": "designate",
+    "path": "designate/1:13.0.0-1/devstack/designate_plugins",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/designate/1:13.0.0-1/",
+        "metric": {
+            "size": 6308
+        },
+        "pts_link": "https://tracker.debian.org/pkg/designate",
+        "sloc": [
+            [
+                "python",
+                43552
+            ],
+            [
+                "sh",
+                987
+            ],
+            [
+                "xml",
+                236
+            ],
+            [
+                "sql",
+                145
+            ],
+            [
+                "makefile",
+                73
+            ],
+            [
+                "javascript",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/designate",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:13.0.0-1"
+}

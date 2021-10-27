@@ -1,0 +1,234 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "banner",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dep8_helper.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fake-package",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "runall.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-package-large-logs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test_api_cmdline.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_basics.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_config.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_debci_test.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_generate_html.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_helper.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_json.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_packages.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_localtest.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_migration_tests.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_worker.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "debci",
+    "path": "debci/3.2/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debci/3.2/",
+        "metric": {
+            "size": 1388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debci",
+        "sloc": [
+            [
+                "ruby",
+                5219
+            ],
+            [
+                "sh",
+                2853
+            ],
+            [
+                "javascript",
+                98
+            ],
+            [
+                "makefile",
+                86
+            ],
+            [
+                "perl",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ci-team/debci",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2"
+}

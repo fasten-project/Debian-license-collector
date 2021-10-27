@@ -1,0 +1,129 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "backports",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "bugfixes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "features",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "security",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "workarounds",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "patches",
+    "package": "dietlibc",
+    "path": "dietlibc/0.34~cvs20160606-12/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dietlibc/0.34%7Ecvs20160606-12/",
+        "metric": {
+            "size": 11388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dietlibc",
+        "sloc": [
+            [
+                "ansic",
+                71664
+            ],
+            [
+                "asm",
+                13008
+            ],
+            [
+                "cpp",
+                1860
+            ],
+            [
+                "makefile",
+                804
+            ],
+            [
+                "sh",
+                292
+            ],
+            [
+                "perl",
+                62
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/dietlibc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.34~cvs20160606-12"
+}

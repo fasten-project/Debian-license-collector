@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CVE-2021-23445.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable_git",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-tempdir-and-errexit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_correct_closure_path",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "datatables.js",
+    "path": "datatables.js/1.10.21+dfsg-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/datatables.js/1.10.21+dfsg-3/",
+        "metric": {
+            "size": 22612
+        },
+        "pts_link": "https://tracker.debian.org/pkg/datatables.js",
+        "sloc": [
+            [
+                "javascript",
+                64254
+            ],
+            [
+                "xml",
+                10441
+            ],
+            [
+                "php",
+                4623
+            ],
+            [
+                "sh",
+                523
+            ],
+            [
+                "makefile",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/js-team/datatables.js",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.10.21+dfsg-3"
+}

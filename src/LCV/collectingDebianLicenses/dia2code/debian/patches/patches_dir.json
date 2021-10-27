@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix_Segfault.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_parse_diagram_c.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc-10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "dia2code",
+    "path": "dia2code/0.8.3-4.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dia2code/0.8.3-4.1/",
+        "metric": {
+            "size": 776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dia2code",
+        "sloc": [
+            [
+                "ansic",
+                5672
+            ],
+            [
+                "sh",
+                716
+            ],
+            [
+                "makefile",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.8.3-4.1"
+}

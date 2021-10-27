@@ -1,0 +1,136 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_host_name_max.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7049,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_no_add_needed.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_add_unistd_header.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_fix_hurd_ftbfs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_fix_glibmm_ftbfs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_fix_gcc-7_ftbfs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_fix_mutex_ftbfs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "dbus-c++",
+    "path": "dbus-c++/0.9.0-8.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dbus-c++/0.9.0-8.2/",
+        "metric": {
+            "size": 2764
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dbus-c++",
+        "sloc": [
+            [
+                "sh",
+                10179
+            ],
+            [
+                "cpp",
+                7696
+            ],
+            [
+                "makefile",
+                355
+            ],
+            [
+                "xml",
+                335
+            ],
+            [
+                "ansic",
+                109
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/viewvc/collab-maint/deb-maint/dbus-c++/trunk",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "0.9.0-8.2"
+}

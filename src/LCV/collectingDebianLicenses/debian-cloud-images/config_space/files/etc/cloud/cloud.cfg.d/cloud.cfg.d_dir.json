@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_debian_cloud.cfg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "10_azure.cfg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "99-disable-network-config.cfg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "cloud.cfg.d",
+    "package": "debian-cloud-images",
+    "path": "debian-cloud-images/0.0.4/config_space/files/etc/cloud/cloud.cfg.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debian-cloud-images/0.0.4/",
+        "metric": {
+            "size": 980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debian-cloud-images",
+        "sloc": [
+            [
+                "python",
+                5289
+            ],
+            [
+                "sh",
+                291
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/cloud-team/debian-cloud-images",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.4"
+}

@@ -1,0 +1,941 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".dir-locals.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".gitlab-ci.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 644,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CONTRIBUTING.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GPL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autoscripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debhelper-obsolete-compat.pod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debhelper.pod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_assistant",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_auto_build",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_auto_clean",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_auto_configure",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_auto_install",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_auto_test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_bugfiles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_builddeb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_clean",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_compress",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_dwz",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_fixperms",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_gencontrol",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_icons",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_install",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installalternatives",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installcatalogs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installchangelogs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installcron",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installdeb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installdebconf",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installdirs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installdocs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 15000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installemacsen",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installexamples",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installgsettings",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installifupdown",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installinfo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installinit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installinitramfs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installlogcheck",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1982,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installlogrotate",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installman",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installmanpages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installmenu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installmime",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installmodules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installpam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installppp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installsystemd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installsystemduser",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installsysusers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installtmpfiles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installudev",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installwm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installxfonts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_link",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_lintian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_listpackages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 825,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_makeshlibs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 15480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_md5sums",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_missing",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_movefiles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_perl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_prep",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_shlibdeps",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_strip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 15209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_systemd_enable",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_systemd_start",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_testdir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_testroot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_ucf",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_update_autotools_config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_usrlocal",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "doc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "empty",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "examples",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "man",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strings-kept-translations.pod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "13.5.2",
+    "package": "debhelper",
+    "path": "debhelper/13.5.2",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debhelper/13.5.2/",
+        "metric": {
+            "size": 4732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debhelper",
+        "sloc": [
+            [
+                "perl",
+                12503
+            ],
+            [
+                "makefile",
+                125
+            ],
+            [
+                "sh",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/debhelper",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.5.2"
+}

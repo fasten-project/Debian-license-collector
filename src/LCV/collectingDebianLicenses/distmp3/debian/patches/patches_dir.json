@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_config_file.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1061,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_tempfile_handling.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_fork%2Bpidfile.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_encoder_flac.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_encoder_oggenc.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_funky_redirection.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_fix_system_call.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "distmp3",
+    "path": "distmp3/0.1.9.ds1-4.3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 39,
+        "license": "/copyright/license/distmp3/0.1.9.ds1-4.3/",
+        "metric": {
+            "size": 200
+        },
+        "pts_link": "https://tracker.debian.org/pkg/distmp3",
+        "sloc": [
+            [
+                "perl",
+                513
+            ],
+            [
+                "sh",
+                338
+            ],
+            [
+                "makefile",
+                33
+            ]
+        ],
+        "suites": [
+            "lenny",
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1.9.ds1-4.3"
+}

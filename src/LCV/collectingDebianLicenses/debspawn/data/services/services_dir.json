@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debspawn-clear-caches.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debspawn-clear-caches.timer",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "services",
+    "package": "debspawn",
+    "path": "debspawn/0.5.0-1/data/services",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debspawn/0.5.0-1/",
+        "metric": {
+            "size": 408
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debspawn",
+        "sloc": [
+            [
+                "python",
+                3086
+            ],
+            [
+                "xml",
+                779
+            ],
+            [
+                "sh",
+                39
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/laniakea-team/debspawn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.0-1"
+}

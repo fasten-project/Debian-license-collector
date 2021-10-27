@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "postinst-pecl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prerm-pecl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debhelper",
+    "package": "dh-make-php",
+    "path": "dh-make-php/0.4.0/debhelper",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 70,
+        "license": "/copyright/license/dh-make-php/0.4.0/",
+        "metric": {
+            "size": 408
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dh-make-php",
+        "sloc": [
+            [
+                "sh",
+                681
+            ],
+            [
+                "xml",
+                452
+            ],
+            [
+                "makefile",
+                200
+            ],
+            [
+                "perl",
+                47
+            ],
+            [
+                "python",
+                13
+            ],
+            [
+                "php",
+                7
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "0.4.0"
+}

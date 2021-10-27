@@ -1,0 +1,216 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-me-server.debug-me.default",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 19,
+                "symlink_dest": "../debug-me.default",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-me-server.debug-me.init",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 16,
+                "symlink_dest": "../debug-me.init",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-me-server.debug-me.service",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 19,
+                "symlink_dest": "../debug-me.service",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-me-server.postinst",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-me-server.postrm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-me.install",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-me.links",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-me.manpages",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "debug-me",
+    "path": "debug-me/1.20200820-1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debug-me/1.20200820-1/",
+        "metric": {
+            "size": 708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debug-me",
+        "sloc": [
+            [
+                "haskell",
+                3140
+            ],
+            [
+                "sh",
+                115
+            ],
+            [
+                "makefile",
+                80
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://git.spwhitton.name/debug-me",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.20200820-1"
+}

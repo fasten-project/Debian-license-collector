@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cups",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cups-basiccommands",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4636,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cups-core-drivers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "cups",
+    "path": "cups/2.3.3op2-7/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cups/2.3.3op2-7/",
+        "metric": {
+            "size": 32932
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cups",
+        "sloc": [
+            [
+                "ansic",
+                155703
+            ],
+            [
+                "cpp",
+                8663
+            ],
+            [
+                "sh",
+                5118
+            ],
+            [
+                "makefile",
+                2781
+            ],
+            [
+                "python",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/printing-team/cups",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.3op2-7"
+}

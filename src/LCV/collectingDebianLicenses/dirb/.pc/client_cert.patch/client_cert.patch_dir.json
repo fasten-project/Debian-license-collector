@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dirb.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "client_cert.patch",
+    "package": "dirb",
+    "path": "dirb/2.22+dfsg-5/.pc/client_cert.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dirb/2.22+dfsg-5/",
+        "metric": {
+            "size": 2224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dirb",
+        "sloc": [
+            [
+                "ansic",
+                1702
+            ],
+            [
+                "sh",
+                1119
+            ],
+            [
+                "makefile",
+                51
+            ],
+            [
+                "perl",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/dirb",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.22+dfsg-5"
+}

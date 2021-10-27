@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian-archive-keyring.gpg.asc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian-archive-removed-keys.gpg.asc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "keyrings",
+    "package": "debian-archive-keyring",
+    "path": "debian-archive-keyring/2021.1.1/keyrings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debian-archive-keyring/2021.1.1/",
+        "metric": {
+            "size": 388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debian-archive-keyring",
+        "sloc": [
+            [
+                "makefile",
+                64
+            ],
+            [
+                "sh",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/release-team/debian-archive-keyring",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2021.1.1"
+}

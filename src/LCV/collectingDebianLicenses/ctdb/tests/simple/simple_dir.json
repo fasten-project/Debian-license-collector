@@ -1,0 +1,578 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_ctdb_init.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00_ctdb_onnode.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_ctdb_version.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_ctdb_listvars.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 811,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_ctdb_getvar.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_ctdb_setvar.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_ctdb_listnodes.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_ctdb_getpid.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_ctdb_process_exists.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_ctdb_isnotrecmaster.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_ctdb_ping.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11_ctdb_ip.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12_ctdb_getdebug.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13_ctdb_setdebug.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14_ctdb_statistics.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15_ctdb_statisticsreset.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16_ctdb_config_add_ip.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "17_ctdb_config_delete_ip.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18_ctdb_reloadips.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_delip_iface_gc.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "23_ctdb_moveip.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "24_ctdb_getdbmap.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "25_dumpmemory.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "26_ctdb_config_check_error_on_unreachable_ctdb.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "27_ctdb_detach.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "31_ctdb_disable.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "32_ctdb_enable.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "41_ctdb_stop.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "42_ctdb_continue.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1649,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "43_stop_recmaster_yield.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "51_ctdb_bench.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "52_ctdb_fetch.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "53_ctdb_transaction.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "54_ctdb_transaction_recovery.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "55_ctdb_ptrans.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2298,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "58_ctdb_restoredb.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "60_recoverd_missing_ip.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "70_recoverpdbbyseqnum.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "71_ctdb_wipedb.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "72_update_record_persistent.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "73_tunable_NoIPTakeover.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2041,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "75_readonly_records_basic.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "76_ctdb_pdb_recovery.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "77_ctdb_db_recovery.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "80_ctdb_traverse.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "99_daemons_shutdown.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "simple",
+    "package": "ctdb",
+    "path": "ctdb/2.5.4+debian0-4/tests/simple",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ctdb/2.5.4+debian0-4/",
+        "metric": {
+            "size": 6084
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ctdb",
+        "sloc": [
+            [
+                "ansic",
+                53406
+            ],
+            [
+                "sh",
+                18954
+            ],
+            [
+                "xml",
+                6545
+            ],
+            [
+                "python",
+                1217
+            ],
+            [
+                "makefile",
+                443
+            ],
+            [
+                "perl",
+                228
+            ]
+        ],
+        "suites": [
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/cgit/pkg-samba/ctdb.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.4+debian0-4"
+}

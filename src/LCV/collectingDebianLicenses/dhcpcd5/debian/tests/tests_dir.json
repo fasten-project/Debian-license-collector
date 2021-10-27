@@ -1,0 +1,129 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "chrony-ntp-servers-from-dhcp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common-ntp-servers-from-dhcp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ntpd-ntp-servers-from-dhcp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openntpd-ntp-servers-from-dhcp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sbin-dhcpcd-exists-with-usrmerge",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 35,
+                "symlink_dest": "sbin-dhcpcd-exists-without-usrmerge",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sbin-dhcpcd-exists-without-usrmerge",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "timesyncd-ntp-servers-from-dhcp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "dhcpcd5",
+    "path": "dhcpcd5/7.1.0-2/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dhcpcd5/7.1.0-2/",
+        "metric": {
+            "size": 1932
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dhcpcd5",
+        "sloc": [
+            [
+                "ansic",
+                29556
+            ],
+            [
+                "sh",
+                1829
+            ],
+            [
+                "makefile",
+                318
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/smlx-guest/dhcpcd5",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.1.0-2"
+}

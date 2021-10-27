@@ -1,0 +1,958 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-daily-find.out",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1620,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-daily.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0000_rollunder",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "01-hourly.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-monthly.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-multidaily.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-multihourly.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-multimonthly.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-multiweekly.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-multiyearly.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-offset_final.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-offset_initial.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-r1_final.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-r1_initial.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-r1_middle.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-r5_final.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14-r5_initial.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-subhourly.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16-weekly.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "17-yearly.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18-r1_multi_start.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-multidaily_local.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "21-360_calendar",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "21-360_calendar.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "25-aeon.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "26-0000_rollunder.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "27-9999_rollover.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1703,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "28-implicit-disallowed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "28-implicit-disallowed.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "29-r1_restricted.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "31-rnone_reverse.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "32-rmany_reverse.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "33-integer1.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "34-r1_initial_immortal.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "35-day_of_week.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "00-daily.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "36-icp_fcp_notation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "36-icp_fcp_notation.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "37-exclusions.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "39-exclusions_advanced.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40-integer_exclusions_advanced.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "47-icp_fcp_notation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "47-icp_fcp_notation.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "48-icp-cutoff.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "49-365_calendar",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "49-365_calendar.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-366_calendar",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "50-366_calendar.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "9999_rollover",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "aeon",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "daily",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "daily_final",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "day_of_week",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "exclusions",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "exclusions_advanced",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "hourly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "integer1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "integer_exclusions_advanced",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "monthly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "monthly_complex",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "multidaily",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "multidaily_local",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "multihourly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "multimonthly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "multiweekly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "multiyearly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "offset_final",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "offset_initial",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r1_final",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r1_initial",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r1_initial_back_comp_standalone_line",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r1_initial_immortal",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r1_middle",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r1_multi_start",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r1_restricted",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r5_final",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "r5_initial",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rmany_reverse",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rnone_reverse",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "subhourly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test_header",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 23,
+                "symlink_dest": "../lib/bash/test_header",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "weekly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "yearly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "cyclers",
+    "package": "cylc",
+    "path": "cylc/8.0~a2-1/tests/cyclers",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cylc/8.0%7Ea2-1/",
+        "metric": {
+            "size": 10208
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cylc",
+        "sloc": [
+            [
+                "python",
+                39459
+            ],
+            [
+                "sh",
+                13200
+            ],
+            [
+                "xml",
+                157
+            ],
+            [
+                "javascript",
+                78
+            ],
+            [
+                "lisp",
+                54
+            ],
+            [
+                "perl",
+                16
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org:/science-team/cylc.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "8.0~a2-1"
+}

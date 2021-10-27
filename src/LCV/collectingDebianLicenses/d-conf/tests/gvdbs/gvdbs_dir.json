@@ -1,0 +1,123 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "empty_gvdb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "example_gvdb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "example_gvdb.big-endian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_empty",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_too_small",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "invalid_header",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nested_gvdb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "gvdbs",
+    "package": "d-conf",
+    "path": "d-conf/0.26.0-2/tests/gvdbs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/d-conf/0.26.0-2/",
+        "metric": {
+            "size": 2236
+        },
+        "pts_link": "https://tracker.debian.org/pkg/d-conf",
+        "sloc": [
+            [
+                "ansic",
+                11530
+            ],
+            [
+                "sh",
+                1336
+            ],
+            [
+                "xml",
+                488
+            ],
+            [
+                "makefile",
+                338
+            ],
+            [
+                "python",
+                24
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/d-conf/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "0.26.0-2"
+}

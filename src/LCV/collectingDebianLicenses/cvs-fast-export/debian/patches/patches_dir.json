@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-compile-flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-reproducible-date.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-use-python3-only-for-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "cvs-fast-export",
+    "path": "cvs-fast-export/1.55-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cvs-fast-export/1.55-1/",
+        "metric": {
+            "size": 5628
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cvs-fast-export",
+        "sloc": [
+            [
+                "ansic",
+                5743
+            ],
+            [
+                "python",
+                1390
+            ],
+            [
+                "sh",
+                511
+            ],
+            [
+                "lex",
+                352
+            ],
+            [
+                "yacc",
+                271
+            ],
+            [
+                "makefile",
+                256
+            ],
+            [
+                "perl",
+                63
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/cvs-fast-export",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.55-1"
+}

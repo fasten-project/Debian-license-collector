@@ -1,0 +1,143 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".debhelper",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 15,
+                "symlink_dest": "../../changelog",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pkg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pkg.fortran-mod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pkg.postrm.debhelper",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pkg.preinst.debhelper",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pkg.substvars",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "dh-fortran-mod",
+    "path": "dh-fortran-mod/0.20/debian/tests/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/dh-fortran-mod/0.20/",
+        "metric": {
+            "size": 116
+        },
+        "pts_link": "https://tracker.debian.org/pkg/dh-fortran-mod",
+        "sloc": [
+            [
+                "perl",
+                240
+            ],
+            [
+                "makefile",
+                16
+            ],
+            [
+                "sh",
+                7
+            ],
+            [
+                "f90",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/dh-fortran-mod",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.20"
+}

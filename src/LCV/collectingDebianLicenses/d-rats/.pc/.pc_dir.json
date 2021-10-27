@@ -1,0 +1,144 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-remove-lzhuf-from-setup.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02-remove-lzhuf-functionality.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03-remove-COPYING-installation.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "04-add-check-for-module-dirs.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "05-desktops.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "d-rats",
+    "path": "d-rats/0.3.3-4/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/d-rats/0.3.3-4/",
+        "metric": {
+            "size": 1684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/d-rats",
+        "sloc": [
+            [
+                "python",
+                19261
+            ],
+            [
+                "xml",
+                424
+            ],
+            [
+                "ansic",
+                112
+            ],
+            [
+                "makefile",
+                2
+            ],
+            [
+                "sh",
+                2
+            ]
+        ],
+        "suites": [
+            "buster",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "0.3.3-4"
+}

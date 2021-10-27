@@ -1,0 +1,925 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-suite.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-multi.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-timeout.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-timeout-ref-live.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-timeout-ref-simulation.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-task-event-handler-retry",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "08-task-event-handler-retry.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-task-event-mail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "09-task-event-mail.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-task-event-job-logs-retrieve",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "10-task-event-job-logs-retrieve.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-cycle-task-event-job-logs-retrieve",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "11-cycle-task-event-job-logs-retrieve.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-task-event-handler-retry-globalcfg",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 27,
+                "symlink_dest": "08-task-event-handler-retry",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "12-task-event-handler-retry-globalcfg.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 29,
+                "symlink_dest": "08-task-event-handler-retry.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-task-event-mail-globalcfg",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 18,
+                "symlink_dest": "09-task-event-mail",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "13-task-event-mail-globalcfg.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 20,
+                "symlink_dest": "09-task-event-mail.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14-task-event-job-logs-retrieve-globalcfg",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 31,
+                "symlink_dest": "10-task-event-job-logs-retrieve",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "14-task-event-job-logs-retrieve-globalcfg.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 33,
+                "symlink_dest": "10-task-event-job-logs-retrieve.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-host-task-event-handler-retry-globalcfg",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 27,
+                "symlink_dest": "08-task-event-handler-retry",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "15-host-task-event-handler-retry-globalcfg.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16-task-event-job-logs-register-globalcfg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "17-task-event-job-logs-retrieve-command",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 31,
+                "symlink_dest": "10-task-event-job-logs-retrieve",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "17-task-event-job-logs-retrieve-command.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18-suite-event-mail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "18-suite-event-mail.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "19-suite-event-mail-globalcfg",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 19,
+                "symlink_dest": "18-suite-event-mail",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "19-suite-event-mail-globalcfg.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 21,
+                "symlink_dest": "18-suite-event-mail.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-suite-event-handlers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "20-suite-event-handlers.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "21-suite-event-handlers-globalcfg",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 23,
+                "symlink_dest": "20-suite-event-handlers",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "21-suite-event-handlers-globalcfg.t",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 25,
+                "symlink_dest": "20-suite-event-handlers.t",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "23-suite-stalled-handler",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "23-suite-stalled-handler.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "24-abort-on-stalled",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "24-abort-on-stalled.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "25-held-not-stalled",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "25-held-not-stalled.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "26-suite-stalled-dump-prereq",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "26-suite-stalled-dump-prereq.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "27-suite-stalled-dump-prereq-fam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "27-suite-stalled-dump-prereq-fam.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "28-inactivity",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "28-inactivity.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "29-task-event-mail-1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "29-task-event-mail-1.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-task-event-mail-2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "30-task-event-mail-2.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "32-task-event-job-logs-retrieve-2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "32-task-event-job-logs-retrieve-2.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "33-task-event-job-logs-retrieve-3",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "33-task-event-job-logs-retrieve-3.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "34-task-abort",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "34-task-abort.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "35-task-event-handler-importance",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "35-task-event-handler-importance.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "36-task-event-bad-custom-template",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "36-task-event-bad-custom-template.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "37-suite-event-bad-custom-template",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "37-suite-event-bad-custom-template.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "38-task-event-handler-custom",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "38-task-event-handler-custom.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "41-late",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "41-late.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "42-late-then-restart",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "42-late-then-restart.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "43-late-spawn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "43-late-spawn.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "45-task-event-handler-multi-warning.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "46-task-output-as-event.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "47-long-output.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "48-suite-aborted",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "48-suite-aborted.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "49-task-event-host-select-fail.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-ref-test-fail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "suite",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test_header",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 23,
+                "symlink_dest": "../lib/bash/test_header",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "timeout",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "timeout-ref",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "events",
+    "package": "cylc",
+    "path": "cylc/8.0~a2-1/tests/events",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cylc/8.0%7Ea2-1/",
+        "metric": {
+            "size": 10208
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cylc",
+        "sloc": [
+            [
+                "python",
+                39459
+            ],
+            [
+                "sh",
+                13200
+            ],
+            [
+                "xml",
+                157
+            ],
+            [
+                "javascript",
+                78
+            ],
+            [
+                "lisp",
+                54
+            ],
+            [
+                "perl",
+                16
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org:/science-team/cylc.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "8.0~a2-1"
+}

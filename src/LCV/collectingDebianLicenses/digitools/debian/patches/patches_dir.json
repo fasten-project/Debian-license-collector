@@ -1,0 +1,75 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_prefix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_link_order.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "digitools",
+    "path": "digitools/1.03-1.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 356,
+        "license": "/copyright/license/digitools/1.03-1.2/",
+        "metric": {
+            "size": 232
+        },
+        "pts_link": "https://tracker.debian.org/pkg/digitools",
+        "sloc": [
+            [
+                "ansic",
+                2143
+            ],
+            [
+                "makefile",
+                260
+            ],
+            [
+                "sh",
+                36
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "1.03-1.2"
+}

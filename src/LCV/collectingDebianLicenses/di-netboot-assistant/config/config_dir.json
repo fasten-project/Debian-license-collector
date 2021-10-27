@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "di-netboot-assistant.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "di-sources.list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "grub.cfg.HEAD",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pxelinux.HEAD",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pxeuboot.HEAD",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "config",
+    "package": "di-netboot-assistant",
+    "path": "di-netboot-assistant/0.70/config",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/di-netboot-assistant/0.70/",
+        "metric": {
+            "size": 300
+        },
+        "pts_link": "https://tracker.debian.org/pkg/di-netboot-assistant",
+        "sloc": [
+            [
+                "sh",
+                1465
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/netboot-assistant",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.70"
+}

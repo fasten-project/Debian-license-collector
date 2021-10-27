@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dependee-of-considered-to-be-upgraded-package.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "first-problematic-and-many-simpler-packages.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lock-step-dependency-vs-high-pinned-installed-version.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2757,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "low-pin-upgrade-with-new-dependency-vs-normal-pin-upgrade.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "normal-pin-upgrade-vs-pinned-new-package.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "same-origin-versions-not-proposed.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "to-experimental.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "upgrade",
+    "package": "cupt",
+    "path": "cupt/2.10.4+nmu1/test/t/manage/resolver/upgrade",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cupt/2.10.4+nmu1/",
+        "metric": {
+            "size": 3144
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cupt",
+        "sloc": [
+            [
+                "cpp",
+                23642
+            ],
+            [
+                "perl",
+                1599
+            ],
+            [
+                "sh",
+                40
+            ],
+            [
+                "makefile",
+                19
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/jackyf/cupt/tree/master",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.10.4+nmu1"
+}

@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ldap.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "slapd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ldap",
+    "package": "debconf",
+    "path": "debconf/1.5.77/Test/Debconf/DbDriver/ldap",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/debconf/1.5.77/",
+        "metric": {
+            "size": 4808
+        },
+        "pts_link": "https://tracker.debian.org/pkg/debconf",
+        "sloc": [
+            [
+                "perl",
+                8360
+            ],
+            [
+                "sh",
+                290
+            ],
+            [
+                "makefile",
+                145
+            ],
+            [
+                "python",
+                129
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-debconf/debconf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.77"
+}
