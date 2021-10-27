@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_swift_needs.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_apk_install_prereqs.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_apk_install_py2.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "21_apk_install_py3.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50_swift_install.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 447,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "60_pip_uninstall_dev.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "99_apk_uninstall_dev.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python_test_dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "install_scripts",
+    "package": "swift",
+    "path": "swift/2.27.0-2/docker/install_scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/swift/2.27.0-2/",
+        "metric": {
+            "size": 20208
+        },
+        "pts_link": "https://tracker.debian.org/pkg/swift",
+        "sloc": [
+            [
+                "python",
+                234101
+            ],
+            [
+                "javascript",
+                1035
+            ],
+            [
+                "sh",
+                614
+            ],
+            [
+                "pascal",
+                253
+            ],
+            [
+                "makefile",
+                71
+            ],
+            [
+                "xml",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/swift",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.27.0-2"
+}

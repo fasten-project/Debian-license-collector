@@ -1,0 +1,176 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "api_sql_common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.sh.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drv_common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inspect.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mysql_common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oltp_legacy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pgsql_common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script_bulk_insert_common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script_oltp_common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script_oltp_legacy_common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script_select_random_common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1071,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script_select_random_legacy_common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "include",
+    "package": "sysbench",
+    "path": "sysbench/1.0.20+ds-1/tests/include",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sysbench/1.0.20+ds-1/",
+        "metric": {
+            "size": 1828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sysbench",
+        "sloc": [
+            [
+                "ansic",
+                11830
+            ],
+            [
+                "sh",
+                1752
+            ],
+            [
+                "xml",
+                736
+            ],
+            [
+                "makefile",
+                192
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/jcfp-guest/sysbench",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.20+ds-1"
+}

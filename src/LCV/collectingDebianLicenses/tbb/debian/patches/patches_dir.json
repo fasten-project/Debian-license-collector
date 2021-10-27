@@ -1,0 +1,244 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adddebug.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allow-reproducible-builds.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "armel-exception-ptr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "buildi386.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enhanced-debugging.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-armel.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixnonlinux.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixup-mips-harness.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc-atomic-always.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc-atomic-detection.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "linuxreleasedetect.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-unaligned-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 672,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tally-unit-test-fails.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tweak-64bits-hppa-alpha.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "tbb",
+    "path": "tbb/2020.3-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tbb/2020.3-1/",
+        "metric": {
+            "size": 15844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tbb",
+        "sloc": [
+            [
+                "cpp",
+                142989
+            ],
+            [
+                "ansic",
+                11007
+            ],
+            [
+                "makefile",
+                1367
+            ],
+            [
+                "python",
+                860
+            ],
+            [
+                "asm",
+                517
+            ],
+            [
+                "sh",
+                406
+            ],
+            [
+                "javascript",
+                215
+            ],
+            [
+                "lisp",
+                198
+            ],
+            [
+                "objc",
+                176
+            ],
+            [
+                "pascal",
+                65
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/tbb",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2020.3-1"
+}

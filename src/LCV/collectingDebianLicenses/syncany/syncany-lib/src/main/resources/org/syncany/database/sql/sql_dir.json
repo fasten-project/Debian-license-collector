@@ -1,0 +1,890 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "application.delete.all.removeKnownDatabases.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "application.insert.all.persistNewKnownRemoteDatabases.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "application.insert.all.writeGeneralSettings.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "application.select.all.getHighestKnownDatabaseFilenameNumbers.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "application.select.all.getKnownDatabases.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "application.select.all.readGeneralSettings.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk.delete.all.removeUnreferencesChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk.insert.all.writeChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 484,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk.select.all.getChunksForDatabaseVersion.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk.select.all.loadChunkCache.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk.update.dirty.updateDirtyChunksNewDatabaseId.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.delete.all.removeEmptyDatabaseVersionHeaders.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 850,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.delete.all.removeEmptyDatabaseVersionHeadersVectorClocks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.delete.dirty.removeDirtyDatabaseVersionsInt.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.delete.dirty.removeDirtyVectorClocks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.insert.all.writeDatabaseVersion.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.insert.all.writeVectorClock.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.select.all.getVectorClockByDatabaseVersionId.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.select.dirty.getDirtyDatabaseVersions.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.select.dirty.getMaxDirtyVectorClock.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.select.master.getDatabaseVersionsTo.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.select.master.getLastDatabaseVersionHeader.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.select.master.getLastDatabaseVersions.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.select.master.getLocalDatabaseBranch.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.select.master.getNonEmptyDatabaseVersionHeaders.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "databaseversion.update.master.markDatabaseVersionDirty.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filecontent.delete.all.removeUnreferencedFileContentRefs.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filecontent.delete.all.removeUnreferencedFileContents.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filecontent.insert.all.writeFileContentChunkRefs.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filecontent.insert.all.writeFileContents.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filecontent.select.all.getFileContentByChecksumWithChunkChecksums.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filecontent.select.all.getFileContentByChecksumWithoutChunkChecksums.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filecontent.select.master.getFileContentsWithChunkChecksumsForDatabaseVersion.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filecontent.update.dirty.updateDirtyFileContentsNewDatabaseId.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.delete.all.removeUnreferencedFileHistories.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.delete.dirty.removeDirtyFileHistories.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.insert.all.writeFileHistories.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.select.all.getFileHistoriesWithFileVersionsByVectorClock.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.select.master.expandFileHistoryId.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.select.master.findLatestFileVersionsForPath.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.select.master.getFileHistoriesByChecksumSizeAndModifiedDate.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.select.master.getFileHistoriesByIds.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.select.master.getFileHistoriesWithFileVersions.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.select.master.getFileHistoriesWithLastVersion.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.select.master.getFileHistoryWithLastVersion.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filehistory.select.master.getLastVersionByFileHistoryId.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.delete.all.removeFileVersionsByIds.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.delete.all.removeSpecificFileVersionsByIds.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.delete.dirty.removeDirtyFileVersions.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.insert.writeFileVersions.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.select.all.getDeletedFileVersions.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.select.all.getDeletedFileVersionsBefore.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.select.all.getMaxPurgeVersions.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.select.all.getPurgeVersionsBeforeTime.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.select.all.getPurgeVersionsByInterval.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.select.master.getCurrentFileTree.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.select.master.getFileHistoryById.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.select.master.getFileVersionByHistoryAndVersion.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fileversion.select.master.getFilteredFileTree.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.delete.all.removeUnreferencedMultiChunkChunkRefs.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.delete.all.removeUnreferencedMultiChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.insert.all.writeMultiChunkRefs.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.insert.all.writeMultiChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.select.all.getMultiChunkIdForChunk.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.select.all.getMultiChunkIdForChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.select.all.getMultiChunkIdsForFileChecksum.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.select.all.getMultiChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.select.all.getMultiChunksWithChunksForDatabaseVersion.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.select.all.getUnusedMultiChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.select.dirty.getDirtyMultiChunkIds.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.select.muddy.getMuddyMultiChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk.update.dirty.updateDirtyMultiChunksNewDatabaseId.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk_muddy.delete.muddy.removeNonMuddyMultiChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichunk_muddy.insert.muddy.writeMuddyMultiChunks.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script.create.all.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script.delete.all.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sql",
+    "package": "syncany",
+    "path": "syncany/0.4.9~alpha-3/syncany-lib/src/main/resources/org/syncany/database/sql",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/syncany/0.4.9%7Ealpha-3/",
+        "metric": {
+            "size": 5556
+        },
+        "pts_link": "https://tracker.debian.org/pkg/syncany",
+        "sloc": [
+            [
+                "java",
+                41541
+            ],
+            [
+                "xml",
+                3384
+            ],
+            [
+                "sql",
+                1294
+            ],
+            [
+                "sh",
+                906
+            ],
+            [
+                "perl",
+                212
+            ],
+            [
+                "ruby",
+                91
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/syncany.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.9~alpha-3"
+}

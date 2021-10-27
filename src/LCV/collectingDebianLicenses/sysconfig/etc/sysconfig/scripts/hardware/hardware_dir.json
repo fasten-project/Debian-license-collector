@@ -1,0 +1,166 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "functions",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwdown",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 4,
+                "symlink_dest": "hwup",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwdown-ccw",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 8,
+                "symlink_dest": "hwup-ccw",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwdown-ccw-dasd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwdown-ccw-group",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwdown-ccw-zfcp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwup",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwup-ccw",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwup-ccw-dasd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwup-ccw-group",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwup-ccw-zfcp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "udev-net",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "hardware",
+    "package": "sysconfig",
+    "path": "sysconfig/0.0.14/etc/sysconfig/scripts/hardware",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sysconfig/0.0.14/",
+        "metric": {
+            "size": 120
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sysconfig",
+        "sloc": [
+            [
+                "sh",
+                501
+            ],
+            [
+                "makefile",
+                43
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.0.14"
+}

@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bad_command",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ok",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "unexpected_char",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unexpected_eof",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "data",
+    "package": "tcllib",
+    "path": "tcllib/1.20+dfsg-1/modules/doctools2toc/tests/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tcllib/1.20+dfsg-1/",
+        "metric": {
+            "size": 68064
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tcllib",
+        "sloc": [
+            [
+                "tcl",
+                216842
+            ],
+            [
+                "ansic",
+                14250
+            ],
+            [
+                "sh",
+                2846
+            ],
+            [
+                "xml",
+                1766
+            ],
+            [
+                "yacc",
+                1145
+            ],
+            [
+                "pascal",
+                881
+            ],
+            [
+                "makefile",
+                107
+            ],
+            [
+                "perl",
+                84
+            ],
+            [
+                "f90",
+                84
+            ],
+            [
+                "python",
+                33
+            ],
+            [
+                "ruby",
+                13
+            ],
+            [
+                "php",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.20+dfsg-1"
+}

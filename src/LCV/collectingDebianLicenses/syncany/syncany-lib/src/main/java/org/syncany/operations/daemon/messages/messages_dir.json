@@ -1,0 +1,956 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AddWatchManagementRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "AddWatchManagementResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "AlreadySyncingResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "BadRequestResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CleanupEndSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CleanupStartCleaningSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CleanupStartSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ConfirmUserInteractionExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ConfirmUserInteractionExternalEventResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ConnectManagementRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ConnectManagementRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ConnectManagementResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ConnectToHostExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ControlManagementRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ControlManagementResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DaemonReloadedExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DownChangesDetectedSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DownDownloadFileSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DownEndSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DownStartSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1001,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GenlinkFolderRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GenlinkFolderRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GenlinkFolderResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetDatabaseVersionHeadersFolderRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetDatabaseVersionHeadersFolderRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1845,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetDatabaseVersionHeadersFolderResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1782,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetFileFolderRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetFileFolderRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetFileFolderResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1377,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetFileFolderResponseInternal.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetFileHistoryFolderRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetFileHistoryFolderRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetFileHistoryFolderResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetPasswordUserInteractionExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetPasswordUserInteractionExternalEventResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "InitManagementRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "InitManagementRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "InitManagementResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ListWatchesManagementRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ListWatchesManagementResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LogFolderRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LogFolderRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LogFolderResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LsFolderRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LsFolderRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LsFolderResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LsRemoteEndSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LsRemoteFolderRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LsRemoteFolderRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LsRemoteFolderResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LsRemoteStartSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PluginInstallExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PluginManagementRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PluginManagementRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PluginManagementResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RemoveWatchManagementRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RemoveWatchManagementResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RestoreFolderRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RestoreFolderRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1958,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RestoreFolderResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShowMessageExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StatusEndSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StatusFolderRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StatusFolderRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StatusFolderResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StatusStartSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpEndSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpIndexChangesDetectedSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1040,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpIndexEndSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpIndexMidSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpIndexStartSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpStartSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpUploadEndSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpUploadFileInTransactionSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpUploadFileSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpdateManagementRequest.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpdateManagementRequestHandler.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UpdateManagementResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "WatchEndSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "WatchStartSyncExternalEvent.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "api",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "messages",
+    "package": "syncany",
+    "path": "syncany/0.4.9~alpha-3/syncany-lib/src/main/java/org/syncany/operations/daemon/messages",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/syncany/0.4.9%7Ealpha-3/",
+        "metric": {
+            "size": 5556
+        },
+        "pts_link": "https://tracker.debian.org/pkg/syncany",
+        "sloc": [
+            [
+                "java",
+                41541
+            ],
+            [
+                "xml",
+                3384
+            ],
+            [
+                "sql",
+                1294
+            ],
+            [
+                "sh",
+                906
+            ],
+            [
+                "perl",
+                212
+            ],
+            [
+                "ruby",
+                91
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/syncany.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.9~alpha-3"
+}

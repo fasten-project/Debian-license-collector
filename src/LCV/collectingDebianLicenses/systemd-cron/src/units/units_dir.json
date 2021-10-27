@@ -1,0 +1,142 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cron-boot.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cron-boot.timer.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cron-failure%40.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cron-schedule.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cron-schedule.target.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cron-schedule.timer.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cron-update.path.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cron-update.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cron.target.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "units",
+    "package": "systemd-cron",
+    "path": "systemd-cron/1.5.17-3/src/units",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/systemd-cron/1.5.17-3/",
+        "metric": {
+            "size": 296
+        },
+        "pts_link": "https://tracker.debian.org/pkg/systemd-cron",
+        "sloc": [
+            [
+                "python",
+                977
+            ],
+            [
+                "sh",
+                345
+            ],
+            [
+                "makefile",
+                212
+            ],
+            [
+                "ansic",
+                116
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/detiste-guest/systemd-cron",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.17-3"
+}

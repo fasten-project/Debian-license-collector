@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "10_fix-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_tcpxtract-fix-segfault.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1685,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30_fix-excessive-sync.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40_fix-png-header-bytes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50_fix-spelling-binary.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "60_libfl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "tcpxtract",
+    "path": "tcpxtract/1.0.1-15/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tcpxtract/1.0.1-15/",
+        "metric": {
+            "size": 708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tcpxtract",
+        "sloc": [
+            [
+                "sh",
+                3338
+            ],
+            [
+                "ansic",
+                1623
+            ],
+            [
+                "lex",
+                40
+            ],
+            [
+                "yacc",
+                34
+            ],
+            [
+                "makefile",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/tcpxtract",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.1-15"
+}

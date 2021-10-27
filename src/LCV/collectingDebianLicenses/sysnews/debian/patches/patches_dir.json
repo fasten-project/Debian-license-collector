@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "010_define-defaults.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_ignore-dirs-and-temp-files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "030_install-with-correct-perms.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "040_minor-cleanup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "050_fix-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sysnews",
+    "path": "sysnews/0.9+ds.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sysnews/0.9+ds.1-1/",
+        "metric": {
+            "size": 232
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sysnews",
+        "sloc": [
+            [
+                "ansic",
+                1985
+            ],
+            [
+                "makefile",
+                61
+            ],
+            [
+                "sh",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/sysnews",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9+ds.1-1"
+}

@@ -1,0 +1,56 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "hwdown.8",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 6,
+                "symlink_dest": "hwup.8",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwup.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "man",
+    "package": "sysconfig",
+    "path": "sysconfig/0.0.14/man",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sysconfig/0.0.14/",
+        "metric": {
+            "size": 120
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sysconfig",
+        "sloc": [
+            [
+                "sh",
+                501
+            ],
+            [
+                "makefile",
+                43
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.0.14"
+}

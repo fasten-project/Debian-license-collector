@@ -1,0 +1,207 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Core",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Default",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8192,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "DtmfRepeater",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "EchoLink",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Help",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "MetarInfo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20480,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Parrot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "PropagationMonitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "SelCallEnc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "TclVoiceMail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "filter_sounds.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mbr_to_wav.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "txt_to_mbr.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mbrola",
+    "package": "svxlink",
+    "path": "svxlink/19.09.1-3/src/svxlink/scripts/sounds/mbrola",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/svxlink/19.09.1-3/",
+        "metric": {
+            "size": 15060
+        },
+        "pts_link": "https://tracker.debian.org/pkg/svxlink",
+        "sloc": [
+            [
+                "cpp",
+                59837
+            ],
+            [
+                "tcl",
+                4311
+            ],
+            [
+                "ansic",
+                2823
+            ],
+            [
+                "sh",
+                1325
+            ],
+            [
+                "javascript",
+                429
+            ],
+            [
+                "python",
+                391
+            ],
+            [
+                "perl",
+                335
+            ],
+            [
+                "ruby",
+                160
+            ],
+            [
+                "makefile",
+                113
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-hamradio-team/svxlink",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "19.09.1-3"
+}

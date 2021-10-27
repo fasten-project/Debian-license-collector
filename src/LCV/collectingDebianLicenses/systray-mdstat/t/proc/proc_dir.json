@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "mdstat.check",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mdstat.degraded",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mdstat.ok",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mdstat.raid1-4disks",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mdstat.resync",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "proc",
+    "package": "systray-mdstat",
+    "path": "systray-mdstat/1.2.0-2/t/proc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/systray-mdstat/1.2.0-2/",
+        "metric": {
+            "size": 224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/systray-mdstat",
+        "sloc": [
+            [
+                "perl",
+                247
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/xtaran/systray-mdstat",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.0-2"
+}

@@ -1,0 +1,645 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bool-cast.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "close-above-stdio.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cmp.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "const-strlen.disabled",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-logging.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "div-round-up.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dup-fcntl.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty-or-dash.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty-or-root.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty-to-null.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty-to-root.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enotsup.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "equals-null.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "errno-check.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "errno.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exit-0.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flags-set.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fopen-unlocked.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "free_and_replace.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hashmap_free.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "htonl.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "in_set.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "iovec-make.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 455,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "isempty.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log-json.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "macros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "malloc_multiply.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memzero.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mfree.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mfree_return.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-if-assignments.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "not_in_set.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "o-ndelay.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reallocarray.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "redundant-if.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-coccinelle.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "safe_close-no-if.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "safe_close.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "safe_closedir.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "safe_fclose.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sd_event_source_disable_unref.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 782,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set_ensure_put.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strempty.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strjoin.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strjoina.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strv_free.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "swap-two.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "synthetic-errno.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "take-fd.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "take-ptr.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "while-true.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xsprintf.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zz-drop-braces.cocci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "coccinelle",
+    "package": "systemd",
+    "path": "systemd/249.4-1/coccinelle",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/systemd/249.4-1/",
+        "metric": {
+            "size": 73452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/systemd",
+        "sloc": [
+            [
+                "ansic",
+                493036
+            ],
+            [
+                "xml",
+                87226
+            ],
+            [
+                "python",
+                25612
+            ],
+            [
+                "sh",
+                9765
+            ],
+            [
+                "perl",
+                2699
+            ],
+            [
+                "makefile",
+                282
+            ],
+            [
+                "awk",
+                93
+            ],
+            [
+                "lisp",
+                13
+            ],
+            [
+                "sed",
+                1
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/systemd-team/systemd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "249.4-1"
+}

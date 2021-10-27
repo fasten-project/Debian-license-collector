@@ -1,0 +1,149 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "99-stapsh-init.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "99-stapsh.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stapsh-daemon.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stapsh%40.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stapshd.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "virtio_console.modules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "guest",
+    "package": "systemtap",
+    "path": "systemtap/4.5-2/staprun/guest",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/systemtap/4.5-2/",
+        "metric": {
+            "size": 38436
+        },
+        "pts_link": "https://tracker.debian.org/pkg/systemtap",
+        "sloc": [
+            [
+                "cpp",
+                77450
+            ],
+            [
+                "ansic",
+                62022
+            ],
+            [
+                "xml",
+                49320
+            ],
+            [
+                "exp",
+                42512
+            ],
+            [
+                "sh",
+                10996
+            ],
+            [
+                "python",
+                2774
+            ],
+            [
+                "perl",
+                2252
+            ],
+            [
+                "tcl",
+                1305
+            ],
+            [
+                "makefile",
+                1080
+            ],
+            [
+                "lisp",
+                105
+            ],
+            [
+                "awk",
+                101
+            ],
+            [
+                "asm",
+                91
+            ],
+            [
+                "java",
+                56
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/systemtap.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.5-2"
+}

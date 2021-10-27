@@ -1,0 +1,262 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-fix_build_system.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "01-fix_concatenation.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02-fix_sysinfo.desktop.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03-fix_Process_ambiguity.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "04-fix_usb_pci_limit.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "05-fix_about_close_button.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "06-check_nvidia_settings.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "07-nvidia_crash.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "08-correct_url.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "09-ubuntu_lsb_release.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "10-better_xorg_parsing.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "11-typo.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "12-fix-nre-no-bogomips.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "13-fix-reordered-cpuinfo.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "14-fix-pkglibdir-error.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "15-fix-the-wrong-path-of-gnome-version.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "sysinfo",
+    "path": "sysinfo/0.7-10/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1161,
+        "license": "/copyright/license/sysinfo/0.7-10/",
+        "metric": {
+            "size": 1852
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sysinfo",
+        "sloc": [
+            [
+                "cs",
+                2933
+            ],
+            [
+                "sh",
+                701
+            ],
+            [
+                "makefile",
+                115
+            ],
+            [
+                "xml",
+                98
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-cli-apps/packages/sysinfo.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7-10"
+}

@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apache",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "daemon",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fsfs.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python-suite.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "shared",
+    "package": "svnkit",
+    "path": "svnkit/1.8.14-4/svnkit-test/configurations/shared",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/svnkit/1.8.14-4/",
+        "metric": {
+            "size": 18080
+        },
+        "pts_link": "https://tracker.debian.org/pkg/svnkit",
+        "sloc": [
+            [
+                "java",
+                230914
+            ],
+            [
+                "xml",
+                273
+            ],
+            [
+                "sh",
+                262
+            ],
+            [
+                "makefile",
+                36
+            ],
+            [
+                "python",
+                17
+            ],
+            [
+                "perl",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/svnkit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8.14-4"
+}

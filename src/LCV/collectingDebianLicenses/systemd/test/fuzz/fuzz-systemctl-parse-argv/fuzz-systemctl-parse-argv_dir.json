@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "help.input",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "missing-strv-free.input",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oss-fuzz-31055",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oss-fuzz-31714",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fuzz-systemctl-parse-argv",
+    "package": "systemd",
+    "path": "systemd/249.4-1/test/fuzz/fuzz-systemctl-parse-argv",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/systemd/249.4-1/",
+        "metric": {
+            "size": 73452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/systemd",
+        "sloc": [
+            [
+                "ansic",
+                493036
+            ],
+            [
+                "xml",
+                87226
+            ],
+            [
+                "python",
+                25612
+            ],
+            [
+                "sh",
+                9765
+            ],
+            [
+                "perl",
+                2699
+            ],
+            [
+                "makefile",
+                282
+            ],
+            [
+                "awk",
+                93
+            ],
+            [
+                "lisp",
+                13
+            ],
+            [
+                "sed",
+                1
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/systemd-team/systemd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "249.4-1"
+}

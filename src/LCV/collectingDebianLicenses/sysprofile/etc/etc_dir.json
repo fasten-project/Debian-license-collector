@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "syslogout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syslogout.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sysprofile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sysprofile.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "etc",
+    "package": "sysprofile",
+    "path": "sysprofile/0.3.10/etc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sysprofile/0.3.10/",
+        "metric": {
+            "size": 316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sysprofile",
+        "sloc": [
+            [
+                "sh",
+                376
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/sysprofile",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.10"
+}

@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "admin",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "daemon",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localtgt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storage",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "tgt",
+    "path": "tgt/1:1.0.80-1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tgt/1:1.0.80-1/",
+        "metric": {
+            "size": 1708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tgt",
+        "sloc": [
+            [
+                "ansic",
+                28417
+            ],
+            [
+                "perl",
+                3825
+            ],
+            [
+                "xml",
+                1867
+            ],
+            [
+                "sh",
+                1271
+            ],
+            [
+                "makefile",
+                293
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/tgt",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.0.80-1"
+}

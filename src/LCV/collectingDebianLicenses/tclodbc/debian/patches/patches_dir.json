@@ -1,0 +1,180 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-configure.in.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-Makefile.in.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-ODBC.m4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-tclconfig_tcl.m4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 122731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-tclodbc.hxx.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-statemnt.cxx.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-database.cxx.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-encoding.cxx.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-strings.cxx.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-tclobj.cxx.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-tclodbc.cxx.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "tclodbc",
+    "path": "tclodbc/2.5.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 685,
+        "license": "/copyright/license/tclodbc/2.5.1-2/",
+        "metric": {
+            "size": 1428
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tclodbc",
+        "sloc": [
+            [
+                "sh",
+                2765
+            ],
+            [
+                "cpp",
+                2039
+            ],
+            [
+                "tcl",
+                591
+            ],
+            [
+                "makefile",
+                217
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/viewvc/pkg-tcltk/tclodbc/trunk/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "2.5.1-2"
+}

@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "default",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "init.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "network",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rc.local",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "etc",
+    "package": "sysvinit",
+    "path": "sysvinit/3.00-1/debian/src/initscripts/etc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sysvinit/3.00-1/",
+        "metric": {
+            "size": 1748
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sysvinit",
+        "sloc": [
+            [
+                "ansic",
+                8368
+            ],
+            [
+                "sh",
+                3580
+            ],
+            [
+                "makefile",
+                318
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/sysvinit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.00-1"
+}
