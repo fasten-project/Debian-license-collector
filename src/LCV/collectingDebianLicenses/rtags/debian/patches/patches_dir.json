@@ -1,0 +1,242 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-fix-lintian-error-about-rpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1435,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-do-not-link-unused-libdl.so.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-systemd-service.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-move-rp-to-lib-rtags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-move-gcc-rtags-wrapper.sh-to-lib-rtags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-update-rc-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-update-rdm-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008-rename-rc-rdm-binaries-to-rtags-rc-rdm.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0009-rename-rc-rdm-in-the-man-pages.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010-make-build-reproducible.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 644,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0011-cleanup-links-to-images-on-3rd-party-sites.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0012-rename-binaries-to-rtags-in-python-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0013-fix-hardcoded-clang-in-python-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0014-rename-systemd-unit-according-to-debian-policy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0015-expand-range-of-llvm-versions.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 978,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0016-always-finish-the-connection.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rtags",
+    "path": "rtags/2.38-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rtags/2.38-4/",
+        "metric": {
+            "size": 5436
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rtags",
+        "sloc": [
+            [
+                "cpp",
+                49528
+            ],
+            [
+                "lisp",
+                5364
+            ],
+            [
+                "ansic",
+                1637
+            ],
+            [
+                "sh",
+                558
+            ],
+            [
+                "python",
+                298
+            ],
+            [
+                "objc",
+                81
+            ],
+            [
+                "makefile",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/emacsen-team/rtags",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.38-4"
+}

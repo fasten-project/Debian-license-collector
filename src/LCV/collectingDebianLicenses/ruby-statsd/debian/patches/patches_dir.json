@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable-bundler-simplecov.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-gemspec.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-statsd",
+    "path": "ruby-statsd/1.4.0-1.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-statsd/1.4.0-1.1/",
+        "metric": {
+            "size": 160
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-statsd",
+        "sloc": [
+            [
+                "ruby",
+                852
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-statsd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.0-1.1"
+}

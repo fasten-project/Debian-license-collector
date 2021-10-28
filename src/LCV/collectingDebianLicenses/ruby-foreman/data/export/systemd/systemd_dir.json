@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "master.target.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "process.service.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "process_master.target.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd",
+    "package": "ruby-foreman",
+    "path": "ruby-foreman/0.85.0-2/data/export/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-foreman/0.85.0-2/",
+        "metric": {
+            "size": 600
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-foreman",
+        "sloc": [
+            [
+                "ruby",
+                2001
+            ],
+            [
+                "sh",
+                88
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-foreman",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.85.0-2"
+}

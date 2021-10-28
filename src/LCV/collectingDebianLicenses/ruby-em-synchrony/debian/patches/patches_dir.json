@@ -1,0 +1,187 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0012-Do-not-depend-on-ruby-em-hiredis-to-run-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-amqp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-connection-pool-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-em-mongo-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-failing-activerecord-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-hiredis-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-mongo-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-network-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-redis-auth.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-synchrony-failing-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-amqp-client.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-relative-require-from-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-em-synchrony",
+    "path": "ruby-em-synchrony/1.0.5-3.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-em-synchrony/1.0.5-3.1/",
+        "metric": {
+            "size": 572
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-em-synchrony",
+        "sloc": [
+            [
+                "ruby",
+                3458
+            ],
+            [
+                "sh",
+                37
+            ],
+            [
+                "sql",
+                7
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-em-synchrony",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.5-3.1"
+}

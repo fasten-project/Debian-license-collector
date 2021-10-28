@@ -1,0 +1,54 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Cargo.toml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "patch-block-padding.diff",
+    "package": "rust-block-buffer",
+    "path": "rust-block-buffer/0.9.0-4/.pc/patch-block-padding.diff",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-block-buffer/0.9.0-4/",
+        "metric": {
+            "size": 124
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-block-buffer",
+        "sloc": [
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/block-buffer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.0-4"
+}

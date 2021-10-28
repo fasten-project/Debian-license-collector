@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "find_script_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-bash-syntax-error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix.perl.path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rtax",
+    "path": "rtax/0.984-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rtax/0.984-7/",
+        "metric": {
+            "size": 308
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rtax",
+        "sloc": [
+            [
+                "perl",
+                1123
+            ],
+            [
+                "sh",
+                203
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/rtax",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.984-7"
+}

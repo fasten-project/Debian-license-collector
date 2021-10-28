@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Fix-rt-library-dependency.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Install-rtkitctl-to-sbin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "meson-use-option-systemd_systemunitdir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rtkit",
+    "path": "rtkit/0.13-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rtkit/0.13-4/",
+        "metric": {
+            "size": 864
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rtkit",
+        "sloc": [
+            [
+                "sh",
+                4253
+            ],
+            [
+                "ansic",
+                2381
+            ],
+            [
+                "makefile",
+                92
+            ],
+            [
+                "xml",
+                44
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/rtkit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.13-4"
+}

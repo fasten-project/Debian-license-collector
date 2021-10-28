@@ -1,0 +1,109 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-dont-use-rubygems-to-run-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-workaround-aws-dns-service-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-disable-aws-connectivity-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-no-git-in-gemspec.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-fix-relative-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-fog-aws",
+    "path": "ruby-fog-aws/3.9.0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-fog-aws/3.9.0-2/",
+        "metric": {
+            "size": 8100
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-fog-aws",
+        "sloc": [
+            [
+                "ruby",
+                72857
+            ],
+            [
+                "javascript",
+                14
+            ],
+            [
+                "makefile",
+                9
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-fog-aws",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.9.0-2"
+}

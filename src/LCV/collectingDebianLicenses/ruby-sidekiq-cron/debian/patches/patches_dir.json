@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable-randomly-failing-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-rubygems-bundler.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-sidekiq-cron",
+    "path": "ruby-sidekiq-cron/1.2.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-sidekiq-cron/1.2.0-1/",
+        "metric": {
+            "size": 480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-sidekiq-cron",
+        "sloc": [
+            [
+                "ruby",
+                1819
+            ],
+            [
+                "sh",
+                8
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-sidekiq-cron",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.0-1"
+}

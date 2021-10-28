@@ -1,0 +1,118 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "deprecated-constant-data.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dont-use-libxml-based-parser.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop-iconv-usage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-failing-ruby2-tests",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 772,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-ruby2.5-warnings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1484,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-soap4r",
+    "path": "ruby-soap4r/2.0.5-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-soap4r/2.0.5-5/",
+        "metric": {
+            "size": 4972
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-soap4r",
+        "sloc": [
+            [
+                "ruby",
+                52729
+            ],
+            [
+                "xml",
+                266
+            ],
+            [
+                "sh",
+                42
+            ],
+            [
+                "javascript",
+                20
+            ],
+            [
+                "perl",
+                10
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-soap4r",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.5-5"
+}

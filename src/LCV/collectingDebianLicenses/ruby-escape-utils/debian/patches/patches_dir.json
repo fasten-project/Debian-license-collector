@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix-tests-for-ruby-2.5.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1049,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-bundler.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-escape-utils",
+    "path": "ruby-escape-utils/1.2.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-escape-utils/1.2.1-2/",
+        "metric": {
+            "size": 372
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-escape-utils",
+        "sloc": [
+            [
+                "ansic",
+                1742
+            ],
+            [
+                "ruby",
+                1079
+            ],
+            [
+                "sh",
+                7
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-escape-utils",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.1-2"
+}

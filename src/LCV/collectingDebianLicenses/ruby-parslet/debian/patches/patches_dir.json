@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001_remove-ruby1.9-specific-and-gobbleup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_remove-ruby2.5-deprecated-mathn.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_fix_for_integer_conversion.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-parslet",
+    "path": "ruby-parslet/1.8.2-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-parslet/1.8.2-3/",
+        "metric": {
+            "size": 808
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-parslet",
+        "sloc": [
+            [
+                "ruby",
+                5406
+            ],
+            [
+                "sh",
+                4
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-parslet",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8.2-3"
+}

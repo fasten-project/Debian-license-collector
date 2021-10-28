@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "base",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mgr",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "replication",
+    "package": "ruby-bdb",
+    "path": "ruby-bdb/0.6.6-1/examples/replication",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4687,
+        "license": "/copyright/license/ruby-bdb/0.6.6-1/",
+        "metric": {
+            "size": 3652
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-bdb",
+        "sloc": [
+            [
+                "ansic",
+                13663
+            ],
+            [
+                "cpp",
+                8601
+            ],
+            [
+                "ruby",
+                7903
+            ],
+            [
+                "sh",
+                47
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/ruby-bdb.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.6-1"
+}

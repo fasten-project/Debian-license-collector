@@ -1,0 +1,54 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Cargo.toml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "update-dep-uuid-version.patch",
+    "package": "rust-core-foundation",
+    "path": "rust-core-foundation/0.9.1-1/.pc/update-dep-uuid-version.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-core-foundation/0.9.1-1/",
+        "metric": {
+            "size": 276
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-core-foundation",
+        "sloc": [
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/core-foundation",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.1-1"
+}

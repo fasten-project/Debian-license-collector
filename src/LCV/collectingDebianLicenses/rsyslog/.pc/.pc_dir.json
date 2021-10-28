@@ -1,0 +1,133 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-create-a-database.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Increase-timeouts-in-imfile-basic-2GB-file-and-imfile-tru.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "rsyslog",
+    "path": "rsyslog/8.2108.0-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rsyslog/8.2108.0-1/",
+        "metric": {
+            "size": 17408
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rsyslog",
+        "sloc": [
+            [
+                "ansic",
+                110563
+            ],
+            [
+                "sh",
+                35268
+            ],
+            [
+                "makefile",
+                4095
+            ],
+            [
+                "lex",
+                560
+            ],
+            [
+                "python",
+                529
+            ],
+            [
+                "yacc",
+                191
+            ],
+            [
+                "perl",
+                162
+            ],
+            [
+                "sql",
+                103
+            ],
+            [
+                "tcl",
+                9
+            ],
+            [
+                "ruby",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rsyslog",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "8.2108.0-1"
+}

@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "subdir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "subset2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subset3",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "conf.d",
+    "package": "ruby-net-ssh",
+    "path": "ruby-net-ssh/1:6.1.0-2/test/configs/conf.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-net-ssh/1:6.1.0-2/",
+        "metric": {
+            "size": 1636
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-net-ssh",
+        "sloc": [
+            [
+                "ruby",
+                15861
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-net-ssh",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:6.1.0-2"
+}

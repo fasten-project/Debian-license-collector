@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-fix-perl-sheebang.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-add-versions-to-shared-libraries.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-drop-js-scripts-packaged-by-Debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 350136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-do-not-install-fonts-packaged-by-Debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rspamd",
+    "path": "rspamd/2.7-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rspamd/2.7-1/",
+        "metric": {
+            "size": 25408
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rspamd",
+        "sloc": [
+            [
+                "ansic",
+                225036
+            ],
+            [
+                "javascript",
+                29185
+            ],
+            [
+                "cpp",
+                16036
+            ],
+            [
+                "perl",
+                2867
+            ],
+            [
+                "asm",
+                2512
+            ],
+            [
+                "pascal",
+                1607
+            ],
+            [
+                "python",
+                1128
+            ],
+            [
+                "sh",
+                406
+            ],
+            [
+                "sql",
+                313
+            ],
+            [
+                "makefile",
+                130
+            ],
+            [
+                "xml",
+                74
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rspamd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.7-1"
+}

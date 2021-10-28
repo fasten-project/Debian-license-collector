@@ -1,0 +1,130 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "GettingStarted",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Installation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "MAN",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "RTiC",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "man",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 3,
+                "symlink_dest": "MAN",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "minirtl.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "posix",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "html",
+    "package": "rtlinux",
+    "path": "rtlinux/3.1pre3-3/doc/html",
+    "pkg_infos": {
+        "area": "non-free",
+        "copyright": true,
+        "ctags_count": 4228,
+        "license": "/copyright/license/rtlinux/3.1pre3-3/",
+        "metric": {
+            "size": 4896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rtlinux",
+        "sloc": [
+            [
+                "ansic",
+                26204
+            ],
+            [
+                "sh",
+                2069
+            ],
+            [
+                "makefile",
+                1414
+            ],
+            [
+                "perl",
+                855
+            ],
+            [
+                "tcl",
+                489
+            ],
+            [
+                "asm",
+                380
+            ],
+            [
+                "cpp",
+                42
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k"
+        ]
+    },
+    "type": "directory",
+    "version": "3.1pre3-3"
+}

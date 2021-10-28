@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "before_build",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 15,
+                "symlink_dest": "before_build.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "before_build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install_on_debian.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ci",
+    "package": "ruby-bunny",
+    "path": "ruby-bunny/2.14.4-4/bin/ci",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-bunny/2.14.4-4/",
+        "metric": {
+            "size": 1396
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-bunny",
+        "sloc": [
+            [
+                "ruby",
+                9801
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "makefile",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-bunny",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.14.4-4"
+}

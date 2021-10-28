@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_disable_bundler.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_add_support_for_ruby_2.4.1.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-json-spec",
+    "path": "ruby-json-spec/1.1.5-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-json-spec/1.1.5-2/",
+        "metric": {
+            "size": 316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-json-spec",
+        "sloc": [
+            [
+                "ruby",
+                1059
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-json-spec",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.5-2"
+}

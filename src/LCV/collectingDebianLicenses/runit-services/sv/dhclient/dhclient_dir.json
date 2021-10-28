@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "check",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interfaces",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dhclient",
+    "package": "runit-services",
+    "path": "runit-services/0.4.0/sv/dhclient",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 3,
+        "license": "/copyright/license/runit-services/0.4.0/",
+        "metric": {
+            "size": 144
+        },
+        "pts_link": "https://tracker.debian.org/pkg/runit-services",
+        "sloc": [
+            [
+                "sh",
+                103
+            ],
+            [
+                "makefile",
+                36
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "0.4.0"
+}

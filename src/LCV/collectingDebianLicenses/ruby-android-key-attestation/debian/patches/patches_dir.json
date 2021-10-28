@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001_drop-bundler.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_drop-git-in-gemspec.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_fix-spec-root.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-android-key-attestation",
+    "path": "ruby-android-key-attestation/0.3.0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-android-key-attestation/0.3.0-2/",
+        "metric": {
+            "size": 216
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-android-key-attestation",
+        "sloc": [
+            [
+                "ruby",
+                352
+            ],
+            [
+                "makefile",
+                7
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-android-key-attestation",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.0-2"
+}

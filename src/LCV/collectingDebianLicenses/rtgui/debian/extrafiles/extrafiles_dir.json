@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apache22.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apache24.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtgui.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 13,
+                "symlink_dest": "apache24.conf",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "extrafiles",
+    "package": "rtgui",
+    "path": "rtgui/0.2.81-5/debian/extrafiles",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 443,
+        "license": "/copyright/license/rtgui/0.2.81-5/",
+        "metric": {
+            "size": 580
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rtgui",
+        "sloc": [
+            [
+                "php",
+                1194
+            ],
+            [
+                "sh",
+                20
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=collab-maint/rtgui.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.81-5"
+}

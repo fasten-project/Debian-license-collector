@@ -1,0 +1,213 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CVE-2020-14387.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copy-devices.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable_reconfigure_req.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_delay_updates.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_ftcbfs_configure.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_mkpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_rsync-ssl_RSYNC_SSL_CERT_feature.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_sparse_inplace.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manpage_upstream_fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "perl_shebang.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "skip_devices_test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update_rrsync_options.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "workaround_glibc_lchmod_regression.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rsync",
+    "path": "rsync/3.2.3-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rsync/3.2.3-8/",
+        "metric": {
+            "size": 6472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rsync",
+        "sloc": [
+            [
+                "ansic",
+                42305
+            ],
+            [
+                "sh",
+                5934
+            ],
+            [
+                "perl",
+                933
+            ],
+            [
+                "python",
+                825
+            ],
+            [
+                "asm",
+                665
+            ],
+            [
+                "makefile",
+                351
+            ],
+            [
+                "cpp",
+                289
+            ],
+            [
+                "awk",
+                191
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rsync",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.3-8"
+}

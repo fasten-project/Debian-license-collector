@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "helpers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "recover-rsa-2048",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "recover-rsa-256",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1025,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smoke",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "rsakeyfind",
+    "path": "rsakeyfind/1:1.0-8/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rsakeyfind/1:1.0-8/",
+        "metric": {
+            "size": 148
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rsakeyfind",
+        "sloc": [
+            [
+                "cpp",
+                301
+            ],
+            [
+                "sh",
+                100
+            ],
+            [
+                "python",
+                54
+            ],
+            [
+                "makefile",
+                17
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/rsakeyfind",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.0-8"
+}

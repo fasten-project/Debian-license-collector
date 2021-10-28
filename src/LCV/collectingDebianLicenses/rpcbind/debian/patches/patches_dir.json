@@ -1,0 +1,116 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-default-config-file-man.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-rmt-calls.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-manpages.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-563971-warmstart-error-msg.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-610718-non-linux.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-migration",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rpcbind",
+    "path": "rpcbind/1.2.6-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rpcbind/1.2.6-2/",
+        "metric": {
+            "size": 948
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rpcbind",
+        "sloc": [
+            [
+                "ansic",
+                5630
+            ],
+            [
+                "sh",
+                1372
+            ],
+            [
+                "makefile",
+                72
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rpcbind",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.6-2"
+}

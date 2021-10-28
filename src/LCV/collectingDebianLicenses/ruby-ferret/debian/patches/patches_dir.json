@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_add_s390_support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_arm64_support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avoid-unaligned-access-on-arm.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable_load_path_manipulation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable_test_causing_segfault.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_typos_in_source_code.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_system_bzlib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-ferret",
+    "path": "ruby-ferret/0.11.8.7-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-ferret/0.11.8.7-2/",
+        "metric": {
+            "size": 4384
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-ferret",
+        "sloc": [
+            [
+                "ansic",
+                69795
+            ],
+            [
+                "ruby",
+                6918
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-ferret",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.11.8.7-2"
+}

@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "rsync.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsync.socket",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsync%40.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 933,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd",
+    "package": "rsync",
+    "path": "rsync/3.2.3-8/packaging/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rsync/3.2.3-8/",
+        "metric": {
+            "size": 6472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rsync",
+        "sloc": [
+            [
+                "ansic",
+                42305
+            ],
+            [
+                "sh",
+                5934
+            ],
+            [
+                "perl",
+                933
+            ],
+            [
+                "python",
+                825
+            ],
+            [
+                "asm",
+                665
+            ],
+            [
+                "makefile",
+                351
+            ],
+            [
+                "cpp",
+                289
+            ],
+            [
+                "awk",
+                191
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/rsync",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.3-8"
+}

@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "allow-tests-to-be-run-against-system-installation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-simplecov-and-codecov-from-test-dependencies.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-rubypants",
+    "path": "ruby-rubypants/0.6.0-1.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-rubypants/0.6.0-1.1/",
+        "metric": {
+            "size": 192
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-rubypants",
+        "sloc": [
+            [
+                "ruby",
+                432
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-rubypants.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.0-1.1"
+}

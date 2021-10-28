@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Add-Debian-specific-SONAME.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Switch-to-Python-3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Strip-path-from-strfile-to-make-build-reproducible.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Switch-to-new-boost-bind-bind.hpp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Fix-basedir-location-for-dynamic_reconfigure-macros.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Fix-incorrect-BEFORE-usage-in-include_directories.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ros-dynamic-reconfigure",
+    "path": "ros-dynamic-reconfigure/1.7.1-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ros-dynamic-reconfigure/1.7.1-6/",
+        "metric": {
+            "size": 572
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ros-dynamic-reconfigure",
+        "sloc": [
+            [
+                "python",
+                1753
+            ],
+            [
+                "cpp",
+                636
+            ],
+            [
+                "xml",
+                35
+            ],
+            [
+                "ansic",
+                18
+            ],
+            [
+                "makefile",
+                9
+            ],
+            [
+                "sh",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/ros-dynamic-reconfigure",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.1-6"
+}

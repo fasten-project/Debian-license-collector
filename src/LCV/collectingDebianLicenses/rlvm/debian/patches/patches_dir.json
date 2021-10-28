@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001_Use_system_library.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_include-iostream.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_use_pkg-config_for_freetype2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 874,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "004_port_to_python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rlvm",
+    "path": "rlvm/0.14-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rlvm/0.14-5/",
+        "metric": {
+            "size": 17052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rlvm",
+        "sloc": [
+            [
+                "cpp",
+                91572
+            ],
+            [
+                "ansic",
+                39346
+            ],
+            [
+                "perl",
+                768
+            ],
+            [
+                "sh",
+                320
+            ],
+            [
+                "python",
+                181
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.14-5"
+}

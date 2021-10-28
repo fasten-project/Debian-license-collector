@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "change-timeout.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-rubygems-require.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_git_ls_files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-em-spec",
+    "path": "ruby-em-spec/0.2.7-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 97,
+        "license": "/copyright/license/ruby-em-spec/0.2.7-1/",
+        "metric": {
+            "size": 168
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-em-spec",
+        "sloc": [
+            [
+                "ruby",
+                500
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-em-spec.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.7-1"
+}

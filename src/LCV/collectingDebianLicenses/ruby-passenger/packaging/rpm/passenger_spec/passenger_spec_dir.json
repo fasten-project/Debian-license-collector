@@ -1,0 +1,143 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apache-passenger.conf.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "passenger.logrotate",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "passenger.spec.template",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "passenger_dynamic_thread_group.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "passenger_tests_default_config_example.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rubygem-passenger-4.0.18-GLIBC_HAVE_LONG_LONG.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rubygem-passenger-4.0.18-gcc47-include-sys_types.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "passenger_spec",
+    "package": "ruby-passenger",
+    "path": "ruby-passenger/4.0.53-1/packaging/rpm/passenger_spec",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 70512,
+        "license": "/copyright/license/ruby-passenger/4.0.53-1/",
+        "metric": {
+            "size": 28668
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-passenger",
+        "sloc": [
+            [
+                "cpp",
+                264280
+            ],
+            [
+                "ruby",
+                25606
+            ],
+            [
+                "sh",
+                22815
+            ],
+            [
+                "ansic",
+                18277
+            ],
+            [
+                "python",
+                767
+            ],
+            [
+                "makefile",
+                99
+            ],
+            [
+                "perl",
+                20
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-passenger.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.0.53-1"
+}

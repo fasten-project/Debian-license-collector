@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0004-Fix-broken-test-only-in-ruby-2.7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable_test_requiring_network.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-local-extension-dir-from-tests-loadpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-test-files-for-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-curb",
+    "path": "ruby-curb/0.9.11-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-curb/0.9.11-1/",
+        "metric": {
+            "size": 744
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-curb",
+        "sloc": [
+            [
+                "ansic",
+                4667
+            ],
+            [
+                "ruby",
+                3141
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-curb",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.11-1"
+}

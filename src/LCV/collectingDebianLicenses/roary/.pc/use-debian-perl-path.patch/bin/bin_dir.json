@@ -1,0 +1,205 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "create_pan_genome",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extract_proteome_from_gff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "iterative_cdhit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pan_genome_assembly_statistics",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pan_genome_core_alignment",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pan_genome_post_analysis",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pan_genome_reorder_spreadsheet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parallel_all_against_all_blastp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "protein_alignment_from_nucleotides",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "query_pan_genome",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "roary",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "roary-pan_genome_reorder_spreadsheet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "roary-query_pan_genome",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "roary-unique_genes_per_sample",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 609,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transfer_annotation_to_groups",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bin",
+    "package": "roary",
+    "path": "roary/3.13.0+dfsg-1/.pc/use-debian-perl-path.patch/bin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/roary/3.13.0+dfsg-1/",
+        "metric": {
+            "size": 3944
+        },
+        "pts_link": "https://tracker.debian.org/pkg/roary",
+        "sloc": [
+            [
+                "perl",
+                10536
+            ],
+            [
+                "sh",
+                211
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/roary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.13.0+dfsg-1"
+}

@@ -1,0 +1,89 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "doc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "macros.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fix-directories.patch",
+    "package": "rpm",
+    "path": "rpm/4.16.1.2+dfsg1-3/.pc/fix-directories.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rpm/4.16.1.2+dfsg1-3/",
+        "metric": {
+            "size": 18972
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rpm",
+        "sloc": [
+            [
+                "ansic",
+                71682
+            ],
+            [
+                "sh",
+                42342
+            ],
+            [
+                "makefile",
+                893
+            ],
+            [
+                "python",
+                582
+            ],
+            [
+                "cpp",
+                571
+            ],
+            [
+                "perl",
+                231
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-rpm-team/rpm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.16.1.2+dfsg1-3"
+}

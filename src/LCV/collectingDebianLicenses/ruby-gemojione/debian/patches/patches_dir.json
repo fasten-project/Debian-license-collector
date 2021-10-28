@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "change_source_directory.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-bundler.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-git-in-gemspec.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-gemojione",
+    "path": "ruby-gemojione/3.3.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 53,
+        "license": "/copyright/license/ruby-gemojione/3.3.0-1/",
+        "metric": {
+            "size": 18096
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-gemojione",
+        "sloc": [
+            [
+                "ruby",
+                566
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-gemojione.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.3.0-1"
+}

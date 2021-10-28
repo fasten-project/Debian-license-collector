@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Do-not-require-bundler-and-remove-spork.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Disable-gecode-solver.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Temporary-disable-test-which-depend-on-gecode.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-solve",
+    "path": "ruby-solve/4.0.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-solve/4.0.0-1/",
+        "metric": {
+            "size": 1820
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-solve",
+        "sloc": [
+            [
+                "ruby",
+                39183
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-solve",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.0.0-1"
+}

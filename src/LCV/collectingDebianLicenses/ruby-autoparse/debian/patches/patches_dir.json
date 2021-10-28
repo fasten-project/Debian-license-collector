@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix-build-error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-vendored-files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-autoparse",
+    "path": "ruby-autoparse/0.3.3-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-autoparse/0.3.3-3/",
+        "metric": {
+            "size": 364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-autoparse",
+        "sloc": [
+            [
+                "ruby",
+                2250
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-autoparse",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.3-3"
+}

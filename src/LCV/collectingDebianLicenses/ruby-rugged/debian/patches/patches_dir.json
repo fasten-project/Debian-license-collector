@@ -1,0 +1,131 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable-test-global-config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dont-try-to-build-libgit2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_header_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libgit2-fixtures-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 484,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remote_only_for_autopkgtest.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "skip-network-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "skip_test_remote_check_connection_push_credentials.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ruby-rugged",
+    "path": "ruby-rugged/1.1.0+ds-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ruby-rugged/1.1.0+ds-5/",
+        "metric": {
+            "size": 2712
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ruby-rugged",
+        "sloc": [
+            [
+                "ansic",
+                8721
+            ],
+            [
+                "ruby",
+                7408
+            ],
+            [
+                "sh",
+                55
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/ruby-rugged",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.0+ds-5"
+}

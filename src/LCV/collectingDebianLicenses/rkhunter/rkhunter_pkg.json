@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "files",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "installer.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "1.4.6-10",
+    "package": "rkhunter",
+    "path": "rkhunter/1.4.6-10",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rkhunter/1.4.6-10/",
+        "metric": {
+            "size": 3424
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rkhunter",
+        "sloc": [
+            [
+                "sh",
+                14367
+            ],
+            [
+                "perl",
+                120
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/rkhunter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.6-10"
+}
