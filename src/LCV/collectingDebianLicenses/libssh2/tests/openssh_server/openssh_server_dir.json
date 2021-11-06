@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Dockerfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authorized_keys",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ca_ecdsa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ca_ecdsa.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_ecdsa_key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_ed25519_key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_rsa_key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "openssh_server",
+    "package": "libssh2",
+    "path": "libssh2/1.10.0-2/tests/openssh_server",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libssh2/1.10.0-2/",
+        "metric": {
+            "size": 5712
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libssh2",
+        "sloc": [
+            [
+                "ansic",
+                36776
+            ],
+            [
+                "sh",
+                5354
+            ],
+            [
+                "makefile",
+                448
+            ],
+            [
+                "cpp",
+                118
+            ],
+            [
+                "awk",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/libssh2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.10.0-2"
+}

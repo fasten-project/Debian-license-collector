@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "group.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hosts.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pam.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pam_matrix_passdb.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "passwd.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shadow.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "etc",
+    "package": "libssh",
+    "path": "libssh/0.9.6-1/tests/etc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libssh/0.9.6-1/",
+        "metric": {
+            "size": 7720
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libssh",
+        "sloc": [
+            [
+                "ansic",
+                77269
+            ],
+            [
+                "cpp",
+                480
+            ],
+            [
+                "sh",
+                65
+            ],
+            [
+                "makefile",
+                41
+            ],
+            [
+                "javascript",
+                20
+            ],
+            [
+                "python",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/libssh",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.6-1"
+}

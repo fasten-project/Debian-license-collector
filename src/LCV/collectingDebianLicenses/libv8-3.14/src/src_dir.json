@@ -1,0 +1,3735 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "SConscript",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "accessors.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "accessors.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocation-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocation.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocation.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "api.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 226482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "api.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apinatives.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apiutils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arguments.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "array.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "assembler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "assembler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ast.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ast.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 87034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atomicops.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atomicops_internals_arm_gcc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atomicops_internals_mips_gcc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atomicops_internals_ppc_gcc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atomicops_internals_x86_gcc.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atomicops_internals_x86_gcc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atomicops_internals_x86_macosx.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atomicops_internals_x86_msvc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bignum-dtoa.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bignum-dtoa.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bignum.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bignum.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bootstrapper.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bootstrapper.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "builtins.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "builtins.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bytecodes-irregexp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cached-powers.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cached-powers.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2984,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "char-predicates-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "char-predicates.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "checks.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "checks.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "circular-queue-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "circular-queue.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "circular-queue.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "code-stubs.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "code-stubs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "code.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "codegen.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "codegen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collection.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compilation-cache.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compilation-cache.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compiler-intrinsics.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compiler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compiler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "contexts.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "contexts.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conversions-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conversions.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conversions.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "counters.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "counters.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cpu-profiler-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cpu-profiler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cpu-profiler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cpu.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d8-debug.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d8-debug.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d8-posix.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d8-readline.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d8-windows.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d8.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d8.gyp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d8.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "d8.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data-flow.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data-flow.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "date.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "date.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "date.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dateparser-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dateparser.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dateparser.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12727,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-agent.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-agent.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-debugger.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 126247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deoptimizer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deoptimizer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disasm.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disassembler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disassembler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "diy-fp.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "diy-fp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "double.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dtoa.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dtoa.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elements-kind.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elements-kind.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elements.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elements.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "execution.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "execution.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extensions",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "factory.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "factory.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fast-dtoa.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fast-dtoa.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixed-dtoa.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixed-dtoa.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flag-definitions.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flags.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flags.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "frames-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "frames.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "frames.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "full-codegen.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "full-codegen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "func-name-inferrer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "func-name-inferrer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gdb-jit.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gdb-jit.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global-handles.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global-handles.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "globals.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handles-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handles.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handles.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hashmap.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heap-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heap-profiler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heap-profiler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heap.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 251543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heap.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hydrogen-instructions.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 73716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hydrogen-instructions.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hydrogen.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 354256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hydrogen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ia32",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ic-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ic.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ic.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "incremental-marking-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "incremental-marking.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "incremental-marking.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inspector.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inspector.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interface.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interpreter-irregexp.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interpreter-irregexp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "isolate-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "isolate.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "isolate.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "json-parser.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "json.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jsregexp.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 220830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jsregexp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lazy-instance.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "list-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "list.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lithium-allocator-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3891,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lithium-allocator.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lithium-allocator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lithium.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lithium.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "liveedit-debugger.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "liveedit.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "liveedit.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "liveobjectlist-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "liveobjectlist.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "liveobjectlist.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log-utils.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log-utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "macro-assembler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "macros.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mark-compact-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3753,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mark-compact.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 126084,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mark-compact.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26709,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "math.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "messages.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "messages.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "messages.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mips",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mirror-debugger.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "misc-intrinsics.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2918,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mksnapshot.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "natives.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2837,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects-debug.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects-printer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects-visiting-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24971,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects-visiting.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects-visiting.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 469402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 333016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "once.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "once.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "optimizing-compiler-thread.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "optimizing-compiler-thread.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parser.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parser.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-aix.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-cygwin.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-freebsd.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-gnu.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-linux.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-macos.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-nullos.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-openbsd.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-posix.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-posix.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-solaris.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-tls-mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-tls-win32.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-tls.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform-win32.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63907,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "preparse-data-format.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preparse-data.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preparse-data.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preparser-api.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preparser.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preparser.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prettyprinter.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prettyprinter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "profile-generator-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "profile-generator.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 120640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "profile-generator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "property-details.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "property.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4041,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "property.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp-macro-assembler-irregexp-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp-macro-assembler-irregexp.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp-macro-assembler-irregexp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp-macro-assembler-tracer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp-macro-assembler-tracer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp-macro-assembler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp-macro-assembler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp-stack.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp-stack.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regexp.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rewriter.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rewriter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runtime-profiler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runtime-profiler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runtime.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 462128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runtime.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runtime.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "safepoint-table.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "safepoint-table.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scanner-character-streams.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scanner-character-streams.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scanner.cc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scanner.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scopeinfo.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scopeinfo.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scopes.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scopes.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "serialize.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "serialize.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simulator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "small-pointer-list.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smart-pointers.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snapshot-common.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snapshot-empty.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snapshot.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spaces-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spaces.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spaces.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "splay-tree-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "splay-tree.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "store-buffer-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "store-buffer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "store-buffer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "string-search.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "string-search.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "string-stream.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "string-stream.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "string.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strtod.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strtod.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stub-cache.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stub-cache.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "third_party",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "token.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "token.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transitions-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transitions.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transitions.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7803,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "type-info.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "type-info.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10649,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unbound-queue-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unbound-queue.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unicode-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unicode.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unicode.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uri.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utils-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utils.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8-counters.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4070,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8-counters.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23676,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8checks.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8conversions.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8conversions.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8dll-main.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8globals.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8memory.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8natives.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8preparserdll-main.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8threads.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8threads.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8utils.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v8utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9051,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "variables.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "variables.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vm-state-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vm-state.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "win32-headers.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "win32-math.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "win32-math.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "x64",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "zone-inl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3912,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zone.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zone.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "src",
+    "package": "libv8-3.14",
+    "path": "libv8-3.14/3.14.5.8-11/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 70298,
+        "license": "/copyright/license/libv8-3.14/3.14.5.8-11/",
+        "metric": {
+            "size": 58996
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libv8-3.14",
+        "sloc": [
+            [
+                "cpp",
+                694074
+            ],
+            [
+                "python",
+                9631
+            ],
+            [
+                "ansic",
+                3263
+            ],
+            [
+                "sh",
+                885
+            ],
+            [
+                "makefile",
+                293
+            ],
+            [
+                "lisp",
+                222
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/git/collab-maint/libv8.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.14.5.8-11"
+}

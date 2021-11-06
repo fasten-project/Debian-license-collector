@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.bazel",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "docker",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tox-bootstrapd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tox-bootstrapd.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tox-bootstrapd.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bootstrap_daemon",
+    "package": "libtoxcore",
+    "path": "libtoxcore/0.2.12-1/other/bootstrap_daemon",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libtoxcore/0.2.12-1/",
+        "metric": {
+            "size": 3140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libtoxcore",
+        "sloc": [
+            [
+                "ansic",
+                36008
+            ],
+            [
+                "cpp",
+                1663
+            ],
+            [
+                "sh",
+                670
+            ],
+            [
+                "python",
+                205
+            ],
+            [
+                "makefile",
+                77
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/yangfl-guest/c-toxcore",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.12-1"
+}

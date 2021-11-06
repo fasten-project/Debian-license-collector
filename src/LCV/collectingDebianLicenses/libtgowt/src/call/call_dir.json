@@ -1,0 +1,926 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17837,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "adaptation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "audio_receive_stream.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_receive_stream.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_send_stream.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_send_stream.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_sender.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_state.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_state.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bitrate_allocator.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bitrate_allocator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bitrate_allocator_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bitrate_estimator_tests.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62051,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call_config.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call_config.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call_factory.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call_factory.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call_perf_tests.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "call_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "degraded_call.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "degraded_call.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fake_network_pipe.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13001,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fake_network_pipe.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fake_network_pipe_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flexfec_receive_stream.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flexfec_receive_stream.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flexfec_receive_stream_impl.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flexfec_receive_stream_impl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flexfec_receive_stream_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "packet_receiver.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rampup_tests.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rampup_tests.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "receive_time_calculator.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "receive_time_calculator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "receive_time_calculator_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_bitrate_configurator.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_bitrate_configurator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_bitrate_configurator_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_config.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_config.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_demuxer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14298,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_demuxer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_demuxer_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_packet_sink_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_payload_params.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19091,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_payload_params.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_payload_params_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_stream_receiver_controller.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_stream_receiver_controller.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_stream_receiver_controller_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_transport_controller_send.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_transport_controller_send.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_transport_controller_send_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_video_sender.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_video_sender.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_video_sender_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtp_video_sender_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtx_receive_stream.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtx_receive_stream.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtx_receive_stream_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simulated_network.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simulated_network.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simulated_network_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simulated_packet_receiver.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syncable.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syncable.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "version.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "video_receive_stream.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "video_receive_stream.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "video_send_stream.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "video_send_stream.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9672,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "call",
+    "package": "libtgowt",
+    "path": "libtgowt/0~git20210627.91d836d+dfsg-3/src/call",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libtgowt/0%7Egit20210627.91d836d+dfsg-3/",
+        "metric": {
+            "size": 121624
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libtgowt",
+        "sloc": [
+            [
+                "cpp",
+                1001903
+            ],
+            [
+                "ansic",
+                438839
+            ],
+            [
+                "asm",
+                59305
+            ],
+            [
+                "java",
+                38075
+            ],
+            [
+                "python",
+                17273
+            ],
+            [
+                "sh",
+                8094
+            ],
+            [
+                "objc",
+                4256
+            ],
+            [
+                "perl",
+                1924
+            ],
+            [
+                "pascal",
+                1103
+            ],
+            [
+                "makefile",
+                958
+            ],
+            [
+                "cs",
+                471
+            ],
+            [
+                "javascript",
+                286
+            ],
+            [
+                "xml",
+                276
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/libtgowt",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0~git20210627.91d836d+dfsg-3"
+}

@@ -1,0 +1,898 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-builder-container.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-builder-container.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-builder-initrd.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-builder-initrd.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-builder-machine.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-builder-machine.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-builder-private.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-builder.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-builder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-all.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-disk.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-disk.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-initrd.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10948,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-initrd.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-interactive.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-interactive.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-file.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-file.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-guest-bind.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3298,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-guest-bind.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-host-bind.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-host-bind.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-host-image.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-host-image.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-ram.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount-ram.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-mount.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3087,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network-address.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network-address.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3978,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network-filterref-parameter.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network-filterref-parameter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network-filterref.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network-filterref.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network-route.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network-route.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-network.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-service-generic.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-service-generic.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-service-systemd.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-service-systemd.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-service.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config-service.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-config.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-console-raw.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28033,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-console-raw.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-console-rpc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-console-rpc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-console.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-console.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-context-interactive.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-context-interactive.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-context-service.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-context-service.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-context.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-context.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-enum-types.c.template",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-enum-types.h.template",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-init-common.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-init-lxc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-init-qemu.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-main.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-main.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-protocol-generator.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-protocol.x",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-rpcpacket.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-rpcpacket.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-util.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox-util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt-sandbox.sym",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7605,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "libvirt-sandbox",
+    "package": "libvirt-sandbox",
+    "path": "libvirt-sandbox/0.5.1+git20160404-1/libvirt-sandbox",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1964,
+        "license": "/copyright/license/libvirt-sandbox/0.5.1+git20160404-1/",
+        "metric": {
+            "size": 3104
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libvirt-sandbox",
+        "sloc": [
+            [
+                "ansic",
+                12696
+            ],
+            [
+                "python",
+                2110
+            ],
+            [
+                "makefile",
+                447
+            ],
+            [
+                "sh",
+                302
+            ],
+            [
+                "xml",
+                151
+            ],
+            [
+                "perl",
+                110
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/git/pkg-libvirt/libvirt-sandbox.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.1+git20160404-1"
+}

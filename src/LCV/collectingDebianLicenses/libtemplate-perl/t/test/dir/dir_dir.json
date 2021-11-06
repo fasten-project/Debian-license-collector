@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "file1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sub_one",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sub_two",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xyzfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dir",
+    "package": "libtemplate-perl",
+    "path": "libtemplate-perl/2.27-1/t/test/dir",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libtemplate-perl/2.27-1/",
+        "metric": {
+            "size": 2632
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libtemplate-perl",
+        "sloc": [
+            [
+                "perl",
+                14750
+            ],
+            [
+                "makefile",
+                11
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2.27-1"
+}

@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "foo.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gzonk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "quux",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "baz",
+    "package": "libtest-nobreakpoints-perl",
+    "path": "libtest-nobreakpoints-perl/0.17-1/t/baz",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libtest-nobreakpoints-perl/0.17-1/",
+        "metric": {
+            "size": 188
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libtest-nobreakpoints-perl",
+        "sloc": [
+            [
+                "perl",
+                101
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/perl-team/modules/packages/libtest-nobreakpoints-perl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.17-1"
+}

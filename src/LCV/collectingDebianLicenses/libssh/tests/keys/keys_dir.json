@@ -1,0 +1,227 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "certauth",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "id_ecdsa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "id_ecdsa.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "id_ed25519",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "id_ed25519.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "id_rsa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "id_rsa.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_dsa_key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_dsa_key.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_ecdsa_key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_ecdsa_key.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 978,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_key.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_rsa_key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_host_rsa_key.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "user_ca",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "keys",
+    "package": "libssh",
+    "path": "libssh/0.9.6-1/tests/keys",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libssh/0.9.6-1/",
+        "metric": {
+            "size": 7720
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libssh",
+        "sloc": [
+            [
+                "ansic",
+                77269
+            ],
+            [
+                "cpp",
+                480
+            ],
+            [
+                "sh",
+                65
+            ],
+            [
+                "makefile",
+                41
+            ],
+            [
+                "javascript",
+                20
+            ],
+            [
+                "python",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/libssh",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.6-1"
+}

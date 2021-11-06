@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "java-compat.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jniInclude.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 796,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sharedLibraries.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libusb-java",
+    "path": "libusb-java/0.8+ztex20090101-9/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libusb-java/0.8+ztex20090101-9/",
+        "metric": {
+            "size": 296
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libusb-java",
+        "sloc": [
+            [
+                "java",
+                1102
+            ],
+            [
+                "ansic",
+                605
+            ],
+            [
+                "makefile",
+                96
+            ],
+            [
+                "sh",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/libusb-java",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8+ztex20090101-9"
+}

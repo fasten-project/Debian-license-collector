@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Pass-GPG_TTY-env-var-to-the-ssh-binary.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Reduce-udevadm-settle-timeout-to-10-seconds.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Skip-vircgrouptest.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "forward",
+    "package": "libvirt",
+    "path": "libvirt/7.6.0-1/.pc/forward",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libvirt/7.6.0-1/",
+        "metric": {
+            "size": 145040
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libvirt",
+        "sloc": [
+            [
+                "ansic",
+                507923
+            ],
+            [
+                "xml",
+                184260
+            ],
+            [
+                "python",
+                8991
+            ],
+            [
+                "sh",
+                3920
+            ],
+            [
+                "perl",
+                2764
+            ],
+            [
+                "makefile",
+                534
+            ],
+            [
+                "javascript",
+                116
+            ],
+            [
+                "cpp",
+                22
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/libvirt-team/libvirt",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.6.0-1"
+}
