@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "base",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mgr",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "replication",
+    "package": "libdb-ruby",
+    "path": "libdb-ruby/0.6.5-6/examples/replication",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 3979,
+        "license": "/copyright/license/libdb-ruby/0.6.5-6/",
+        "metric": {
+            "size": 2612
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libdb-ruby",
+        "sloc": [
+            [
+                "ansic",
+                13984
+            ],
+            [
+                "cpp",
+                8739
+            ],
+            [
+                "ruby",
+                7864
+            ],
+            [
+                "sh",
+                47
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-ruby-extras/trunk/libdb-ruby/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "0.6.5-6"
+}

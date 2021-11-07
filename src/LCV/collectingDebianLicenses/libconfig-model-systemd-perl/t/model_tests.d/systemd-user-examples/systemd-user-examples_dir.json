@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "basic-service",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "basic-socket",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "delete-service",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "override-service",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "systemd-user-examples",
+    "package": "libconfig-model-systemd-perl",
+    "path": "libconfig-model-systemd-perl/0.247.1-1/t/model_tests.d/systemd-user-examples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libconfig-model-systemd-perl/0.247.1-1/",
+        "metric": {
+            "size": 1448
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libconfig-model-systemd-perl",
+        "sloc": [
+            [
+                "perl",
+                10500
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/perl-team/modules/packages/libconfig-model-systemd-perl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.247.1-1"
+}

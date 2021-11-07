@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "daemon",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libcryptui",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "02_seahorse-daemon_libcryptui_static_link.patch",
+    "package": "libcryptui",
+    "path": "libcryptui/3.12.2-6/.pc/02_seahorse-daemon_libcryptui_static_link.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libcryptui/3.12.2-6/",
+        "metric": {
+            "size": 11484
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libcryptui",
+        "sloc": [
+            [
+                "ansic",
+                19242
+            ],
+            [
+                "sh",
+                11159
+            ],
+            [
+                "xml",
+                780
+            ],
+            [
+                "makefile",
+                386
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnome-team/libcryptui",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.12.2-6"
+}

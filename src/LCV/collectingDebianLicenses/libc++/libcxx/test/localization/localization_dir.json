@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "c.locales",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "locale.categories",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "locale.stdcvt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "locale.syn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "locales",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "localization.general",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "version.pass.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "localization",
+    "package": "libc++",
+    "path": "libc++/3.5-2/libcxx/test/localization",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 20667,
+        "license": "/copyright/license/libc++/3.5-2/",
+        "metric": {
+            "size": 39088
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libc++",
+        "sloc": [
+            [
+                "cpp",
+                365451
+            ],
+            [
+                "ansic",
+                3125
+            ],
+            [
+                "asm",
+                651
+            ],
+            [
+                "sh",
+                630
+            ],
+            [
+                "makefile",
+                66
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-llvm/libcxx/trunk/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "3.5-2"
+}

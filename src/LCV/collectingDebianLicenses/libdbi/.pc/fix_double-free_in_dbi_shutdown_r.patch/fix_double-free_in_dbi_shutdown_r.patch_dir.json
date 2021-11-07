@@ -1,0 +1,49 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "fix_double-free_in_dbi_shutdown_r.patch",
+    "package": "libdbi",
+    "path": "libdbi/0.9.0-6/.pc/fix_double-free_in_dbi_shutdown_r.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libdbi/0.9.0-6/",
+        "metric": {
+            "size": 4276
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libdbi",
+        "sloc": [
+            [
+                "sh",
+                10708
+            ],
+            [
+                "ansic",
+                4007
+            ],
+            [
+                "makefile",
+                116
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.9.0-6"
+}

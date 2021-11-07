@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "nothing_to_do.pass.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thread.mutex.requirements.general",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "thread.mutex.requirements.mutex",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 105,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "thread.sharedtimedmutex.requirements",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "thread.timedmutex.requirements",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "thread.mutex.requirements",
+    "package": "libc++",
+    "path": "libc++/3.5-2/libcxx/test/thread/thread.mutex/thread.mutex.requirements",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 20667,
+        "license": "/copyright/license/libc++/3.5-2/",
+        "metric": {
+            "size": 39088
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libc++",
+        "sloc": [
+            [
+                "cpp",
+                365451
+            ],
+            [
+                "ansic",
+                3125
+            ],
+            [
+                "asm",
+                651
+            ],
+            [
+                "sh",
+                630
+            ],
+            [
+                "makefile",
+                66
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-llvm/libcxx/trunk/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "3.5-2"
+}
