@@ -1,0 +1,132 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-fix-buildsys.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-link-dynamically.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-spelling.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-no-silent.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-append-to-ldflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-format-specifier-for-uint64_t.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libixp",
+    "path": "libixp/0.6~20121202+hg148-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libixp/0.6%7E20121202+hg148-5/",
+        "metric": {
+            "size": 988
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libixp",
+        "sloc": [
+            [
+                "ansic",
+                4908
+            ],
+            [
+                "sh",
+                142
+            ],
+            [
+                "perl",
+                121
+            ],
+            [
+                "makefile",
+                111
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/libixp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6~20121202+hg148-5"
+}

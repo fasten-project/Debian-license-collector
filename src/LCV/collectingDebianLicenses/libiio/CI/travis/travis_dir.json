@@ -1,0 +1,225 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "after_deploy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "before_deploy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "before_install_darwin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "before_install_linux",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_kernel.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deploy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deploy.rsa.enc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generateDocumentationAndDeploy.sh.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inside_docker.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lib.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_darwin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_linux",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_linux_qemu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup_qemu_for_arm.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zip.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "travis",
+    "package": "libiio",
+    "path": "libiio/0.21-2/CI/travis",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libiio/0.21-2/",
+        "metric": {
+            "size": 4464
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libiio",
+        "sloc": [
+            [
+                "ansic",
+                18477
+            ],
+            [
+                "python",
+                1755
+            ],
+            [
+                "sh",
+                1228
+            ],
+            [
+                "cs",
+                1210
+            ],
+            [
+                "yacc",
+                419
+            ],
+            [
+                "xml",
+                192
+            ],
+            [
+                "lex",
+                178
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/libiio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.21-2"
+}

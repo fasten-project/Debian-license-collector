@@ -1,0 +1,78 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-fix-shebang.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-dont-requires-rubygems.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-replace-ZenTestMapping.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1001,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libinline-ruby",
+    "path": "libinline-ruby/3.8.4-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 147,
+        "license": "/copyright/license/libinline-ruby/3.8.4-1/",
+        "metric": {
+            "size": 180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libinline-ruby",
+        "sloc": [
+            [
+                "ruby",
+                1467
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-ruby-extras/trunk/libinline-ruby/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "3.8.4-1"
+}

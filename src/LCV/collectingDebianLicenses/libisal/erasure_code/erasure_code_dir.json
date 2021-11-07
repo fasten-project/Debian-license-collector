@@ -1,0 +1,861 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6056,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aarch64",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ec_base.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ec_base.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 406502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ec_base_aliases.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ec_highlevel_func.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ec_multibinary.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "erasure_code_base_perf.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "erasure_code_base_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "erasure_code_perf.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "erasure_code_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "erasure_code_update_perf.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "erasure_code_update_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen_rs_matrix_limits.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2845,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_2vect_dot_prod_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_2vect_dot_prod_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_2vect_dot_prod_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_2vect_dot_prod_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_2vect_mad_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_2vect_mad_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6685,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_2vect_mad_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_2vect_mad_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_3vect_dot_prod_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_3vect_dot_prod_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_3vect_dot_prod_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_3vect_dot_prod_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_3vect_mad_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_3vect_mad_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_3vect_mad_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_3vect_mad_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_4vect_dot_prod_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_4vect_dot_prod_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_4vect_dot_prod_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_4vect_dot_prod_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_4vect_mad_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_4vect_mad_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_4vect_mad_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_4vect_mad_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_5vect_dot_prod_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_5vect_dot_prod_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8819,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_5vect_dot_prod_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_5vect_dot_prod_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_5vect_mad_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_5vect_mad_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_5vect_mad_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_5vect_mad_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10727,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_6vect_dot_prod_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_6vect_dot_prod_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_6vect_dot_prod_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10053,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_6vect_dot_prod_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_6vect_mad_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_6vect_mad_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_6vect_mad_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_6vect_mad_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_inverse_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_dot_prod_1tbl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_dot_prod_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_dot_prod_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_dot_prod_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_dot_prod_base_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_dot_prod_perf.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5054,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_dot_prod_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_dot_prod_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mad_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mad_avx2.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mad_avx512.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mad_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mad_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mul_avx.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mul_base_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mul_perf.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mul_sse.asm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gf_vect_mul_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppc64le",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "erasure_code",
+    "package": "libisal",
+    "path": "libisal/2.30.0-4/erasure_code",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libisal/2.30.0-4/",
+        "metric": {
+            "size": 4836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libisal",
+        "sloc": [
+            [
+                "ansic",
+                44622
+            ],
+            [
+                "asm",
+                39339
+            ],
+            [
+                "sh",
+                912
+            ],
+            [
+                "makefile",
+                561
+            ],
+            [
+                "pascal",
+                316
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/third-party/libisal",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.30.0-4"
+}

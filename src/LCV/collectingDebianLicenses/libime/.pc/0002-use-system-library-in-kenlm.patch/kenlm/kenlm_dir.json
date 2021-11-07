@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "lm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "util",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "kenlm",
+    "package": "libime",
+    "path": "libime/1.0.8-1/.pc/0002-use-system-library-in-kenlm.patch/kenlm",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libime/1.0.8-1/",
+        "metric": {
+            "size": 189948
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libime",
+        "sloc": [
+            [
+                "cpp",
+                26010
+            ],
+            [
+                "python",
+                58
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/input-method-team/libime",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.8-1"
+}

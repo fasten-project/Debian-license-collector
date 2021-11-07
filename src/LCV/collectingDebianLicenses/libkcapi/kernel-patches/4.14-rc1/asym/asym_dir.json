@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "v9-0000-cover-letter.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v9-0001-crypto-AF_ALG-add-sign-verify-API.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v9-0002-crypto-AF_ALG-add-setpubkey-setsockopt-call.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "v9-0003-crypto-AF_ALG-add-asymmetric-cipher.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "asym",
+    "package": "libkcapi",
+    "path": "libkcapi/1.3.1-1/kernel-patches/4.14-rc1/asym",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libkcapi/1.3.1-1/",
+        "metric": {
+            "size": 2964
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libkcapi",
+        "sloc": [
+            [
+                "ansic",
+                13590
+            ],
+            [
+                "sh",
+                2420
+            ],
+            [
+                "perl",
+                1949
+            ],
+            [
+                "makefile",
+                278
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/libkcapi",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.1-1"
+}

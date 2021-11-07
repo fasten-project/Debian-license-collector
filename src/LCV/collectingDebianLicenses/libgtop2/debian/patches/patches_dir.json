@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "03_kfreebsd_installdirs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3903,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_kfreebsd_version.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mountlist-ignore-snap-squashfs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1455,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libgtop2",
+    "path": "libgtop2/2.40.0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libgtop2/2.40.0-2/",
+        "metric": {
+            "size": 8072
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libgtop2",
+        "sloc": [
+            [
+                "ansic",
+                25393
+            ],
+            [
+                "sh",
+                7089
+            ],
+            [
+                "makefile",
+                418
+            ],
+            [
+                "perl",
+                268
+            ],
+            [
+                "xml",
+                179
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnome-team/libgtop",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.40.0-2"
+}
