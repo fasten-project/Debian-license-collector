@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fedora_systemctl_status_firewalld.service_ON.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fedora_systemctl_status_firewalld.service_ON_disabled.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubuntu_ufw_status_OFF.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubuntu_ufw_status_ON.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "firewall",
+    "package": "fusioninventory-agent",
+    "path": "fusioninventory-agent/1:2.6-2/resources/linux/firewall",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/fusioninventory-agent/1:2.6-2/",
+        "metric": {
+            "size": 27488
+        },
+        "pts_link": "https://tracker.debian.org/pkg/fusioninventory-agent",
+        "sloc": [
+            [
+                "perl",
+                120896
+            ],
+            [
+                "xml",
+                9459
+            ],
+            [
+                "sh",
+                760
+            ],
+            [
+                "python",
+                26
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/perl-team/modules/packages/fusioninventory-agent",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.6-2"
+}

@@ -1,0 +1,268 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ldpd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ospfd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ip_ospf_interface.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ip_ospf_interface_r1_eth1_shutdown.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ip_ospf_interface_r2_eth1_shutdown.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ip_ospf_neighbor.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ip_route.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2756,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_l2vpn_binding.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_l2vpn_vc.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ldp_binding.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ldp_discovery.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ldp_igp_sync.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ldp_igp_sync_r1_eth1_shutdown.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ldp_neighbor.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ospf_ldp_sync.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ospf_ldp_sync_r1_eth1_shutdown.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "show_ospf_ldp_sync_r2_eth1_shutdown.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zebra.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "r2",
+    "package": "frr",
+    "path": "frr/8.1-1/tests/topotests/ldp_sync_ospf_topo1/r2",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/frr/8.1-1/",
+        "metric": {
+            "size": 51076
+        },
+        "pts_link": "https://tracker.debian.org/pkg/frr",
+        "sloc": [
+            [
+                "ansic",
+                575260
+            ],
+            [
+                "python",
+                113178
+            ],
+            [
+                "perl",
+                5577
+            ],
+            [
+                "sh",
+                2337
+            ],
+            [
+                "cpp",
+                1965
+            ],
+            [
+                "makefile",
+                651
+            ],
+            [
+                "yacc",
+                379
+            ],
+            [
+                "lex",
+                338
+            ],
+            [
+                "lisp",
+                62
+            ],
+            [
+                "xml",
+                35
+            ],
+            [
+                "javascript",
+                8
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/FRRouting/frr/tree/debian/master",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "8.1-1"
+}

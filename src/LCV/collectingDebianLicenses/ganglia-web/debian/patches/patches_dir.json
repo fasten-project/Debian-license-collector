@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0003-Fix-Uncaught-DivisionByZeroError-Modulo-by-zero.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Fix-XSS-from-OBB-1005024.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ganglia-web",
+    "path": "ganglia-web/3.7.5+debian-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ganglia-web/3.7.5+debian-3/",
+        "metric": {
+            "size": 4492
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ganglia-web",
+        "sloc": [
+            [
+                "javascript",
+                27575
+            ],
+            [
+                "php",
+                17239
+            ],
+            [
+                "sh",
+                356
+            ],
+            [
+                "makefile",
+                82
+            ],
+            [
+                "xml",
+                42
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ganglia-web",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.7.5+debian-3"
+}

@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "confdata",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "defaultpasswords",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "grub",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hosts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interfaces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-keys",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "timezone",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "hooks",
+    "package": "ganeti-instance-debootstrap",
+    "path": "ganeti-instance-debootstrap/0.16-6.1/examples/hooks",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ganeti-instance-debootstrap/0.16-6.1/",
+        "metric": {
+            "size": 276
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ganeti-instance-debootstrap",
+        "sloc": [
+            [
+                "sh",
+                436
+            ],
+            [
+                "makefile",
+                54
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ganeti-team/ganeti-instance-debootstrap",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.16-6.1"
+}

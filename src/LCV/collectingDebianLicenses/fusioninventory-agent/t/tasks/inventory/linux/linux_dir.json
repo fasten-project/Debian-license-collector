@@ -1,0 +1,180 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cpu.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drives.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lvm.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multipath.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "networks",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "networks.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 720,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rhn-systemid.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "softwares.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "storages.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "video.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "linux",
+    "package": "fusioninventory-agent",
+    "path": "fusioninventory-agent/1:2.6-2/t/tasks/inventory/linux",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/fusioninventory-agent/1:2.6-2/",
+        "metric": {
+            "size": 27488
+        },
+        "pts_link": "https://tracker.debian.org/pkg/fusioninventory-agent",
+        "sloc": [
+            [
+                "perl",
+                120896
+            ],
+            [
+                "xml",
+                9459
+            ],
+            [
+                "sh",
+                760
+            ],
+            [
+                "python",
+                26
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/perl-team/modules/packages/fusioninventory-agent",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.6-2"
+}

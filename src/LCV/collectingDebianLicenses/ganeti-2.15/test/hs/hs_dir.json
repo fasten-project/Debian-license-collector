@@ -1,0 +1,130 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cli-tests-defs.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1890,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hpc-htools.hs",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 19,
+                "symlink_dest": "../../src/htools.hs",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hpc-mon-collector.hs",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 26,
+                "symlink_dest": "../../src/mon-collector.hs",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "htest.hs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "live-test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "offline-test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shelltests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "hs",
+    "package": "ganeti-2.15",
+    "path": "ganeti-2.15/2.15.2-15/test/hs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ganeti-2.15/2.15.2-15/",
+        "metric": {
+            "size": 17920
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ganeti-2.15",
+        "sloc": [
+            [
+                "python",
+                104179
+            ],
+            [
+                "haskell",
+                42371
+            ],
+            [
+                "sh",
+                3696
+            ],
+            [
+                "makefile",
+                2672
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ganeti-team/ganeti/tree/master-2.15",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.15.2-15"
+}

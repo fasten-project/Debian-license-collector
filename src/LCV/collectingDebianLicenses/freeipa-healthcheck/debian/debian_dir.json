@@ -1,0 +1,170 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "freeipa-healthcheck.dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "freeipa-healthcheck.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "freeipa-healthcheck.ipa-healthcheck.service",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 34,
+                "symlink_dest": "../systemd/ipa-healthcheck.service",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "freeipa-healthcheck.ipa-healthcheck.timer",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 32,
+                "symlink_dest": "../systemd/ipa-healthcheck.timer",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipahealthcheck.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python3-ipahealthcheck-core.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "freeipa-healthcheck",
+    "path": "freeipa-healthcheck/0.9-1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/freeipa-healthcheck/0.9-1/",
+        "metric": {
+            "size": 748
+        },
+        "pts_link": "https://tracker.debian.org/pkg/freeipa-healthcheck",
+        "sloc": [
+            [
+                "python",
+                8468
+            ],
+            [
+                "makefile",
+                20
+            ],
+            [
+                "sh",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm"
+        ],
+        "vcs_browser": "https://salsa.debian.org/freeipa-team/freeipa-healthcheck",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9-1"
+}

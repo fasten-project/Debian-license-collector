@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bird1.aup",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bird1.wav",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 26,
+                "symlink_dest": "../../dink/Sound/bird1.wav",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bird1_data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "birds2.ogg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58811,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bird1.wav",
+    "package": "freedink-data",
+    "path": "freedink-data/1.08.20190120-2/src/bird1.wav",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/freedink-data/1.08.20190120-2/",
+        "metric": {
+            "size": 138256
+        },
+        "pts_link": "https://tracker.debian.org/pkg/freedink-data",
+        "sloc": [
+            [
+                "ansic",
+                18075
+            ],
+            [
+                "makefile",
+                57
+            ],
+            [
+                "sh",
+                35
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.08.20190120-2"
+}

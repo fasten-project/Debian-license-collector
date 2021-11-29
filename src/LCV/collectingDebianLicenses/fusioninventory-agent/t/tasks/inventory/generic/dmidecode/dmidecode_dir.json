@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "battery.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bios.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 18082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memory.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 96547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ports.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41056,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "psu.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "slots.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dmidecode",
+    "package": "fusioninventory-agent",
+    "path": "fusioninventory-agent/1:2.6-2/t/tasks/inventory/generic/dmidecode",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/fusioninventory-agent/1:2.6-2/",
+        "metric": {
+            "size": 27488
+        },
+        "pts_link": "https://tracker.debian.org/pkg/fusioninventory-agent",
+        "sloc": [
+            [
+                "perl",
+                120896
+            ],
+            [
+                "xml",
+                9459
+            ],
+            [
+                "sh",
+                760
+            ],
+            [
+                "python",
+                26
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/perl-team/modules/packages/fusioninventory-agent",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.6-2"
+}

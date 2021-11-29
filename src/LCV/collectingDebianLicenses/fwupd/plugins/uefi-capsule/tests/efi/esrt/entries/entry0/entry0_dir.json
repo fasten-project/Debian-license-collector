@@ -1,0 +1,136 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "capsule_flags",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fw_class",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fw_type",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fw_version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "last_attempt_status",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "last_attempt_version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lowest_supported_fw_version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "entry0",
+    "package": "fwupd",
+    "path": "fwupd/1.5.7-5/plugins/uefi-capsule/tests/efi/esrt/entries/entry0",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/fwupd/1.5.7-5/",
+        "metric": {
+            "size": 14280
+        },
+        "pts_link": "https://tracker.debian.org/pkg/fwupd",
+        "sloc": [
+            [
+                "ansic",
+                117489
+            ],
+            [
+                "xml",
+                5714
+            ],
+            [
+                "python",
+                2535
+            ],
+            [
+                "sh",
+                688
+            ],
+            [
+                "makefile",
+                275
+            ],
+            [
+                "asm",
+                250
+            ],
+            [
+                "perl",
+                21
+            ],
+            [
+                "cpp",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/efi-team/fwupd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.7-5"
+}

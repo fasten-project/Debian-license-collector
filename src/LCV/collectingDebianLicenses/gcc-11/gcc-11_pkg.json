@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gcc-11.2.0-dfsg.tar.xz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76901824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gm2-20210728.tar.xz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1606852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "newlib-4.1.0.tar.xz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5352016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "11.2.0-12",
+    "package": "gcc-11",
+    "path": "gcc-11/11.2.0-12",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/gcc-11/11.2.0-12/",
+        "metric": {
+            "size": 105392
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gcc-11",
+        "sloc": [
+            [
+                "makefile",
+                2557
+            ],
+            [
+                "sh",
+                1115
+            ],
+            [
+                "python",
+                1106
+            ],
+            [
+                "awk",
+                23
+            ],
+            [
+                "cpp",
+                14
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/toolchain-team/gcc/tree/gcc-11-debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "11.2.0-12"
+}
