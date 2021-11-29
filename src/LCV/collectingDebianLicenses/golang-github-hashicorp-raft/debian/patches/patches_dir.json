@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t-skip--TestNetworkTransport_AppendEntriesPipeline_CloseStreams.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t-skip--TestRaft_AutoSnapshot.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t-skip--TestRaft_LeadershipTransferLeaderRejectsClientRequests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t-skip--TestRaft_RecoverCluster.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t-skip--TestRaft_SnapshotRestore_PeerChange.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "golang-github-hashicorp-raft",
+    "path": "golang-github-hashicorp-raft/1.1.2-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-github-hashicorp-raft/1.1.2-1/",
+        "metric": {
+            "size": 1000
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-github-hashicorp-raft",
+        "sloc": [
+            [
+                "makefile",
+                45
+            ],
+            [
+                "sh",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-github-hashicorp-raft",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.2-1"
+}

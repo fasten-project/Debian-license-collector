@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable-internet-access.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-test-extended-header-tar.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-local-artifacts.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "golang-github-jesseduffield-go-getter",
+    "path": "golang-github-jesseduffield-go-getter/0.0~git20180822.906e156-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-github-jesseduffield-go-getter/0.0%7Egit20180822.906e156-4/",
+        "metric": {
+            "size": 880
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-github-jesseduffield-go-getter",
+        "sloc": [
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-github-jesseduffield-go-getter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0~git20180822.906e156-4"
+}

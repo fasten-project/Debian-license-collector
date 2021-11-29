@@ -1,0 +1,57 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "manifest.json",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 40,
+                "symlink_dest": "../v2s1-invalid-signatures.manifest.json",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "signature-1",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 28,
+                "symlink_dest": "../dir-img-valid/signature-1",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dir-img-manifest-digest-error",
+    "package": "golang-github-containers-image",
+    "path": "golang-github-containers-image/5.16.0-3/signature/fixtures/dir-img-manifest-digest-error",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-github-containers-image/5.16.0-3/",
+        "metric": {
+            "size": 3660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-github-containers-image",
+        "sloc": [
+            [
+                "sh",
+                167
+            ],
+            [
+                "makefile",
+                76
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-github-containers-image",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.16.0-3"
+}

@@ -1,0 +1,934 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".circleci",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15977,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "appveyor.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "checksum.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7727,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client_mode.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client_option.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client_option_progress.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client_option_progress_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cmd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copy_dir.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "decompress.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_bzip2.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_bzip2_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_gzip.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_gzip_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_tar.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_tar_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_tbz2.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_tbz2_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_testing.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_tgz.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_tgz_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_txz.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_txz_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_xz.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_xz_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_zip.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decompress_zip_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_bitbucket.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_bitbucket_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_file.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_file_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_file_unix_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_gcs.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_gcs_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_git.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_git_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_github.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_github_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_s3.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_s3_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_ssh.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "folder_storage.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "folder_storage_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_base.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_file.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_file_copy.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_file_copy_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1857,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_file_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_file_unix.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_file_windows.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_gcs.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_gcs_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_git.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_git_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_hg.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_hg_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_http.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_http_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_mock.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_s3.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6535,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_s3_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "go.mod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "go.sum",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "helper",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "module_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netrc.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netrc_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storage.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testdata",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "util_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "1.4.1-1",
+    "package": "golang-github-hashicorp-go-getter",
+    "path": "golang-github-hashicorp-go-getter/1.4.1-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-github-hashicorp-go-getter/1.4.1-1/",
+        "metric": {
+            "size": 936
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-github-hashicorp-go-getter",
+        "sloc": [
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-getter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.1-1"
+}

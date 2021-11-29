@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "app",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "infra",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testing",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "transport",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "02-Skip-some-tests-need-huge-memory-or-fail-sometimes.patch",
+    "package": "golang-v2ray-core",
+    "path": "golang-v2ray-core/4.34.0-1/.pc/02-Skip-some-tests-need-huge-memory-or-fail-sometimes.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-v2ray-core/4.34.0-1/",
+        "metric": {
+            "size": 11044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-v2ray-core",
+        "sloc": [
+            [
+                "sh",
+                404
+            ],
+            [
+                "makefile",
+                52
+            ],
+            [
+                "asm",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-v2ray-core",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.34.0-1"
+}

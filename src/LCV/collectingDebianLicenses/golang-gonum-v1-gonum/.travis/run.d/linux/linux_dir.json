@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-check-copyright.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 54,
+                "symlink_dest": "../../../.github/workflows/script.d/check-copyright.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-check-imports.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 52,
+                "symlink_dest": "../../../.github/workflows/script.d/check-imports.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-check-formatting.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 55,
+                "symlink_dest": "../../../.github/workflows/script.d/check-formatting.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-test.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 43,
+                "symlink_dest": "../../../.github/workflows/script.d/test.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-test-coverage.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 59,
+                "symlink_dest": "../../../.github/workflows/script.d/travis-test-coverage.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-check-generate.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 53,
+                "symlink_dest": "../../../.github/workflows/script.d/check-generate.sh",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "linux",
+    "package": "golang-gonum-v1-gonum",
+    "path": "golang-gonum-v1-gonum/0.9.0-1/.travis/run.d/linux",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-gonum-v1-gonum/0.9.0-1/",
+        "metric": {
+            "size": 16876
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-gonum-v1-gonum",
+        "sloc": [
+            [
+                "asm",
+                6182
+            ],
+            [
+                "fortran",
+                5271
+            ],
+            [
+                "sh",
+                373
+            ],
+            [
+                "makefile",
+                89
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-gonum-v1-gonum",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.0-1"
+}

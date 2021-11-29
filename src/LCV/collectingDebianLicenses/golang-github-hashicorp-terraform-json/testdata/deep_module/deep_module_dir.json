@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "foo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "main.tf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plan.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "schemas.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "deep_module",
+    "package": "golang-github-hashicorp-terraform-json",
+    "path": "golang-github-hashicorp-terraform-json/0.5.0-2/testdata/deep_module",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-github-hashicorp-terraform-json/0.5.0-2/",
+        "metric": {
+            "size": 2560
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-github-hashicorp-terraform-json",
+        "sloc": [
+            [
+                "makefile",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-github-hashicorp-terraform-json",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.0-2"
+}

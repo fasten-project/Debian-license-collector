@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "deploy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "provision_db",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "gcp",
+    "package": "golang-gocloud",
+    "path": "golang-gocloud/0.20.0-3/internal/website/content/samples/guestbook/gcp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-gocloud/0.20.0-3/",
+        "metric": {
+            "size": 14608
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-gocloud",
+        "sloc": [
+            [
+                "sh",
+                473
+            ],
+            [
+                "xml",
+                22
+            ],
+            [
+                "sql",
+                14
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "experimental",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-gocloud",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.20.0-3"
+}

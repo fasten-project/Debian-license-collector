@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apply.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jenkins_debian_glue.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "puppet",
+    "package": "jenkins-debian-glue",
+    "path": "jenkins-debian-glue/0.21.0/puppet",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/jenkins-debian-glue/0.21.0/",
+        "metric": {
+            "size": 384
+        },
+        "pts_link": "https://tracker.debian.org/pkg/jenkins-debian-glue",
+        "sloc": [
+            [
+                "sh",
+                2608
+            ],
+            [
+                "ruby",
+                489
+            ],
+            [
+                "makefile",
+                29
+            ],
+            [
+                "python",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/mika/jenkins-debian-glue",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.21.0"
+}

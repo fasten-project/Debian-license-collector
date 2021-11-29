@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "%20file%20with%20spaces%20",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deepdir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dir1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "file1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dirwithbrokenlink",
+    "package": "golang-github-vbatts-go-mtree",
+    "path": "golang-github-vbatts-go-mtree/0.4.4-2/testdata/dirwithbrokenlink",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-github-vbatts-go-mtree/0.4.4-2/",
+        "metric": {
+            "size": 776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-github-vbatts-go-mtree",
+        "sloc": [
+            [
+                "sh",
+                150
+            ],
+            [
+                "makefile",
+                68
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-github-vbatts-go-mtree",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.4-2"
+}

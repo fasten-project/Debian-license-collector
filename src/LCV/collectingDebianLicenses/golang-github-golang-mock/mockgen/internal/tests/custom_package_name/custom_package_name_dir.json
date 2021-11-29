@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "greeter",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "validator",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "custom_package_name",
+    "package": "golang-github-golang-mock",
+    "path": "golang-github-golang-mock/1.3.1-2/mockgen/internal/tests/custom_package_name",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-github-golang-mock/1.3.1-2/",
+        "metric": {
+            "size": 532
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-github-golang-mock",
+        "sloc": [
+            [
+                "sh",
+                30
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-github-golang-mock",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.1-2"
+}

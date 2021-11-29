@@ -1,0 +1,177 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ContentType_is_discovered_if_not_provided.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Content_md5_did_not_match%2C_blob_existed.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Content_md5_did_not_match.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Content_md5_match.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "a_large_jpg_file.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "a_large_jpg_file_written_in_two_chunks.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "a_small_text_file.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "invalid_ContentType_fails.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no_write_then_close_results_in_empty_blob%2C_blob_existed.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no_write_then_close_results_in_empty_blob.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_to_empty_key_fails.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_with_explicit_ContentType_overrides_discovery.replay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "TestWrite",
+    "package": "golang-gocloud",
+    "path": "golang-gocloud/0.20.0-3/blob/s3blob/testdata/TestConformance/TestWrite",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/golang-gocloud/0.20.0-3/",
+        "metric": {
+            "size": 14608
+        },
+        "pts_link": "https://tracker.debian.org/pkg/golang-gocloud",
+        "sloc": [
+            [
+                "sh",
+                473
+            ],
+            [
+                "xml",
+                22
+            ],
+            [
+                "sql",
+                14
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "experimental",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/golang-gocloud",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.20.0-3"
+}

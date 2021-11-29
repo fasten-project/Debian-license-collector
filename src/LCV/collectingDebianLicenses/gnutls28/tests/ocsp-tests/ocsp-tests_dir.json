@@ -1,0 +1,194 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "certs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ocsp-load-chain.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocsp-must-staple-connection.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 15590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocsp-test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocsp-tls-connection.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocsptool.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response1.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response1.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response2.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response2.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response3.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suppressions.valgrind",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ocsp-tests",
+    "package": "gnutls28",
+    "path": "gnutls28/3.7.2-3/tests/ocsp-tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/gnutls28/3.7.2-3/",
+        "metric": {
+            "size": 70460
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gnutls28",
+        "sloc": [
+            [
+                "ansic",
+                364118
+            ],
+            [
+                "asm",
+                113340
+            ],
+            [
+                "sh",
+                15789
+            ],
+            [
+                "makefile",
+                6557
+            ],
+            [
+                "yacc",
+                1851
+            ],
+            [
+                "lisp",
+                1536
+            ],
+            [
+                "cpp",
+                1362
+            ],
+            [
+                "perl",
+                1035
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnutls-team/gnutls",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.7.2-3"
+}

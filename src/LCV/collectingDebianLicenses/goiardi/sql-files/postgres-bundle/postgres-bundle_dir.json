@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "deploy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "revert",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sqitch.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqitch.plan",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verify",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "postgres-bundle",
+    "package": "goiardi",
+    "path": "goiardi/0.11.10-1/sql-files/postgres-bundle",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/goiardi/0.11.10-1/",
+        "metric": {
+            "size": 2692
+        },
+        "pts_link": "https://tracker.debian.org/pkg/goiardi",
+        "sloc": [
+            [
+                "sql",
+                4994
+            ],
+            [
+                "makefile",
+                158
+            ],
+            [
+                "sh",
+                95
+            ],
+            [
+                "python",
+                30
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/goiardi",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.11.10-1"
+}

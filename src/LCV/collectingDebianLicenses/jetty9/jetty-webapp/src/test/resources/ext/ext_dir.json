@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "org-acme-ext-one.jar",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2605,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "org-acme-ext-two.jar",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sub",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "ext",
+    "package": "jetty9",
+    "path": "jetty9/9.4.44-2/jetty-webapp/src/test/resources/ext",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/jetty9/9.4.44-2/",
+        "metric": {
+            "size": 56432
+        },
+        "pts_link": "https://tracker.debian.org/pkg/jetty9",
+        "sloc": [
+            [
+                "java",
+                434400
+            ],
+            [
+                "xml",
+                25482
+            ],
+            [
+                "javascript",
+                1039
+            ],
+            [
+                "sh",
+                911
+            ],
+            [
+                "jsp",
+                268
+            ],
+            [
+                "sql",
+                40
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/jetty9",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.4.44-2"
+}
