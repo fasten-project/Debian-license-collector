@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_gcc-4.6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glibc2.27.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no_qtlibs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "clonalframe",
+    "path": "clonalframe/1.2-11/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/clonalframe/1.2-11/",
+        "metric": {
+            "size": 520
+        },
+        "pts_link": "https://tracker.debian.org/pkg/clonalframe",
+        "sloc": [
+            [
+                "cpp",
+                3775
+            ],
+            [
+                "sh",
+                10
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/clonalframe",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2-11"
+}

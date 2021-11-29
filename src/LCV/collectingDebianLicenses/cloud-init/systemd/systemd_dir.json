@@ -1,0 +1,153 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cloud-config.service.tmpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cloud-config.target",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cloud-final.service.tmpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cloud-init-generator.tmpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cloud-init-hotplugd.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 857,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cloud-init-hotplugd.socket",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cloud-init-local.service.tmpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 754,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cloud-init.service.tmpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cloud-init.target",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-sshd-keygen-if-cloud-init-active.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd",
+    "package": "cloud-init",
+    "path": "cloud-init/21.4-1/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cloud-init/21.4-1/",
+        "metric": {
+            "size": 7608
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cloud-init",
+        "sloc": [
+            [
+                "python",
+                83871
+            ],
+            [
+                "sh",
+                4089
+            ],
+            [
+                "makefile",
+                105
+            ],
+            [
+                "xml",
+                22
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/cloud-team/cloud-init",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "21.4-1"
+}
