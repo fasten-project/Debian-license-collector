@@ -1,0 +1,225 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "1.cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1.key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1_chacha.cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1_salsa.cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2.cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2.key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2_chacha.cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2_salsa.cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnscrypt_cert_chacha.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnscrypt_cert_chacha.dsc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnscrypt_cert_chacha.post",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnscrypt_cert_chacha.pre",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnscrypt_cert_chacha.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnscrypt_cert_chacha.testns",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "precheck.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dnscrypt_cert_chacha.tdir",
+    "package": "unbound",
+    "path": "unbound/1.13.1-1/testdata/dnscrypt_cert_chacha.tdir",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/unbound/1.13.1-1/",
+        "metric": {
+            "size": 25968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/unbound",
+        "sloc": [
+            [
+                "ansic",
+                109891
+            ],
+            [
+                "sh",
+                6028
+            ],
+            [
+                "yacc",
+                3391
+            ],
+            [
+                "python",
+                1945
+            ],
+            [
+                "makefile",
+                1689
+            ],
+            [
+                "awk",
+                161
+            ],
+            [
+                "perl",
+                158
+            ],
+            [
+                "xml",
+                36
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dns-team/unbound",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-1"
+}

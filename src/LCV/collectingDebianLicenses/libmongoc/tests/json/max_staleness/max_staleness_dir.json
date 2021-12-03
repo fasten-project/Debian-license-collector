@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ReplicaSetNoPrimary",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ReplicaSetWithPrimary",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Sharded",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Single",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Unknown",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "supplemental",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "max_staleness",
+    "package": "libmongoc",
+    "path": "libmongoc/1.4.2-1/tests/json/max_staleness",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4501,
+        "license": "/copyright/license/libmongoc/1.4.2-1/",
+        "metric": {
+            "size": 6824
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libmongoc",
+        "sloc": [
+            [
+                "ansic",
+                57956
+            ],
+            [
+                "makefile",
+                717
+            ],
+            [
+                "python",
+                502
+            ],
+            [
+                "sh",
+                54
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://github.com/mongodb/mongo-c-driver/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.2-1"
+}

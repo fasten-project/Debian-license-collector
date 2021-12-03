@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_fix_64bit_FTBFS.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_Werror.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_fix_FTBFS_uninitialized.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libomxvideosrc",
+    "path": "libomxvideosrc/0.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libomxvideosrc/0.1-2/",
+        "metric": {
+            "size": 1548
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libomxvideosrc",
+        "sloc": [
+            [
+                "sh",
+                10163
+            ],
+            [
+                "ansic",
+                1135
+            ],
+            [
+                "makefile",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1-2"
+}

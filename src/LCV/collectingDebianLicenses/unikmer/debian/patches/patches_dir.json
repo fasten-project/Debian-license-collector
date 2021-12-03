@@ -1,0 +1,57 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-upstream-go-logger.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "unikmer",
+    "path": "unikmer/0.18.8-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/unikmer/0.18.8-1/",
+        "metric": {
+            "size": 4824
+        },
+        "pts_link": "https://tracker.debian.org/pkg/unikmer",
+        "sloc": [
+            [
+                "sh",
+                116
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/unikmer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.18.8-1"
+}

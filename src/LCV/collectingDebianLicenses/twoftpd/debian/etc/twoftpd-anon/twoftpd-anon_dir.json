@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "env",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "log",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "twoftpd-anon",
+    "package": "twoftpd",
+    "path": "twoftpd/1.42-1.2/debian/etc/twoftpd-anon",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/twoftpd/1.42-1.2/",
+        "metric": {
+            "size": 700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/twoftpd",
+        "sloc": [
+            [
+                "sh",
+                2929
+            ],
+            [
+                "ansic",
+                2182
+            ],
+            [
+                "makefile",
+                93
+            ]
+        ],
+        "suites": [
+            "bullseye",
+            "buster"
+        ]
+    },
+    "type": "directory",
+    "version": "1.42-1.2"
+}

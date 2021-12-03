@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "conf",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "doc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "07_fix_table_names.patch",
+    "package": "libnss-pgsql",
+    "path": "libnss-pgsql/1.4.0debian-8/.pc/07_fix_table_names.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 385,
+        "license": "/copyright/license/libnss-pgsql/1.4.0debian-8/",
+        "metric": {
+            "size": 1452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libnss-pgsql",
+        "sloc": [
+            [
+                "sh",
+                7907
+            ],
+            [
+                "ansic",
+                1106
+            ],
+            [
+                "xml",
+                392
+            ],
+            [
+                "makefile",
+                42
+            ],
+            [
+                "sql",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/cgit/collab-maint/libnss-pgsql.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.0debian-8"
+}

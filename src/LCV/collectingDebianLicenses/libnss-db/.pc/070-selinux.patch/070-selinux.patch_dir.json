@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "configure.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "070-selinux.patch",
+    "package": "libnss-db",
+    "path": "libnss-db/2.2.3pre1-6/.pc/070-selinux.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 691,
+        "license": "/copyright/license/libnss-db/2.2.3pre1-6/",
+        "metric": {
+            "size": 1476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libnss-db",
+        "sloc": [
+            [
+                "sh",
+                7113
+            ],
+            [
+                "ansic",
+                4507
+            ],
+            [
+                "makefile",
+                497
+            ],
+            [
+                "yacc",
+                318
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/cvsdebuild/libnss-db/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "2.2.3pre1-6"
+}

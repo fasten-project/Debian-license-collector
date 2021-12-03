@@ -1,0 +1,220 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "boot_delays.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 757,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "broken_build_system.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conf_notes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-nsswitch-example.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_ldap_sessions_mem_leak.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_lib_symlink.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_multiarch_dir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glibc-2.16.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log_authpriv.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-build-output-independent-of-basenam.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patch-makefile.am-to-disable-installing-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reproducible-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "treat-all-debian-systems-like-linux.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uid_t.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libnss-ldap",
+    "path": "libnss-ldap/265-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libnss-ldap/265-6/",
+        "metric": {
+            "size": 2628
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libnss-ldap",
+        "sloc": [
+            [
+                "ansic",
+                16912
+            ],
+            [
+                "sh",
+                3357
+            ],
+            [
+                "perl",
+                284
+            ],
+            [
+                "makefile",
+                105
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://browse.dgit.debian.org/libnss-ldap.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "265-6"
+}

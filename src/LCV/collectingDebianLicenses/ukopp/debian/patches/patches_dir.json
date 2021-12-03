@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-desktop_file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ukopp",
+    "path": "ukopp/4.9-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 901,
+        "license": "/copyright/license/ukopp/4.9-1/",
+        "metric": {
+            "size": 996
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ukopp",
+        "sloc": [
+            [
+                "cpp",
+                10893
+            ],
+            [
+                "makefile",
+                65
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=collab-maint/ukopp.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.9-1"
+}

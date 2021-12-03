@@ -1,0 +1,172 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_patch_from_1.8beta5-9.2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_symbolexport.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_hyphenfix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_fixloop.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_getpeername.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_config_in_home.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_fallback.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_tsocks-1.8_beta5-hostname-config-fix.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_manpages-fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_multiarch_paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "tsocks",
+    "path": "tsocks/1.8beta5+ds1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 448,
+        "license": "/copyright/license/tsocks/1.8beta5+ds1-1/",
+        "metric": {
+            "size": 968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tsocks",
+        "sloc": [
+            [
+                "ansic",
+                7664
+            ],
+            [
+                "sh",
+                3085
+            ],
+            [
+                "makefile",
+                150
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "1.8beta5+ds1-1"
+}

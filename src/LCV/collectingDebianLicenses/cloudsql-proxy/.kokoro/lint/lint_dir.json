@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "continuous.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "periodic.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "presubmit.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "lint",
+    "package": "cloudsql-proxy",
+    "path": "cloudsql-proxy/1.17.0-5/.kokoro/lint",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cloudsql-proxy/1.17.0-5/",
+        "metric": {
+            "size": 448
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cloudsql-proxy",
+        "sloc": [
+            [
+                "sh",
+                107
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/cloudsql-proxy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.17.0-5"
+}

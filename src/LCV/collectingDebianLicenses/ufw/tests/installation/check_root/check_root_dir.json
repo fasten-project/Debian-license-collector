@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "orig",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 14,
+                "symlink_dest": "../../defaults",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "result",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runtest.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "check_root",
+    "package": "ufw",
+    "path": "ufw/0.36.1-3/tests/installation/check_root",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ufw/0.36.1-3/",
+        "metric": {
+            "size": 5380
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ufw",
+        "sloc": [
+            [
+                "python",
+                8671
+            ],
+            [
+                "sh",
+                5965
+            ],
+            [
+                "makefile",
+                200
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://git.launchpad.net/ufw?h=debian/master",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.36.1-3"
+}

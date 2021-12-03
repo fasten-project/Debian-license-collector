@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "realtime-virtual-guest-variables.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tuned.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "realtime-virtual-guest",
+    "package": "tuned",
+    "path": "tuned/2.15.0-1/profiles/realtime-virtual-guest",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tuned/2.15.0-1/",
+        "metric": {
+            "size": 1868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tuned",
+        "sloc": [
+            [
+                "python",
+                10717
+            ],
+            [
+                "sh",
+                639
+            ],
+            [
+                "ansic",
+                178
+            ],
+            [
+                "makefile",
+                174
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/tuned",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.15.0-1"
+}

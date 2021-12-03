@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "db-token-label.fuzz32.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init-pin.fuzz.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init-token-label.fuzz32.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init-token-sopin.fuzz.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set-pin.fuzz.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2041,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utils-ctx-unwrap-objauth.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yaml-parser.fuzz.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fuzz",
+    "package": "tpm2-pkcs11",
+    "path": "tpm2-pkcs11/1.7.0-1/test/fuzz",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tpm2-pkcs11/1.7.0-1/",
+        "metric": {
+            "size": 4572
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tpm2-pkcs11",
+        "sloc": [
+            [
+                "ansic",
+                27219
+            ],
+            [
+                "sh",
+                5559
+            ],
+            [
+                "python",
+                2870
+            ],
+            [
+                "makefile",
+                108
+            ],
+            [
+                "java",
+                102
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/tpm2-pkcs11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.0-1"
+}

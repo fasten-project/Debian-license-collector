@@ -1,0 +1,251 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "libc-lowlevellock.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lowlevellock.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 879,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lowlevelrobustlock.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 891,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_barrier_wait.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_cond_broadcast.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_cond_signal.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_cond_timedwait.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_cond_wait.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_rwlock_rdlock.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_rwlock_timedrdlock.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_rwlock_timedwrlock.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_rwlock_unlock.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pthread_rwlock_wrlock.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sem_post.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sem_timedwait.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sem_trywait.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sem_wait.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "i686",
+    "package": "uclibc",
+    "path": "uclibc/1.0.35-1/libpthread/nptl/sysdeps/unix/sysv/linux/i386/i686",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/uclibc/1.0.35-1/",
+        "metric": {
+            "size": 28432
+        },
+        "pts_link": "https://tracker.debian.org/pkg/uclibc",
+        "sloc": [
+            [
+                "ansic",
+                216423
+            ],
+            [
+                "asm",
+                33201
+            ],
+            [
+                "cpp",
+                4706
+            ],
+            [
+                "makefile",
+                2866
+            ],
+            [
+                "sh",
+                716
+            ],
+            [
+                "yacc",
+                610
+            ],
+            [
+                "perl",
+                535
+            ],
+            [
+                "lex",
+                364
+            ],
+            [
+                "awk",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/gitweb/?p=collab-maint/uclibc.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.35-1"
+}

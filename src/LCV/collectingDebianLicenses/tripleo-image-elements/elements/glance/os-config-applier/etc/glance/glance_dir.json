@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "glance-api.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glance-cache.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glance-registry.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glance-scrubber.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "glance",
+    "package": "tripleo-image-elements",
+    "path": "tripleo-image-elements/0.7.1-1/elements/glance/os-config-applier/etc/glance",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 135,
+        "license": "/copyright/license/tripleo-image-elements/0.7.1-1/",
+        "metric": {
+            "size": 2488
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tripleo-image-elements",
+        "sloc": [
+            [
+                "sh",
+                2806
+            ],
+            [
+                "python",
+                485
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=openstack/tripleo-image-elements.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.1-1"
+}

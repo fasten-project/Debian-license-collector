@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "c%2B%2B-analyzer",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "ccc-analyzer",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ccc-analyzer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scan-build",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scanview.css",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set-xcode-analyzer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sorttable.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scan-build",
+    "package": "clang",
+    "path": "clang/1:3.0-6.2/tools/clang/tools/scan-build",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/clang/1:3.0-6.2/",
+        "metric": {
+            "size": 45800
+        },
+        "pts_link": "https://tracker.debian.org/pkg/clang",
+        "sloc": [
+            [
+                "cpp",
+                390892
+            ],
+            [
+                "ansic",
+                50472
+            ],
+            [
+                "objc",
+                24970
+            ],
+            [
+                "python",
+                5874
+            ],
+            [
+                "perl",
+                1951
+            ],
+            [
+                "makefile",
+                946
+            ],
+            [
+                "lisp",
+                379
+            ],
+            [
+                "sh",
+                194
+            ],
+            [
+                "pascal",
+                123
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-llvm/clang/trunk/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1:3.0-6.2"
+}

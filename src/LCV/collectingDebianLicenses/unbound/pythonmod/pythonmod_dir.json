@@ -1,0 +1,269 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "doc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "examples",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "interface.i",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pythonmod.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pythonmod.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pythonmod_utils.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pythonmod_utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-calc.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-dict.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-edns.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-inplace_callbacks.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-log.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-resgen.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-resip.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-resmod.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubmodule-msg.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubmodule-tst.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "pythonmod",
+    "package": "unbound",
+    "path": "unbound/1.13.1-1/pythonmod",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/unbound/1.13.1-1/",
+        "metric": {
+            "size": 25968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/unbound",
+        "sloc": [
+            [
+                "ansic",
+                109891
+            ],
+            [
+                "sh",
+                6028
+            ],
+            [
+                "yacc",
+                3391
+            ],
+            [
+                "python",
+                1945
+            ],
+            [
+                "makefile",
+                1689
+            ],
+            [
+                "awk",
+                161
+            ],
+            [
+                "perl",
+                158
+            ],
+            [
+                "xml",
+                36
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dns-team/unbound",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-1"
+}

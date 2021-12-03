@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-opencryptoki-soname.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-fix-bool-error-parseStringWithValues.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-fix-FTBFS-clang.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-openssl1.1_fix_data_mgmt.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2914,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "tpm-tools",
+    "path": "tpm-tools/1.3.9.1-0.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 798,
+        "license": "/copyright/license/tpm-tools/1.3.9.1-0.2/",
+        "metric": {
+            "size": 2724
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tpm-tools",
+        "sloc": [
+            [
+                "sh",
+                10651
+            ],
+            [
+                "ansic",
+                8007
+            ],
+            [
+                "makefile",
+                486
+            ],
+            [
+                "exp",
+                205
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.3.9.1-0.2"
+}

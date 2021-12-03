@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Remove-no-separator.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "py3-clamtk-gnome.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "clamtk",
+    "path": "clamtk/6.03-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/clamtk/6.03-3/",
+        "metric": {
+            "size": 2288
+        },
+        "pts_link": "https://tracker.debian.org/pkg/clamtk",
+        "sloc": [
+            [
+                "perl",
+                4482
+            ],
+            [
+                "python",
+                43
+            ],
+            [
+                "makefile",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/clamav-team/clamtk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.03-3"
+}

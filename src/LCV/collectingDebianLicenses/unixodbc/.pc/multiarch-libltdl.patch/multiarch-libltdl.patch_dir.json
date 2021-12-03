@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "DriverManager",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "configure.ac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "odbcinst",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "multiarch-libltdl.patch",
+    "package": "unixodbc",
+    "path": "unixodbc/2.3.9-1/.pc/multiarch-libltdl.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/unixodbc/2.3.9-1/",
+        "metric": {
+            "size": 11032
+        },
+        "pts_link": "https://tracker.debian.org/pkg/unixodbc",
+        "sloc": [
+            [
+                "ansic",
+                89858
+            ],
+            [
+                "sh",
+                5266
+            ],
+            [
+                "makefile",
+                1634
+            ],
+            [
+                "yacc",
+                972
+            ],
+            [
+                "sql",
+                1
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/unixodbc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.9-1"
+}

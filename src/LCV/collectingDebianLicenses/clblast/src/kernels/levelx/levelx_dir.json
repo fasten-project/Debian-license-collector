@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "col2im.opencl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "im2col.opencl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xconvgemm_part1.opencl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xconvgemm_part2.opencl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "levelx",
+    "package": "clblast",
+    "path": "clblast/1.5.2-2/src/kernels/levelx",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/clblast/1.5.2-2/",
+        "metric": {
+            "size": 6468
+        },
+        "pts_link": "https://tracker.debian.org/pkg/clblast",
+        "sloc": [
+            [
+                "cpp",
+                51760
+            ],
+            [
+                "ansic",
+                4087
+            ],
+            [
+                "python",
+                3169
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gspr/clblast",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.2-2"
+}

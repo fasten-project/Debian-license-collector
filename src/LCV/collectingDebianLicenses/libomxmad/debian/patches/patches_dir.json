@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_fix_FTBFS_on_64bits.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_Werror.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 620,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libomxmad",
+    "path": "libomxmad/0.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libomxmad/0.1-2/",
+        "metric": {
+            "size": 1448
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libomxmad",
+        "sloc": [
+            [
+                "sh",
+                10173
+            ],
+            [
+                "ansic",
+                644
+            ],
+            [
+                "makefile",
+                19
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1-2"
+}

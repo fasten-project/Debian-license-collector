@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "example.com.zone",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "127.0.0.1",
+    "package": "unbound",
+    "path": "unbound/1.13.1-1/testdata/auth_https.tdir/127.0.0.1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/unbound/1.13.1-1/",
+        "metric": {
+            "size": 25968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/unbound",
+        "sloc": [
+            [
+                "ansic",
+                109891
+            ],
+            [
+                "sh",
+                6028
+            ],
+            [
+                "yacc",
+                3391
+            ],
+            [
+                "python",
+                1945
+            ],
+            [
+                "makefile",
+                1689
+            ],
+            [
+                "awk",
+                161
+            ],
+            [
+                "perl",
+                158
+            ],
+            [
+                "xml",
+                36
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dns-team/unbound",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-1"
+}

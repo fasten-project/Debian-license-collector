@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "03_fix_errno.patch",
+    "package": "libnss-pgsql",
+    "path": "libnss-pgsql/1.4.0debian-8/.pc/03_fix_errno.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 385,
+        "license": "/copyright/license/libnss-pgsql/1.4.0debian-8/",
+        "metric": {
+            "size": 1452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libnss-pgsql",
+        "sloc": [
+            [
+                "sh",
+                7907
+            ],
+            [
+                "ansic",
+                1106
+            ],
+            [
+                "xml",
+                392
+            ],
+            [
+                "makefile",
+                42
+            ],
+            [
+                "sql",
+                38
+            ]
+        ],
+        "suites": [
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/cgit/collab-maint/libnss-pgsql.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.0debian-8"
+}
