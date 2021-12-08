@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Disable-integration-rhbz1928860.at-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Remove-etc-sysconfig-firewalld-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Switch-to-python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "firewalld",
+    "path": "firewalld/1.0.2-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/firewalld/1.0.2-1/",
+        "metric": {
+            "size": 23068
+        },
+        "pts_link": "https://tracker.debian.org/pkg/firewalld",
+        "sloc": [
+            [
+                "sh",
+                176842
+            ],
+            [
+                "python",
+                24638
+            ],
+            [
+                "xml",
+                12696
+            ],
+            [
+                "makefile",
+                852
+            ]
+        ],
+        "suites": [],
+        "vcs_browser": "https://salsa.debian.org/utopia-team/firewalld",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.2-1"
+}

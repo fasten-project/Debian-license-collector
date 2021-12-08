@@ -1,0 +1,145 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "sof-apl.ri",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 299776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sof-cfl.ri",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "sof-cnl.ri",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sof-cml.ri",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "sof-cnl.ri",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sof-cnl.ri",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 389888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sof-ehl.ri",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "sof-tgl.ri",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sof-glk.ri",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "sof-apl.ri",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sof-icl.ri",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 389888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sof-jsl.ri",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 385792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sof-tgl-h.ri",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 365312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sof-tgl.ri",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 369408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "community",
+    "package": "firmware-sof",
+    "path": "firmware-sof/1.9-1/v1.7.x/sof-v1.7/community",
+    "pkg_infos": {
+        "area": "non-free",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/firmware-sof/1.9-1/",
+        "metric": {
+            "size": 53060
+        },
+        "pts_link": "https://tracker.debian.org/pkg/firmware-sof",
+        "sloc": [
+            [
+                "sh",
+                255
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/mpearson/firmware-sof",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9-1"
+}

@@ -1,0 +1,1060 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-build-basic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "00-build-basic.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-build-link-opts",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 14,
+                "symlink_dest": "00-build-basic",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "01-build-link-opts.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-build-ext-iface",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02-build-ext-iface.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-build-include-paths",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03-build-include-paths.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-build-libs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "04-build-libs.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-build-c-cxx-basic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "05-build-c-cxx-basic.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-extract-ssh.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-build-ns-dep",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "07-build-ns-dep.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-build-dup-dep",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "08-build-dup-dep.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-build-dep-o",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "09-build-dep-o.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-log",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 14,
+                "symlink_dest": "00-build-basic",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "10-log.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-preprocess-include-path",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "11-preprocess-include-path.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-build-class-prop",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "12-build-class-prop.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-build-target-prop",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "13-build-target-prop.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14-build-etc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "14-build-etc.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-extract-loc-reset.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16-build-dep-o-2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "16-build-dep-o-2.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "17-build-cyclic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "17-build-cyclic.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18-build-use-intrinsic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "18-build-use-intrinsic.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "19-build-inherit-prop",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "19-build-inherit-prop.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-args",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "20-args.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "21-inherit-steps",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "21-inherit-steps.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "22-build-2-bad-mod-over-inherit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "22-build-2-bad-mod-over-inherit.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "23-build-omp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "23-build-omp.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "24-build-c-main-camel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "24-build-c-main-camel.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "25-build-cyclic-2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "25-build-cyclic-2.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "26-no-config.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "27-args-only.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "28-bad-arg.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "29-relative-cfg.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-relative-cfg-in-svn.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "31-relative-cfg-in-ssh.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "32-include-relative-cfg.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "33-include-relative-cfg-in-svn.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "34-include-relative-cfg-in-ssh.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "35-include-relative-cfg-in-2-dirs.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "36-build-fail-cont-basic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "36-build-fail-cont-basic.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "37-no-such-config-file.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "38-extract-inherit-set-primary.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "39-build-source-with-dot.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40-extract-fs-source-with-dot.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "41-ctx-name.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "42-make-mirror-make2.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "43-ctx-name-inherit.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "44-ctx-name-inherit-compat.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "45-dest-mv.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "46-archive-mode.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "47-build-target-modifier-ns",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "47-build-target-modifier-ns.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "48-build-sha1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "48-build-sha1.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "49-build-c-more",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "49-build-c-more.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-build-target-dep",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "50-build-target-dep.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "51-build-target-no-dep",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "51-build-target-no-dep.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "52-require-version.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "53-extract-conflict-incr.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "54-build-ignore-missing-dep-ns",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "54-build-ignore-missing-dep-ns.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "55-build-fortran-prog-unit-tail-comment",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "55-build-fortran-prog-unit-tail-comment.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "56-build-fortran-submodule",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "56-build-fortran-submodule.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_header",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fcm-make",
+    "package": "fcm",
+    "path": "fcm/2021.05.01-2/t/fcm-make",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/fcm/2021.05.01-2/",
+        "metric": {
+            "size": 7788
+        },
+        "pts_link": "https://tracker.debian.org/pkg/fcm",
+        "sloc": [
+            [
+                "perl",
+                26014
+            ],
+            [
+                "sh",
+                10510
+            ],
+            [
+                "javascript",
+                4043
+            ],
+            [
+                "f90",
+                774
+            ],
+            [
+                "python",
+                294
+            ],
+            [
+                "ansic",
+                29
+            ],
+            [
+                "makefile",
+                14
+            ],
+            [
+                "cpp",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org:/science-team/fcm.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2021.05.01-2"
+}

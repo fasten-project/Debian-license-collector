@@ -1,0 +1,228 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "add_WOW64_flags_to_allowed_registry_read_flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_interception_logging.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allow_flash_temporary_files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allow_ntpath_in_SignedPolicy_GenerateRules.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allow_rules_for_network_drive_and_non_file_devices.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm64_set_LoaderThreads.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "change_to_DCHECK_in_CloseHandleWrapper.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "consult_PermissionsService_for_file_access.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "move_shared_memory_duplication_after_initialization.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3753,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patch_order.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "after_update",
+    "package": "firefox",
+    "path": "firefox/94.0-2/security/sandbox/chromium-shim/patches/after_update",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/firefox/94.0-2/",
+        "metric": {
+            "size": 3402780
+        },
+        "pts_link": "https://tracker.debian.org/pkg/firefox",
+        "sloc": [
+            [
+                "cpp",
+                5745858
+            ],
+            [
+                "javascript",
+                5542171
+            ],
+            [
+                "ansic",
+                3133188
+            ],
+            [
+                "python",
+                851991
+            ],
+            [
+                "asm",
+                328793
+            ],
+            [
+                "xml",
+                179096
+            ],
+            [
+                "java",
+                156295
+            ],
+            [
+                "sh",
+                63757
+            ],
+            [
+                "makefile",
+                20362
+            ],
+            [
+                "perl",
+                12798
+            ],
+            [
+                "yacc",
+                4583
+            ],
+            [
+                "cs",
+                3846
+            ],
+            [
+                "objc",
+                3026
+            ],
+            [
+                "lex",
+                1720
+            ],
+            [
+                "exp",
+                762
+            ],
+            [
+                "pascal",
+                676
+            ],
+            [
+                "php",
+                436
+            ],
+            [
+                "lisp",
+                258
+            ],
+            [
+                "awk",
+                231
+            ],
+            [
+                "ruby",
+                103
+            ],
+            [
+                "sed",
+                54
+            ],
+            [
+                "sql",
+                46
+            ],
+            [
+                "csh",
+                45
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/mozilla-team/firefox/commits/release/master",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "94.0-2"
+}

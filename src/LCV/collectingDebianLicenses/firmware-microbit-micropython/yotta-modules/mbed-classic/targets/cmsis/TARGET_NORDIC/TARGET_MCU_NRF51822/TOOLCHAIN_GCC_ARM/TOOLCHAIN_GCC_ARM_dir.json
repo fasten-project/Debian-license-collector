@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "TARGET_MCU_NORDIC_32K",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "TARGET_MCU_NRF51_16K_S110",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "TARGET_MCU_NRF51_16K_S130",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "startup_NRF51822.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "TOOLCHAIN_GCC_ARM",
+    "package": "firmware-microbit-micropython",
+    "path": "firmware-microbit-micropython/1.0.1-2/yotta-modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/TOOLCHAIN_GCC_ARM",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/firmware-microbit-micropython/1.0.1-2/",
+        "metric": {
+            "size": 25448
+        },
+        "pts_link": "https://tracker.debian.org/pkg/firmware-microbit-micropython",
+        "sloc": [
+            [
+                "ansic",
+                83496
+            ],
+            [
+                "cpp",
+                27664
+            ],
+            [
+                "python",
+                2475
+            ],
+            [
+                "asm",
+                274
+            ],
+            [
+                "makefile",
+                243
+            ],
+            [
+                "javascript",
+                41
+            ],
+            [
+                "sh",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/applications/firmware-microbit-micropython",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.1-2"
+}

@@ -1,0 +1,98 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_Makefile_dynamic_hardenings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_Replace_libtabix_by_libhts.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_Reproducible_builds.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "fastqtl",
+    "path": "fastqtl/2.184+dfsg-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/fastqtl/2.184+dfsg-8/",
+        "metric": {
+            "size": 17360
+        },
+        "pts_link": "https://tracker.debian.org/pkg/fastqtl",
+        "sloc": [
+            [
+                "cpp",
+                2918
+            ],
+            [
+                "makefile",
+                80
+            ],
+            [
+                "sh",
+                19
+            ],
+            [
+                "javascript",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/fastqtl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.184+dfsg-8"
+}

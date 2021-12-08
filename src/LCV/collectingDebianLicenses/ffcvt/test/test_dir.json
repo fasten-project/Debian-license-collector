@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "StreamSample.mkv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ffcvt_test.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-all.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test1.avi",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 16,
+                "symlink_dest": "StreamSample.mkv",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test2.avi",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 9,
+                "symlink_dest": "test1.avi",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test3.webm",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 9,
+                "symlink_dest": "test1.avi",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "ffcvt",
+    "path": "ffcvt/1.6.1-1/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ffcvt/1.6.1-1/",
+        "metric": {
+            "size": 320
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ffcvt",
+        "sloc": [
+            [
+                "sh",
+                27
+            ],
+            [
+                "makefile",
+                17
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/ffcvt",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.1-1"
+}

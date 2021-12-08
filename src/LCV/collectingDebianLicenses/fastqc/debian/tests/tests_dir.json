@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "example_fastqc_expected_summary.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-unit-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "toy_bam_fastqc_expected_summary.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "toy_sam_fastqc_expected_summary.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "fastqc",
+    "path": "fastqc/0.11.9+dfsg-5/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/fastqc/0.11.9+dfsg-5/",
+        "metric": {
+            "size": 1388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/fastqc",
+        "sloc": [
+            [
+                "java",
+                6900
+            ],
+            [
+                "perl",
+                285
+            ],
+            [
+                "xml",
+                56
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/fastqc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.11.9+dfsg-5"
+}

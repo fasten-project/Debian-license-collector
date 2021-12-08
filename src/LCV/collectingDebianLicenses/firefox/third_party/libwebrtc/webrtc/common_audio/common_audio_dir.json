@@ -1,0 +1,910 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_converter.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_converter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_converter_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_ring_buffer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_ring_buffer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_ring_buffer_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_util.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_util_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blocker.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blocker.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blocker_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "channel_buffer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "channel_buffer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "channel_buffer_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common_audio_c_arm_asm_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common_audio_c_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common_audio_cc_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common_audio_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common_audio_neon_c_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common_audio_neon_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common_audio_sse2_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fft4g.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fft4g.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 898,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_c.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_c.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_factory.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_factory.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_factory_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_neon.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_neon.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_sse.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_sse.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fir_filter_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lapped_transform.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4022,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lapped_transform.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lapped_transform_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mocks",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "real_fourier.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "real_fourier.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "real_fourier_ooura.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "real_fourier_ooura.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "real_fourier_openmax.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "real_fourier_openmax.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "real_fourier_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "resampler",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ring_buffer.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ring_buffer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ring_buffer_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "signal_processing",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sinc_resampler_gn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "smoothing_filter.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smoothing_filter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smoothing_filter_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sparse_fir_filter.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sparse_fir_filter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sparse_fir_filter_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vad",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "wav_file.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wav_file.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wav_file_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wav_header.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wav_header.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wav_header_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "window_generator.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "window_generator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 948,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "window_generator_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2955,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "common_audio",
+    "package": "firefox",
+    "path": "firefox/94.0-2/third_party/libwebrtc/webrtc/common_audio",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/firefox/94.0-2/",
+        "metric": {
+            "size": 3402780
+        },
+        "pts_link": "https://tracker.debian.org/pkg/firefox",
+        "sloc": [
+            [
+                "cpp",
+                5745858
+            ],
+            [
+                "javascript",
+                5542171
+            ],
+            [
+                "ansic",
+                3133188
+            ],
+            [
+                "python",
+                851991
+            ],
+            [
+                "asm",
+                328793
+            ],
+            [
+                "xml",
+                179096
+            ],
+            [
+                "java",
+                156295
+            ],
+            [
+                "sh",
+                63757
+            ],
+            [
+                "makefile",
+                20362
+            ],
+            [
+                "perl",
+                12798
+            ],
+            [
+                "yacc",
+                4583
+            ],
+            [
+                "cs",
+                3846
+            ],
+            [
+                "objc",
+                3026
+            ],
+            [
+                "lex",
+                1720
+            ],
+            [
+                "exp",
+                762
+            ],
+            [
+                "pascal",
+                676
+            ],
+            [
+                "php",
+                436
+            ],
+            [
+                "lisp",
+                258
+            ],
+            [
+                "awk",
+                231
+            ],
+            [
+                "ruby",
+                103
+            ],
+            [
+                "sed",
+                54
+            ],
+            [
+                "sql",
+                46
+            ],
+            [
+                "csh",
+                45
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/mozilla-team/firefox/commits/release/master",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "94.0-2"
+}
