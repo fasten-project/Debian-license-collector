@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "configure.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-data-update.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unit-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libpdb-redo",
+    "path": "libpdb-redo/1.0.2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libpdb-redo/1.0.2-2/",
+        "metric": {
+            "size": 6172
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libpdb-redo",
+        "sloc": [
+            [
+                "cpp",
+                6043
+            ],
+            [
+                "sh",
+                3763
+            ],
+            [
+                "perl",
+                118
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/libpdb-redo",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.2-2"
+}

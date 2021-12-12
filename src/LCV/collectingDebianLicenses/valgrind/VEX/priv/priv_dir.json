@@ -1,0 +1,969 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common_nanomips_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_amd64_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23605,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_amd64_helpers.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 172931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_amd64_toIR.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1195821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_arm64_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_arm64_helpers.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69754,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_arm64_toIR.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 598572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_arm_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_arm_helpers.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_arm_toIR.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 877997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_generic_bb_to_IR.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_generic_bb_to_IR.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_generic_x87.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_generic_x87.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_mips_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_mips_helpers.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_mips_toIR.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 954976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_mipsdsp_toIR.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_nanomips_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_nanomips_helpers.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_nanomips_toIR.c",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 85643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_ppc_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_ppc_helpers.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_ppc_toIR.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1486869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_s390_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_s390_helpers.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102850,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_s390_toIR.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 765796,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_x86_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_x86_helpers.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 101718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_x86_toIR.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 532079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_amd64_defs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_amd64_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_amd64_isel.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 207063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_arm64_defs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 242722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_arm64_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_arm64_isel.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 182368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_arm_defs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_arm_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_arm_isel.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_maddf.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_maddf.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_reg_alloc2.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_reg_alloc3.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_regs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_regs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_simd128.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_simd128.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_simd256.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_simd256.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1990,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_simd64.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_generic_simd64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_mips_defs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 176353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_mips_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_mips_isel.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 286956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_nanomips_defs.c",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 66156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_nanomips_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_nanomips_isel.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_ppc_defs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 240346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_ppc_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_ppc_isel.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 284949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_s390_defs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 342360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_s390_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_s390_isel.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 179148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_x86_defs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_x86_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_x86_isel.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ir_defs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ir_inject.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ir_match.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ir_match.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ir_opt.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 233544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ir_opt.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "main_globals.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "main_globals.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "main_main.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "main_util.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "main_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mips_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multiarch_main_main.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s390_defs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s390_disasm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14796,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s390_disasm.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "priv",
+    "package": "valgrind",
+    "path": "valgrind/1:3.18.1-1/VEX/priv",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/valgrind/1:3.18.1-1/",
+        "metric": {
+            "size": 169264
+        },
+        "pts_link": "https://tracker.debian.org/pkg/valgrind",
+        "sloc": [
+            [
+                "ansic",
+                786399
+            ],
+            [
+                "exp",
+                26134
+            ],
+            [
+                "xml",
+                22829
+            ],
+            [
+                "asm",
+                14072
+            ],
+            [
+                "cpp",
+                7758
+            ],
+            [
+                "makefile",
+                6689
+            ],
+            [
+                "perl",
+                6096
+            ],
+            [
+                "sh",
+                5662
+            ],
+            [
+                "javascript",
+                981
+            ],
+            [
+                "awk",
+                148
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/valgrind",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:3.18.1-1"
+}

@@ -1,0 +1,118 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "console",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "console.rb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vam",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "vim-addons",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vim",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vim-addon-manager",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "vim-addons",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vim-addons",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vimrc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "vim-addon-manager",
+    "path": "vim-addon-manager/0.5.10/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vim-addon-manager/0.5.10/",
+        "metric": {
+            "size": 312
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vim-addon-manager",
+        "sloc": [
+            [
+                "ruby",
+                970
+            ],
+            [
+                "makefile",
+                15
+            ],
+            [
+                "sh",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/vim-team/vim-addon-manager",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.10"
+}

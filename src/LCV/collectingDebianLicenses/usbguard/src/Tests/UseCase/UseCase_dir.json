@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "000_executable.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "001_cli_policy.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_cli_devices.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_cli_devices_umockdev.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3087,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "004_daemonize.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "005_cli_devices_advanced.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "devices.umockdev",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "UseCase",
+    "package": "usbguard",
+    "path": "usbguard/1.0.0+ds-2/src/Tests/UseCase",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/usbguard/1.0.0+ds-2/",
+        "metric": {
+            "size": 3984
+        },
+        "pts_link": "https://tracker.debian.org/pkg/usbguard",
+        "sloc": [
+            [
+                "cpp",
+                17583
+            ],
+            [
+                "sh",
+                5758
+            ],
+            [
+                "makefile",
+                635
+            ],
+            [
+                "ansic",
+                122
+            ],
+            [
+                "xml",
+                69
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/birger/usbguard",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0+ds-2"
+}

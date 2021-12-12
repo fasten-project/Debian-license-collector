@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "utils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "11-path_max.patch",
+    "package": "libquicktime",
+    "path": "libquicktime/2:1.2.4-12/.pc/11-path_max.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libquicktime/2:1.2.4-12/",
+        "metric": {
+            "size": 6336
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libquicktime",
+        "sloc": [
+            [
+                "ansic",
+                55311
+            ],
+            [
+                "sh",
+                10976
+            ],
+            [
+                "makefile",
+                457
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/libquicktime",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:1.2.4-12"
+}

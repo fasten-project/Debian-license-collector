@@ -1,0 +1,98 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "base.rb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "provider-docker",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "provider-virtualbox",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "shared",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "skeletons",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "acceptance",
+    "package": "vagrant",
+    "path": "vagrant/2.2.19+dfsg-1/test/acceptance",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vagrant/2.2.19+dfsg-1/",
+        "metric": {
+            "size": 9832
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vagrant",
+        "sloc": [
+            [
+                "ruby",
+                99128
+            ],
+            [
+                "sh",
+                424
+            ],
+            [
+                "makefile",
+                16
+            ],
+            [
+                "lisp",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/vagrant",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.19+dfsg-1"
+}

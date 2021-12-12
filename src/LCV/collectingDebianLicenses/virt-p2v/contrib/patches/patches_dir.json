@@ -1,0 +1,65 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-RHEL-5-ONLY-DISABLE-AUTOMATIC-REMOTE-PORT-ALLOCATION.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-RHEL-5-ONLY-QEMU-NBD-1.4-HAS-NO-f-OPTION.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "virt-p2v",
+    "path": "virt-p2v/1.42.0-3/contrib/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/virt-p2v/1.42.0-3/",
+        "metric": {
+            "size": 5152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/virt-p2v",
+        "sloc": [
+            [
+                "ansic",
+                36949
+            ],
+            [
+                "sh",
+                6691
+            ],
+            [
+                "perl",
+                1278
+            ],
+            [
+                "makefile",
+                389
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/libvirt-team/virt-p2v",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.42.0-3"
+}

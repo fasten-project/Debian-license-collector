@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "files.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "it",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "it.po",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "messages.pot",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msgfmt.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xgettext.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "locales",
+    "package": "viridian",
+    "path": "viridian/1.2-3/locales",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/viridian/1.2-3/",
+        "metric": {
+            "size": 952
+        },
+        "pts_link": "https://tracker.debian.org/pkg/viridian",
+        "sloc": [
+            [
+                "python",
+                3838
+            ],
+            [
+                "makefile",
+                12
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/viewvc/python-apps/packages/viridian/trunk",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.2-3"
+}

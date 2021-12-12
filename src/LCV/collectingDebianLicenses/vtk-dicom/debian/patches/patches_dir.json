@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_reproducable_build_datetime.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_test_python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "vtk-dicom",
+    "path": "vtk-dicom/0.8.12-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vtk-dicom/0.8.12-4/",
+        "metric": {
+            "size": 6712
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vtk-dicom",
+        "sloc": [
+            [
+                "cpp",
+                109865
+            ],
+            [
+                "python",
+                1493
+            ],
+            [
+                "makefile",
+                39
+            ],
+            [
+                "tcl",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/vtk-dicom",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8.12-4"
+}

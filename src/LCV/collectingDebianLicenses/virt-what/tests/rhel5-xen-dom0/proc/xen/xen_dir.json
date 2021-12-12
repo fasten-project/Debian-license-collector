@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "balloon",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "capabilities",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "privcmd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xenbus",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xsd_kva",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xsd_port",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "xen",
+    "package": "virt-what",
+    "path": "virt-what/1.19-1/tests/rhel5-xen-dom0/proc/xen",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/virt-what/1.19-1/",
+        "metric": {
+            "size": 1676
+        },
+        "pts_link": "https://tracker.debian.org/pkg/virt-what",
+        "sloc": [
+            [
+                "sh",
+                10739
+            ],
+            [
+                "makefile",
+                271
+            ],
+            [
+                "ansic",
+                72
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/libvirt-team/virt-what",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.19-1"
+}

@@ -1,0 +1,201 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-compat-provide-a-getpid-replacement-that-works-on-Wi.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-random-Don-t-assume-that-_WIN64-implies-x86_64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-aarch64-mpi-Fix-building-the-mpi-aarch64-assembly-fo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-random-don-t-use-API-s-that-are-forbidden-in-UWP-app.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008-random-only-use-wincrypt-in-UWP-builds-if-WINSTORECO.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "64bits-relocation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SHA512SUMS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clang-mips64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-tests-compilation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-pthread-detection.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules.mak",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "gcrypt",
+    "package": "vlc",
+    "path": "vlc/3.0.16-1/contrib/src/gcrypt",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vlc/3.0.16-1/",
+        "metric": {
+            "size": 208512
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vlc",
+        "sloc": [
+            [
+                "ansic",
+                436556
+            ],
+            [
+                "cpp",
+                104689
+            ],
+            [
+                "objc",
+                36005
+            ],
+            [
+                "sh",
+                6734
+            ],
+            [
+                "makefile",
+                6525
+            ],
+            [
+                "javascript",
+                4900
+            ],
+            [
+                "xml",
+                1610
+            ],
+            [
+                "asm",
+                1355
+            ],
+            [
+                "yacc",
+                640
+            ],
+            [
+                "python",
+                323
+            ],
+            [
+                "lex",
+                88
+            ],
+            [
+                "perl",
+                77
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/vlc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.16-1"
+}

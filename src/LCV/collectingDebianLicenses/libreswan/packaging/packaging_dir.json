@@ -1,0 +1,160 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "centos",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 4,
+                "symlink_dest": "rhel",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "devuan",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fedora",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "foobar",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 4,
+                "symlink_dest": "rhel",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rhel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "suse",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "utils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "packaging",
+    "package": "libreswan",
+    "path": "libreswan/4.3-1/packaging",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libreswan/4.3-1/",
+        "metric": {
+            "size": 62380
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libreswan",
+        "sloc": [
+            [
+                "ansic",
+                108272
+            ],
+            [
+                "sh",
+                25973
+            ],
+            [
+                "xml",
+                11756
+            ],
+            [
+                "python",
+                10230
+            ],
+            [
+                "makefile",
+                1580
+            ],
+            [
+                "javascript",
+                1353
+            ],
+            [
+                "yacc",
+                825
+            ],
+            [
+                "sed",
+                647
+            ],
+            [
+                "perl",
+                584
+            ],
+            [
+                "lex",
+                159
+            ],
+            [
+                "awk",
+                156
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/libreswan",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.3-1"
+}

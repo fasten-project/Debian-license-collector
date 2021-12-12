@@ -1,0 +1,116 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Dockerfile.fedora-28",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dockerfile.ubuntu-18.04",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-image.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install-valgrind.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "push-image.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "images",
+    "package": "vmem",
+    "path": "vmem/1.8-2/utils/docker/images",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vmem/1.8-2/",
+        "metric": {
+            "size": 7488
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vmem",
+        "sloc": [
+            [
+                "ansic",
+                52500
+            ],
+            [
+                "sh",
+                7906
+            ],
+            [
+                "perl",
+                5127
+            ],
+            [
+                "makefile",
+                1242
+            ],
+            [
+                "pascal",
+                1016
+            ],
+            [
+                "python",
+                54
+            ]
+        ],
+        "suites": [
+            "bullseye"
+        ],
+        "vcs_browser": "https://github.com/kilobyte/vmem/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8-2"
+}

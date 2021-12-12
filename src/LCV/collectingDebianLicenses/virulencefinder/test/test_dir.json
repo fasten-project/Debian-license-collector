@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "database",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test.fsa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_results.tsv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "virulencefinder",
+    "path": "virulencefinder/2.0.4-2/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/virulencefinder/2.0.4-2/",
+        "metric": {
+            "size": 992
+        },
+        "pts_link": "https://tracker.debian.org/pkg/virulencefinder",
+        "sloc": [
+            [
+                "python",
+                446
+            ],
+            [
+                "sh",
+                51
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/virulencefinder",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.4-2"
+}

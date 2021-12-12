@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "vnstat",
+    "path": "vnstat/2.8-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vnstat/2.8-1/",
+        "metric": {
+            "size": 1856
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vnstat",
+        "sloc": [
+            [
+                "ansic",
+                19759
+            ],
+            [
+                "sh",
+                4496
+            ],
+            [
+                "perl",
+                370
+            ],
+            [
+                "makefile",
+                166
+            ],
+            [
+                "php",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/vnstat",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.8-1"
+}

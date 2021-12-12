@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "vblade-generator",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 750,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vblade-persistence.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vblade.init.daemon",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vblade.init.generate",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vblade.init.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vblade.init.lsb-daemon",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vblade.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vblade%40.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "persistence",
+    "package": "vblade",
+    "path": "vblade/25-1/contrib/persistence",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vblade/25-1/",
+        "metric": {
+            "size": 336
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vblade",
+        "sloc": [
+            [
+                "ansic",
+                1310
+            ],
+            [
+                "sh",
+                633
+            ],
+            [
+                "makefile",
+                60
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://git.in-ulm.de/cbiedl/vblade",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "25-1"
+}

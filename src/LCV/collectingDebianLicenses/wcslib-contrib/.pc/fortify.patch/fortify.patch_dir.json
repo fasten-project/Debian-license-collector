@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "C",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Fortran",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "makedefs.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fortify.patch",
+    "package": "wcslib-contrib",
+    "path": "wcslib-contrib/4.24-1/.pc/fortify.patch",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 13967,
+        "license": "/copyright/license/wcslib-contrib/4.24-1/",
+        "metric": {
+            "size": 12608
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wcslib-contrib",
+        "sloc": [
+            [
+                "ansic",
+                25432
+            ],
+            [
+                "fortran",
+                6263
+            ],
+            [
+                "lex",
+                6206
+            ],
+            [
+                "sh",
+                3478
+            ],
+            [
+                "sed",
+                417
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=debian-astro/packages/wcslib.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.24-1"
+}

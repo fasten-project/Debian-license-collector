@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Dockerfile.fedora-28",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dockerfile.ubuntu-18.04",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-image.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "push-image.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "images",
+    "package": "vmemcache",
+    "path": "vmemcache/0.8.1-4/utils/docker/images",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vmemcache/0.8.1-4/",
+        "metric": {
+            "size": 820
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vmemcache",
+        "sloc": [
+            [
+                "ansic",
+                8950
+            ],
+            [
+                "perl",
+                892
+            ],
+            [
+                "sh",
+                444
+            ],
+            [
+                "python",
+                140
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/kilobyte/vmemcache/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8.1-4"
+}

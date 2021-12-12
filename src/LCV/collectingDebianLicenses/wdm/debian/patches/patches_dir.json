@@ -1,0 +1,180 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_kfreebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_fix_login_overflow.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 827,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_autoconf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_manpage_indent.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_french_translation_name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_login_composite.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_ld_no_add_needed.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2907,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_do_not_use_dev_mem.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_pam_session.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_spelling_fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11_usr_bin_X11_removal.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "wdm",
+    "path": "wdm/1.28-25/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/wdm/1.28-25/",
+        "metric": {
+            "size": 2516
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wdm",
+        "sloc": [
+            [
+                "ansic",
+                11439
+            ],
+            [
+                "sh",
+                1033
+            ],
+            [
+                "makefile",
+                377
+            ],
+            [
+                "perl",
+                32
+            ],
+            [
+                "cpp",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/wdm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.28-25"
+}

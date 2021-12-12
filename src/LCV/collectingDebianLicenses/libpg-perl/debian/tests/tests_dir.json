@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "libpg-perl",
+    "path": "libpg-perl/1:2.1.1-9/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libpg-perl/1:2.1.1-9/",
+        "metric": {
+            "size": 232
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libpg-perl",
+        "sloc": [
+            [
+                "perl",
+                510
+            ],
+            [
+                "ansic",
+                112
+            ],
+            [
+                "sh",
+                8
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/libpg-perl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.1.1-9"
+}

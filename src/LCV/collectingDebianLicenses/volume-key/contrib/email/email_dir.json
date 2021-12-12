@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "escrow-receive",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "escrow-transit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 131,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "email",
+    "package": "volume-key",
+    "path": "volume-key/0.3.12-3.1/contrib/email",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/volume-key/0.3.12-3.1/",
+        "metric": {
+            "size": 4600
+        },
+        "pts_link": "https://tracker.debian.org/pkg/volume-key",
+        "sloc": [
+            [
+                "ansic",
+                17058
+            ],
+            [
+                "sh",
+                6182
+            ],
+            [
+                "python",
+                1107
+            ],
+            [
+                "makefile",
+                128
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/utopia-team/volume-key",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.12-3.1"
+}

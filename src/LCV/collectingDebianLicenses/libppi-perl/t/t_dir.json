@@ -1,0 +1,773 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-report-prereqs.dd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-report-prereqs.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_compile.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_document.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_element.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_lexer.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_round_trip.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_token.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_regression.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_normal.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_statement.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 749,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11_util.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12_location.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13_data.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14_charsets.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15_transform.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16_xml.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "17_storable.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18_cache.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "19_selftesting.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "21_exhaustive.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "22_readonly.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "23_file.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "24_v6.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "25_increment.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "26_bom.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "27_complete.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "28_foreach_qw.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "29_logical_filename.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2041,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "interactive.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "marpa.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_element.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6087,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_lexer.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_node.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_normal.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2521,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_statement.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_statement_compound.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_statement_include.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_statement_package.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4782,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_statement_scheduled.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_statement_sub.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_statement_variable.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token__quoteengine_full.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_attribute.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_dashedword.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_heredoc.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_magic.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1609,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_number_version.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_operator.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_pod.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_prototype.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_quote.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_quote_double.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_quote_interpolate.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_quote_literal.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_quote_single.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_quotelike_regexp.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_quotelike_words.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_regexp.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_structure.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_symbol.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_unknown.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23676,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_whitespace.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppi_token_word.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "t",
+    "package": "libppi-perl",
+    "path": "libppi-perl/1.270-1/t",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libppi-perl/1.270-1/",
+        "metric": {
+            "size": 2112
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libppi-perl",
+        "sloc": [
+            [
+                "perl",
+                13991
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/perl-team/modules/packages/libppi-perl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.270-1"
+}

@@ -1,0 +1,144 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "02-install-in-libquicktime2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 914,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-path_max.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-ffmpeg-max-audio-frame-size.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "21-ffmpeg-flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "22-ffmpeg3-av-prefix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "23-ffmpeg4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2016-2399.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2017-9122_et_al.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "libquicktime",
+    "path": "libquicktime/2:1.2.4-12/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libquicktime/2:1.2.4-12/",
+        "metric": {
+            "size": 6336
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libquicktime",
+        "sloc": [
+            [
+                "ansic",
+                55311
+            ],
+            [
+                "sh",
+                10976
+            ],
+            [
+                "makefile",
+                457
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/libquicktime",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:1.2.4-12"
+}

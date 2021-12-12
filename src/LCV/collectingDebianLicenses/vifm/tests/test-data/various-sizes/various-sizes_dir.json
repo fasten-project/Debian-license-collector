@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "block-size-file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "block-size-minus-one-file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "block-size-plus-one-file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "double-block-size-file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "double-block-size-minus-one-file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "double-block-size-plus-one-file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty-file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "various-sizes",
+    "package": "vifm",
+    "path": "vifm/0.12-1/tests/test-data/various-sizes",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vifm/0.12-1/",
+        "metric": {
+            "size": 10060
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vifm",
+        "sloc": [
+            [
+                "ansic",
+                157117
+            ],
+            [
+                "sh",
+                4188
+            ],
+            [
+                "makefile",
+                691
+            ],
+            [
+                "perl",
+                300
+            ],
+            [
+                "python",
+                76
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/vifm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.12-1"
+}

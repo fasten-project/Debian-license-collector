@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-missing-eol.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-encoding-bug.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-welcome-files-bug.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-open-file-bug.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "webxml",
+    "path": "webxml/1.12-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 123,
+        "license": "/copyright/license/webxml/1.12-3/",
+        "metric": {
+            "size": 388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/webxml",
+        "sloc": [
+            [
+                "cpp",
+                1054
+            ],
+            [
+                "xml",
+                62
+            ],
+            [
+                "makefile",
+                22
+            ]
+        ],
+        "suites": [
+            "lenny",
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "1.12-3"
+}

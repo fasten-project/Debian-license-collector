@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "clusterfuzz-testcase-4634751103139840",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clusterfuzz-testcase-6056412121661440",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "leak-47b0a9f21d3affab6cfc898e5140bb53265ada07",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "leak-4c81aae70b20d9b9408b78d40999a54205bdcfb7",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "leak-53bc466851eda790bd891733da5db0a7482886bf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "xplist-leaks",
+    "package": "libplist",
+    "path": "libplist/2.2.0-6/fuzz/xplist-leaks",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libplist/2.2.0-6/",
+        "metric": {
+            "size": 6200
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libplist",
+        "sloc": [
+            [
+                "ansic",
+                5661
+            ],
+            [
+                "cpp",
+                1123
+            ],
+            [
+                "makefile",
+                301
+            ],
+            [
+                "sh",
+                61
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/imobiledevice-team/libplist",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.0-6"
+}

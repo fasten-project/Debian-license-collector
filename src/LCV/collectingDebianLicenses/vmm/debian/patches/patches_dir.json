@@ -1,0 +1,172 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Split-database-config-into-separate-file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Debianise-install-instructions.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1671,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Debianise-config-file-locations.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Loosen-config-file-permission-checks.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Remove-interactive-configuration-CLI.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Debian-specific-changes-to-configuration-defaults.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-Disable-Python-compilation-and-optimisation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008-Disable-sphinx-build-colours.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0009-Make-Sphinx-use-the-local-Objects-inventory-cache.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 843,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010-Provide_nss-pgsql.conf_example.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0011-Long_GPG-IDs_in_docs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "vmm",
+    "path": "vmm/0.6.2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1048,
+        "license": "/copyright/license/vmm/0.6.2-2/",
+        "metric": {
+            "size": 1868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vmm",
+        "sloc": [
+            [
+                "python",
+                5139
+            ],
+            [
+                "makefile",
+                222
+            ],
+            [
+                "sh",
+                214
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/vmm.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.2-2"
+}

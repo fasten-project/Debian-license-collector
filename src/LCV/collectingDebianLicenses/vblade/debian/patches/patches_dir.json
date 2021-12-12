@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "improve-init-scripts.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local.hardening-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local.makefile-additional-commands.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local.vbladed-check-params.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 686,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "vblade",
+    "path": "vblade/25-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vblade/25-1/",
+        "metric": {
+            "size": 336
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vblade",
+        "sloc": [
+            [
+                "ansic",
+                1310
+            ],
+            [
+                "sh",
+                633
+            ],
+            [
+                "makefile",
+                60
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://git.in-ulm.de/cbiedl/vblade",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "25-1"
+}

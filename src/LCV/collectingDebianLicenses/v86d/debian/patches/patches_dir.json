@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_use-external-libx86.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_dont-include-kernel.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 749,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "v86d",
+    "path": "v86d/0.1.10-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1293,
+        "license": "/copyright/license/v86d/0.1.10-1/",
+        "metric": {
+            "size": 952
+        },
+        "pts_link": "https://tracker.debian.org/pkg/v86d",
+        "sloc": [
+            [
+                "ansic",
+                20683
+            ],
+            [
+                "makefile",
+                142
+            ],
+            [
+                "sh",
+                142
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1.10-1"
+}

@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "desktop-fix-name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "makefile-fix-cflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vkeybd_tcl_permissions_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "vkeybd",
+    "path": "vkeybd/1:0.1.18d-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/vkeybd/1:0.1.18d-3/",
+        "metric": {
+            "size": 360
+        },
+        "pts_link": "https://tracker.debian.org/pkg/vkeybd",
+        "sloc": [
+            [
+                "ansic",
+                1826
+            ],
+            [
+                "tcl",
+                654
+            ],
+            [
+                "makefile",
+                79
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/vkeybd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:0.1.18d-3"
+}

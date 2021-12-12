@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable_Ftspx_test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fortify.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "increase_tspx_test_tol.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set-null-graphics-on-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "wcslib-contrib",
+    "path": "wcslib-contrib/4.24-1/debian/patches",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 13967,
+        "license": "/copyright/license/wcslib-contrib/4.24-1/",
+        "metric": {
+            "size": 12608
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wcslib-contrib",
+        "sloc": [
+            [
+                "ansic",
+                25432
+            ],
+            [
+                "fortran",
+                6263
+            ],
+            [
+                "lex",
+                6206
+            ],
+            [
+                "sh",
+                3478
+            ],
+            [
+                "sed",
+                417
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=debian-astro/packages/wcslib.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.24-1"
+}
