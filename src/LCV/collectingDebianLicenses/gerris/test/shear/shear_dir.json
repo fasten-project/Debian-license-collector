@@ -1,0 +1,119 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "concentration",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "curvature",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "norms.ref",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shear.gfs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shear.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "shear",
+    "package": "gerris",
+    "path": "gerris/20131206+dfsg-19/test/shear",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/gerris/20131206+dfsg-19/",
+        "metric": {
+            "size": 13488
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gerris",
+        "sloc": [
+            [
+                "ansic",
+                66593
+            ],
+            [
+                "sh",
+                15922
+            ],
+            [
+                "f90",
+                1513
+            ],
+            [
+                "makefile",
+                1150
+            ],
+            [
+                "fortran",
+                696
+            ],
+            [
+                "python",
+                493
+            ],
+            [
+                "awk",
+                104
+            ],
+            [
+                "lisp",
+                89
+            ],
+            [
+                "xml",
+                27
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/gerris/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20131206+dfsg-19"
+}

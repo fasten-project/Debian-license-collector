@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-pkg-config-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5977,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glslang-default-resource-limits_staticlib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glslang.pc-Add-missing-libraries.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spirv.pc-Add-dependencies-on-SPIRV-Tools-and-glslang.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "glslang",
+    "path": "glslang/11.1.0-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/glslang/11.1.0-4/",
+        "metric": {
+            "size": 40008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/glslang",
+        "sloc": [
+            [
+                "cpp",
+                79109
+            ],
+            [
+                "yacc",
+                3659
+            ],
+            [
+                "sh",
+                583
+            ],
+            [
+                "python",
+                231
+            ],
+            [
+                "javascript",
+                74
+            ],
+            [
+                "ansic",
+                19
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/xorg-team/vulkan/glslang",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "11.1.0-4"
+}

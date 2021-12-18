@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "03_kfreebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_skip-known-test-failures.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "egg-secure-memory-Add-a-warning-if-gnome-keyring-36-happe.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "egg-secure-memory-Allocate-enough-space-for-the-guard-poi.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "gnome-keyring",
+    "path": "gnome-keyring/40.0-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/gnome-keyring/40.0-3/",
+        "metric": {
+            "size": 12648
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gnome-keyring",
+        "sloc": [
+            [
+                "ansic",
+                89835
+            ],
+            [
+                "sh",
+                4849
+            ],
+            [
+                "makefile",
+                1354
+            ],
+            [
+                "xml",
+                445
+            ],
+            [
+                "python",
+                331
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnome-team/gnome-keyring",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "40.0-3"
+}

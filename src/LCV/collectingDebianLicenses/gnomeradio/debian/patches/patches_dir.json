@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix_gnome_radio_gui.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnomeradio-1.8-nogtk2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44009,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnomeradio-crash.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnomeradio-gnome-3.0.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnomeradio-gtk.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21041,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnomeradio.desktop.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening-format-security.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "videodev.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "gnomeradio",
+    "path": "gnomeradio/1.8-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 916,
+        "license": "/copyright/license/gnomeradio/1.8-2/",
+        "metric": {
+            "size": 3968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gnomeradio",
+        "sloc": [
+            [
+                "sh",
+                8981
+            ],
+            [
+                "xml",
+                3260
+            ],
+            [
+                "ansic",
+                3146
+            ],
+            [
+                "makefile",
+                146
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.8-2"
+}

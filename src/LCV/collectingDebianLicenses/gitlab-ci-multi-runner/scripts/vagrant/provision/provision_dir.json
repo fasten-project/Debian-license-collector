@@ -1,0 +1,97 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "base.ps1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enable_developer_mode.ps1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enable_sshd.ps1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install_PSWindowsUpdate.ps1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "windows_update.ps1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "provision",
+    "package": "gitlab-ci-multi-runner",
+    "path": "gitlab-ci-multi-runner/13.3.1+dfsg-4/scripts/vagrant/provision",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/gitlab-ci-multi-runner/13.3.1+dfsg-4/",
+        "metric": {
+            "size": 17044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gitlab-ci-multi-runner",
+        "sloc": [
+            [
+                "asm",
+                3327
+            ],
+            [
+                "sh",
+                1339
+            ],
+            [
+                "makefile",
+                325
+            ],
+            [
+                "ruby",
+                68
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/gitlab-ci-multi-runner",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.3.1+dfsg-4"
+}

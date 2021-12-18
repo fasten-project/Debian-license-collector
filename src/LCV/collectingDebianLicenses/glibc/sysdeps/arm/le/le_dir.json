@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Implies",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "armv6",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armv6t2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armv7",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "nofpu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "le",
+    "package": "glibc",
+    "path": "glibc/2.33-0experimental3/sysdeps/arm/le",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/glibc/2.33-0experimental3/",
+        "metric": {
+            "size": 272308
+        },
+        "pts_link": "https://tracker.debian.org/pkg/glibc",
+        "sloc": [
+            [
+                "ansic",
+                1029817
+            ],
+            [
+                "asm",
+                257159
+            ],
+            [
+                "makefile",
+                12740
+            ],
+            [
+                "sh",
+                10597
+            ],
+            [
+                "python",
+                9926
+            ],
+            [
+                "cpp",
+                5288
+            ],
+            [
+                "awk",
+                1803
+            ],
+            [
+                "perl",
+                514
+            ],
+            [
+                "yacc",
+                290
+            ],
+            [
+                "pascal",
+                182
+            ],
+            [
+                "sed",
+                38
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/glibc-team/glibc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.33-0experimental3"
+}

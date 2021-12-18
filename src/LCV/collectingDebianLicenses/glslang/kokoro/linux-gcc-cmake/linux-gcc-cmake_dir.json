@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build-docker.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shared",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "static",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "linux-gcc-cmake",
+    "package": "glslang",
+    "path": "glslang/11.1.0-4/kokoro/linux-gcc-cmake",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/glslang/11.1.0-4/",
+        "metric": {
+            "size": 40008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/glslang",
+        "sloc": [
+            [
+                "cpp",
+                79109
+            ],
+            [
+                "yacc",
+                3659
+            ],
+            [
+                "sh",
+                583
+            ],
+            [
+                "python",
+                231
+            ],
+            [
+                "javascript",
+                74
+            ],
+            [
+                "ansic",
+                19
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/xorg-team/vulkan/glslang",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "11.1.0-4"
+}

@@ -1,0 +1,109 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "002_no_put_links_in_doc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_not_install_static_dir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "004_disable-pypi.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "006_indicate_user_webserver_static_files_not_included.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "007_disable_ip_module_by_default.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "glances",
+    "path": "glances/3.2.3.1+dfsg-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/glances/3.2.3.1+dfsg-1/",
+        "metric": {
+            "size": 8508
+        },
+        "pts_link": "https://tracker.debian.org/pkg/glances",
+        "sloc": [
+            [
+                "python",
+                12387
+            ],
+            [
+                "javascript",
+                1799
+            ],
+            [
+                "makefile",
+                274
+            ],
+            [
+                "sh",
+                169
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/glances",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.3.1+dfsg-1"
+}

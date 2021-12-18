@@ -1,0 +1,166 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_isolinux_mount_chdir.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_comboot_hooks.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_comboot_ne_real_mode_seg.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_new_quiet_flag.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_variable_kernel_address.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_comboot_new_api.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_no_append.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_kernel_size.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_doc.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_gfxboot_c.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "syslinux-3.82",
+    "package": "gfxboot",
+    "path": "gfxboot/4.5.73-2/patches/syslinux-3.82",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/gfxboot/4.5.73-2/",
+        "metric": {
+            "size": 21148
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gfxboot",
+        "sloc": [
+            [
+                "asm",
+                12810
+            ],
+            [
+                "perl",
+                5125
+            ],
+            [
+                "ansic",
+                4018
+            ],
+            [
+                "pascal",
+                2266
+            ],
+            [
+                "makefile",
+                569
+            ],
+            [
+                "xml",
+                256
+            ],
+            [
+                "sh",
+                235
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://browse.dgit.debian.org/gfxboot.git/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.5.73-2"
+}

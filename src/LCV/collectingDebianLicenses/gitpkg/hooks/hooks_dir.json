@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cowpoke-exit-hook",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debcherry-deb-export-hook",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dpkg-buildpackage-exit-hook",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pristine-tar-pre-export-hook",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "quilt-patches-deb-export-hook",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "repo-config-helper",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "hooks",
+    "package": "gitpkg",
+    "path": "gitpkg/0.30/hooks",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/gitpkg/0.30/",
+        "metric": {
+            "size": 220
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gitpkg",
+        "sloc": [
+            [
+                "sh",
+                1219
+            ],
+            [
+                "makefile",
+                34
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ron/gitpkg",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.30"
+}

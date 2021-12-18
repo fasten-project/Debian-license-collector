@@ -1,0 +1,179 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "16_xserver_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "90_config_comments.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "91_dconf_database_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "92_systemd_unit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "94_retain_xorg_log.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "daemon-Infer-session-type-from-desktop-file-if-user-has-n.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gdm.rules-Keep-wayland-enabled-in-all-nvidia-configuratio.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local-display-factory-Don-t-crash-if-Xorg-and-Wayland-are.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local-display-factory-Don-t-try-to-respawn-displays-on-sh.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "meson-Fix-detection-of-Xorg-versions-that-need-listen-tcp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xdmcp-display-factory-Set-supported-session-types-for-XDM.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "gdm3",
+    "path": "gdm3/41.0-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/gdm3/41.0-3/",
+        "metric": {
+            "size": 9188
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gdm3",
+        "sloc": [
+            [
+                "ansic",
+                28390
+            ],
+            [
+                "sh",
+                488
+            ],
+            [
+                "xml",
+                474
+            ],
+            [
+                "makefile",
+                79
+            ],
+            [
+                "python",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnome-team/gdm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "41.0-3"
+}

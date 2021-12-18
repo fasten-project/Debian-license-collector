@@ -1,0 +1,98 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_gcc-options.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 845,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_gkrellm2-port.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_makefile.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2051,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_sync_with_x86info.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "gkrellm-x86info",
+    "path": "gkrellm-x86info/0.0.2-9/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 17,
+        "license": "/copyright/license/gkrellm-x86info/0.0.2-9/",
+        "metric": {
+            "size": 108
+        },
+        "pts_link": "https://tracker.debian.org/pkg/gkrellm-x86info",
+        "sloc": [
+            [
+                "sh",
+                227
+            ],
+            [
+                "ansic",
+                105
+            ],
+            [
+                "makefile",
+                48
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "0.0.2-9"
+}
