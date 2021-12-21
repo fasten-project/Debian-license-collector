@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "expired-cert.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "expired-key.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server-cert.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server-key.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "certs",
+    "package": "monitoring-plugins",
+    "path": "monitoring-plugins/2.3.1-1/plugins/tests/certs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/monitoring-plugins/2.3.1-1/",
+        "metric": {
+            "size": 9272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/monitoring-plugins",
+        "sloc": [
+            [
+                "ansic",
+                62897
+            ],
+            [
+                "sh",
+                13872
+            ],
+            [
+                "perl",
+                7118
+            ],
+            [
+                "makefile",
+                484
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/nagios-team/pkg-monitoring-plugins",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.1-1"
+}

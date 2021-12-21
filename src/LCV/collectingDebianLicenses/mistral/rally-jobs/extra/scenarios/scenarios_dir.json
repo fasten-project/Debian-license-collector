@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "big_wf",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "complex_wf",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "join",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "with_items",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "scenarios",
+    "package": "mistral",
+    "path": "mistral/13.0.0-1/rally-jobs/extra/scenarios",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/mistral/13.0.0-1/",
+        "metric": {
+            "size": 15984
+        },
+        "pts_link": "https://tracker.debian.org/pkg/mistral",
+        "sloc": [
+            [
+                "python",
+                54006
+            ],
+            [
+                "sh",
+                722
+            ],
+            [
+                "makefile",
+                53
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/mistral",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.0.0-1"
+}

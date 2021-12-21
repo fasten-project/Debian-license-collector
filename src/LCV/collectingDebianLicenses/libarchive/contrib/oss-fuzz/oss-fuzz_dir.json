@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "corpus.zip",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libarchive_fuzzer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oss-fuzz-build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "oss-fuzz",
+    "package": "libarchive",
+    "path": "libarchive/3.4.3-2/contrib/oss-fuzz",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libarchive/3.4.3-2/",
+        "metric": {
+            "size": 24584
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libarchive",
+        "sloc": [
+            [
+                "ansic",
+                155585
+            ],
+            [
+                "sh",
+                5196
+            ],
+            [
+                "makefile",
+                1739
+            ],
+            [
+                "awk",
+                770
+            ],
+            [
+                "cpp",
+                41
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/libarchive",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.3-2"
+}

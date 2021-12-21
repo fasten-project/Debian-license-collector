@@ -1,0 +1,260 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Bootstrap",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ObjWriter",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Runtime",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "System.Private.CoreLib.Native",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "System.Private.TypeLoader.Native",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "configure.cmake",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "functions.cmake",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gen-buildsys-clang.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen-buildsys-win.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "jitinterface",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libunwind",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "probe-win.ps1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Native",
+    "package": "mono",
+    "path": "mono/6.8.0.105+dfsg-3.2/external/corert/src/Native",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/mono/6.8.0.105+dfsg-3.2/",
+        "metric": {
+            "size": 1284524
+        },
+        "pts_link": "https://tracker.debian.org/pkg/mono",
+        "sloc": [
+            [
+                "cs",
+                11172132
+            ],
+            [
+                "xml",
+                2850069
+            ],
+            [
+                "ansic",
+                671653
+            ],
+            [
+                "cpp",
+                122091
+            ],
+            [
+                "perl",
+                59366
+            ],
+            [
+                "javascript",
+                30841
+            ],
+            [
+                "asm",
+                22168
+            ],
+            [
+                "makefile",
+                20093
+            ],
+            [
+                "sh",
+                15020
+            ],
+            [
+                "python",
+                4827
+            ],
+            [
+                "pascal",
+                925
+            ],
+            [
+                "sql",
+                859
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "php",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/dotnet-team/mono",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.8.0.105+dfsg-3.2"
+}

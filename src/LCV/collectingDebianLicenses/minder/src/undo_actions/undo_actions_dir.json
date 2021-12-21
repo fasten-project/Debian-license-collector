@@ -1,0 +1,997 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "UndoConnectedNode.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionAdd.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionChange.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionColor.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionDelete.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionNote.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionStickerAdd.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionStickerChange.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionStickerRemove.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionTitle.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoConnectionsDelete.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoGroupAdd.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoGroupRemove.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoGroupsColor.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoGroupsMerge.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoGroupsRemove.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeAddParent.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1811,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeAttach.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeBalance.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeCut.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeDelete.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeDetach.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeFolds.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeGroup.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeImage.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeInsert.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeLayout.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeLink.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeLinkColor.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeMove.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeName.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeNote.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodePaste.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeReparent.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeReparentLinkColor.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeReplace.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeResize.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeSort.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeStickerAdd.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1417,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeStickerChange.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeStickerRemove.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodeTasks.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesAlign.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesCut.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2637,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesDelete.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesGroup.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesInsert.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesLink.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesLinkColor.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesRandLinkColor.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesReparentLinkColor.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2054,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoNodesReplace.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStickerAdd.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStickerChange.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStickerMove.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStickerRemove.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStickerResize.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleAffectChange.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleBranchMargin.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleBranchRadius.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleChange.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleConnectionArrow.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleConnectionDash.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleConnectionFont.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleConnectionLineWidth.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleConnectionPadding.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleConnectionTitleWidth.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleLinkArrow.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleLinkDash.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleLinkType.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleLinkWidth.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1811,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleNodeBorder.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleNodeBorderwidth.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleNodeFill.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleNodeFont.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleNodeMargin.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleNodeMarkup.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleNodePadding.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoStyleNodeWidth.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoTextClearTags.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoTextDelete.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoTextInsert.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoTextMultiInsert.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1914,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoTextReplace.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoTextTagAdd.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UndoTextTagRemove.vala",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "undo_actions",
+    "package": "minder",
+    "path": "minder/1.13.1-1/src/undo_actions",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/minder/1.13.1-1/",
+        "metric": {
+            "size": 7528
+        },
+        "pts_link": "https://tracker.debian.org/pkg/minder",
+        "sloc": [
+            [
+                "xml",
+                710
+            ],
+            [
+                "sh",
+                95
+            ],
+            [
+                "python",
+                87
+            ],
+            [
+                "ansic",
+                78
+            ],
+            [
+                "makefile",
+                7
+            ],
+            [
+                "tcl",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/yangfl-guest/Minder",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-1"
+}

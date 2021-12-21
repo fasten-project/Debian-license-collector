@@ -1,0 +1,152 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "asyncreboot.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cpqhealth.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "foundry-chassis.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6605,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "na_quota.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netappfree.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "process.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reboot.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5087,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "silkworm.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snmpdiskspace.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xedia-ipsec-tunnel.monitor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mon.d",
+    "package": "mon",
+    "path": "mon/1.2.0-9+nmu4/.pc/04-fix-SNMP-module-calls.diff/mon.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 538,
+        "license": "/copyright/license/mon/1.2.0-9+nmu4/",
+        "metric": {
+            "size": 1952
+        },
+        "pts_link": "https://tracker.debian.org/pkg/mon",
+        "sloc": [
+            [
+                "perl",
+                16366
+            ],
+            [
+                "ansic",
+                774
+            ],
+            [
+                "sh",
+                441
+            ],
+            [
+                "makefile",
+                49
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=collab-maint/mon.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.0-9+nmu4"
+}

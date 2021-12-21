@@ -1,0 +1,63 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apache2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "uwsgi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "etc",
+    "package": "libatteanx-endpoint-perl",
+    "path": "libatteanx-endpoint-perl/0.002-5/debian/uwsgi/etc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/libatteanx-endpoint-perl/0.002-5/",
+        "metric": {
+            "size": 524
+        },
+        "pts_link": "https://tracker.debian.org/pkg/libatteanx-endpoint-perl",
+        "sloc": [
+            [
+                "perl",
+                1862
+            ],
+            [
+                "makefile",
+                12
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/perl-team/modules/packages/libatteanx-endpoint-perl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.002-5"
+}

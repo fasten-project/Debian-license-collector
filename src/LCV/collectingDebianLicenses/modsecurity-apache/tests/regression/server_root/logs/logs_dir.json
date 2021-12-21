@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "audit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "subdir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "logs",
+    "package": "modsecurity-apache",
+    "path": "modsecurity-apache/2.9.5-1/tests/regression/server_root/logs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/modsecurity-apache/2.9.5-1/",
+        "metric": {
+            "size": 10160
+        },
+        "pts_link": "https://tracker.debian.org/pkg/modsecurity-apache",
+        "sloc": [
+            [
+                "ansic",
+                51310
+            ],
+            [
+                "sh",
+                4516
+            ],
+            [
+                "perl",
+                2340
+            ],
+            [
+                "cpp",
+                1930
+            ],
+            [
+                "makefile",
+                605
+            ],
+            [
+                "xml",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2.9.5-1"
+}

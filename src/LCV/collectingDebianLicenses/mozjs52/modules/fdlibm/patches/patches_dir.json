@@ -1,0 +1,258 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_remove_unused_declarations_from_fdlibm_h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_change_include_guard_in_fdlibm_h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_put_fdlibm_functions_into_fdlibm_namespace.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_include_fdlibm_h_from_math_private_h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_include_stdint_h_in_math_private_h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_use_mfbt_endian_h_in_math_private_h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_add_fdlibm_namespace_to_functions_defined_and_used_in_fdlibm.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_remove_weak_reference_macro.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_comment_out_rcsid_variable.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_remove_unused_function_from_k_exp_cpp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11_include_cfloat_to_use_flt_eval_method.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12_define_u_int32_t_and_u_int64_t_on_windows.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13_define_strict_assign_even_if_flt_eval_method_is_not_defined.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14_do_not_use_hexadecimal_floating_point_number.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15_remove_unused_rintl_function_from_s_nearbyint_cpp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15_use_safer_strict_assign_on_visual_studio.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "mozjs52",
+    "path": "mozjs52/52.9.1-1/modules/fdlibm/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/mozjs52/52.9.1-1/",
+        "metric": {
+            "size": 250248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/mozjs52",
+        "sloc": [
+            [
+                "cpp",
+                818254
+            ],
+            [
+                "ansic",
+                278823
+            ],
+            [
+                "python",
+                205544
+            ],
+            [
+                "sh",
+                27794
+            ],
+            [
+                "asm",
+                13536
+            ],
+            [
+                "makefile",
+                10661
+            ],
+            [
+                "perl",
+                7438
+            ],
+            [
+                "xml",
+                2812
+            ],
+            [
+                "java",
+                1421
+            ],
+            [
+                "exp",
+                499
+            ],
+            [
+                "lisp",
+                258
+            ],
+            [
+                "objc",
+                234
+            ],
+            [
+                "csh",
+                17
+            ],
+            [
+                "sed",
+                17
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnome-team/mozjs52",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "52.9.1-1"
+}

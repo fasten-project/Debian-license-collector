@@ -1,0 +1,946 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "SConscript",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aligned_builder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5702,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aligned_builder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "btree",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "catalog",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "compress.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compress.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data_file.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data_file.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8316,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data_file_sync.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4968,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data_file_sync.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data_file_version_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "diskloc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_commitjob.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_commitjob.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_journal.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_journal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_journal_writer.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_journal_writer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_journalformat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_journalimpl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_preplogbuffer.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_recover.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_recover.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_recovery_unit.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_recovery_unit.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dur_stats.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "durable_mapped_file.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "durable_mapped_file.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "durop.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "durop.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extent.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extent.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extent_manager.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3033,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extent_manager.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_allocator.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_allocator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3615,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heap_record_store_btree.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heap_record_store_btree.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "journal_latency_test_cmd.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logfile.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logfile.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_posix.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_database_catalog_entry.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_database_catalog_entry.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_engine.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_engine.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_extent_manager.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_extent_manager.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_init.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_init_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_noinit.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_options.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3942,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_v1_record_store_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_windows.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19033,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_access_tracker.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_access_tracker.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_access_tracker_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_base.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_base.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_capped.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_capped.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_capped_iterator.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_capped_iterator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_capped_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_repair_iterator.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_repair_iterator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3609,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_simple.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_simple.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_simple_iterator.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_simple_iterator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2984,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_simple_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_test_help.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_store_v1_test_help.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "repair_database.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mmap_v1",
+    "package": "mongodb",
+    "path": "mongodb/1:3.2.11-2+deb9u1/src/mongo/db/storage/mmap_v1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/mongodb/1:3.2.11-2+deb9u1/",
+        "metric": {
+            "size": 196404
+        },
+        "pts_link": "https://tracker.debian.org/pkg/mongodb",
+        "sloc": [
+            [
+                "cpp",
+                1412793
+            ],
+            [
+                "ansic",
+                504961
+            ],
+            [
+                "python",
+                78522
+            ],
+            [
+                "perl",
+                5837
+            ],
+            [
+                "sh",
+                5661
+            ],
+            [
+                "java",
+                4202
+            ],
+            [
+                "makefile",
+                1784
+            ],
+            [
+                "pascal",
+                617
+            ],
+            [
+                "xml",
+                176
+            ],
+            [
+                "asm",
+                128
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-mongodb/mongodb.git/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:3.2.11-2+deb9u1"
+}

@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-Allow-overriding-package-version.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0002-comp-Fix-warning-after-Vulkan-1.2.174-VK_NULL_HANDLE.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "monado",
+    "path": "monado/21.0.0~dfsg1-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/monado/21.0.0%7Edfsg1-2/",
+        "metric": {
+            "size": 10008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/monado",
+        "sloc": [
+            [
+                "cpp",
+                75052
+            ],
+            [
+                "ansic",
+                62517
+            ],
+            [
+                "python",
+                862
+            ],
+            [
+                "java",
+                635
+            ],
+            [
+                "xml",
+                503
+            ],
+            [
+                "sh",
+                209
+            ],
+            [
+                "makefile",
+                54
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/monado-team/monado/-/tree/debian/sid",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "21.0.0~dfsg1-2"
+}

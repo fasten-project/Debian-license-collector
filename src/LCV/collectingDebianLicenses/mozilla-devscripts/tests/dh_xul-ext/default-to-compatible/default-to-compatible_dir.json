@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "install.rdf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 900,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "default-to-compatible",
+    "package": "mozilla-devscripts",
+    "path": "mozilla-devscripts/0.54.2/tests/dh_xul-ext/default-to-compatible",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/mozilla-devscripts/0.54.2/",
+        "metric": {
+            "size": 364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/mozilla-devscripts",
+        "sloc": [
+            [
+                "python",
+                1309
+            ],
+            [
+                "sh",
+                106
+            ],
+            [
+                "perl",
+                41
+            ],
+            [
+                "makefile",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/webext-team/webext-devscripts",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.54.2"
+}

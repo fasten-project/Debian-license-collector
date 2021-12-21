@@ -1,0 +1,215 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "migrate_aliases.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_automount.pl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_base.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_fstab.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_group.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_hosts.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2846,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_netgroup.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_netgroup_byhost.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_netgroup_byuser.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_networks.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_passwd.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_profile.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_protocols.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_rpc.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_services.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_slapd_conf.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "1001_require_path.patch",
+    "package": "migrationtools",
+    "path": "migrationtools/48-1/.pc/1001_require_path.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/migrationtools/48-1/",
+        "metric": {
+            "size": 364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/migrationtools",
+        "sloc": [
+            [
+                "perl",
+                2583
+            ],
+            [
+                "sh",
+                614
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/migrationtools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "48-1"
+}

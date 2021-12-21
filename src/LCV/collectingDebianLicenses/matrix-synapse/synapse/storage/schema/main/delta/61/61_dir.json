@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01change_appservices_txns.sql.postgres",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01insertion_event_lookups.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02drop_redundant_room_depth_index.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03recreate_min_depth.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "61",
+    "package": "matrix-synapse",
+    "path": "matrix-synapse/1.48.0-1/synapse/storage/schema/main/delta/61",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/matrix-synapse/1.48.0-1/",
+        "metric": {
+            "size": 34760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/matrix-synapse",
+        "sloc": [
+            [
+                "python",
+                153056
+            ],
+            [
+                "javascript",
+                10234
+            ],
+            [
+                "sql",
+                2110
+            ],
+            [
+                "sh",
+                740
+            ],
+            [
+                "perl",
+                661
+            ],
+            [
+                "makefile",
+                29
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/matrix-team/matrix-synapse",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.48.0-1"
+}

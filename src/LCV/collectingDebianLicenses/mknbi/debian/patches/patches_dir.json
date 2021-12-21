@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-conglomeration.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-gcc-multilib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-gcc-multilib-harder.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-no-stack-protector.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-gcc-5.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-reproducible-builds.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-disable-pie.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "mknbi",
+    "path": "mknbi/1.4.4-14/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1659,
+        "license": "/copyright/license/mknbi/1.4.4-14/",
+        "metric": {
+            "size": 996
+        },
+        "pts_link": "https://tracker.debian.org/pkg/mknbi",
+        "sloc": [
+            [
+                "ansic",
+                3511
+            ],
+            [
+                "asm",
+                2374
+            ],
+            [
+                "perl",
+                1368
+            ],
+            [
+                "makefile",
+                217
+            ],
+            [
+                "sh",
+                72
+            ],
+            [
+                "pascal",
+                37
+            ]
+        ],
+        "suites": [
+            "buster",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/mknbi.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.4-14"
+}
