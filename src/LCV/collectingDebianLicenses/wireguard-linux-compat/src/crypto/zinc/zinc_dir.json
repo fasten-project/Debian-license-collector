@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "blake2s",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "chacha20",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "chacha20poly1305.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "curve25519",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "poly1305",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "selftest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 140,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "zinc",
+    "package": "wireguard-linux-compat",
+    "path": "wireguard-linux-compat/1.0.20210606-1/src/crypto/zinc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/wireguard-linux-compat/1.0.20210606-1/",
+        "metric": {
+            "size": 2140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wireguard-linux-compat",
+        "sloc": [
+            [
+                "ansic",
+                29487
+            ],
+            [
+                "perl",
+                10790
+            ],
+            [
+                "asm",
+                3245
+            ],
+            [
+                "sh",
+                647
+            ],
+            [
+                "makefile",
+                431
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/wireguard-linux-compat",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.20210606-1"
+}

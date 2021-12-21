@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-Avoid-using-git-during-build.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Avoid-requiring-glibc-2.25-for-wireguard-tools.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "wireguard",
+    "path": "wireguard/1.0.20210914-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/wireguard/1.0.20210914-1/",
+        "metric": {
+            "size": 936
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wireguard",
+        "sloc": [
+            [
+                "ansic",
+                10835
+            ],
+            [
+                "sh",
+                1916
+            ],
+            [
+                "makefile",
+                193
+            ],
+            [
+                "haskell",
+                170
+            ],
+            [
+                "javascript",
+                165
+            ],
+            [
+                "cpp",
+                87
+            ],
+            [
+                "python",
+                64
+            ],
+            [
+                "xml",
+                19
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/wireguard",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.20210914-1"
+}

@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dont_auto_create_keypair",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enable_recording_and_using_an_external_signature.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-scripts-with-python-3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "split_signature_generation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1757,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "wireless-regdb",
+    "path": "wireless-regdb/2021.08.28-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/wireless-regdb/2021.08.28-1/",
+        "metric": {
+            "size": 408
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wireless-regdb",
+        "sloc": [
+            [
+                "python",
+                830
+            ],
+            [
+                "makefile",
+                152
+            ],
+            [
+                "sh",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/kernel-team/wireless-regdb",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2021.08.28-1"
+}

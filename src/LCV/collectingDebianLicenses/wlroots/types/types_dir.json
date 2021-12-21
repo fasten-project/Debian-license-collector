@@ -16,11 +16,33 @@
             "name": "meson.build",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 1837,
+                "size": 2072,
                 "symlink_dest": null,
                 "type": "-"
             },
             "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "scene",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
         },
         {
             "hidden": false,
@@ -46,21 +68,10 @@
         },
         {
             "hidden": false,
-            "name": "wlr_box.c",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 3904,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
             "name": "wlr_buffer.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 14159,
+                "size": 17555,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -71,7 +82,7 @@
             "name": "wlr_compositor.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 6132,
+                "size": 6120,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -82,7 +93,7 @@
             "name": "wlr_cursor.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 26932,
+                "size": 28501,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -101,10 +112,32 @@
         },
         {
             "hidden": false,
+            "name": "wlr_drm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wlr_drm_lease_v1.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
             "name": "wlr_export_dmabuf_v1.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 6831,
+                "size": 6742,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -192,7 +225,7 @@
             "name": "wlr_input_method_v2.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 16231,
+                "size": 21217,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -203,7 +236,7 @@
             "name": "wlr_keyboard.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 6870,
+                "size": 7567,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -236,7 +269,7 @@
             "name": "wlr_layer_shell_v1.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 18769,
+                "size": 18529,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -247,18 +280,7 @@
             "name": "wlr_linux_dmabuf_v1.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 15857,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "wlr_list.c",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 2525,
+                "size": 30897,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -269,18 +291,7 @@
             "name": "wlr_matrix.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 4078,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "wlr_output.c",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 45947,
+                "size": 4073,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -291,7 +302,7 @@
             "name": "wlr_output_damage.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 8178,
+                "size": 7990,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -302,7 +313,7 @@
             "name": "wlr_output_layout.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 14988,
+                "size": 15224,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -335,7 +346,7 @@
             "name": "wlr_pointer.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 964,
+                "size": 1054,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -346,7 +357,7 @@
             "name": "wlr_pointer_constraints_v1.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 12575,
+                "size": 12570,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -357,7 +368,7 @@
             "name": "wlr_pointer_gestures_v1.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 10004,
+                "size": 13089,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -368,7 +379,7 @@
             "name": "wlr_presentation_time.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 10320,
+                "size": 10623,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -401,7 +412,7 @@
             "name": "wlr_region.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 2140,
+                "size": 2144,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -423,7 +434,7 @@
             "name": "wlr_screencopy_v1.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 22379,
+                "size": 20818,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -445,7 +456,7 @@
             "name": "wlr_surface.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 45944,
+                "size": 43808,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -467,7 +478,7 @@
             "name": "wlr_tablet_pad.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 734,
+                "size": 780,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -478,7 +489,7 @@
             "name": "wlr_tablet_tool.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 702,
+                "size": 780,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -489,7 +500,7 @@
             "name": "wlr_text_input_v3.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 11397,
+                "size": 11501,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -500,7 +511,7 @@
             "name": "wlr_touch.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 571,
+                "size": 610,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -511,7 +522,7 @@
             "name": "wlr_viewporter.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 7267,
+                "size": 7610,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -555,7 +566,7 @@
             "name": "wlr_xdg_activation_v1.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 10777,
+                "size": 12881,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -566,7 +577,7 @@
             "name": "wlr_xdg_decoration_v1.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 10177,
+                "size": 10000,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -599,7 +610,7 @@
             "name": "wlr_xdg_foreign_v2.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 12877,
+                "size": 13025,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -630,24 +641,24 @@
     ],
     "directory": "types",
     "package": "wlroots",
-    "path": "wlroots/0.14.1-4/types",
+    "path": "wlroots/0.15.0-1/types",
     "pkg_infos": {
         "area": "main",
         "copyright": true,
         "ctags_count": 0,
-        "license": "/copyright/license/wlroots/0.14.1-4/",
+        "license": "/copyright/license/wlroots/0.15.0-1/",
         "metric": {
-            "size": 3504
+            "size": 4024
         },
         "pts_link": "https://tracker.debian.org/pkg/wlroots",
         "sloc": [
             [
                 "ansic",
-                56711
+                63461
             ],
             [
                 "xml",
-                2794
+                2797
             ],
             [
                 "makefile",
@@ -661,5 +672,5 @@
         "vcs_type": "git"
     },
     "type": "directory",
-    "version": "0.14.1-4"
+    "version": "0.15.0-1"
 }

@@ -2,10 +2,32 @@
     "content": [
         {
             "hidden": false,
+            "name": "addon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
             "name": "array.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 990,
+                "size": 1243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "box.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4183,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -38,7 +60,7 @@
             "name": "meson.build",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 117,
+                "size": 139,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -49,7 +71,7 @@
             "name": "region.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 7791,
+                "size": 7760,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -60,7 +82,7 @@
             "name": "shm.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 996,
+                "size": 1638,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -82,7 +104,7 @@
             "name": "time.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 757,
+                "size": 764,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -93,7 +115,7 @@
             "name": "token.c",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 726,
+                "size": 983,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -102,24 +124,24 @@
     ],
     "directory": "util",
     "package": "wlroots",
-    "path": "wlroots/0.14.1-4/util",
+    "path": "wlroots/0.15.0-1/util",
     "pkg_infos": {
         "area": "main",
         "copyright": true,
         "ctags_count": 0,
-        "license": "/copyright/license/wlroots/0.14.1-4/",
+        "license": "/copyright/license/wlroots/0.15.0-1/",
         "metric": {
-            "size": 3504
+            "size": 4024
         },
         "pts_link": "https://tracker.debian.org/pkg/wlroots",
         "sloc": [
             [
                 "ansic",
-                56711
+                63461
             ],
             [
                 "xml",
-                2794
+                2797
             ],
             [
                 "makefile",
@@ -133,5 +155,5 @@
         "vcs_type": "git"
     },
     "type": "directory",
-    "version": "0.14.1-4"
+    "version": "0.15.0-1"
 }

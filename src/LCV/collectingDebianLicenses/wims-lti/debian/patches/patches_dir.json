@@ -1,0 +1,98 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apacheconf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local_wims_package.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-privacy-breach.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "wims-lti",
+    "path": "wims-lti/0.4.4.1-10/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/wims-lti/0.4.4.1-10/",
+        "metric": {
+            "size": 732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wims-lti",
+        "sloc": [
+            [
+                "python",
+                4136
+            ],
+            [
+                "sh",
+                155
+            ],
+            [
+                "xml",
+                42
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/georgesk/wims-lti",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.4.1-10"
+}

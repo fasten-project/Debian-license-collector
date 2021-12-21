@@ -16,7 +16,7 @@
             "name": "changelog",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 8502,
+                "size": 9366,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -27,7 +27,7 @@
             "name": "control",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 2483,
+                "size": 2487,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -101,7 +101,7 @@
         },
         {
             "hidden": false,
-            "name": "libwlroots9.dirs",
+            "name": "libwlroots10.dirs",
             "stat": {
                 "perms": "rw-r--r--",
                 "size": 8,
@@ -112,7 +112,7 @@
         },
         {
             "hidden": false,
-            "name": "libwlroots9.install",
+            "name": "libwlroots10.install",
             "stat": {
                 "perms": "rw-r--r--",
                 "size": 20,
@@ -123,10 +123,10 @@
         },
         {
             "hidden": false,
-            "name": "libwlroots9.shlibs",
+            "name": "libwlroots10.shlibs",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 37,
+                "size": 39,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -137,7 +137,7 @@
             "name": "patches",
             "stat": {
                 "perms": "rwxr-xr-x",
-                "size": 99,
+                "size": 4096,
                 "symlink_dest": null,
                 "type": "d"
             },
@@ -148,7 +148,7 @@
             "name": "rules",
             "stat": {
                 "perms": "rwxr-xr-x",
-                "size": 175,
+                "size": 181,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -212,24 +212,24 @@
     ],
     "directory": "debian",
     "package": "wlroots",
-    "path": "wlroots/0.14.1-4/debian",
+    "path": "wlroots/0.15.0-1/debian",
     "pkg_infos": {
         "area": "main",
         "copyright": true,
         "ctags_count": 0,
-        "license": "/copyright/license/wlroots/0.14.1-4/",
+        "license": "/copyright/license/wlroots/0.15.0-1/",
         "metric": {
-            "size": 3504
+            "size": 4024
         },
         "pts_link": "https://tracker.debian.org/pkg/wlroots",
         "sloc": [
             [
                 "ansic",
-                56711
+                63461
             ],
             [
                 "xml",
-                2794
+                2797
             ],
             [
                 "makefile",
@@ -243,5 +243,5 @@
         "vcs_type": "git"
     },
     "type": "directory",
-    "version": "0.14.1-4"
+    "version": "0.15.0-1"
 }
