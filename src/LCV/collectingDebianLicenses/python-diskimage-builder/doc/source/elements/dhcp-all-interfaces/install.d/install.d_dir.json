@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "50-dhcp-all-interfaces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "60-remove-cloud-image-interfaces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NetworkManager-conf.d-00-main.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dhcp-all-interfaces-udev.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dhcp-all-interfaces.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dhcp-all-interfaces.init",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dhcp-all-interfaces.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dhcp-interface%40.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 754,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "install.d",
+    "package": "python-diskimage-builder",
+    "path": "python-diskimage-builder/3.13.0-2/doc/source/elements/dhcp-all-interfaces/install.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-diskimage-builder/3.13.0-2/",
+        "metric": {
+            "size": 4880
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-diskimage-builder",
+        "sloc": [
+            [
+                "sh",
+                7744
+            ],
+            [
+                "python",
+                4739
+            ],
+            [
+                "makefile",
+                34
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/libs/python-diskimage-builder",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.13.0-2"
+}

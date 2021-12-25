@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Disable-tests-if-they-require-Internet-access.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 843,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Skip-tests-are-not-supposed-to-FTBFS-randomly.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Disable-session-tests-they-doesn-t-work-with-newer-aiohttp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-unbreak-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "python-molotov",
+    "path": "python-molotov/2.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-molotov/2.1-2/",
+        "metric": {
+            "size": 504
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-molotov",
+        "sloc": [
+            [
+                "python",
+                3575
+            ],
+            [
+                "makefile",
+                37
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/python-molotov",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1-2"
+}

@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_default_ssl_vhost.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00_default_vhost.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "default_vhost.include",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gentoo.example.com.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "vhosts.d",
+    "package": "python-certbot-apache",
+    "path": "python-certbot-apache/1.21.0-1/tests/testdata/gentoo_apache/apache/apache2/vhosts.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-certbot-apache/1.21.0-1/",
+        "metric": {
+            "size": 1740
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-certbot-apache",
+        "sloc": [
+            [
+                "python",
+                7686
+            ],
+            [
+                "sh",
+                119
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/letsencrypt-team/certbot/certbot-apache",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.21.0-1"
+}

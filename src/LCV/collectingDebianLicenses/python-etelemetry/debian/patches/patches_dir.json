@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "deb_optional_ci",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-python3.9-failure.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 636,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "python-etelemetry",
+    "path": "python-etelemetry/0.2.0-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-etelemetry/0.2.0-4/",
+        "metric": {
+            "size": 228
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-etelemetry",
+        "sloc": [
+            [
+                "python",
+                1556
+            ],
+            [
+                "makefile",
+                9
+            ],
+            [
+                "sh",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/python-etelemetry",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.0-4"
+}

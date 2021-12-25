@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "options-ssl-nginx-old.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "options-ssl-nginx-tls12-only.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "options-ssl-nginx-tls13-session-tix-on.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "options-ssl-nginx.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tls_configs",
+    "package": "python-certbot-nginx",
+    "path": "python-certbot-nginx/1.21.0-1/certbot_nginx/_internal/tls_configs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-certbot-nginx/1.21.0-1/",
+        "metric": {
+            "size": 624
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-certbot-nginx",
+        "sloc": [
+            [
+                "python",
+                4208
+            ],
+            [
+                "sh",
+                111
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/letsencrypt-team/certbot/certbot-nginx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.21.0-1"
+}

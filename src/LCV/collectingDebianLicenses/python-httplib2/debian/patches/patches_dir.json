@@ -1,0 +1,90 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Use-system-ca-certificates-not-the-bundled-ones.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-pytest-cov.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "skip-broken-autopkgtests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "skip-ca-md-too-weak-ssl-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4637,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "python-httplib2",
+    "path": "python-httplib2/0.20.2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-httplib2/0.20.2-2/",
+        "metric": {
+            "size": 1448
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-httplib2",
+        "sloc": [
+            [
+                "python",
+                9688
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/python-httplib2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.20.2-2"
+}

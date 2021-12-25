@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Use-system-libhiredis.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_build_dir_in_tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "python-hiredis",
+    "path": "python-hiredis/1.0.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-hiredis/1.0.1-1/",
+        "metric": {
+            "size": 404
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-hiredis",
+        "sloc": [
+            [
+                "ansic",
+                4206
+            ],
+            [
+                "python",
+                279
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/python-hiredis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.1-1"
+}

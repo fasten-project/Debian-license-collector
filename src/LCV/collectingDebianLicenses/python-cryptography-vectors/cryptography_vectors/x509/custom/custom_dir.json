@@ -1,0 +1,930 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aia_ca_issuers.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aia_ocsp.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aia_ocsp_ca_issuers.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "all_key_usages.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1070,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "all_supported_names.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authority_key_identifier.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authority_key_identifier_no_keyid.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basic_constraints_not_critical.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bc_path_length_zero.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ca",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cdp_all_reasons.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cdp_crl_issuer.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cdp_empty_hostname.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2033,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cdp_fullname_reasons_crl_issuer.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cdp_reason_aa_compromise.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cp_cps_uri.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cp_invalid.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cp_user_notice_no_explicit_text.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cp_user_notice_with_explicit_text.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cp_user_notice_with_notice_reference.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_all_reasons.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_delta_crl_indicator.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_dup_entry_ext.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_empty.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_ian_aia_aki.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_idp_fullname_indirect_crl.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_idp_fullname_only.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_idp_fullname_only_aa.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_idp_fullname_only_user.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_idp_only_ca.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_idp_reasons_only.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_idp_relative_user_all_reasons.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_idp_relativename_only.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_inval_cert_issuer_entry_ext.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 605,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_md2_unknown_crit_entry_ext.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crl_unsupported_reason.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 609,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dsa_selfsigned_ca.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ec_no_named_curve.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extended_key_usage.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "freshestcrl.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ian_uri.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inhibit_any_policy_5.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inhibit_any_policy_negative.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "invalid_signature.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "invalid_version.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nc_excluded.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nc_invalid_ip_netmask.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nc_permitted.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nc_permitted_2.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1054,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nc_permitted_excluded.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nc_permitted_excluded_2.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nc_single_ip_netmask.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "negative_serial.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocsp_nocheck.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pc_inhibit.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pc_inhibit_require.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pc_require.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy_constraints_explicit.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "post2000utctime.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsa_pss.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_dirname.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1070,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_email_dns_ip_dirname_uri.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_empty_hostname.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_idna2003_dnsname.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_idna_names.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_ipaddr.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_other_name.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_registered_id.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_rfc822_idna.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_rfc822_names.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_uri_with_port.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "san_wildcard_idna.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sia.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "two_basic_constraints.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsupported_extension.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1070,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsupported_extension_2.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsupported_extension_critical.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsupported_subject_name.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1054,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsupported_subject_public_key_info.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1720,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utf8_common_name.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "valid_signature.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "custom",
+    "package": "python-cryptography-vectors",
+    "path": "python-cryptography-vectors/3.4.8-1/cryptography_vectors/x509/custom",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-cryptography-vectors/3.4.8-1/",
+        "metric": {
+            "size": 78852
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-cryptography-vectors",
+        "sloc": [
+            [
+                "python",
+                61
+            ],
+            [
+                "sh",
+                49
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/python-cryptography-vectors",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.8-1"
+}

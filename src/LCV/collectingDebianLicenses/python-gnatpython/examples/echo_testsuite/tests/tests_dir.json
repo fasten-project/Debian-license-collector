@@ -1,0 +1,75 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "test1__always_fails",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test2__in_python",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test3__in_shell",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "python-gnatpython",
+    "path": "python-gnatpython/54-3/examples/echo_testsuite/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 590,
+        "license": "/copyright/license/python-gnatpython/54-3/",
+        "metric": {
+            "size": 628
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-gnatpython",
+        "sloc": [
+            [
+                "python",
+                3056
+            ],
+            [
+                "ansic",
+                1477
+            ],
+            [
+                "makefile",
+                38
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch",
+            "wheezy"
+        ],
+        "vcs_browser": "http://www.ada-france.org:8081/branch/changes/org.debian.gnatpython",
+        "vcs_type": "mtn"
+    },
+    "type": "directory",
+    "version": "54-3"
+}

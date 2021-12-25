@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "09-apt-keyring",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-block-apt-translations",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-block-daemons",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-build-with-http-cache",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-shared-apt-cache",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-trim-dpkg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "root.d",
+    "package": "python-diskimage-builder",
+    "path": "python-diskimage-builder/3.13.0-2/doc/source/elements/dpkg/root.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-diskimage-builder/3.13.0-2/",
+        "metric": {
+            "size": 4880
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-diskimage-builder",
+        "sloc": [
+            [
+                "sh",
+                7744
+            ],
+            [
+                "python",
+                4739
+            ],
+            [
+                "makefile",
+                34
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/libs/python-diskimage-builder",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.13.0-2"
+}

@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-base.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-dav.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-lua.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-mpm.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-proxy.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-ssl.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-systemd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-cgi.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "conf.modules.d",
+    "package": "python-certbot-apache",
+    "path": "python-certbot-apache/1.21.0-1/tests/testdata/centos7_apache/apache/httpd/conf.modules.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-certbot-apache/1.21.0-1/",
+        "metric": {
+            "size": 1740
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-certbot-apache",
+        "sloc": [
+            [
+                "python",
+                7686
+            ],
+            [
+                "sh",
+                119
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/letsencrypt-team/certbot/certbot-apache",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.21.0-1"
+}
