@@ -1,0 +1,180 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "byteswap.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "esdm-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hdf5-library-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link-private.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nc-config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pnetcdf-settings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "privacy-breach-logo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reproducible-settings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 898,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tst_fileinfo-link-hdf5.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1745,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version-script.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "netcdf-parallel",
+    "path": "netcdf-parallel/1:4.8.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/netcdf-parallel/1:4.8.1-2/",
+        "metric": {
+            "size": 111012
+        },
+        "pts_link": "https://tracker.debian.org/pkg/netcdf-parallel",
+        "sloc": [
+            [
+                "ansic",
+                255265
+            ],
+            [
+                "sh",
+                12241
+            ],
+            [
+                "yacc",
+                2554
+            ],
+            [
+                "makefile",
+                1592
+            ],
+            [
+                "cpp",
+                1500
+            ],
+            [
+                "lex",
+                1207
+            ],
+            [
+                "xml",
+                173
+            ],
+            [
+                "awk",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/mckinstry/netcdf-parallel",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:4.8.1-2"
+}

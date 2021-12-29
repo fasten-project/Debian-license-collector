@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tsc-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "workaround-tslib-update.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "node-ast-types",
+    "path": "node-ast-types/0.15.2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/node-ast-types/0.15.2-2/",
+        "metric": {
+            "size": 4424
+        },
+        "pts_link": "https://tracker.debian.org/pkg/node-ast-types",
+        "sloc": [
+            [
+                "javascript",
+                7563
+            ],
+            [
+                "sh",
+                20
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/js-team/node-ast-types",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.15.2-2"
+}

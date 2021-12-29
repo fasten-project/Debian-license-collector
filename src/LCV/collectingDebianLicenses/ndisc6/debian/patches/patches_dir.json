@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "reproducible-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "resolvconf-rdnssd-hook.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 772,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ndisc6",
+    "path": "ndisc6/1.0.4-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ndisc6/1.0.4-2/",
+        "metric": {
+            "size": 1780
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ndisc6",
+        "sloc": [
+            [
+                "sh",
+                5057
+            ],
+            [
+                "ansic",
+                4101
+            ],
+            [
+                "makefile",
+                184
+            ],
+            [
+                "perl",
+                35
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ndisc6",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.4-2"
+}

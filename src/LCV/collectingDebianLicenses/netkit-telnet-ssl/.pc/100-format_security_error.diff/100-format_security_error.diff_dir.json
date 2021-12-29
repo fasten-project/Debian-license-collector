@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "telnet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "telnetd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "100-format_security_error.diff",
+    "package": "netkit-telnet-ssl",
+    "path": "netkit-telnet-ssl/0.17.41+0.2-3.3/.pc/100-format_security_error.diff",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/netkit-telnet-ssl/0.17.41+0.2-3.3/",
+        "metric": {
+            "size": 4672
+        },
+        "pts_link": "https://tracker.debian.org/pkg/netkit-telnet-ssl",
+        "sloc": [
+            [
+                "cpp",
+                6952
+            ],
+            [
+                "ansic",
+                6720
+            ],
+            [
+                "sh",
+                203
+            ],
+            [
+                "makefile",
+                64
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.17.41+0.2-3.3"
+}

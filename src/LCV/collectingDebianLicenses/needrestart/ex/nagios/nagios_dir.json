@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "check_needrestart",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "needrestart-nagios",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plugin.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "nagios",
+    "package": "needrestart",
+    "path": "needrestart/3.5-5/ex/nagios",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/needrestart/3.5-5/",
+        "metric": {
+            "size": 760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/needrestart",
+        "sloc": [
+            [
+                "perl",
+                3241
+            ],
+            [
+                "sh",
+                252
+            ],
+            [
+                "makefile",
+                82
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "3.5-5"
+}

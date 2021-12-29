@@ -1,0 +1,159 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-Makefile.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fix-service-file-path.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "remove_callout_graphics.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "specify-path-to-bash-bzip2-gzip-and-tar-to-fix-repro.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "nix",
+    "path": "nix/2.3.10+dfsg1-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/nix/2.3.10+dfsg1-1/",
+        "metric": {
+            "size": 4988
+        },
+        "pts_link": "https://tracker.debian.org/pkg/nix",
+        "sloc": [
+            [
+                "cpp",
+                35014
+            ],
+            [
+                "xml",
+                14333
+            ],
+            [
+                "sh",
+                5530
+            ],
+            [
+                "perl",
+                587
+            ],
+            [
+                "yacc",
+                568
+            ],
+            [
+                "lex",
+                222
+            ],
+            [
+                "makefile",
+                51
+            ],
+            [
+                "sql",
+                32
+            ],
+            [
+                "python",
+                22
+            ],
+            [
+                "ruby",
+                1
+            ],
+            [
+                "exp",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/nix",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.10+dfsg1-1"
+}

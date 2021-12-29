@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ovn-migration.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reduce-dhcp-renewal-time.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "roles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "playbooks",
+    "package": "neutron",
+    "path": "neutron/2:19.0.0-1/tools/ovn_migration/tripleo_environment/playbooks",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/neutron/2:19.0.0-1/",
+        "metric": {
+            "size": 39088
+        },
+        "pts_link": "https://tracker.debian.org/pkg/neutron",
+        "sloc": [
+            [
+                "python",
+                256285
+            ],
+            [
+                "sh",
+                1960
+            ],
+            [
+                "makefile",
+                280
+            ],
+            [
+                "ruby",
+                35
+            ],
+            [
+                "sql",
+                19
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/neutron",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:19.0.0-1"
+}

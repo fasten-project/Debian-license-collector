@@ -1,0 +1,126 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mruby_fuzzer.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mruby_proto_fuzzer.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proto_to_ruby.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proto_to_ruby.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ruby.proto",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "oss-fuzz",
+    "package": "nghttp2",
+    "path": "nghttp2/1.43.0-1/third-party/mruby/oss-fuzz",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/nghttp2/1.43.0-1/",
+        "metric": {
+            "size": 16980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/nghttp2",
+        "sloc": [
+            [
+                "ansic",
+                89990
+            ],
+            [
+                "cpp",
+                49650
+            ],
+            [
+                "ruby",
+                19682
+            ],
+            [
+                "yacc",
+                6580
+            ],
+            [
+                "sh",
+                4429
+            ],
+            [
+                "python",
+                967
+            ],
+            [
+                "makefile",
+                903
+            ],
+            [
+                "javascript",
+                194
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/nghttp2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.43.0-1"
+}

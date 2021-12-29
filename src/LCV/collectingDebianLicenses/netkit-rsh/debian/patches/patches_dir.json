@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian-changes-0.17-17.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-CVE-2018-20685-and-CVE-2019-6111.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rcp-memory-leak.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "segfaults_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-cmake-as-buildsystem-debian-extras.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-cmake-as-buildsystem.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4709,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "netkit-rsh",
+    "path": "netkit-rsh/0.17-22/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/netkit-rsh/0.17-22/",
+        "metric": {
+            "size": 840
+        },
+        "pts_link": "https://tracker.debian.org/pkg/netkit-rsh",
+        "sloc": [
+            [
+                "ansic",
+                3825
+            ],
+            [
+                "makefile",
+                137
+            ],
+            [
+                "perl",
+                136
+            ],
+            [
+                "sh",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.17-22"
+}

@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "drop-default-port.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dynamic-module.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openssl-1.1.0.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "http-upstream-fair",
+    "package": "nginx",
+    "path": "nginx/1.18.0-6.1/debian/modules/patches/http-upstream-fair",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/nginx/1.18.0-6.1/",
+        "metric": {
+            "size": 19156
+        },
+        "pts_link": "https://tracker.debian.org/pkg/nginx",
+        "sloc": [
+            [
+                "ansic",
+                250517
+            ],
+            [
+                "perl",
+                7548
+            ],
+            [
+                "sh",
+                1408
+            ],
+            [
+                "ruby",
+                879
+            ],
+            [
+                "python",
+                358
+            ],
+            [
+                "makefile",
+                338
+            ],
+            [
+                "awk",
+                36
+            ],
+            [
+                "cpp",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/nginx-team/nginx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.18.0-6.1"
+}

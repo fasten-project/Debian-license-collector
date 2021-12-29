@@ -1,0 +1,280 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "enable_clean_after_failed_compile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_configure",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_lib_deps",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_unit_tests",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hurd_fixes",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legacy_rename_rpsblast",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no_multiarch_rpath",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "optionally_keep_sequence",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reprobuild",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_perl_directly",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "skip_services_unit_test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "support_gcc10",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "support_x32",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suppress_tls_version_checks",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system_mbedtls_only",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tune_lmdb_defaults",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_pie_for_apps",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ncbi-blast+",
+    "path": "ncbi-blast+/2.12.0+ds-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ncbi-blast+/2.12.0+ds-2/",
+        "metric": {
+            "size": 193436
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ncbi-blast+",
+        "sloc": [
+            [
+                "cpp",
+                910226
+            ],
+            [
+                "ansic",
+                258598
+            ],
+            [
+                "sh",
+                13718
+            ],
+            [
+                "xml",
+                5050
+            ],
+            [
+                "javascript",
+                3434
+            ],
+            [
+                "python",
+                2739
+            ],
+            [
+                "perl",
+                2376
+            ],
+            [
+                "java",
+                2284
+            ],
+            [
+                "makefile",
+                1323
+            ],
+            [
+                "awk",
+                162
+            ],
+            [
+                "pascal",
+                66
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/ncbi-blastplus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.12.0+ds-2"
+}

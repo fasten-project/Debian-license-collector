@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "haproxy.loadbalancer.j2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_base.j2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_proxies.j2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "templates",
+    "package": "neutron-lbaas",
+    "path": "neutron-lbaas/1:13.0.0-1/neutron_lbaas/drivers/haproxy/templates",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/neutron-lbaas/1:13.0.0-1/",
+        "metric": {
+            "size": 2440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/neutron-lbaas",
+        "sloc": [
+            [
+                "python",
+                27725
+            ],
+            [
+                "sh",
+                429
+            ],
+            [
+                "makefile",
+                50
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/neutron-lbaas",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:13.0.0-1"
+}

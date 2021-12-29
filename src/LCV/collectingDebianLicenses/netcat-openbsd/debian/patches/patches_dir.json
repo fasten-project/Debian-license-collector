@@ -1,0 +1,215 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "broadcast-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-without-TLS-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "connect-timeout.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dccp-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "destination-port-list.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get-sev-by-name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-getnameinfo-errors-nonfatal-in-report_sock.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "misc-failures-and-features.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "port-to-linux-with-libbsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "quit-timer.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5009,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "send-crlf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "serialized-handling-multiple-clients.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set-TCP-MD5SIG-correctly-for-client-connections.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "udp-scan-timeout.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-flags-to-specify-listen-address.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2737,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "netcat-openbsd",
+    "path": "netcat-openbsd/1.218-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/netcat-openbsd/1.218-3/",
+        "metric": {
+            "size": 1456
+        },
+        "pts_link": "https://tracker.debian.org/pkg/netcat-openbsd",
+        "sloc": [
+            [
+                "ansic",
+                29584
+            ],
+            [
+                "sh",
+                665
+            ],
+            [
+                "makefile",
+                81
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/netcat-openbsd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.218-3"
+}

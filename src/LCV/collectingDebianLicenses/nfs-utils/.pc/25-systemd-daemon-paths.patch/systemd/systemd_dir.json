@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "rpc-statd-notify.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rpc-statd.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd",
+    "package": "nfs-utils",
+    "path": "nfs-utils/1:2.5.4-1~exp5/.pc/25-systemd-daemon-paths.patch/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/nfs-utils/1:2.5.4-1%7Eexp5/",
+        "metric": {
+            "size": 7220
+        },
+        "pts_link": "https://tracker.debian.org/pkg/nfs-utils",
+        "sloc": [
+            [
+                "ansic",
+                49364
+            ],
+            [
+                "sh",
+                4954
+            ],
+            [
+                "python",
+                1942
+            ],
+            [
+                "makefile",
+                957
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/kernel-team/nfs-utils",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.5.4-1~exp5"
+}

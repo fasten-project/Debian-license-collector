@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "gate_hook.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "post_test_hook.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "contrib",
+    "package": "networking-l2gw",
+    "path": "networking-l2gw/1:17.0.1-1/networking_l2gw/tests/contrib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/networking-l2gw/1:17.0.1-1/",
+        "metric": {
+            "size": 1292
+        },
+        "pts_link": "https://tracker.debian.org/pkg/networking-l2gw",
+        "sloc": [
+            [
+                "python",
+                12266
+            ],
+            [
+                "sh",
+                318
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/neutron-plugins/networking-l2gw",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:17.0.1-1"
+}

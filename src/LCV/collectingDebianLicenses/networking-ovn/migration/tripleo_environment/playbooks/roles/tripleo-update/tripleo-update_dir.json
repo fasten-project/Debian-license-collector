@@ -1,0 +1,75 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "defaults",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tasks",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "templates",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tripleo-update",
+    "package": "networking-ovn",
+    "path": "networking-ovn/5.0.0-1/migration/tripleo_environment/playbooks/roles/tripleo-update",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/networking-ovn/5.0.0-1/",
+        "metric": {
+            "size": 5196
+        },
+        "pts_link": "https://tracker.debian.org/pkg/networking-ovn",
+        "sloc": [
+            [
+                "python",
+                19102
+            ],
+            [
+                "sh",
+                1511
+            ],
+            [
+                "ruby",
+                35
+            ],
+            [
+                "makefile",
+                35
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/networking-ovn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.0.0-1"
+}

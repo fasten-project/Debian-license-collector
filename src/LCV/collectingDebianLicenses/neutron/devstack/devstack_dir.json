@@ -1,0 +1,146 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ml2-ovs-compute-local.conf.sample",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ml2-ovs-local.conf.sample",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ovn-compute-local.conf.sample",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ovn-db-local.conf.sample",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ovn-local.conf.sample",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ovn-vtep-local.conf.sample",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plugin.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "settings",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "devstack",
+    "package": "neutron",
+    "path": "neutron/2:19.0.0-1/devstack",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/neutron/2:19.0.0-1/",
+        "metric": {
+            "size": 39088
+        },
+        "pts_link": "https://tracker.debian.org/pkg/neutron",
+        "sloc": [
+            [
+                "python",
+                256285
+            ],
+            [
+                "sh",
+                1960
+            ],
+            [
+                "makefile",
+                280
+            ],
+            [
+                "ruby",
+                35
+            ],
+            [
+                "sql",
+                19
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/neutron",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:19.0.0-1"
+}

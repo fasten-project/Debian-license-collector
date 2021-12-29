@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "URLClassLoader.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fail_when_generate_fails.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set_source_1_8.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update_classpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "netlib-java",
+    "path": "netlib-java/0.9.3-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/netlib-java/0.9.3-7/",
+        "metric": {
+            "size": 9552
+        },
+        "pts_link": "https://tracker.debian.org/pkg/netlib-java",
+        "sloc": [
+            [
+                "ansic",
+                21058
+            ],
+            [
+                "java",
+                6809
+            ],
+            [
+                "xml",
+                989
+            ],
+            [
+                "sh",
+                93
+            ],
+            [
+                "makefile",
+                41
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/netlib-java",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.3-7"
+}

@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "VERSION",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "html",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "man.nroff.xsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manpages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "xsl",
+    "package": "ncrack",
+    "path": "ncrack/0.7+debian-3/docs/xsl",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ncrack/0.7+debian-3/",
+        "metric": {
+            "size": 13136
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ncrack",
+        "sloc": [
+            [
+                "xml",
+                82894
+            ],
+            [
+                "ansic",
+                43664
+            ],
+            [
+                "cpp",
+                18602
+            ],
+            [
+                "sh",
+                4458
+            ],
+            [
+                "makefile",
+                358
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/ncrack",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7+debian-3"
+}
