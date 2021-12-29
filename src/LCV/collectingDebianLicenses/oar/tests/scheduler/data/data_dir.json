@@ -1,0 +1,222 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "000_default_data.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "000_my.cnf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "000_mysql_default_admission_rules.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "000_mysql_structure.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "000_oar.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "001_advance_reservation_with_absent_resource.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "001_my.cnf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "000_my.cnf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "001_oar.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "000_oar.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_advance_reservation_with_dead_resource.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_my.cnf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "000_my.cnf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_oar.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "000_oar.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_heavy_load.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 300532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_my.cnf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "000_my.cnf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_oar.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "data",
+    "package": "oar",
+    "path": "oar/2.5.9-1/tests/scheduler/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/oar/2.5.9-1/",
+        "metric": {
+            "size": 9400
+        },
+        "pts_link": "https://tracker.debian.org/pkg/oar",
+        "sloc": [
+            [
+                "perl",
+                30286
+            ],
+            [
+                "ruby",
+                5840
+            ],
+            [
+                "sh",
+                5385
+            ],
+            [
+                "sql",
+                3373
+            ],
+            [
+                "cpp",
+                2277
+            ],
+            [
+                "makefile",
+                378
+            ],
+            [
+                "php",
+                363
+            ],
+            [
+                "python",
+                275
+            ],
+            [
+                "ansic",
+                265
+            ],
+            [
+                "exp",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/oar-team/oar",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.9-1"
+}

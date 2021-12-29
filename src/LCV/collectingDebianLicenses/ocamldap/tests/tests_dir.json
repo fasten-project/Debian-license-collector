@@ -1,0 +1,57 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ldap",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 105,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ldif",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "ocamldap",
+    "path": "ocamldap/2.4.2-1/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ocamldap/2.4.2-1/",
+        "metric": {
+            "size": 604
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ocamldap",
+        "sloc": [
+            [
+                "ml",
+                6435
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/ocamldap",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.2-1"
+}

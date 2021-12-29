@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001_remove_unnecessary_linked_libraries.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_oggfwd-exit-status.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_link_order.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "oggfwd",
+    "path": "oggfwd/0.2-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 50,
+        "license": "/copyright/license/oggfwd/0.2-6/",
+        "metric": {
+            "size": 132
+        },
+        "pts_link": "https://tracker.debian.org/pkg/oggfwd",
+        "sloc": [
+            [
+                "ansic",
+                376
+            ],
+            [
+                "makefile",
+                75
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "0.2-6"
+}

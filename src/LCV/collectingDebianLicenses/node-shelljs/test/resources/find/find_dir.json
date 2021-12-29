@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".hidden",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "a",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "b",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "broken_link",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "non_existent",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dir1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dir2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "find",
+    "package": "node-shelljs",
+    "path": "node-shelljs/0.8.4+~cs0.8.9-1/test/resources/find",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/node-shelljs/0.8.4+%7Ecs0.8.9-1/",
+        "metric": {
+            "size": 1324
+        },
+        "pts_link": "https://tracker.debian.org/pkg/node-shelljs",
+        "sloc": [
+            [
+                "javascript",
+                6833
+            ],
+            [
+                "makefile",
+                6
+            ],
+            [
+                "sh",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/js-team/node-shelljs",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8.4+~cs0.8.9-1"
+}

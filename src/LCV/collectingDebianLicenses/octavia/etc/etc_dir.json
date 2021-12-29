@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "audit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "certificates",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dhcp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "octavia.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "etc",
+    "package": "octavia",
+    "path": "octavia/9.0.0-1/etc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/octavia/9.0.0-1/",
+        "metric": {
+            "size": 12364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/octavia",
+        "sloc": [
+            [
+                "python",
+                105829
+            ],
+            [
+                "sh",
+                2533
+            ],
+            [
+                "pascal",
+                448
+            ],
+            [
+                "makefile",
+                101
+            ],
+            [
+                "ruby",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/octavia",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.0.0-1"
+}

@@ -1,0 +1,934 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "%40diffusion",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "%40drift",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "%40sde",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 131,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "binprice.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blkimpv.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blkprice.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1991,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blsdelta.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blsgamma.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blsimpv.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blslambda.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blsprice.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blsrho.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blstheta.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blsvega.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bm.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bolling.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "busdate.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "busdays.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "candle.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cev.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cfconv.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cfdur.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cir.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "corr2cov.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cov2corr.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dateaxis.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2942,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "datefind.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "day.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "daysact.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1914,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "easter.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "effrr.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "eomdate.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fbusdate.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fv.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fvl.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gbm.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heston.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hhigh.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "highlow.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "holidays.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hour.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwv.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irr.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "isbusday.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lbusdate.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "llow.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lweekdate.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m2xdate.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "macd.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minute.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mirr.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "month.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "months.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "movavg.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "negvolidx.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nomrr.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nper.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "npv.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nweekdate.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4857,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "onbalvol.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opprofit.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pmt.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pointfig.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "posvolidx.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pv.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pvl.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rate.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "renko.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsindex.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdeddo.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdeld.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdemrd.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "second.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "taxedrr.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thirdwednesday.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "today.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vol.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "weeknum.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "x2mdate.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "year.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yeardays.m",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "inst",
+    "package": "octave-financial",
+    "path": "octave-financial/0.5.3-3/inst",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/octave-financial/0.5.3-3/",
+        "metric": {
+            "size": 580
+        },
+        "pts_link": "https://tracker.debian.org/pkg/octave-financial",
+        "sloc": [
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-octave-team/octave-financial",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.3-3"
+}

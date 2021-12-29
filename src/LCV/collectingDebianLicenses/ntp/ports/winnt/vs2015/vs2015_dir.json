@@ -1,0 +1,233 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common.props",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug-x64.props",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug.props",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instsrv",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libntp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "loopback-pps",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ntp-keygen",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ntp.sln",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ntpd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ntpd-keyword-gen",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ntpdate",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ntpdc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ntpq",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "release-x64.props",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "release.props",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "vs2015",
+    "package": "ntp",
+    "path": "ntp/1:4.2.8p15+dfsg-1/ports/winnt/vs2015",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ntp/1:4.2.8p15+dfsg-1/",
+        "metric": {
+            "size": 32776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ntp",
+        "sloc": [
+            [
+                "ansic",
+                242968
+            ],
+            [
+                "sh",
+                6859
+            ],
+            [
+                "makefile",
+                3419
+            ],
+            [
+                "perl",
+                2765
+            ],
+            [
+                "yacc",
+                1524
+            ],
+            [
+                "python",
+                1486
+            ],
+            [
+                "ruby",
+                817
+            ],
+            [
+                "awk",
+                417
+            ],
+            [
+                "sed",
+                47
+            ],
+            [
+                "asm",
+                37
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-ntp-team/ntp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:4.2.8p15+dfsg-1"
+}

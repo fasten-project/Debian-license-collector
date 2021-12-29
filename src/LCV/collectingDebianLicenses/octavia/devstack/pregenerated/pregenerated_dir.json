@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "certs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "regenerate-certs.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-keys",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "pregenerated",
+    "package": "octavia",
+    "path": "octavia/9.0.0-1/devstack/pregenerated",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/octavia/9.0.0-1/",
+        "metric": {
+            "size": 12364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/octavia",
+        "sloc": [
+            [
+                "python",
+                105829
+            ],
+            [
+                "sh",
+                2533
+            ],
+            [
+                "pascal",
+                448
+            ],
+            [
+                "makefile",
+                101
+            ],
+            [
+                "ruby",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/octavia",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.0.0-1"
+}

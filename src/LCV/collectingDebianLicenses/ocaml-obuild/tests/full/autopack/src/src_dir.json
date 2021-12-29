@@ -1,0 +1,78 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "a.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "b",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "main.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "src",
+    "package": "ocaml-obuild",
+    "path": "ocaml-obuild/0.1.10-3/tests/full/autopack/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ocaml-obuild/0.1.10-3/",
+        "metric": {
+            "size": 808
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ocaml-obuild",
+        "sloc": [
+            [
+                "ml",
+                6318
+            ],
+            [
+                "sh",
+                166
+            ],
+            [
+                "ansic",
+                34
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/ocaml-obuild",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.10-3"
+}

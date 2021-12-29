@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Fix-osutils.py-to-detect-Debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add-a-healthcheck-url.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install-missing-files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-sphinxcontrib.rsvgconverter-from-doc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-octavia-agent-lvs-masquerade-not-lvs-masquerade.sh.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "octavia",
+    "path": "octavia/9.0.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/octavia/9.0.0-1/",
+        "metric": {
+            "size": 12364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/octavia",
+        "sloc": [
+            [
+                "python",
+                105829
+            ],
+            [
+                "sh",
+                2533
+            ],
+            [
+                "pascal",
+                448
+            ],
+            [
+                "makefile",
+                101
+            ],
+            [
+                "ruby",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/octavia",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.0.0-1"
+}

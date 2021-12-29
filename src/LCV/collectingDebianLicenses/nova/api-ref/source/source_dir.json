@@ -1,0 +1,784 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "conf.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "diagnostics.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extensions.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flavors.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "images.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "index.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ips.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "limits.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metadata.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-agents.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-aggregates.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-assisted-volume-snapshots.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-availability-zone.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-baremetal-nodes.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-cells.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-certificates.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1484,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-cloudpipe.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-consoles.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-fixed-ips.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1944,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-flavor-access.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-flavor-extra-specs.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-floating-ip-dns.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-floating-ip-pools.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-floating-ips-bulk.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-floating-ips.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-fping.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-hosts.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-hypervisors.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-instance-actions.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-instance-usage-audit-log.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2903,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-interface.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-keypairs.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-migrations.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-networks.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7605,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-quota-class-sets.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-quota-sets.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-security-group-default-rules.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-security-group-rules.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-security-groups.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-server-external-events.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-server-groups.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-server-password.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-server-tags.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-services.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-simple-tenant-usage.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-tenant-network.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-virtual-interfaces.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-volume-attachments.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-volumes.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parameters.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 209011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "request-ids.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server-migrations.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server-security-groups.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server-topology.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1447,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-action-console-output.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-action-crash-dump.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-action-deferred-delete.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-action-evacuate.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-action-fixed-ip.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-action-remote-consoles.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-action-shelve.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-actions.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-admin-action.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7649,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers-remote-consoles.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "servers.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "urls.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1091,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "versions.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "nova",
+    "path": "nova/2:24.0.0-1/api-ref/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/nova/2:24.0.0-1/",
+        "metric": {
+            "size": 47244
+        },
+        "pts_link": "https://tracker.debian.org/pkg/nova",
+        "sloc": [
+            [
+                "python",
+                384417
+            ],
+            [
+                "pascal",
+                1791
+            ],
+            [
+                "sh",
+                892
+            ],
+            [
+                "makefile",
+                149
+            ],
+            [
+                "xml",
+                83
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/nova",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:24.0.0-1"
+}

@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "foo.itarget",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "foo1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "foo2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "myocamlbuild.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test_virtual",
+    "package": "ocamlbuild",
+    "path": "ocamlbuild/0.14.0-2/test/test_virtual",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ocamlbuild/0.14.0-2/",
+        "metric": {
+            "size": 1772
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ocamlbuild",
+        "sloc": [
+            [
+                "ml",
+                8872
+            ],
+            [
+                "makefile",
+                513
+            ],
+            [
+                "sh",
+                183
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/ocamlbuild",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.14.0-2"
+}

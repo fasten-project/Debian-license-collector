@@ -1,0 +1,123 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix-interpreter-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "new-pybind-api.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-network-unit-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-soname-in-wrappers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_boost_exception.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upgrade_cxx_standard.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "odil",
+    "path": "odil/0.12.1-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/odil/0.12.1-4/",
+        "metric": {
+            "size": 5320
+        },
+        "pts_link": "https://tracker.debian.org/pkg/odil",
+        "sloc": [
+            [
+                "cpp",
+                54811
+            ],
+            [
+                "python",
+                3963
+            ],
+            [
+                "javascript",
+                464
+            ],
+            [
+                "xml",
+                182
+            ],
+            [
+                "makefile",
+                94
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/odil",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.12.1-4"
+}

@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_pkg-config-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_reverse_cap_check.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-use-dbus-sharp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-fix-app-name-derivation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-fix-crash-when-notification-updates-fail.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_dbussharp_2.pc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "notify-sharp",
+    "path": "notify-sharp/0.4.0~r3032-7.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/notify-sharp/0.4.0%7Er3032-7.1/",
+        "metric": {
+            "size": 824
+        },
+        "pts_link": "https://tracker.debian.org/pkg/notify-sharp",
+        "sloc": [
+            [
+                "sh",
+                3336
+            ],
+            [
+                "xml",
+                421
+            ],
+            [
+                "cs",
+                365
+            ],
+            [
+                "makefile",
+                85
+            ],
+            [
+                "ansic",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "http://git.debian.org/git/pkg-cli-libs/packages/notify-sharp.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.0~r3032-7.1"
+}

@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ntplogtemp.timer",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ntpviz-daily.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ntpviz-daily.timer",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ntpviz-weekly.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ntpviz-weekly.timer",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "etc",
+    "package": "ntpsec",
+    "path": "ntpsec/1.2.1+dfsg1-2/.pc/systemd-configure-ntpviz.patch/etc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ntpsec/1.2.1+dfsg1-2/",
+        "metric": {
+            "size": 10060
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ntpsec",
+        "sloc": [
+            [
+                "ansic",
+                60559
+            ],
+            [
+                "python",
+                31648
+            ],
+            [
+                "sh",
+                1511
+            ],
+            [
+                "yacc",
+                1291
+            ],
+            [
+                "makefile",
+                175
+            ],
+            [
+                "javascript",
+                138
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ntpsec",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.1+dfsg1-2"
+}

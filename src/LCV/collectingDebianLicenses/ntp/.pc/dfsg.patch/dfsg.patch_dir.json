@@ -1,0 +1,134 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adjtimed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "configure.ac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libntp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libparse",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "dfsg.patch",
+    "package": "ntp",
+    "path": "ntp/1:4.2.8p15+dfsg-1/.pc/dfsg.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ntp/1:4.2.8p15+dfsg-1/",
+        "metric": {
+            "size": 32776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ntp",
+        "sloc": [
+            [
+                "ansic",
+                242968
+            ],
+            [
+                "sh",
+                6859
+            ],
+            [
+                "makefile",
+                3419
+            ],
+            [
+                "perl",
+                2765
+            ],
+            [
+                "yacc",
+                1524
+            ],
+            [
+                "python",
+                1486
+            ],
+            [
+                "ruby",
+                817
+            ],
+            [
+                "awk",
+                417
+            ],
+            [
+                "sed",
+                47
+            ],
+            [
+                "asm",
+                37
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-ntp-team/ntp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:4.2.8p15+dfsg-1"
+}

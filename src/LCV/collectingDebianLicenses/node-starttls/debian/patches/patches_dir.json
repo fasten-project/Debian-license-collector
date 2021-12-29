@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-npm-install.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "node-starttls",
+    "path": "node-starttls/1.0.1-2.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/node-starttls/1.0.1-2.1/",
+        "metric": {
+            "size": 128
+        },
+        "pts_link": "https://tracker.debian.org/pkg/node-starttls",
+        "sloc": [
+            [
+                "javascript",
+                194
+            ],
+            [
+                "makefile",
+                6
+            ],
+            [
+                "sh",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-javascript/node-starttls.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.1-2.1"
+}

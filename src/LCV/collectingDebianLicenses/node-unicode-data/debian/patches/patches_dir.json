@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian_resources.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "don_t_ship_unneeded.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_fs_extra_for_cp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "node-unicode-data",
+    "path": "node-unicode-data/0~20211027+git243f19e8-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/node-unicode-data/0%7E20211027+git243f19e8-4/",
+        "metric": {
+            "size": 280
+        },
+        "pts_link": "https://tracker.debian.org/pkg/node-unicode-data",
+        "sloc": [
+            [
+                "javascript",
+                1207
+            ],
+            [
+                "makefile",
+                27
+            ],
+            [
+                "sh",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/js-team/node-unicode-data",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0~20211027+git243f19e8-4"
+}

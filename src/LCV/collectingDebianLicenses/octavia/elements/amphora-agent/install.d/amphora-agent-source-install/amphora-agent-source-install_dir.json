@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "75-amphora-agent-install",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amphora-agent.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amphora-agent.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amphora-agent.logrotate",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amphora-agent.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "amphora-agent-source-install",
+    "package": "octavia",
+    "path": "octavia/9.0.0-1/elements/amphora-agent/install.d/amphora-agent-source-install",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/octavia/9.0.0-1/",
+        "metric": {
+            "size": 12364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/octavia",
+        "sloc": [
+            [
+                "python",
+                105829
+            ],
+            [
+                "sh",
+                2533
+            ],
+            [
+                "pascal",
+                448
+            ],
+            [
+                "makefile",
+                101
+            ],
+            [
+                "ruby",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/octavia",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.0.0-1"
+}

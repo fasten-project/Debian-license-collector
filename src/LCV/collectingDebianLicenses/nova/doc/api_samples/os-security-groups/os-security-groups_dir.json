@@ -1,0 +1,146 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "security-group-add-post-req.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security-group-post-req.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security-group-remove-post-req.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security-group-rules-post-req.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security-group-rules-post-resp.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security-groups-create-resp.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security-groups-get-resp.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security-groups-list-get-resp.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server-security-groups-list-resp.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "os-security-groups",
+    "package": "nova",
+    "path": "nova/2:24.0.0-1/doc/api_samples/os-security-groups",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/nova/2:24.0.0-1/",
+        "metric": {
+            "size": 47244
+        },
+        "pts_link": "https://tracker.debian.org/pkg/nova",
+        "sloc": [
+            [
+                "python",
+                384417
+            ],
+            [
+                "pascal",
+                1791
+            ],
+            [
+                "sh",
+                892
+            ],
+            [
+                "makefile",
+                149
+            ],
+            [
+                "xml",
+                83
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/nova",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:24.0.0-1"
+}
