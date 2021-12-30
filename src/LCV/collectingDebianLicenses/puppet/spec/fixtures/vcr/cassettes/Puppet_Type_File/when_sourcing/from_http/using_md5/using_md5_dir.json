@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "should_fetch_if_not_on_the_local_disk.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "should_not_update_if_content_on_disk_is_up-to-date.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "should_update_if_content_differs_on_disk.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "using_md5",
+    "package": "puppet",
+    "path": "puppet/6.16.0-1/spec/fixtures/vcr/cassettes/Puppet_Type_File/when_sourcing/from_http/using_md5",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/puppet/6.16.0-1/",
+        "metric": {
+            "size": 25032
+        },
+        "pts_link": "https://tracker.debian.org/pkg/puppet",
+        "sloc": [
+            [
+                "ruby",
+                265145
+            ],
+            [
+                "sh",
+                1368
+            ],
+            [
+                "xml",
+                302
+            ],
+            [
+                "makefile",
+                143
+            ],
+            [
+                "sql",
+                103
+            ],
+            [
+                "cs",
+                68
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/puppet-team/puppet-agent",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.16.0-1"
+}

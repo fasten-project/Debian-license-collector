@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "file.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "insecure_private_key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subdir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test.bin",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10485760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "files",
+    "package": "pyinfra",
+    "path": "pyinfra/0.2.2+git20161227.ec708ef-1/example/files",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 677,
+        "license": "/copyright/license/pyinfra/0.2.2+git20161227.ec708ef-1/",
+        "metric": {
+            "size": 11804
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pyinfra",
+        "sloc": [
+            [
+                "python",
+                5944
+            ],
+            [
+                "sh",
+                71
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/viewvc/python-apps/packages/pyinfra/trunk/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "0.2.2+git20161227.ec708ef-1"
+}

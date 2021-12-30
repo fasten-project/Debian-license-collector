@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "example",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "example-agent.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "pyagentx",
+    "path": "pyagentx/0.4.1-6/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pyagentx/0.4.1-6/",
+        "metric": {
+            "size": 200
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pyagentx",
+        "sloc": [
+            [
+                "python",
+                818
+            ],
+            [
+                "sh",
+                14
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/pyagentx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.1-6"
+}

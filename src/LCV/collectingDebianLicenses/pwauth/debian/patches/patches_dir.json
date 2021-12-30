@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-checkfaillog-includes-1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-config-debian-1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-main-defines-1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-Makefile-debian-1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-snooze-c-fix-1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "pwauth",
+    "path": "pwauth/2.3.11-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pwauth/2.3.11-5/",
+        "metric": {
+            "size": 280
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pwauth",
+        "sloc": [
+            [
+                "ansic",
+                1116
+            ],
+            [
+                "makefile",
+                90
+            ],
+            [
+                "perl",
+                22
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/pwauth",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.11-5"
+}

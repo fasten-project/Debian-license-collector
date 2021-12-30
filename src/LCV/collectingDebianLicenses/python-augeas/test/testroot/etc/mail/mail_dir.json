@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "access",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "domaintable",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local-host-names",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mailertable",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sendmail.mc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spamassassin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "submit.mc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trusted-users",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "virtusertable",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mail",
+    "package": "python-augeas",
+    "path": "python-augeas/0.5.0-1.1/test/testroot/etc/mail",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-augeas/0.5.0-1.1/",
+        "metric": {
+            "size": 752
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-augeas",
+        "sloc": [
+            [
+                "python",
+                480
+            ],
+            [
+                "makefile",
+                27
+            ],
+            [
+                "sh",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/python-augeas.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.0-1.1"
+}

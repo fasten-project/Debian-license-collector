@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "modbus_tcp.tac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modbus_udp.tac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plugins",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "twisted",
+    "package": "pymodbus",
+    "path": "pymodbus/2.1.0+dfsg-2/examples/twisted",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pymodbus/2.1.0+dfsg-2/",
+        "metric": {
+            "size": 2704
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pymodbus",
+        "sloc": [
+            [
+                "python",
+                17594
+            ],
+            [
+                "makefile",
+                83
+            ],
+            [
+                "sh",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/pymodbus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1.0+dfsg-2"
+}

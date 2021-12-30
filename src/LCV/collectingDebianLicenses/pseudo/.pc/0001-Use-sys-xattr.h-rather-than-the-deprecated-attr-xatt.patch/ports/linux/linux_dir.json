@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "subports",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xattr",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "linux",
+    "package": "pseudo",
+    "path": "pseudo/1.9.0+git20200626+067950b-2/.pc/0001-Use-sys-xattr.h-rather-than-the-deprecated-attr-xatt.patch/ports/linux",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pseudo/1.9.0+git20200626+067950b-2/",
+        "metric": {
+            "size": 1856
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pseudo",
+        "sloc": [
+            [
+                "ansic",
+                12303
+            ],
+            [
+                "sh",
+                946
+            ],
+            [
+                "python",
+                752
+            ],
+            [
+                "makefile",
+                159
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/pseudo",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.0+git20200626+067950b-2"
+}

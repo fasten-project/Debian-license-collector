@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cert_puma.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client-certs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "csr_puma.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generate_server_test.rb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keystore.jks",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "puma_keypair.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server.p12",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "puma",
+    "package": "puma",
+    "path": "puma/5.5.2-2/examples/puma",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/puma/5.5.2-2/",
+        "metric": {
+            "size": 1832
+        },
+        "pts_link": "https://tracker.debian.org/pkg/puma",
+        "sloc": [
+            [
+                "ruby",
+                12098
+            ],
+            [
+                "ansic",
+                1864
+            ],
+            [
+                "java",
+                913
+            ],
+            [
+                "sh",
+                175
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/puma",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.5.2-2"
+}

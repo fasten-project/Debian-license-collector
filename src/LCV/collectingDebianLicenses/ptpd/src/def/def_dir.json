@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "derivedData",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "managementTLV",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "message",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "signalingTLV",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "def",
+    "package": "ptpd",
+    "path": "ptpd/2.3.1-debian1-4/src/def",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ptpd/2.3.1-debian1-4/",
+        "metric": {
+            "size": 4420
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ptpd",
+        "sloc": [
+            [
+                "ansic",
+                22012
+            ],
+            [
+                "sh",
+                11581
+            ],
+            [
+                "makefile",
+                122
+            ],
+            [
+                "sed",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alteholz/ptpd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.1-debian1-4"
+}

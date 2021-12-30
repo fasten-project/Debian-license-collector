@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-system-cfitsio.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-numpy-deprecation-warning.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-fix-for-cfitsio-3380.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-numpy-1.12.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "pyfits",
+    "path": "pyfits/1:3.4-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 6239,
+        "license": "/copyright/license/pyfits/1:3.4-4/",
+        "metric": {
+            "size": 8520
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pyfits",
+        "sloc": [
+            [
+                "ansic",
+                96230
+            ],
+            [
+                "python",
+                18806
+            ],
+            [
+                "yacc",
+                4956
+            ],
+            [
+                "lex",
+                545
+            ],
+            [
+                "makefile",
+                80
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/python-modules/packages/pyfits.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:3.4-4"
+}

@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_fix_setup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_add_shebang.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_spellings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "pyode",
+    "path": "pyode/1.2.0.dev15-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pyode/1.2.0.dev15-4/",
+        "metric": {
+            "size": 640
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pyode",
+        "sloc": [
+            [
+                "python",
+                2036
+            ],
+            [
+                "sh",
+                24
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/pyode",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.0.dev15-4"
+}

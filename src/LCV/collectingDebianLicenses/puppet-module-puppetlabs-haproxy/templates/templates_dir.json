@@ -1,0 +1,216 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "empty.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fragments",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy-base.cfg.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_backend_block.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_balancermember.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_defaults_block.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_frontend_block.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_listen_block.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_mailer.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_mailers_block.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_mapfile.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_peer.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_peers_block.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_resolver_block.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "haproxy_userlist_block.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instance_service_unit_example.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "templates",
+    "package": "puppet-module-puppetlabs-haproxy",
+    "path": "puppet-module-puppetlabs-haproxy/2.1.0-3/templates",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/puppet-module-puppetlabs-haproxy/2.1.0-3/",
+        "metric": {
+            "size": 612
+        },
+        "pts_link": "https://tracker.debian.org/pkg/puppet-module-puppetlabs-haproxy",
+        "sloc": [
+            [
+                "ruby",
+                3088
+            ],
+            [
+                "sh",
+                15
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/puppet/puppet-module-puppetlabs-haproxy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1.0-3"
+}

@@ -1,0 +1,986 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "actions.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alias.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auth_basic.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auth_cas.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4711,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auth_gssapi.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auth_kerb.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auth_mellon.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1620,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auth_openidc.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authn_core.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authn_dbd.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authn_file.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authnz_ldap.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authnz_pam.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authz_default.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authz_user.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autoindex.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cache.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cgi.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cgid.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cluster.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dav.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dav_fs.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dav_svn.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbd.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deflate.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dev.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dir.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disk_cache.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dumpio.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "env.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "expires.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ext_filter.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fastcgi.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fcgid.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "filter.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "geoip.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "headers.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "http2.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "info.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "intercept_form_submit.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "itk.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jk.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ldap.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lookup_identity.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "macro.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mime.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mime_magic.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 819,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "negotiation.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nss.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pagespeed.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "passenger.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "perl.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 177,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "peruser.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "php.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prefork.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy_ajp.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy_balancer.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy_connect.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy_fcgi.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy_html.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy_http.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy_wstunnel.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remoteip.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reqtimeout.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rewrite.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rpaf.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8750,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setenvif.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shib.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socache_shmcb.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "speling.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssl.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "status.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suexec.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suphp.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 900,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "userdir.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vhost_alias.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "worker.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wsgi.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xsendfile.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mod",
+    "package": "puppet-module-puppetlabs-apache",
+    "path": "puppet-module-puppetlabs-apache/5.5.0-2/manifests/mod",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/puppet-module-puppetlabs-apache/5.5.0-2/",
+        "metric": {
+            "size": 2252
+        },
+        "pts_link": "https://tracker.debian.org/pkg/puppet-module-puppetlabs-apache",
+        "sloc": [
+            [
+                "ruby",
+                422
+            ],
+            [
+                "sh",
+                44
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-apache",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.5.0-2"
+}

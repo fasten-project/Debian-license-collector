@@ -1,0 +1,183 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "02_test-suite.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_povray.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "22_fix_pymol_import.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "24_autodock_plugin.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 171415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "27_fix_pymol_path_in_setup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "28_no_data_install_in_python_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "31_fix_format-security.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "32_fix_spelling_lintian_warnings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 914,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "33_fix_relative_paths_in_example_scripts.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "34_fix_examples_add_fetch_instead_of_load.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40_mstop_movies.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "pymol",
+    "path": "pymol/2.5.0+dfsg-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pymol/2.5.0+dfsg-1/",
+        "metric": {
+            "size": 42288
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pymol",
+        "sloc": [
+            [
+                "cpp",
+                476472
+            ],
+            [
+                "python",
+                76538
+            ],
+            [
+                "ansic",
+                29510
+            ],
+            [
+                "javascript",
+                6792
+            ],
+            [
+                "sh",
+                47
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debichem-team/pymol",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.0+dfsg-1"
+}

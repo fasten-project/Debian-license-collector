@@ -1,0 +1,98 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "lsb-release",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os-release",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sources.list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sources.list.testDistribution",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sources.list.testDuplication",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "aptsources",
+    "package": "python-apt",
+    "path": "python-apt/2.3.0/tests/data/aptsources",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-apt/2.3.0/",
+        "metric": {
+            "size": 4004
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-apt",
+        "sloc": [
+            [
+                "cpp",
+                10181
+            ],
+            [
+                "python",
+                7694
+            ],
+            [
+                "makefile",
+                96
+            ],
+            [
+                "sh",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apt-team/python-apt",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.0"
+}

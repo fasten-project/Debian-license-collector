@@ -1,0 +1,157 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_set_up_packaging_system.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_install_system_dependencies.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_install_miniconda_python.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 978,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_install_system_python.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "environment-2.7.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "environment-3.6.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "environment-3.7.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "environment-3.8.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen_environment.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "travis_retry.bash",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "travis",
+    "package": "psychopy",
+    "path": "psychopy/2021.2.3+dfsg-1/travis",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/psychopy/2021.2.3+dfsg-1/",
+        "metric": {
+            "size": 53736
+        },
+        "pts_link": "https://tracker.debian.org/pkg/psychopy",
+        "sloc": [
+            [
+                "python",
+                453095
+            ],
+            [
+                "javascript",
+                3022
+            ],
+            [
+                "makefile",
+                148
+            ],
+            [
+                "sh",
+                132
+            ],
+            [
+                "xml",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/psychopy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2021.2.3+dfsg-1"
+}

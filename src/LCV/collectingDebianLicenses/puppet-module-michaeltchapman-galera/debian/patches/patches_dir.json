@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix-bootstraping.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-cluster-startup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-default-package-names.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-puppet-deep_merge-instead-of-mysql_deepmerge.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "puppet-module-michaeltchapman-galera",
+    "path": "puppet-module-michaeltchapman-galera/0.7.1-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/puppet-module-michaeltchapman-galera/0.7.1-4/",
+        "metric": {
+            "size": 316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/puppet-module-michaeltchapman-galera",
+        "sloc": [
+            [
+                "ruby",
+                453
+            ],
+            [
+                "sh",
+                79
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/puppet/puppet-module-michaeltchapman-galera",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.1-4"
+}

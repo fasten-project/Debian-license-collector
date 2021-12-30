@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build-prod-docs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop-system-id-for-docbook-entities.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-handling-of-screen.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-install-dir-of-completion-files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keep-pi-from-po.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "publican",
+    "path": "publican/4.3.2-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/publican/4.3.2-3/",
+        "metric": {
+            "size": 18280
+        },
+        "pts_link": "https://tracker.debian.org/pkg/publican",
+        "sloc": [
+            [
+                "perl",
+                13081
+            ],
+            [
+                "xml",
+                11558
+            ],
+            [
+                "makefile",
+                169
+            ],
+            [
+                "sh",
+                29
+            ],
+            [
+                "python",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/publican",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.3.2-3"
+}

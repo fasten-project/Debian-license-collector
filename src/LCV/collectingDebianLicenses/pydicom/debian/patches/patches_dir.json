@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "deb_no_unicode",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ignore_tests_downloading_data.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ignore_tests_with_wrong_gdcm_usage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2737,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "pydicom",
+    "path": "pydicom/2.2.2-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pydicom/2.2.2-1/",
+        "metric": {
+            "size": 11364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pydicom",
+        "sloc": [
+            [
+                "python",
+                127419
+            ],
+            [
+                "makefile",
+                193
+            ],
+            [
+                "sh",
+                124
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/pydicom",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.2-1"
+}

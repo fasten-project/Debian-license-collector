@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apache_proxy_fcgi.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "civetweb.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keystone",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "keystone.pp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "rgw",
+    "package": "puppet-module-ceph",
+    "path": "puppet-module-ceph/3.1.1-1/manifests/rgw",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/puppet-module-ceph/3.1.1-1/",
+        "metric": {
+            "size": 776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/puppet-module-ceph",
+        "sloc": [
+            [
+                "ruby",
+                3177
+            ],
+            [
+                "python",
+                36
+            ],
+            [
+                "sh",
+                15
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/puppet/puppet-module-ceph",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.1.1-1"
+}
