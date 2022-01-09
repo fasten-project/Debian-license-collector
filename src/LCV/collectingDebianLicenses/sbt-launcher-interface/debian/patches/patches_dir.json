@@ -1,0 +1,90 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "base-on-scala211.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ivy_2.5.0_classes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upgrade-proguard-to-work-with-java-1.8.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-latest-sbt.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sbt-launcher-interface",
+    "path": "sbt-launcher-interface/1.0.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sbt-launcher-interface/1.0.1-2/",
+        "metric": {
+            "size": 520
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sbt-launcher-interface",
+        "sloc": [
+            [
+                "java",
+                208
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/sbt-launcher-interface",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.1-2"
+}

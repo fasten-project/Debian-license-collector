@@ -1,0 +1,207 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable_host_auth.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_server.group",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_allow_only_protocol2.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_disable_empty_passwords.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_disable_rhosts.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_disable_root_login.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_do_not_permit_user_env.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_enable_warning_banner.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_limit_user_access.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_print_last_log.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_set_idle_timeout.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_set_keepalive.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_strengthen_firewall",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_use_approved_ciphers.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_use_approved_macs.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ssh_server",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/rhel6/guide/services/ssh/ssh_server",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

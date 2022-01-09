@@ -1,0 +1,75 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "peers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "service.switch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service.switch-nodns",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mail",
+    "package": "sendmail",
+    "path": "sendmail/8.17.1-1/debian/local/mail",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sendmail/8.17.1-1/",
+        "metric": {
+            "size": 11988
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sendmail",
+        "sloc": [
+            [
+                "ansic",
+                102987
+            ],
+            [
+                "perl",
+                7504
+            ],
+            [
+                "sh",
+                5479
+            ],
+            [
+                "makefile",
+                884
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/sendmail",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "8.17.1-1"
+}

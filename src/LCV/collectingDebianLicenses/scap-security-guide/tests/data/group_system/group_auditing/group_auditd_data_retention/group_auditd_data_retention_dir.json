@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "rule_auditd_data_retention_space_left",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rule_auditd_data_retention_space_left_action",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "group_auditd_data_retention",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/tests/data/group_system/group_auditing/group_auditd_data_retention",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

@@ -1,0 +1,196 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "file_permissions_sshd_private_key.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_permissions_sshd_pub_key.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "firewalld_sshd_disabled.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "firewalld_sshd_zone.var",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "package_openssh-server_installed.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service_sshd_disabled.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service_sshd_enabled.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh.group",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh_server",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_approved_macs.var",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_idle_timeout_value.var",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_listening_port.var",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_max_auth_tries_value.var",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd_required.var",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ssh",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/shared/guide/services/ssh",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

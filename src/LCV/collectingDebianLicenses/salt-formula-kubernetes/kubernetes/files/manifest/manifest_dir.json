@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "contrail-vrouter-agent.manifest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flannel-server.manifest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kube-apiserver.manifest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kube-controller-manager.manifest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kube-network-manager.manifest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kube-proxy.manifest.pool",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kube-scheduler.manifest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "manifest",
+    "package": "salt-formula-kubernetes",
+    "path": "salt-formula-kubernetes/2016.12.1-1/kubernetes/files/manifest",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 16,
+        "license": "/copyright/license/salt-formula-kubernetes/2016.12.1-1/",
+        "metric": {
+            "size": 476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/salt-formula-kubernetes",
+        "sloc": [
+            [
+                "sh",
+                130
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/openstack/salt-formula-kubernetes.git/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2016.12.1-1"
+}

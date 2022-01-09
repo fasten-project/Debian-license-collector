@@ -1,0 +1,119 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "basics.group",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "package_auditd_installed.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "package_cron_installed.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "package_ntp_installed.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service_auditd_enabled.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service_cron_enabled.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service_ntpd_enabled.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "basics",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/ubuntu1404/guide/services/basics",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

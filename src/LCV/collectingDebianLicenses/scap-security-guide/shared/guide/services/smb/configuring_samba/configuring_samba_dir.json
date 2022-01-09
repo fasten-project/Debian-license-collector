@@ -1,0 +1,119 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "configuring_samba.group",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mount_option_smb_client_signing.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "package_samba-common_installed.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "require_smb_client_signing.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smb_disable_printing",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "smb_restrict_file_sharing",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "smb_server_disable_root.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "configuring_samba",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/shared/guide/services/smb/configuring_samba",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

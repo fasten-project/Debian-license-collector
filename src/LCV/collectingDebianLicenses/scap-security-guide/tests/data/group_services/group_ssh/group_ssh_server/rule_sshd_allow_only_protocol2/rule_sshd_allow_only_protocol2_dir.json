@@ -1,0 +1,75 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "openssh-6.6-configured.pass.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openssh-6.6.fail.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openssh-7.4.pass.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "rule_sshd_allow_only_protocol2",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/tests/data/group_services/group_ssh/group_ssh_server/rule_sshd_allow_only_protocol2",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

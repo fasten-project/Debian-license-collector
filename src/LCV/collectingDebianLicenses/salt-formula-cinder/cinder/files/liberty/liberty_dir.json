@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "api-paste.ini.controller.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "api-paste.ini.controller.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 31,
+                "symlink_dest": "api-paste.ini.controller.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "api-paste.ini.volume.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "api-paste.ini.volume.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 27,
+                "symlink_dest": "api-paste.ini.volume.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cinder.conf.controller.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cinder.conf.controller.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 29,
+                "symlink_dest": "cinder.conf.controller.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cinder.conf.volume.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cinder.conf.volume.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 25,
+                "symlink_dest": "cinder.conf.volume.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cinder_fujitsu_eternus_dx.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "liberty",
+    "package": "salt-formula-cinder",
+    "path": "salt-formula-cinder/2016.12.1-1/cinder/files/liberty",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 26,
+        "license": "/copyright/license/salt-formula-cinder/2016.12.1-1/",
+        "metric": {
+            "size": 656
+        },
+        "pts_link": "https://tracker.debian.org/pkg/salt-formula-cinder",
+        "sloc": [
+            [
+                "sh",
+                152
+            ],
+            [
+                "xml",
+                31
+            ],
+            [
+                "makefile",
+                23
+            ],
+            [
+                "python",
+                20
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/openstack/salt-formula-cinder.git/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2016.12.1-1"
+}

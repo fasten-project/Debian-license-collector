@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run-unit-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "seqsero",
+    "path": "seqsero/1.0.1+dfsg-5/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/seqsero/1.0.1+dfsg-5/",
+        "metric": {
+            "size": 4236
+        },
+        "pts_link": "https://tracker.debian.org/pkg/seqsero",
+        "sloc": [
+            [
+                "python",
+                2447
+            ],
+            [
+                "perl",
+                82
+            ],
+            [
+                "sh",
+                55
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/seqsero",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.1+dfsg-5"
+}

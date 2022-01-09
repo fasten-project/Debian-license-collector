@@ -1,0 +1,131 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build-deb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cargo-out-dir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "docker",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "macos-install-packages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sha256-releases",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-complete",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubuntu-install-packages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utils.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ci",
+    "package": "rust-ripgrep",
+    "path": "rust-ripgrep/13.0.0-2/ci",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-ripgrep/13.0.0-2/",
+        "metric": {
+            "size": 1980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-ripgrep",
+        "sloc": [
+            [
+                "python",
+                1107
+            ],
+            [
+                "sh",
+                214
+            ],
+            [
+                "ruby",
+                19
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ripgrep",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.0.0-2"
+}

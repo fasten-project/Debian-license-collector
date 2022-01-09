@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "headless",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "non_wasm.rs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "std-crate-no-std-dep.rs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unwrap_throw.rs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wasm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "rust-wasm-bindgen",
+    "path": "rust-wasm-bindgen/0.2.58-1/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-wasm-bindgen/0.2.58-1/",
+        "metric": {
+            "size": 1308
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-wasm-bindgen",
+        "sloc": [
+            [
+                "sh",
+                14
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wasm-bindgen",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.58-1"
+}

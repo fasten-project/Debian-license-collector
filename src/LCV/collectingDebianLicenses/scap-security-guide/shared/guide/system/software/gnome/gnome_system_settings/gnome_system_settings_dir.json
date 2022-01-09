@@ -1,0 +1,97 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dconf_gnome_disable_ctrlaltdel_reboot.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dconf_gnome_disable_geolocation.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dconf_gnome_disable_power_settings.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dconf_gnome_disable_user_admin.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnome_system_settings.group",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "gnome_system_settings",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/shared/guide/system/software/gnome/gnome_system_settings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

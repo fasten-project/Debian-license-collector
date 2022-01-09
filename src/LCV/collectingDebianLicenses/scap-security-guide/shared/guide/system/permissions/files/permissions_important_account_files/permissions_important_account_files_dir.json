@@ -1,0 +1,185 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "file_groupowner_etc_group.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_groupowner_etc_gshadow.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_groupowner_etc_passwd.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_owner_etc_group.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_owner_etc_gshadow.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_owner_etc_passwd.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_permissions_etc_group.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_permissions_etc_gshadow.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_permissions_etc_passwd.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_permissions_etc_shadow.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "groupowner_shadow_file.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "permissions_important_account_files.group",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "userowner_shadow_file.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "permissions_important_account_files",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/shared/guide/system/permissions/files/permissions_important_account_files",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

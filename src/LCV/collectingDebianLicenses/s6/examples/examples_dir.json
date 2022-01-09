@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "klogd-linux",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "s6-svscanboot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syslogd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "examples",
+    "package": "s6",
+    "path": "s6/2.11.0.1-1/examples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/s6/2.11.0.1-1/",
+        "metric": {
+            "size": 1944
+        },
+        "pts_link": "https://tracker.debian.org/pkg/s6",
+        "sloc": [
+            [
+                "ansic",
+                11588
+            ],
+            [
+                "sh",
+                604
+            ],
+            [
+                "makefile",
+                127
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/zhsj/s6",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.11.0.1-1"
+}

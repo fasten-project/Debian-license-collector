@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disabling_nfsd.group",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 316,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nfs_no_anonymous.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service_nfs_disabled.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service_rpcsvcgssd_disabled.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "disabling_nfsd",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/rhel6/guide/services/nfs_and_rpc/nfs_configuring_clients/disabling_nfsd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

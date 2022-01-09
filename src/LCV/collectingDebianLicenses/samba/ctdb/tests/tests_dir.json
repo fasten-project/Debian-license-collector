@@ -1,0 +1,211 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CLUSTER",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "INTEGRATION",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TODO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "UNIT",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "etc-ctdb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "local_daemons.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_cluster_tests.sh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "run_tests.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_tests.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test_check_tcp_ports.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "samba",
+    "path": "samba/2:4.13.14+dfsg-1/ctdb/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/samba/2:4.13.14+dfsg-1/",
+        "metric": {
+            "size": 128272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/samba",
+        "sloc": [
+            [
+                "ansic",
+                1513799
+            ],
+            [
+                "python",
+                191891
+            ],
+            [
+                "sh",
+                51336
+            ],
+            [
+                "xml",
+                50019
+            ],
+            [
+                "perl",
+                33604
+            ],
+            [
+                "yacc",
+                2840
+            ],
+            [
+                "exp",
+                1582
+            ],
+            [
+                "makefile",
+                1233
+            ],
+            [
+                "cpp",
+                1224
+            ],
+            [
+                "lex",
+                685
+            ],
+            [
+                "awk",
+                118
+            ],
+            [
+                "csh",
+                58
+            ],
+            [
+                "sed",
+                45
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/samba-team/samba",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:4.13.14+dfsg-1"
+}

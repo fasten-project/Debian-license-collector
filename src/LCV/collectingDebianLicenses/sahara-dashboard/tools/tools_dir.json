@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "gate",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "install_venv.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "with_venv.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tools",
+    "package": "sahara-dashboard",
+    "path": "sahara-dashboard/15.0.0-1/tools",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sahara-dashboard/15.0.0-1/",
+        "metric": {
+            "size": 2292
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sahara-dashboard",
+        "sloc": [
+            [
+                "python",
+                11856
+            ],
+            [
+                "javascript",
+                351
+            ],
+            [
+                "sh",
+                80
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/horizon-plugins/sahara-dashboard",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "15.0.0-1"
+}

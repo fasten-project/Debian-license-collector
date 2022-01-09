@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "add-ipv6-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_ssl_version.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local-sendmail.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sendemail",
+    "path": "sendemail/1.56-5.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sendemail/1.56-5.1/",
+        "metric": {
+            "size": 476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sendemail",
+        "sloc": [
+            [
+                "perl",
+                5032
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/mogaal/sendemail",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.56-5.1"
+}

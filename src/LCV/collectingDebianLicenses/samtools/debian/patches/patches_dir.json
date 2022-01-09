@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "reproducible.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "samtools-fasta-q-whatis.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "samtools",
+    "path": "samtools/1.14-1~exp2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/samtools/1.14-1%7Eexp2/",
+        "metric": {
+            "size": 18128
+        },
+        "pts_link": "https://tracker.debian.org/pkg/samtools",
+        "sloc": [
+            [
+                "ansic",
+                27601
+            ],
+            [
+                "perl",
+                7214
+            ],
+            [
+                "sh",
+                444
+            ],
+            [
+                "makefile",
+                283
+            ],
+            [
+                "java",
+                158
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/samtools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.14-1~exp2"
+}

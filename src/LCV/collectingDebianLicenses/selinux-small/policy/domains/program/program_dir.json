@@ -1,0 +1,895 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apache.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apmd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 827,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "automount.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cardmgr.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "courier.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crond.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crontab.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cups.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "devfsd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1750,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dhcpc.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dhcpd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dictd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dmesg.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fsadm.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ftpd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gatekeeper.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "getty.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnome-pty-helper.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gpg.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gpm.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hwclock.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ifconfig.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inetd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "initrc.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipchains.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipsec.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kcheckpass.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "klogd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kmod.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ldconfig.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "login.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logrotate.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lpd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lpr.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mail.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mesg.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modutil.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mount.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "named.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netscape.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netutils.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "newrole.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nscd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ntp.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1435,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "passwd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ping.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "portmap.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postfix.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pppd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pump.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1053,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "radius.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "radvd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rlogind.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rpcd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rpm.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rshd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_init.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "selopt.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sendmail.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "slapd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snort.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1754,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sound.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "speedmgmt.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "squid.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "su.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syslogd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tcpd.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utempter.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1070,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xdm.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xfs.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xserver.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ypbind.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "program",
+    "package": "selinux-small",
+    "path": "selinux-small/2002031409-4/policy/domains/program",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 964,
+        "license": "/copyright/license/selinux-small/2002031409-4/",
+        "metric": {
+            "size": 2228
+        },
+        "pts_link": "https://tracker.debian.org/pkg/selinux-small",
+        "sloc": [
+            [
+                "ansic",
+                10352
+            ],
+            [
+                "yacc",
+                2902
+            ],
+            [
+                "makefile",
+                519
+            ],
+            [
+                "lex",
+                132
+            ],
+            [
+                "sh",
+                106
+            ],
+            [
+                "perl",
+                76
+            ]
+        ],
+        "suites": [
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "2002031409-4"
+}

@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "clean_components_post_updating.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ensure_gpgcheck_globally_activated.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ensure_gpgcheck_local_packages.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ensure_gpgcheck_never_disabled.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ensure_gpgcheck_repo_metadata.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ensure_oracle_gpgkey_installed.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ensure_redhat_gpgkey_installed.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security_patches_up_to_date.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "updating.group",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "updating",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/shared/guide/system/software/updating",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

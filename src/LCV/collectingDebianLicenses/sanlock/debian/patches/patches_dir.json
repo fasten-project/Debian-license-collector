@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "python-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sanlock-SCHED_RESET_ON_FORK-undefined.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 90,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-multiarch-libdir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sanlock",
+    "path": "sanlock/3.8.4-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sanlock/3.8.4-1/",
+        "metric": {
+            "size": 1816
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sanlock",
+        "sloc": [
+            [
+                "ansic",
+                26317
+            ],
+            [
+                "sh",
+                1251
+            ],
+            [
+                "python",
+                1142
+            ],
+            [
+                "makefile",
+                375
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/haava/sanlock",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.8.4-1"
+}

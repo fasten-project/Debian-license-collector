@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "httpd_configure_banner_page.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "httpd_configure_documentroot.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "httpd_disable_content_symlinks.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "httpd_encrypt_file_uploads.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 968,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "httpd_limit_java_files.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "httpd_remove_robots_file.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "httpd_secure_content.group",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "partition_for_web_content.rule",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "var_web_login_banner_text.var",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "httpd_secure_content",
+    "package": "scap-security-guide",
+    "path": "scap-security-guide/0.1.39-2/shared/guide/services/http/securing_httpd/httpd_secure_content",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/scap-security-guide/0.1.39-2/",
+        "metric": {
+            "size": 31836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/scap-security-guide",
+        "sloc": [
+            [
+                "xml",
+                129736
+            ],
+            [
+                "python",
+                7462
+            ],
+            [
+                "sh",
+                3796
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/scap-security-guide",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.39-2"
+}

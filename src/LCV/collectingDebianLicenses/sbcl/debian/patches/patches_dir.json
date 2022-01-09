@@ -1,0 +1,165 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "armhf-is-not-v5.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-fcb-threads-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-timer-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-version-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-chill-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kfreebsd-pthread-futex.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "skip-some-autopkgtests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testsuite-homedir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vop-existsp-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sbcl",
+    "path": "sbcl/2:2.1.11-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sbcl/2:2.1.11-1/",
+        "metric": {
+            "size": 41624
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sbcl",
+        "sloc": [
+            [
+                "lisp",
+                444220
+            ],
+            [
+                "ansic",
+                32577
+            ],
+            [
+                "sh",
+                4847
+            ],
+            [
+                "asm",
+                2532
+            ],
+            [
+                "makefile",
+                316
+            ],
+            [
+                "cpp",
+                27
+            ],
+            [
+                "pascal",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/common-lisp-team/sbcl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:2.1.11-1"
+}

@@ -1,0 +1,174 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "api-paste.ini.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "api-paste.ini.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 20,
+                "symlink_dest": "api-paste.ini.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirt.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 14,
+                "symlink_dest": "libvirt.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirtd.conf.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libvirtd.conf.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 20,
+                "symlink_dest": "libvirtd.conf.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nova-compute.conf.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nova-compute.conf.Redhat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 24,
+                "symlink_dest": "nova-compute.conf.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nova-controller.conf.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nova-controller.conf.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 27,
+                "symlink_dest": "nova-controller.conf.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qemu.conf.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qemu.conf.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 16,
+                "symlink_dest": "qemu.conf.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "juno",
+    "package": "salt-formula-nova",
+    "path": "salt-formula-nova/2016.12.1-1/nova/files/juno",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 26,
+        "license": "/copyright/license/salt-formula-nova/2016.12.1-1/",
+        "metric": {
+            "size": 784
+        },
+        "pts_link": "https://tracker.debian.org/pkg/salt-formula-nova",
+        "sloc": [
+            [
+                "sh",
+                161
+            ],
+            [
+                "makefile",
+                23
+            ],
+            [
+                "python",
+                20
+            ],
+            [
+                "xml",
+                7
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/openstack/salt-formula-nova.git/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2016.12.1-1"
+}

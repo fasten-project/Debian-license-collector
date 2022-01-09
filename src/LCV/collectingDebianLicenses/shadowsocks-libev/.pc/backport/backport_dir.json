@@ -1,0 +1,109 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "03-Fix-manager-not-passing-i-option.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "04-Fix-ftbfs-for-Hurd-since-there-is-no-IPV6_TCLASS-defin.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "05-Fix-ERROR-udp-remote_recv_bind-Address-already-in-us.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "06-configure.ac-use-pkg-config-to-find-netfilter_conntr.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "07-Fix-memory-leak.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "08-Fix-memory-leak-in-manager.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "backport",
+    "package": "shadowsocks-libev",
+    "path": "shadowsocks-libev/3.3.5+ds-6/.pc/backport",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/shadowsocks-libev/3.3.5+ds-6/",
+        "metric": {
+            "size": 2196
+        },
+        "pts_link": "https://tracker.debian.org/pkg/shadowsocks-libev",
+        "sloc": [
+            [
+                "ansic",
+                13986
+            ],
+            [
+                "sh",
+                1339
+            ],
+            [
+                "makefile",
+                197
+            ],
+            [
+                "python",
+                111
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/bridges-team/shadowsocks-libev",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.3.5+ds-6"
+}

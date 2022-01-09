@@ -1,0 +1,995 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "generate_outputs.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "micro_rna_sorted_2l.bam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_mrna_2l.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_mrna_2l.roi.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_mrna_2l.roi.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_mrna_2l_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_mrna_2l_ss.roi.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_mrna_2l_ss.roi.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mdifference.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mdifference.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mdifference.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mdifference_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mdifference_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mdifference_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mintersection.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mintersection.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mintersection.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mintersection_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mintersection_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mintersection_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mprojection.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3064,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mprojection.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mprojection.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mprojection_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3064,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mprojection_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_mprojection_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_munion.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_munion.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_munion.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_munion_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_munion_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_bed_munion_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mdifference.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mdifference.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mdifference.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mdifference_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mdifference_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mdifference_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mintersection.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mintersection.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mintersection.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mintersection_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mintersection_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mintersection_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mprojection.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mprojection.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mprojection.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mprojection_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mprojection_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_mprojection_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_munion.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_munion.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_munion.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_munion_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_munion_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gff_munion_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mdifference.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mdifference.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mdifference.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mdifference_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mdifference_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mdifference_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mintersection.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mintersection.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mintersection.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mintersection_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mintersection_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mintersection_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mprojection.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mprojection.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mprojection.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mprojection_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mprojection_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_mprojection_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_munion.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_munion.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_munion.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_munion_ss.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_munion_ss.stderr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out_small_gtf_munion_ss.stdout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_tests.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "small.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "small.gff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "small.gtf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "small.roi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "seqan2",
+    "path": "seqan2/2.4.0+dfsg-14/apps/ngs_roi/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/seqan2/2.4.0+dfsg-14/",
+        "metric": {
+            "size": 224136
+        },
+        "pts_link": "https://tracker.debian.org/pkg/seqan2",
+        "sloc": [
+            [
+                "cpp",
+                256886
+            ],
+            [
+                "ansic",
+                91672
+            ],
+            [
+                "python",
+                8330
+            ],
+            [
+                "sh",
+                995
+            ],
+            [
+                "xml",
+                570
+            ],
+            [
+                "makefile",
+                251
+            ],
+            [
+                "awk",
+                51
+            ],
+            [
+                "javascript",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/seqan2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.0+dfsg-14"
+}

@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "compute.sls",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "files",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gateway.sls",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init.sls",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "map.jinja",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "meta",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "server.sls",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "neutron",
+    "package": "salt-formula-neutron",
+    "path": "salt-formula-neutron/2016.12.1-1/neutron",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 26,
+        "license": "/copyright/license/salt-formula-neutron/2016.12.1-1/",
+        "metric": {
+            "size": 744
+        },
+        "pts_link": "https://tracker.debian.org/pkg/salt-formula-neutron",
+        "sloc": [
+            [
+                "sh",
+                149
+            ],
+            [
+                "makefile",
+                23
+            ],
+            [
+                "python",
+                20
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/openstack/salt-formula-neutron.git/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2016.12.1-1"
+}

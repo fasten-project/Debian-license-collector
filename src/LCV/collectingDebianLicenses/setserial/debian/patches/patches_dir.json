@@ -1,0 +1,242 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1077,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_pcmcia_readme.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_pcmcia_cardctl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 377,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_pcmcia_cardctl_out.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_pcmcia_var_run_stab.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_pcmcia_c.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_pcmcia_repair.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_rc_etc_setserial.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2377,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11_rc_serial.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12_rc_serial_m68k.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1891,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13_rc_serial_upstream.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14_safety_h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15_serial_conf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16_serial_conf_sparc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "17_setserial_8_in.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18_setserial_c.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "19_version_h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "setserial",
+    "path": "setserial/2.17-53/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/setserial/2.17-53/",
+        "metric": {
+            "size": 772
+        },
+        "pts_link": "https://tracker.debian.org/pkg/setserial",
+        "sloc": [
+            [
+                "sh",
+                2127
+            ],
+            [
+                "ansic",
+                1008
+            ],
+            [
+                "makefile",
+                150
+            ],
+            [
+                "csh",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alteholz/setserial",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.17-53"
+}

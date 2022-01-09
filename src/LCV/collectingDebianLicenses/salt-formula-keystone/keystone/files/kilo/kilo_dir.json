@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "keystone-paste.ini.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3703,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keystone-paste.ini.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 25,
+                "symlink_dest": "keystone-paste.ini.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keystone.conf.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keystone.conf.RedHat",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 20,
+                "symlink_dest": "keystone.conf.Debian",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy-v2.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy-v3.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wsgi-keystone.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1782,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "kilo",
+    "package": "salt-formula-keystone",
+    "path": "salt-formula-keystone/2016.12.1-1/keystone/files/kilo",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 26,
+        "license": "/copyright/license/salt-formula-keystone/2016.12.1-1/",
+        "metric": {
+            "size": 700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/salt-formula-keystone",
+        "sloc": [
+            [
+                "sh",
+                139
+            ],
+            [
+                "makefile",
+                23
+            ],
+            [
+                "python",
+                20
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/openstack/salt-formula-keystone.git/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2016.12.1-1"
+}

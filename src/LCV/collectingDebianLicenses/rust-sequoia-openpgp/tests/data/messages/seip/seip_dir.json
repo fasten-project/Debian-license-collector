@@ -1,0 +1,97 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "foo-priv.pgp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "foo.pgp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msg-compression-not-signed-password-123.pgp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msg-compression-signed-password-123.pgp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 417,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msg-no-compression-not-signed-password-123.pgp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msg-no-compression-signed-password-123.pgp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "seip",
+    "package": "rust-sequoia-openpgp",
+    "path": "rust-sequoia-openpgp/1.3.0-4/tests/data/messages/seip",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-sequoia-openpgp/1.3.0-4/",
+        "metric": {
+            "size": 7004
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-sequoia-openpgp",
+        "sloc": [
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sequoia-openpgp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.0-4"
+}

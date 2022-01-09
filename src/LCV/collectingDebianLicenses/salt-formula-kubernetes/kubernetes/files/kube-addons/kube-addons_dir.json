@@ -1,0 +1,78 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dashboard",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dns",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "heapster-influxdb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "registry",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "kube-addons",
+    "package": "salt-formula-kubernetes",
+    "path": "salt-formula-kubernetes/2016.12.1-1/kubernetes/files/kube-addons",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 16,
+        "license": "/copyright/license/salt-formula-kubernetes/2016.12.1-1/",
+        "metric": {
+            "size": 476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/salt-formula-kubernetes",
+        "sloc": [
+            [
+                "sh",
+                130
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/openstack/salt-formula-kubernetes.git/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2016.12.1-1"
+}
