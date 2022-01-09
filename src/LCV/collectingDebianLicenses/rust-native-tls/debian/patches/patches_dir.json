@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable-tests-that-access-network.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strip-security-framework.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strip-vendored-openssl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-static-test-certs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rust-native-tls",
+    "path": "rust-native-tls/0.2.8-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-native-tls/0.2.8-1/",
+        "metric": {
+            "size": 348
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-native-tls",
+        "sloc": [
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/native-tls",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.8-1"
+}

@@ -1,0 +1,1182 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "android",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "backend",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "buildflags",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cups_config_helper.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "emf_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "emf_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "emf_win_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image_android.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image_fuchsia.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image_linux.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metafile.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metafile.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metafile_skia.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metafile_skia.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metafile_skia_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mojom",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "native_drawing_context.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nup_parameters.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nup_parameters.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nup_parameters_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "page_number.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "page_number.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "page_number_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "page_range.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "page_range.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "page_range_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "page_setup.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "page_setup.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "page_setup_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pdf_metafile_cg_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pdf_metafile_cg_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pdf_metafile_cg_mac_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pdf_render_settings.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_dialog_gtk_interface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_job_constants.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_job_constants.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings_conversion.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings_conversion.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1049,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings_conversion_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2845,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings_initializer_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings_initializer_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings_initializer_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings_initializer_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_settings_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_document.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9891,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_document.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_document_android.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_document_chromeos.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_document_linux.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_document_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_document_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_document_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_page_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 803,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_page_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printed_page_win_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printer_query_result.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printer_status.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printer_status.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_android.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7845,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_android.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_chromeos.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15874,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_chromeos.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_chromeos_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_linux.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_linux.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_mac.mm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_no_system_dialog.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_no_system_dialog.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_system_dialog_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_system_dialog_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_context_win_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_export.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_features.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_features.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_test.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_utils.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printing_utils_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pwg_raster_settings.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "units.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "units.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "units_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "printing",
+    "package": "qtwebengine-opensource-src",
+    "path": "qtwebengine-opensource-src/5.15.7+dfsg-2/src/3rdparty/chromium/printing",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtwebengine-opensource-src/5.15.7+dfsg-2/",
+        "metric": {
+            "size": 2161044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtwebengine-opensource-src",
+        "sloc": [
+            [
+                "cpp",
+                13183846
+            ],
+            [
+                "ansic",
+                4303818
+            ],
+            [
+                "javascript",
+                1960781
+            ],
+            [
+                "python",
+                599616
+            ],
+            [
+                "asm",
+                529954
+            ],
+            [
+                "xml",
+                496618
+            ],
+            [
+                "java",
+                151702
+            ],
+            [
+                "objc",
+                80776
+            ],
+            [
+                "perl",
+                73785
+            ],
+            [
+                "sh",
+                71092
+            ],
+            [
+                "cs",
+                30383
+            ],
+            [
+                "makefile",
+                21754
+            ],
+            [
+                "yacc",
+                9062
+            ],
+            [
+                "tcl",
+                8285
+            ],
+            [
+                "php",
+                5896
+            ],
+            [
+                "sql",
+                5473
+            ],
+            [
+                "pascal",
+                4510
+            ],
+            [
+                "lex",
+                2884
+            ],
+            [
+                "lisp",
+                2727
+            ],
+            [
+                "ruby",
+                683
+            ],
+            [
+                "awk",
+                200
+            ],
+            [
+                "sed",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/qt/qtwebengine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.15.7+dfsg-2"
+}

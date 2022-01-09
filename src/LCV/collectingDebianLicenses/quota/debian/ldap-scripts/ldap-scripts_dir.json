@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "applySystemQuotas.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "edquota_editor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "quota.schema",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setSystemQuotas.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setquota-ldap.pl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ldap-scripts",
+    "package": "quota",
+    "path": "quota/4.06-1/debian/ldap-scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/quota/4.06-1/",
+        "metric": {
+            "size": 2684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/quota",
+        "sloc": [
+            [
+                "ansic",
+                12449
+            ],
+            [
+                "sh",
+                5470
+            ],
+            [
+                "perl",
+                406
+            ],
+            [
+                "makefile",
+                329
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "4.06-1"
+}

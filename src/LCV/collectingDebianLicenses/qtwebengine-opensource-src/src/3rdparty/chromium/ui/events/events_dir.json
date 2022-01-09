@@ -1,0 +1,984 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "android",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "base_event_utils.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "base_event_utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blink",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "chromecast",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cocoa",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "devices",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "event.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_constants.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_dispatcher.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_dispatcher.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_dispatcher_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_handler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_handler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_modifiers.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3955,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_modifiers.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_observer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_processor.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_processor.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_processor_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_rewriter.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_rewriter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_rewriter_continuation.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_rewriter_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_sink.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_source.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_source.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_switches.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_switches.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_target.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_target.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_target_iterator.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_target_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_targeter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_utils.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "event_utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7846,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "events_base_export.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "events_default.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "events_export.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "events_exports.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "events_stub.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fraction_of_time_without_user_input_recorder.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fraction_of_time_without_user_input_recorder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fraction_of_time_without_user_input_recorder_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuchsia",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gesture_curve.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1033,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gesture_detection",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gesture_event_details.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gesture_event_details.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gestures",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ipc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "keyboard_hook.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keyboard_hook_base.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keyboard_hook_base.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keyboard_hook_linux.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keycodes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mac",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mobile_scroller.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mobile_scroller.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mobile_scroller_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mojom",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "null_event_targeter.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "null_event_targeter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ozone",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "platform",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "platform_event.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pointer_details.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pointer_details.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_target_handler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_target_handler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_target_handler_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "types",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 127,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "win",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "x",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "events",
+    "package": "qtwebengine-opensource-src",
+    "path": "qtwebengine-opensource-src/5.15.7+dfsg-2/src/3rdparty/chromium/ui/events",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtwebengine-opensource-src/5.15.7+dfsg-2/",
+        "metric": {
+            "size": 2161044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtwebengine-opensource-src",
+        "sloc": [
+            [
+                "cpp",
+                13183846
+            ],
+            [
+                "ansic",
+                4303818
+            ],
+            [
+                "javascript",
+                1960781
+            ],
+            [
+                "python",
+                599616
+            ],
+            [
+                "asm",
+                529954
+            ],
+            [
+                "xml",
+                496618
+            ],
+            [
+                "java",
+                151702
+            ],
+            [
+                "objc",
+                80776
+            ],
+            [
+                "perl",
+                73785
+            ],
+            [
+                "sh",
+                71092
+            ],
+            [
+                "cs",
+                30383
+            ],
+            [
+                "makefile",
+                21754
+            ],
+            [
+                "yacc",
+                9062
+            ],
+            [
+                "tcl",
+                8285
+            ],
+            [
+                "php",
+                5896
+            ],
+            [
+                "sql",
+                5473
+            ],
+            [
+                "pascal",
+                4510
+            ],
+            [
+                "lex",
+                2884
+            ],
+            [
+                "lisp",
+                2727
+            ],
+            [
+                "ruby",
+                683
+            ],
+            [
+                "awk",
+                200
+            ],
+            [
+                "sed",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/qt/qtwebengine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.15.7+dfsg-2"
+}

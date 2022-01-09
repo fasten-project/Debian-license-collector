@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-q_atomic_ftbfs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-my-name",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "qtractor",
+    "path": "qtractor/0.9.24-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtractor/0.9.24-1/",
+        "metric": {
+            "size": 12208
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtractor",
+        "sloc": [
+            [
+                "cpp",
+                113082
+            ],
+            [
+                "ansic",
+                470
+            ],
+            [
+                "makefile",
+                345
+            ],
+            [
+                "xml",
+                65
+            ],
+            [
+                "sh",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/qtractor",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.24-1"
+}

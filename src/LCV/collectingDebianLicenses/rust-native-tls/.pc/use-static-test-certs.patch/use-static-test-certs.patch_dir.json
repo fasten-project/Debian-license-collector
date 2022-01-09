@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Cargo.toml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "use-static-test-certs.patch",
+    "package": "rust-native-tls",
+    "path": "rust-native-tls/0.2.8-1/.pc/use-static-test-certs.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-native-tls/0.2.8-1/",
+        "metric": {
+            "size": 348
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-native-tls",
+        "sloc": [
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/native-tls",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.8-1"
+}

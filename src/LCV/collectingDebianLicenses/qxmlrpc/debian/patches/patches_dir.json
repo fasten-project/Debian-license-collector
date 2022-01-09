@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_build_targets.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_fix_unittest.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_staticlib_removed.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_client.h_include_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_do_not_link_gui.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "qxmlrpc",
+    "path": "qxmlrpc/0.0.svn6-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 200,
+        "license": "/copyright/license/qxmlrpc/0.0.svn6-2/",
+        "metric": {
+            "size": 392
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qxmlrpc",
+        "sloc": [
+            [
+                "cpp",
+                1621
+            ],
+            [
+                "python",
+                29
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "0.0.svn6-2"
+}

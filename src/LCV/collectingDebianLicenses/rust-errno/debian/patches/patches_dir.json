@@ -1,0 +1,54 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "no-dragonfly.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rust-errno",
+    "path": "rust-errno/0.2.4-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-errno/0.2.4-2/",
+        "metric": {
+            "size": 128
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-errno",
+        "sloc": [
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/errno",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.4-2"
+}

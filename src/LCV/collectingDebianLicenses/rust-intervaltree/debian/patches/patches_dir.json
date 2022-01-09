@@ -1,0 +1,54 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-smallvec.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rust-intervaltree",
+    "path": "rust-intervaltree/0.2.4-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-intervaltree/0.2.4-2/",
+        "metric": {
+            "size": 104
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-intervaltree",
+        "sloc": [
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/intervaltree",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.4-2"
+}

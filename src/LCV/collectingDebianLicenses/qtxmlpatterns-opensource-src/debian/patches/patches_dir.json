@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable_network_tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tst_xmlpatternsvalidator.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "qtxmlpatterns-opensource-src",
+    "path": "qtxmlpatterns-opensource-src/5.15.2-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtxmlpatterns-opensource-src/5.15.2-3/",
+        "metric": {
+            "size": 309144
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtxmlpatterns-opensource-src",
+        "sloc": [
+            [
+                "xml",
+                360343
+            ],
+            [
+                "cpp",
+                91994
+            ],
+            [
+                "ansic",
+                388
+            ],
+            [
+                "sh",
+                53
+            ],
+            [
+                "sed",
+                31
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/qt/qtxmlpatterns",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.15.2-3"
+}
