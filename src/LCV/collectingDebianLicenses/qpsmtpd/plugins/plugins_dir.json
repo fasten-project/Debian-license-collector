@@ -1,0 +1,692 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "async",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "auth",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "badmailfrom",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badmailfromto",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badrcptto",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bogus_bounce",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_badmailfrom",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_badrcptto",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_earlytalker",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_loop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_relay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_spamhelo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "connection_time",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "content_log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "count_unrecognized_commands",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dkim",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dmarc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dns_whitelist_soft",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5051,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnsbl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "domainkeys",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dont_require_anglebrackets",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dspam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "earlytalker",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fcrdns",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "greylisting",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "headers",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "helo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "help",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hosts_allow",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "http_config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ident",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "karma",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "karma_tool",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "loadcheck",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logging",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "loop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "milter",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "naughty",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5649,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "noop_counter",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parse_addr_withhelo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qmail_deliverable",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "queue",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "quit_fortune",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "random_error",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1813,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rcpt_map",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rcpt_ok",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rcpt_regexp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3095,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "registry.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "relay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "resolvable_fromhost",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rhsbl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sender_permitted_from",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spamassassin",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stunnel",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tls",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tls_cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uribl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18053,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "virus",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "whitelist",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "plugins",
+    "package": "qpsmtpd",
+    "path": "qpsmtpd/0.94-4/plugins",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qpsmtpd/0.94-4/",
+        "metric": {
+            "size": 2284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qpsmtpd",
+        "sloc": [
+            [
+                "perl",
+                17176
+            ],
+            [
+                "sh",
+                543
+            ],
+            [
+                "makefile",
+                186
+            ],
+            [
+                "sql",
+                100
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.94-4"
+}

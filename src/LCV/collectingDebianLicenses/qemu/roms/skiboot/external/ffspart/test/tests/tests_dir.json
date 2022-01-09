@@ -1,0 +1,293 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-usage",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-param-sanity",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01.1-param-sanity",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-tiny-pnor",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-tiny-pnor2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-hdr-overlap",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-small-flash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-big-files",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-small-files",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-bad-input",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-long-name",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-bad-numbers-base",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-bad-numbers-size",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14-bad-input-flags",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-overlapping-partitions",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16-create-blank",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "17-toc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18-eraseblock-gt-first-partition",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "qemu",
+    "path": "qemu/1:6.1+dfsg-8/roms/skiboot/external/ffspart/test/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qemu/1:6.1+dfsg-8/",
+        "metric": {
+            "size": 203512
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qemu",
+        "sloc": [
+            [
+                "ansic",
+                2388081
+            ],
+            [
+                "pascal",
+                105276
+            ],
+            [
+                "asm",
+                47557
+            ],
+            [
+                "python",
+                46061
+            ],
+            [
+                "sh",
+                34175
+            ],
+            [
+                "cpp",
+                33592
+            ],
+            [
+                "makefile",
+                15409
+            ],
+            [
+                "perl",
+                7132
+            ],
+            [
+                "xml",
+                2540
+            ],
+            [
+                "objc",
+                1566
+            ],
+            [
+                "php",
+                1299
+            ],
+            [
+                "tcl",
+                1070
+            ],
+            [
+                "yacc",
+                604
+            ],
+            [
+                "lex",
+                363
+            ],
+            [
+                "sql",
+                71
+            ],
+            [
+                "awk",
+                35
+            ],
+            [
+                "sed",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qemu-team/qemu",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:6.1+dfsg-8"
+}

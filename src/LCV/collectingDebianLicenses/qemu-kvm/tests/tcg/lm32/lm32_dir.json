@@ -1,0 +1,784 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crt.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "linker.ld",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "macros.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_add.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_addi.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_and.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_andhi.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_andi.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_b.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_be.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bg.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bge.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bgeu.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bgu.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bi.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bne.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_break.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bret.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_call.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_calli.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpe.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpei.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpg.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpge.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpgei.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpgeu.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpgeui.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpgi.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpgu.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpgui.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpne.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cmpnei.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_divu.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_eret.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_lb.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_lbu.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_lh.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_lhu.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_lw.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_modu.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_mul.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_muli.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_nor.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_nori.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_or.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_orhi.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ori.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ret.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sb.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_scall.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sextb.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sexth.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sh.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sl.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sli.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sr.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sri.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sru.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 639,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_srui.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sub.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sw.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_xnor.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_xnori.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_xor.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_xori.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "lm32",
+    "package": "qemu-kvm",
+    "path": "qemu-kvm/1.1.2+dfsg-6+deb7u12/tests/tcg/lm32",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qemu-kvm/1.1.2+dfsg-6+deb7u12/",
+        "metric": {
+            "size": 43848
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qemu-kvm",
+        "sloc": [
+            [
+                "ansic",
+                606321
+            ],
+            [
+                "asm",
+                10684
+            ],
+            [
+                "sh",
+                6663
+            ],
+            [
+                "perl",
+                4223
+            ],
+            [
+                "python",
+                3802
+            ],
+            [
+                "makefile",
+                1076
+            ],
+            [
+                "objc",
+                843
+            ],
+            [
+                "xml",
+                409
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/qemu-kvm.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.2+dfsg-6+deb7u12"
+}

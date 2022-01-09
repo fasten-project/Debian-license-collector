@@ -1,0 +1,90 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable-reno.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-.testr.conf-to-use-python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-intersphinx.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "removed-privacy-breach-in-docs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "python-requests-mock",
+    "path": "python-requests-mock/1.9.3-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-requests-mock/1.9.3-2/",
+        "metric": {
+            "size": 616
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-requests-mock",
+        "sloc": [
+            [
+                "python",
+                2268
+            ],
+            [
+                "makefile",
+                166
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/python/python-requests-mock",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.3-2"
+}
