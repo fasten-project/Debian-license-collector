@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-get_version_from_source.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-remove_privacy_offenders.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Use-the-packaged-MathJax.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do_not_rewrite_git_revision_on_build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "pywavelets",
+    "path": "pywavelets/1.1.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pywavelets/1.1.1-1/",
+        "metric": {
+            "size": 13692
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pywavelets",
+        "sloc": [
+            [
+                "python",
+                7896
+            ],
+            [
+                "ansic",
+                5134
+            ],
+            [
+                "makefile",
+                96
+            ],
+            [
+                "sh",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/pywavelets",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.1-1"
+}

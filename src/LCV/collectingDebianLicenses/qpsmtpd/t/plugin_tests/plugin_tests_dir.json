@@ -1,0 +1,252 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "auth",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "badmailfrom",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badmailfromto",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badrcptto",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "count_unrecognized_commands",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dmarc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnsbl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dspam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "earlytalker",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "greylisting",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "headers",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "helo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ident",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rcpt_ok",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "relay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "resolvable_fromhost",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sender_permitted_from",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 672,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spamassassin",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "virus",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "plugin_tests",
+    "package": "qpsmtpd",
+    "path": "qpsmtpd/0.94-4/t/plugin_tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qpsmtpd/0.94-4/",
+        "metric": {
+            "size": 2284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qpsmtpd",
+        "sloc": [
+            [
+                "perl",
+                17176
+            ],
+            [
+                "sh",
+                543
+            ],
+            [
+                "makefile",
+                186
+            ],
+            [
+                "sql",
+                100
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.94-4"
+}

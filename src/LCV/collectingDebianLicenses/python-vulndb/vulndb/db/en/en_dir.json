@@ -1,0 +1,810 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "1-allowed-http-methods.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-common-sensitive-file.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 447,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-cookie-set-for-parent-domain.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-credit-card-number-disclosure.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-cross-site-request-forgery.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14-cvs-svn-user-disclosure.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-directory-listing.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16-e-mail-address-disclosure.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "17-file-inclusion.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18-form-based-file-upload.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "19-missing-strict-transport-security-header.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 521,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2-a-backdoor-file-exists-on-the-server.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-misconfiguration-in-limit-directive-of-htaccess-file.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "21-html-object.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "22-httponly-cookie.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "23-publicly-writable-directory.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "24-insecure-client-access-policy.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "25-insecure-cookie.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "26-access-control-allow-origin-star.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "27-insecure-cross-domain-policy-allow-access-from.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "29-interesting-response.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "3-backup-directory.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ldap-injection.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "31-exposed-localstart-asp-page.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "32-mixed-resource.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "33-nosql-injection.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "34-blind-nosql-injection-differential-analysis.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "35-access-restriction-bypass-via-origin-spoof.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "36-operating-system-command-injection.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "38-password-field-with-auto-complete.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "39-path-traversal.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "4-backup-file.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40-private-ip-address-disclosure.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "41-response-splitting.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "42-remote-file-inclusion.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "43-session-fixation.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "44-source-code-disclosure.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "45-sql-injection.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1051,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "46-blind-sql-injection.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "47-blind-sql-injection-timing-attack.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "48-disclosed-us-social-security-number-ssn.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "49-unencrypted-password-form.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "5-captcha-protected-form.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-unvalidated-redirect.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "51-unvalidated-dom-redirect.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "52-webdav.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 521,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "53-missing-x-frame-options-header.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "54-xpath-injection.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "55-cross-site-scripting-xss.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "56-dom-based-cross-site-scripting-xss.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "6-code-injection.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "63-http-trace.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "64-xml-external-entity.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 455,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "65-arbitrary-file-upload.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "66-insecure-ssl-version.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "67-self-signed-ssl-certificate.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "68-shellshock.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "69-insecure-frontpage-configuration.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "70-persistent-xss.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "71-reflected-file-download.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "72-cache-control-headers.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "73-information-leak-stack-trace.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "74-phishing-vector.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "75-guessable-credentials.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "76-x-content-type-options_header_missing.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "77-http-basic-authentication-credentials.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "8-code-injection.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "9-common-directory.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "description",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fix",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "en",
+    "package": "python-vulndb",
+    "path": "python-vulndb/0.1.3-2/vulndb/db/en",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-vulndb/0.1.3-2/",
+        "metric": {
+            "size": 1020
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-vulndb",
+        "sloc": [
+            [
+                "python",
+                447
+            ],
+            [
+                "sh",
+                196
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/python-vulndb",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.3-2"
+}

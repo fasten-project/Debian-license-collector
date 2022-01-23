@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "network",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "storage",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tosca_nodejs_mongodb_two_instances.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tosca_single_server.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "v1.0",
+    "package": "python-tosca-parser",
+    "path": "python-tosca-parser/2.4.1-2/toscaparser/tests/spec_samples/v1.0",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-tosca-parser/2.4.1-2/",
+        "metric": {
+            "size": 2188
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-tosca-parser",
+        "sloc": [
+            [
+                "python",
+                10394
+            ],
+            [
+                "sh",
+                134
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/libs/python-tosca-parser",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.1-2"
+}

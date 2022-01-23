@@ -1,0 +1,205 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001_demo-fix-detecting-running-installed.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002_demos-fix-application-name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1002_drop-cgmanager-dependency.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1003_INSTANTIATE_TEST_SUITE.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1004_remove-cmake-instructions-that-have-been-moved-into-FindGMock.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1005_add-missing-pthread-to-link-target.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1006_make-sure-tracepoints-h-exists.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1007_make-valgrind-dependency-optional.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1008_drop-Werror-enforcement-leave-it-to-configure-option.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2001_no-convert-to-gles-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2002_no-requires-provides-check.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2003_disable-benchmarks.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2004_qml-demo-shell-work-without-ui-toolkit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 377,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "qtmir",
+    "path": "qtmir/0.6.1-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtmir/0.6.1-8/",
+        "metric": {
+            "size": 2532
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtmir",
+        "sloc": [
+            [
+                "cpp",
+                20342
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "ansic",
+                87
+            ],
+            [
+                "makefile",
+                62
+            ],
+            [
+                "sh",
+                19
+            ],
+            [
+                "xml",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ubports-team/qtmir",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.1-8"
+}

@@ -1,0 +1,135 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "008_safety_controllers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "009_safety_modules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "100_safety_light_curtain",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "101_safety_switches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "qet_directory",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s3000.elmt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sick_um30.elmt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sick_wl_wtb_optic_sensor.elmt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sick",
+    "package": "qelectrotech",
+    "path": "qelectrotech/1:0.8.0-3/elements/10_electric/20_manufacturers_articles/sick",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qelectrotech/1:0.8.0-3/",
+        "metric": {
+            "size": 125060
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qelectrotech",
+        "sloc": [
+            [
+                "cpp",
+                87101
+            ],
+            [
+                "xml",
+                761
+            ],
+            [
+                "sh",
+                560
+            ],
+            [
+                "perl",
+                316
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/qelectrotech",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:0.8.0-3"
+}

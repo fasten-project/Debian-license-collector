@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dummyserver",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "01_do-not-use-embedded-python-six.patch",
+    "package": "python-urllib3",
+    "path": "python-urllib3/1.26.5-1~exp1/.pc/01_do-not-use-embedded-python-six.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/python-urllib3/1.26.5-1%7Eexp1/",
+        "metric": {
+            "size": 2260
+        },
+        "pts_link": "https://tracker.debian.org/pkg/python-urllib3",
+        "sloc": [
+            [
+                "python",
+                16933
+            ],
+            [
+                "makefile",
+                130
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/python-urllib3",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.26.5-1~exp1"
+}
