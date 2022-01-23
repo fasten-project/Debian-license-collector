@@ -1,0 +1,120 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Fix-RSA_set0_key-usage-to-make-verify-work-with-Open.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Prevent-segfault-when-C_GetSlotList-is-invoked-with-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Rework-key-enumeration.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Session-GetAttributeValue-respond-to-requests-for-CK.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Session-GetAttributeValue-respond-to-requests-for-CK.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Answer-CKA_LABEL-attribute-request-with-dummy-value.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "simple-tpm-pk11",
+    "path": "simple-tpm-pk11/0.06-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/simple-tpm-pk11/0.06-4/",
+        "metric": {
+            "size": 448
+        },
+        "pts_link": "https://tracker.debian.org/pkg/simple-tpm-pk11",
+        "sloc": [
+            [
+                "cpp",
+                2623
+            ],
+            [
+                "makefile",
+                118
+            ],
+            [
+                "exp",
+                48
+            ],
+            [
+                "sh",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/simple-tpm-pk11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.06-4"
+}

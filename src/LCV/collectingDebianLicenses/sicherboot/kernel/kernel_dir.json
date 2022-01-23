@@ -1,0 +1,56 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "postinst.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "postrm.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "kernel",
+    "package": "sicherboot",
+    "path": "sicherboot/0.1.5/kernel",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sicherboot/0.1.5/",
+        "metric": {
+            "size": 120
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sicherboot",
+        "sloc": [
+            [
+                "sh",
+                376
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/julian-klode/sicherboot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.5"
+}

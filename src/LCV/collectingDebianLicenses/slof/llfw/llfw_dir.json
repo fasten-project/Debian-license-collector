@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "boot_abort.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "boot_abort.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1087,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "io_generic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "nvramlog.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "romfs.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "romfs_wrap.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "llfw",
+    "package": "slof",
+    "path": "slof/20180702+dfsg-1/llfw",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/slof/20180702+dfsg-1/",
+        "metric": {
+            "size": 3768
+        },
+        "pts_link": "https://tracker.debian.org/pkg/slof",
+        "sloc": [
+            [
+                "ansic",
+                30760
+            ],
+            [
+                "asm",
+                2087
+            ],
+            [
+                "makefile",
+                1177
+            ],
+            [
+                "pascal",
+                351
+            ],
+            [
+                "perl",
+                99
+            ],
+            [
+                "sh",
+                60
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qemu-team/slof",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20180702+dfsg-1"
+}

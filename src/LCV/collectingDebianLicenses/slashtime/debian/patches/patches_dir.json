@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_launcher_script.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "slashtime-java9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "slashtime",
+    "path": "slashtime/0.5.13-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/slashtime/0.5.13-2/",
+        "metric": {
+            "size": 416
+        },
+        "pts_link": "https://tracker.debian.org/pkg/slashtime",
+        "sloc": [
+            [
+                "java",
+                1159
+            ],
+            [
+                "perl",
+                958
+            ],
+            [
+                "makefile",
+                136
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/viewsvn/pkg-java/trunk/slashtime/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "0.5.13-2"
+}

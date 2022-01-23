@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "data1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0001.good",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0001.in",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 5,
+                "symlink_dest": "data1",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0001.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0002.good",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0002.in",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 5,
+                "symlink_dest": "data1",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0002.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "full_width",
+    "package": "smenu",
+    "path": "smenu/0.9.17-1/tests/full_width",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/smenu/0.9.17-1/",
+        "metric": {
+            "size": 3940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/smenu",
+        "sloc": [
+            [
+                "ansic",
+                12809
+            ],
+            [
+                "sh",
+                4422
+            ],
+            [
+                "makefile",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/mcy/smenu",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.17-1"
+}

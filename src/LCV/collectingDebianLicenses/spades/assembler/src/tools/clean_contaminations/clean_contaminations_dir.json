@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "16SrRNA",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blast_contigs_and_process_output.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_index_for_multifasta.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clean_contam_by_index_id.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "process_blast_output.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1964,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "read_fasta_using_index.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1316,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "clean_contaminations",
+    "package": "spades",
+    "path": "spades/3.13.1+dfsg-2/assembler/src/tools/clean_contaminations",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/spades/3.13.1+dfsg-2/",
+        "metric": {
+            "size": 22172
+        },
+        "pts_link": "https://tracker.debian.org/pkg/spades",
+        "sloc": [
+            [
+                "cpp",
+                136213
+            ],
+            [
+                "ansic",
+                48218
+            ],
+            [
+                "python",
+                16809
+            ],
+            [
+                "perl",
+                4252
+            ],
+            [
+                "sh",
+                2115
+            ],
+            [
+                "java",
+                890
+            ],
+            [
+                "makefile",
+                507
+            ],
+            [
+                "pascal",
+                348
+            ],
+            [
+                "xml",
+                303
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/spades",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.13.1+dfsg-2"
+}

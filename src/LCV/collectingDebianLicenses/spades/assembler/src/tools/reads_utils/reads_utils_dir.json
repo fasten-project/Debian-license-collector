@@ -1,0 +1,229 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "conversion",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "crop",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "filter",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ideal_by_fasta.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ideal_sim.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "identical_contigs_stats.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "meta",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "paired_reads_quality.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "read_stat.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reads_quality.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "report_maker.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scaf_to_cont.pl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simulate_ideal_by_dataset.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simulate_ideal_by_fasta.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "reads_utils",
+    "package": "spades",
+    "path": "spades/3.13.1+dfsg-2/assembler/src/tools/reads_utils",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/spades/3.13.1+dfsg-2/",
+        "metric": {
+            "size": 22172
+        },
+        "pts_link": "https://tracker.debian.org/pkg/spades",
+        "sloc": [
+            [
+                "cpp",
+                136213
+            ],
+            [
+                "ansic",
+                48218
+            ],
+            [
+                "python",
+                16809
+            ],
+            [
+                "perl",
+                4252
+            ],
+            [
+                "sh",
+                2115
+            ],
+            [
+                "java",
+                890
+            ],
+            [
+                "makefile",
+                507
+            ],
+            [
+                "pascal",
+                348
+            ],
+            [
+                "xml",
+                303
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/spades",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.13.1+dfsg-2"
+}

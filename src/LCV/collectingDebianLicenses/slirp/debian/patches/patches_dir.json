@@ -1,0 +1,240 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001-update-man-fix-hyphens-as-minus.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002-fix-arguements.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003-socklen_t.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2703,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "004-compilation-warnings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "005-use-snprintf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "006-changelog-1.0.17.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "007-debian-changes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "008-slirp-amd64-log-crash.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "009-i-hate-perl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "010-fullbolt-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "011-sizeof_ipv4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "012_ipq64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "013_hurd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "014_CVE-2020-7039.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "015_949003_explicit_extern_declaration.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "016_c11b4078042_fix_64_bit_issue_in_slirp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "017_CVE-2020-8608.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "slirp",
+    "path": "slirp/1:1.0.17-11/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/slirp/1:1.0.17-11/",
+        "metric": {
+            "size": 2712
+        },
+        "pts_link": "https://tracker.debian.org/pkg/slirp",
+        "sloc": [
+            [
+                "ansic",
+                17587
+            ],
+            [
+                "makefile",
+                163
+            ],
+            [
+                "perl",
+                53
+            ],
+            [
+                "sh",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1:1.0.17-11"
+}

@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "socklog-inet",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socklog-klog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socklog-notify",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socklog-ucspi-tcp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socklog-unix",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "service",
+    "package": "socklog",
+    "path": "socklog/2.1.0+repack-4/debian/service",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/socklog/2.1.0+repack-4/",
+        "metric": {
+            "size": 1128
+        },
+        "pts_link": "https://tracker.debian.org/pkg/socklog",
+        "sloc": [
+            [
+                "ansic",
+                3422
+            ],
+            [
+                "sh",
+                362
+            ],
+            [
+                "makefile",
+                323
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/socklog",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1.0+repack-4"
+}

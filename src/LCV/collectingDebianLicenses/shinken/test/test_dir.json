@@ -1,0 +1,1805 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "__import_shinken.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "create_test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "etc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12288,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "jenkins",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libexec",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "modules",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 24,
+                "symlink_dest": "/var/lib/shinken/modules",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "moduleslist",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nose_pass.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pep8_pass.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pylint_pass.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "quick_tests.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shinken_modules.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shinken_test.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_acknowledge.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_acknowledge_with_expire.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4819,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_action.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8918,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_antivirg.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bad_contact_call.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bad_escalation_on_groups.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bad_notification_character.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bad_notification_period.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bad_realm_conf.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bad_sat_realm_conf.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bad_servicedependencies.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bad_start.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bad_timeperiods.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_business_correlator.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_business_correlator_expand_expression.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_business_correlator_notifications.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_business_correlator_output.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7942,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_business_rules_with_bad_realm_conf.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_checkmodulations.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_clean_sched_queues.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_command.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_commands_perfdata.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_complex_hostgroups.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_conf_in_symlinks.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_config.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_contactdowntimes.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7749,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_contactgroup_nomembers.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_contactgroups_plus_inheritance.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_link_from_ext_cmd.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_critmodulation.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_css_in_command.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_customs_on_service_hosgroups.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_db.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_db_mysql.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_define_with_space.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_definition_order.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_dependencies.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_disable_active_checks.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_discovery_def.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_dispatcher.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 18614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_dot_virg_in_command.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_downtimes.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 21325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_dummy.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_end_to_end.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_escalations.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_eventids.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_exclude_services.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_external_commands.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_external_mapping.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_flapping.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_freshness.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_groups_with_no_alias.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_host_extented_info.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_host_missing_adress.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_host_without_cmd.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_hostdep_with_multiple_names.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_hostdep_withno_depname.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_hostgroup_no_host.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_hostgroup_with_space.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_hosts.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_illegal_names.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_inheritance_and_plus.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_linkify_template.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_logging.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_macromodulations.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_macroresolver.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_maintenance_period.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_missing_cariarereturn.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_missing_object_value.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_missing_timeperiod.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_module_on_module.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_modulemanager.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_multi_attribute.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_multi_hostgroups_def.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_multiple_not_hostgroups.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_nat.py.skip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_nested_hostgroups.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_no_broker_in_realm_warning.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_no_event_handler_during_downtime.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_no_host_template.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_no_notification_period.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_nocontacts.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_nohostsched.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_not_execute_host_check.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_not_hostname.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_notif_macros.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_notif_too_much.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_notification_warning.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_notifications.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_notifway.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_nullinheritance.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_objects_and_notifways.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_obsess.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_on_demand_event_handlers.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_orphaned.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2685,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_pack_hash_memory.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_parse_perfdata.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_passive_pollers.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_poller_addition.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_poller_tag_get_checks.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_problem_impact.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_properties.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_properties_defaults.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_property_override.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_protect_esclamation_point.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_python_crash_with_recursive_bp_rules.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_reactionner_tag_get_notif.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_realms.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_regenerator.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_registered_funs.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_resultmodulation.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_satellites.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service_generators.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service_nohost.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1298,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service_on_missing_template.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service_template_inheritance.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service_tpl_on_host_tpl.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4672,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service_with_print_as_name.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service_withhost_exclude.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1615,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service_without_host.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_servicedependency_complexes.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_servicedependency_explode_hostgroup.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_servicedependency_implicit_hostgroup.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_services.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_spaces_in_commands.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2028,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_srv_badhost.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_srv_nohost.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_star_in_hostgroups.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_startmember_group.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_strange_characters_commands.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_system_time_change.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_timeout.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_timeperiod_inheritance.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_timeperiods.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_timeperiods_state_logs.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_triggers.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_uknown_event_handler.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_unknown_do_not_change.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12765,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_update_output_ext_command.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_utf8_log.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tmp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "var",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "test",
+    "package": "shinken",
+    "path": "shinken/2.0.3-4/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 5883,
+        "license": "/copyright/license/shinken/2.0.3-4/",
+        "metric": {
+            "size": 22440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/shinken",
+        "sloc": [
+            [
+                "python",
+                39978
+            ],
+            [
+                "sh",
+                6739
+            ],
+            [
+                "cs",
+                2542
+            ],
+            [
+                "perl",
+                1911
+            ],
+            [
+                "ruby",
+                539
+            ],
+            [
+                "xml",
+                318
+            ],
+            [
+                "sql",
+                203
+            ],
+            [
+                "makefile",
+                144
+            ],
+            [
+                "php",
+                97
+            ],
+            [
+                "java",
+                66
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.3-4"
+}

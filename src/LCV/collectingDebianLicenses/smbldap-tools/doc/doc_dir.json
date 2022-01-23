@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "migration_scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "slapd.conf.example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smb.conf.tmpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smb.smbldap.conf.tmpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smbldap-tools.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smbldap-tools.pdf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 223497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "doc",
+    "package": "smbldap-tools",
+    "path": "smbldap-tools/0.9.11-3/doc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/smbldap-tools/0.9.11-3/",
+        "metric": {
+            "size": 960
+        },
+        "pts_link": "https://tracker.debian.org/pkg/smbldap-tools",
+        "sloc": [
+            [
+                "perl",
+                5053
+            ],
+            [
+                "sh",
+                191
+            ],
+            [
+                "makefile",
+                100
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/smbldap-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.11-3"
+}

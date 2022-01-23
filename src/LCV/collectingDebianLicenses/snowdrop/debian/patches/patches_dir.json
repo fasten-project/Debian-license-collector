@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "010_use-tls.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_link-as-needed.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "030_fix-typos-in-source.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "040_use-cppflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "050_make-build-verbose.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "snowdrop",
+    "path": "snowdrop/0.02b-13/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/snowdrop/0.02b-13/",
+        "metric": {
+            "size": 348
+        },
+        "pts_link": "https://tracker.debian.org/pkg/snowdrop",
+        "sloc": [
+            [
+                "ansic",
+                3455
+            ],
+            [
+                "makefile",
+                240
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/snowdrop",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.02b-13"
+}

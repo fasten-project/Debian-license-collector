@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "builders",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libsidplay",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libsidutils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "gcc4-fixes.patch",
+    "package": "sidplay-libs",
+    "path": "sidplay-libs/2.1.1-15/.pc/gcc4-fixes.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2704,
+        "license": "/copyright/license/sidplay-libs/2.1.1-15/",
+        "metric": {
+            "size": 9688
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sidplay-libs",
+        "sloc": [
+            [
+                "cpp",
+                18547
+            ],
+            [
+                "sh",
+                15489
+            ],
+            [
+                "ansic",
+                701
+            ],
+            [
+                "makefile",
+                243
+            ],
+            [
+                "perl",
+                35
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "2.1.1-15"
+}

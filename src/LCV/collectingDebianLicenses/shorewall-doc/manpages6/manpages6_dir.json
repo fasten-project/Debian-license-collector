@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "manpages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "shorewall6.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "manpages6",
+    "package": "shorewall-doc",
+    "path": "shorewall-doc/5.2.3-1.1/manpages6",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/shorewall-doc/5.2.3-1.1/",
+        "metric": {
+            "size": 37500
+        },
+        "pts_link": "https://tracker.debian.org/pkg/shorewall-doc",
+        "sloc": [
+            [
+                "xml",
+                78361
+            ],
+            [
+                "sh",
+                86
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://shorewall.git.sourceforge.net/git/gitweb.cgi?p=shorewall/debian;a=tree",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.2.3-1.1"
+}

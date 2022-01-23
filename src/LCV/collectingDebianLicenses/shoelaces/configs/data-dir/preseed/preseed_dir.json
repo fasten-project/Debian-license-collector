@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common.preseed.slc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian.preseed.slc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storage.preseed.slc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubuntu-minimal.preseed.slc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "preseed",
+    "package": "shoelaces",
+    "path": "shoelaces/1.2.0+ds-1/configs/data-dir/preseed",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/shoelaces/1.2.0+ds-1/",
+        "metric": {
+            "size": 916
+        },
+        "pts_link": "https://tracker.debian.org/pkg/shoelaces",
+        "sloc": [
+            [
+                "python",
+                144
+            ],
+            [
+                "sh",
+                99
+            ],
+            [
+                "javascript",
+                88
+            ],
+            [
+                "makefile",
+                35
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rul/shoelaces",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.0+ds-1"
+}

@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Distribution.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PackageInfo.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "installer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "root",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "pkg",
+    "package": "smartmontools",
+    "path": "smartmontools/7.2-1/os_darwin/pkg",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/smartmontools/7.2-1/",
+        "metric": {
+            "size": 4764
+        },
+        "pts_link": "https://tracker.debian.org/pkg/smartmontools",
+        "sloc": [
+            [
+                "cpp",
+                47218
+            ],
+            [
+                "ansic",
+                9922
+            ],
+            [
+                "sh",
+                5826
+            ],
+            [
+                "makefile",
+                939
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/smartmontools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.2-1"
+}

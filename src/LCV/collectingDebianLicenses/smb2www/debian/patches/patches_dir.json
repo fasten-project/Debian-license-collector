@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_Install.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_smb2www_bin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "smb2www",
+    "path": "smb2www/980804-43/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/smb2www/980804-43/",
+        "metric": {
+            "size": 664
+        },
+        "pts_link": "https://tracker.debian.org/pkg/smb2www",
+        "sloc": [
+            [
+                "perl",
+                1089
+            ],
+            [
+                "sh",
+                74
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/smb2www",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "980804-43"
+}

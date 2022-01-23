@@ -1,0 +1,239 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AD_group",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 135,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "LDAP_group",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "LM_group",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 135,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SQL_session",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 144,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "delayer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 136,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "eDirectory_userip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "file_userip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "helpers.m4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kerberos_ldap_group",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "kerberos_sid_group",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "session",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "time_quota",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "unix_group",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "wbinfo_group",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "external",
+    "package": "squid",
+    "path": "squid/5.2-1/src/acl/external",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/squid/5.2-1/",
+        "metric": {
+            "size": 34856
+        },
+        "pts_link": "https://tracker.debian.org/pkg/squid",
+        "sloc": [
+            [
+                "cpp",
+                195276
+            ],
+            [
+                "ansic",
+                20247
+            ],
+            [
+                "makefile",
+                6061
+            ],
+            [
+                "sh",
+                5076
+            ],
+            [
+                "perl",
+                2292
+            ],
+            [
+                "sql",
+                326
+            ],
+            [
+                "python",
+                248
+            ],
+            [
+                "awk",
+                142
+            ],
+            [
+                "sed",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/squid-team/squid",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.2-1"
+}

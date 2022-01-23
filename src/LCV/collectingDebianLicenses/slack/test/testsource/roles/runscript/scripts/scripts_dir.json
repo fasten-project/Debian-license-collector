@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "args",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixfiles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "not_executable",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postinstall",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preinstall",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "printenv",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "slack",
+    "path": "slack/1:0.15.2-9.1/test/testsource/roles/runscript/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/slack/1:0.15.2-9.1/",
+        "metric": {
+            "size": 488
+        },
+        "pts_link": "https://tracker.debian.org/pkg/slack",
+        "sloc": [
+            [
+                "perl",
+                2518
+            ],
+            [
+                "makefile",
+                94
+            ],
+            [
+                "sh",
+                23
+            ]
+        ],
+        "suites": [
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1:0.15.2-9.1"
+}

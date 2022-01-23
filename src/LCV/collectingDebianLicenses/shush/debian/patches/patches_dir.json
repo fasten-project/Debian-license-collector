@@ -1,0 +1,97 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_fix_shush.1.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_fix_string_format.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_fix_implicit_declaration_strftime.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "shush",
+    "path": "shush/1.2.3-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 604,
+        "license": "/copyright/license/shush/1.2.3-5/",
+        "metric": {
+            "size": 776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/shush",
+        "sloc": [
+            [
+                "ansic",
+                5503
+            ],
+            [
+                "sh",
+                2706
+            ],
+            [
+                "lex",
+                69
+            ],
+            [
+                "makefile",
+                69
+            ],
+            [
+                "yacc",
+                54
+            ],
+            [
+                "awk",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=collab-maint/shush.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.3-5"
+}

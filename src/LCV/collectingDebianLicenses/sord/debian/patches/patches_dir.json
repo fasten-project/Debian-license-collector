@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Fix-crash-with-optimized-builds-with-GCC-10.1.0.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 971,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1001-dont_run_ldconfig.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sord",
+    "path": "sord/0.16.8-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sord/0.16.8-2/",
+        "metric": {
+            "size": 5556
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sord",
+        "sloc": [
+            [
+                "python",
+                28229
+            ],
+            [
+                "ansic",
+                4260
+            ],
+            [
+                "cpp",
+                586
+            ],
+            [
+                "xml",
+                176
+            ],
+            [
+                "makefile",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/sord",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.16.8-2"
+}

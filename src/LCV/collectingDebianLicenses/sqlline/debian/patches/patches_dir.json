@@ -1,0 +1,89 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_build_lib_release.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_rename_enum_variables.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mariadb.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sqlline",
+    "path": "sqlline/1.0.2-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sqlline/1.0.2-8/",
+        "metric": {
+            "size": 1172
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sqlline",
+        "sloc": [
+            [
+                "java",
+                3959
+            ],
+            [
+                "xml",
+                2734
+            ],
+            [
+                "makefile",
+                10
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/sqlline.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.2-8"
+}

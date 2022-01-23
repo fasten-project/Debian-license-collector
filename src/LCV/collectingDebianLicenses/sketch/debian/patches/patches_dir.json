@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-debian-disable-src-mods.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Don-t-run-bison-twice.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Drop-use-of-epstool.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-add-DALLOWPSTRANSPARENCY-to-gs-calls.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sketch",
+    "path": "sketch/1:0.3.7-12/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sketch/1:0.3.7-12/",
+        "metric": {
+            "size": 5672
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sketch",
+        "sloc": [
+            [
+                "ansic",
+                6847
+            ],
+            [
+                "lex",
+                434
+            ],
+            [
+                "yacc",
+                361
+            ],
+            [
+                "xml",
+                161
+            ],
+            [
+                "perl",
+                152
+            ],
+            [
+                "makefile",
+                148
+            ],
+            [
+                "sh",
+                45
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/sketch.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:0.3.7-12"
+}

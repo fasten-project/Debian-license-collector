@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "slimrat.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "001_sysconfdir.patch",
+    "package": "slimrat",
+    "path": "slimrat/1.0-1/.pc/001_sysconfdir.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 374,
+        "license": "/copyright/license/slimrat/1.0-1/",
+        "metric": {
+            "size": 532
+        },
+        "pts_link": "https://tracker.debian.org/pkg/slimrat",
+        "sloc": [
+            [
+                "perl",
+                3951
+            ],
+            [
+                "makefile",
+                15
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "squeeze",
+            "wheezy"
+        ],
+        "vcs_browser": "http://github.com/pmcenery/slimrat-debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0-1"
+}

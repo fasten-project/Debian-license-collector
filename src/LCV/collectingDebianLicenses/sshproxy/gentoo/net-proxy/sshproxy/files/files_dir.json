@@ -1,0 +1,90 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "digest-sshproxy-9999",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshproxy.ini",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshproxyd.confd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshproxyd.initd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "files",
+    "package": "sshproxy",
+    "path": "sshproxy/0.6.0~beta2-2/gentoo/net-proxy/sshproxy/files",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1296,
+        "license": "/copyright/license/sshproxy/0.6.0%7Ebeta2-2/",
+        "metric": {
+            "size": 956
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sshproxy",
+        "sloc": [
+            [
+                "python",
+                8932
+            ],
+            [
+                "sh",
+                268
+            ],
+            [
+                "sql",
+                40
+            ],
+            [
+                "makefile",
+                38
+            ],
+            [
+                "xml",
+                21
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/sshproxy.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.0~beta2-2"
+}

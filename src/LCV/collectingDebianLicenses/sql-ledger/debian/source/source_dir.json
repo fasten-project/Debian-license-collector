@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "sql-ledger",
+    "path": "sql-ledger/3.2.6-1/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sql-ledger/3.2.6-1/",
+        "metric": {
+            "size": 33080
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sql-ledger",
+        "sloc": [
+            [
+                "perl",
+                73172
+            ],
+            [
+                "sql",
+                36530
+            ],
+            [
+                "sh",
+                34
+            ],
+            [
+                "makefile",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/sql-ledger/tree/master",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.6-1"
+}

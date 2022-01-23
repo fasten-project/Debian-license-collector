@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "sos-clean.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sos-collect.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sos-collector.1",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 13,
+                "symlink_dest": "sos-collect.1",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sos-mask.1",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 11,
+                "symlink_dest": "sos-clean.1",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sos-report.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sos.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sos.conf.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sosreport.1",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "sos-report.1",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "en",
+    "package": "sosreport",
+    "path": "sosreport/4.0-2/man/en",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sosreport/4.0-2/",
+        "metric": {
+            "size": 2800
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sosreport",
+        "sloc": [
+            [
+                "python",
+                20375
+            ],
+            [
+                "sh",
+                166
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/sosreport-team/sosreport",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.0-2"
+}

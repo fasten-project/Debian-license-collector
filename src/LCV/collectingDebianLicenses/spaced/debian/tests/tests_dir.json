@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run-unit-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "spaced",
+    "path": "spaced/1.2.0-201605+dfsg-3/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/spaced/1.2.0-201605+dfsg-3/",
+        "metric": {
+            "size": 488
+        },
+        "pts_link": "https://tracker.debian.org/pkg/spaced",
+        "sloc": [
+            [
+                "cpp",
+                2252
+            ],
+            [
+                "sh",
+                44
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/spaced",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.0-201605+dfsg-3"
+}

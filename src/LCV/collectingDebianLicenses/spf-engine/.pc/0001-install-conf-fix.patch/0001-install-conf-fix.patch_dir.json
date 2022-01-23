@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "policyd-spf.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policyd-spf.conf.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spf_engine",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "system",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0001-install-conf-fix.patch",
+    "package": "spf-engine",
+    "path": "spf-engine/2.9.2-2/.pc/0001-install-conf-fix.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/spf-engine/2.9.2-2/",
+        "metric": {
+            "size": 468
+        },
+        "pts_link": "https://tracker.debian.org/pkg/spf-engine",
+        "sloc": [
+            [
+                "python",
+                1391
+            ],
+            [
+                "sh",
+                116
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/spf-engine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.9.2-2"
+}

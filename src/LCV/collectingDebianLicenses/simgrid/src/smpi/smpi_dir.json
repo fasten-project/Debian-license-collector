@@ -1,0 +1,233 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bindings",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "colls",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "internals",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mpi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "plugins",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "smpi_main.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smpi_replay_main.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smpicc.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smpicxx.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smpif90.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smpiff.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smpirun.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smpitools.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "smpi",
+    "package": "simgrid",
+    "path": "simgrid/3.29+dfsg-1/src/smpi",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/simgrid/3.29+dfsg-1/",
+        "metric": {
+            "size": 24824
+        },
+        "pts_link": "https://tracker.debian.org/pkg/simgrid",
+        "sloc": [
+            [
+                "cpp",
+                110171
+            ],
+            [
+                "ansic",
+                67056
+            ],
+            [
+                "fortran",
+                6079
+            ],
+            [
+                "f90",
+                5123
+            ],
+            [
+                "xml",
+                4977
+            ],
+            [
+                "python",
+                4214
+            ],
+            [
+                "java",
+                3903
+            ],
+            [
+                "sh",
+                2381
+            ],
+            [
+                "perl",
+                1891
+            ],
+            [
+                "makefile",
+                111
+            ],
+            [
+                "lisp",
+                49
+            ],
+            [
+                "javascript",
+                7
+            ],
+            [
+                "sed",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/simgrid",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.29+dfsg-1"
+}

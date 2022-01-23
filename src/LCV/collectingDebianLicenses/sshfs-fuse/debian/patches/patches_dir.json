@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshfs.1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sshfs-fuse",
+    "path": "sshfs-fuse/3.7.1+repack-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sshfs-fuse/3.7.1+repack-2/",
+        "metric": {
+            "size": 364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sshfs-fuse",
+        "sloc": [
+            [
+                "ansic",
+                4792
+            ],
+            [
+                "python",
+                496
+            ],
+            [
+                "sh",
+                82
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/sshfs-fuse",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.7.1+repack-2"
+}

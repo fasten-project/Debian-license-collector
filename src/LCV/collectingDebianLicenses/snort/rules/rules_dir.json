@@ -1,0 +1,979 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VRT-License.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "attack-responses.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backdoor.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17898,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bad-traffic.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cgi-bin.list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chat.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-bot.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12759,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-deleted.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-dos.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-exploit.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-ftp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-game.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-icmp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-imap.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-inappropriate.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 948,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-mail-client.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-misc.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7837,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-nntp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-oracle.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-policy.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-sid-msg.map",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 82469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-sip.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-smtp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-sql-injection.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-virus.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-web-attacks.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-web-cgi.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-web-client.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-web-dos.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-web-iis.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-web-misc.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "community-web-php.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ddos.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deleted.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dns.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dos.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "experimental.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exploit.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "finger.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ftp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen-msg.map",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generators",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "icmp-info.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "icmp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "imap.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "info.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "misc.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multimedia.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mysql.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netbios.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 283854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nntp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oracle.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 177773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "other-ids.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "p2p.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pop2.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pop3.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "porn.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5918,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "purge-non-gpl.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-non-gpl.pl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rpc.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rservices.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scan.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shellcode.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sid",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sid-msg.map",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 297436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smtp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23990,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snmp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sql.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "telnet.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tftp.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unicode.map",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "virus.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "web-attacks.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "web-cgi.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "web-client.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10980,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "web-coldfusion.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "web-frontpage.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10417,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "web-iis.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40907,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "web-misc.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "web-php.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "x11.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "rules",
+    "package": "snort",
+    "path": "snort/2.9.15.1-6/rules",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/snort/2.9.15.1-6/",
+        "metric": {
+            "size": 62172
+        },
+        "pts_link": "https://tracker.debian.org/pkg/snort",
+        "sloc": [
+            [
+                "ansic",
+                310441
+            ],
+            [
+                "sh",
+                13255
+            ],
+            [
+                "makefile",
+                2947
+            ],
+            [
+                "yacc",
+                497
+            ],
+            [
+                "perl",
+                496
+            ],
+            [
+                "lex",
+                261
+            ],
+            [
+                "sed",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/jfs/pkg-snort",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.9.15.1-6"
+}

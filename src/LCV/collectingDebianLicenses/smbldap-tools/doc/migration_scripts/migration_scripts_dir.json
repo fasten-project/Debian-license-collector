@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "smbldap-migrate-pwdump-accounts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smbldap-migrate-pwdump-groups",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4991,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smbldap-migrate-unix-accounts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smbldap-migrate-unix-groups",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "migration_scripts",
+    "package": "smbldap-tools",
+    "path": "smbldap-tools/0.9.11-3/doc/migration_scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/smbldap-tools/0.9.11-3/",
+        "metric": {
+            "size": 960
+        },
+        "pts_link": "https://tracker.debian.org/pkg/smbldap-tools",
+        "sloc": [
+            [
+                "perl",
+                5053
+            ],
+            [
+                "sh",
+                191
+            ],
+            [
+                "makefile",
+                100
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/smbldap-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.11-3"
+}

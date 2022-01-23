@@ -1,0 +1,98 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "deb_cpu_features",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-ftbfs-gcc-10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shared_and_static.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2298,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_debian_packaged_libs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "spoa",
+    "path": "spoa/4.0.7+ds-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/spoa/4.0.7+ds-2/",
+        "metric": {
+            "size": 2984
+        },
+        "pts_link": "https://tracker.debian.org/pkg/spoa",
+        "sloc": [
+            [
+                "cpp",
+                34565
+            ],
+            [
+                "xml",
+                178
+            ],
+            [
+                "sh",
+                54
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/spoa",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.0.7+ds-2"
+}

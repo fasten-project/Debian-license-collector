@@ -1,0 +1,617 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".golangci.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DESIGN.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ack_timer.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "association.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "association_stats.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_abort.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_cookie_ack.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_cookie_echo.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_error.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_forward_tsn.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_heartbeat.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_heartbeat_ack.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_init.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3990,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_init_ack.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_init_common.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_payload_data.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_reconfig.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunk_selective_ack.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunkheader.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chunktype.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "codecov.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control_queue.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "error_cause.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "error_cause_header.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "error_cause_invalid_mandatory_parameter.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "error_cause_protocol_violation.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "error_cause_unrecognized_chunk_type.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "go.mod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "go.sum",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "packet.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_chunk_list.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_forward_tsn_supported.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_heartbeat_info.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_outgoing_reset_request.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_random.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_reconfig_response.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_requested_hmac_algorithm.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_state_cookie.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_supported_extensions.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "paramheader.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "paramtype.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "payload_queue.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pending_queue.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reassembly_queue.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "renovate.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtx_timer.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sctp.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stream.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sctp",
+    "package": "snowflake",
+    "path": "snowflake/1.1.0-2/debian/vendor/github.com/pion/sctp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/snowflake/1.1.0-2/",
+        "metric": {
+            "size": 4164
+        },
+        "pts_link": "https://tracker.debian.org/pkg/snowflake",
+        "sloc": [
+            [
+                "makefile",
+                74
+            ],
+            [
+                "sh",
+                15
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-privacy-team/snowflake",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.0-2"
+}

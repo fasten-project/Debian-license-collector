@@ -1,0 +1,134 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".skeema",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "activity.sql",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 25,
+                "symlink_dest": "../analytics/activity.sql",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comments.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extensiondontmatter.lol",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 24,
+                "symlink_dest": "../analytics/rollups.sql",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nested.sql",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "activity.sql",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "posts.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subscriptions.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "users.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "whatever.sql",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 27,
+                "symlink_dest": "../analytics/whatever.nosql",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "product",
+    "package": "skeema",
+    "path": "skeema/1.6.0+ds-1/internal/fs/testdata/sqlsymlinks/product",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/skeema/1.6.0+ds-1/",
+        "metric": {
+            "size": 3392
+        },
+        "pts_link": "https://tracker.debian.org/pkg/skeema",
+        "sloc": [
+            [
+                "sql",
+                1275
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/skeema",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.0+ds-1"
+}

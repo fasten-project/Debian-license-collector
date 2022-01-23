@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Use-FFLAGS-provided-by-the-system.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Use-external-giza-library-instead-of-local-copy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-makefile-for-installation-to-usr-instead-of-usr-local.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "splash",
+    "path": "splash/3.3.3-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/splash/3.3.3-1/",
+        "metric": {
+            "size": 6760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/splash",
+        "sloc": [
+            [
+                "f90",
+                51340
+            ],
+            [
+                "ansic",
+                2259
+            ],
+            [
+                "python",
+                828
+            ],
+            [
+                "makefile",
+                556
+            ],
+            [
+                "cpp",
+                529
+            ],
+            [
+                "perl",
+                204
+            ],
+            [
+                "sh",
+                151
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-astro-team/splash",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.3.3-1"
+}

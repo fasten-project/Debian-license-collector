@@ -1,0 +1,159 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-fix-CVE-2007-1888.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-lemon-snprintf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-add-fprintf-format-argument.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-fix-sort-syntax.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-link_with_LDFLAGS.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-multiarch.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2455,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-fix_unsigned_FTBFS.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-tcl8.6_compat.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "sqlite",
+    "path": "sqlite/2.8.17-15/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sqlite/2.8.17-15/",
+        "metric": {
+            "size": 4924
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sqlite",
+        "sloc": [
+            [
+                "ansic",
+                32407
+            ],
+            [
+                "tcl",
+                10821
+            ],
+            [
+                "sh",
+                7775
+            ],
+            [
+                "yacc",
+                677
+            ],
+            [
+                "makefile",
+                381
+            ],
+            [
+                "awk",
+                62
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2.8.17-15"
+}

@@ -1,0 +1,221 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "check_netint.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 128956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_shinken.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "discovery",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dump_vmware_hosts.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7051,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "external_mapping.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_libvirt_host_vm.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_vmware_host_vm.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_xen_host_vm.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logFiles_aix.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logFiles_linux.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "notify_by_xmpp.ini",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "notify_by_xmpp.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2686,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "send_nsca.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service_dependency_mapping.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "libexec",
+    "package": "shinken",
+    "path": "shinken/2.0.3-4/libexec",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 5883,
+        "license": "/copyright/license/shinken/2.0.3-4/",
+        "metric": {
+            "size": 22440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/shinken",
+        "sloc": [
+            [
+                "python",
+                39978
+            ],
+            [
+                "sh",
+                6739
+            ],
+            [
+                "cs",
+                2542
+            ],
+            [
+                "perl",
+                1911
+            ],
+            [
+                "ruby",
+                539
+            ],
+            [
+                "xml",
+                318
+            ],
+            [
+                "sql",
+                203
+            ],
+            [
+                "makefile",
+                144
+            ],
+            [
+                "php",
+                97
+            ],
+            [
+                "java",
+                66
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.3-4"
+}

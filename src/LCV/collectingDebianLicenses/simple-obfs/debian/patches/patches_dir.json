@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Use-libcork-dev-in-system.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-fix-compile-warning-with-GCC8.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Fix-FTBFS-under-GCC-9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backport",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "simple-obfs",
+    "path": "simple-obfs/0.0.5-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/simple-obfs/0.0.5-6/",
+        "metric": {
+            "size": 728
+        },
+        "pts_link": "https://tracker.debian.org/pkg/simple-obfs",
+        "sloc": [
+            [
+                "ansic",
+                6534
+            ],
+            [
+                "makefile",
+                93
+            ],
+            [
+                "sh",
+                62
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/bridges-team/simple-obfs",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.5-6"
+}

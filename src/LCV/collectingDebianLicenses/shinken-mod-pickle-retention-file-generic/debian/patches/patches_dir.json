@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "add_scheduler_retention",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "change_retention_file_path",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "shinken-mod-pickle-retention-file-generic",
+    "path": "shinken-mod-pickle-retention-file-generic/1.4.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 16,
+        "license": "/copyright/license/shinken-mod-pickle-retention-file-generic/1.4.1-2/",
+        "metric": {
+            "size": 200
+        },
+        "pts_link": "https://tracker.debian.org/pkg/shinken-mod-pickle-retention-file-generic",
+        "sloc": [
+            [
+                "python",
+                137
+            ],
+            [
+                "sh",
+                15
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken-mod-pickle-retention-file-generic.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.1-2"
+}
