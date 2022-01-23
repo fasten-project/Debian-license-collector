@@ -1,0 +1,188 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "60-openocd.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "coresight-trace.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cross-build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen-stellaris-part-header.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "itmdump.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libdcc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "loaders",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "remote_bitbang",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rpc_examples",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rtos-helpers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xsvf_tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "contrib",
+    "package": "openocd",
+    "path": "openocd/0.11.0-1/contrib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openocd/0.11.0-1/",
+        "metric": {
+            "size": 36272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openocd",
+        "sloc": [
+            [
+                "ansic",
+                403366
+            ],
+            [
+                "sh",
+                9209
+            ],
+            [
+                "tcl",
+                8263
+            ],
+            [
+                "asm",
+                3798
+            ],
+            [
+                "makefile",
+                1866
+            ],
+            [
+                "cpp",
+                1671
+            ],
+            [
+                "perl",
+                1197
+            ],
+            [
+                "python",
+                1083
+            ],
+            [
+                "xml",
+                77
+            ],
+            [
+                "haskell",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/electronics-team/openocd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.11.0-1"
+}

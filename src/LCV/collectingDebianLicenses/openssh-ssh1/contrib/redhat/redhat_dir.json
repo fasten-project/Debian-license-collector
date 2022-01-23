@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "gnome-ssh-askpass.csh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnome-ssh-askpass.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openssh.spec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd.init",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd.init.old",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd.pam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd.pam.old",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "redhat",
+    "package": "openssh-ssh1",
+    "path": "openssh-ssh1/1:7.5p1-13/contrib/redhat",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openssh-ssh1/1:7.5p1-13/",
+        "metric": {
+            "size": 10724
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openssh-ssh1",
+        "sloc": [
+            [
+                "ansic",
+                98313
+            ],
+            [
+                "sh",
+                10775
+            ],
+            [
+                "makefile",
+                1065
+            ],
+            [
+                "awk",
+                341
+            ],
+            [
+                "perl",
+                53
+            ],
+            [
+                "csh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ssh-team/openssh-ssh1",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:7.5p1-13"
+}

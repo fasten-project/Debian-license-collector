@@ -1,0 +1,145 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "PDRFoam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "XiFoam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "chemFoam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "coldEngineFoam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "combustionSolversDoc.H",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fireFoam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "reactingFoam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "combustion",
+    "package": "openfoam",
+    "path": "openfoam/1912.200626-1/applications/solvers/combustion",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openfoam/1912.200626-1/",
+        "metric": {
+            "size": 238940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openfoam",
+        "sloc": [
+            [
+                "cpp",
+                1159638
+            ],
+            [
+                "sh",
+                15902
+            ],
+            [
+                "ansic",
+                5195
+            ],
+            [
+                "lex",
+                660
+            ],
+            [
+                "xml",
+                387
+            ],
+            [
+                "python",
+                282
+            ],
+            [
+                "awk",
+                212
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "sed",
+                88
+            ],
+            [
+                "csh",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/openfoam",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1912.200626-1"
+}

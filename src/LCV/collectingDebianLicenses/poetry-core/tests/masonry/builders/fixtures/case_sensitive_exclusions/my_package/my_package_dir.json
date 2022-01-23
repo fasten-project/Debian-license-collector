@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Foo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "FooBar",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "__init__.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bar",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "my_package",
+    "package": "poetry-core",
+    "path": "poetry-core/1.0.7-2/tests/masonry/builders/fixtures/case_sensitive_exclusions/my_package",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/poetry-core/1.0.7-2/",
+        "metric": {
+            "size": 2964
+        },
+        "pts_link": "https://tracker.debian.org/pkg/poetry-core",
+        "sloc": [
+            [
+                "python",
+                30500
+            ],
+            [
+                "ansic",
+                49
+            ],
+            [
+                "makefile",
+                32
+            ],
+            [
+                "sh",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/poetry-core",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.7-2"
+}

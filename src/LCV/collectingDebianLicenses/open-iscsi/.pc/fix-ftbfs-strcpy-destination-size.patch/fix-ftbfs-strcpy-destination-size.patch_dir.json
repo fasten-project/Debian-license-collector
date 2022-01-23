@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "libopeniscsiusr",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "fix-ftbfs-strcpy-destination-size.patch",
+    "package": "open-iscsi",
+    "path": "open-iscsi/2.1.5-1/.pc/fix-ftbfs-strcpy-destination-size.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/open-iscsi/2.1.5-1/",
+        "metric": {
+            "size": 3736
+        },
+        "pts_link": "https://tracker.debian.org/pkg/open-iscsi",
+        "sloc": [
+            [
+                "ansic",
+                49785
+            ],
+            [
+                "sh",
+                2703
+            ],
+            [
+                "perl",
+                2512
+            ],
+            [
+                "python",
+                539
+            ],
+            [
+                "makefile",
+                521
+            ],
+            [
+                "yacc",
+                219
+            ],
+            [
+                "lex",
+                74
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/linux-blocks-team/open-iscsi",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1.5-1"
+}

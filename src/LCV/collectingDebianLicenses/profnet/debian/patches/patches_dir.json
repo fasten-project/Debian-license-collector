@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "skip_some_flags_for_fortran.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "profnet",
+    "path": "profnet/1.0.22-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/profnet/1.0.22-7/",
+        "metric": {
+            "size": 2316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/profnet",
+        "sloc": [
+            [
+                "fortran",
+                12103
+            ],
+            [
+                "makefile",
+                201
+            ],
+            [
+                "perl",
+                124
+            ],
+            [
+                "sh",
+                20
+            ],
+            [
+                "csh",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/profnet",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.22-7"
+}

@@ -1,0 +1,898 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AUTHORS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "node.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opensvc.haresource",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "provisioning",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "template.DEFAULT.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.app.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.comp_module.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.comp_module.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.amazon.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.docker.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26846,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.esx.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.hpvm.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.jail.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.kvm.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.ldom.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.lxc.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.openstack.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.ovm.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26636,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.srp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.vbox.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.vcloud.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.vz.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.xen.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.container.zone.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.amazon.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26061,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.disk.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.drbd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.gce.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.loop.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.lvm.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.md.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.rados.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.raw.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.vdisk.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.veritas.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.vg.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.vmdg.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.disk.zpool.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.fs.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.fs.directory.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.hb.LinuxHA.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.hb.OpenHA.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.hb.linuxha.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.hb.openha.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.ip.amazon.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.ip.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.ip.crossbow.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.ip.docker.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.ip.gce.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.share.nfs.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.stonith.callout.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.stonith.ilo.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.subset.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.svc.prov.zfs.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.svc.prov.zpool.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.btrfs.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.btrfssnap.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.dcsckpt.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.dcssnap.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.dds.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.docker.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.evasnap.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.hp3par.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.hp3parsnap.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.ibmdssnap.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.necismsnap.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.netapp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.rados.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.rsync.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.s3.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.symclone.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.symsnap.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.symsrdfs.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.zfs.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sync.zfssnap.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.sysreport.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 765,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.task.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "doc",
+    "package": "opensvc",
+    "path": "opensvc/1.8~20170412-3/usr/share/doc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 7845,
+        "license": "/copyright/license/opensvc/1.8%7E20170412-3/",
+        "metric": {
+            "size": 6492
+        },
+        "pts_link": "https://tracker.debian.org/pkg/opensvc",
+        "sloc": [
+            [
+                "python",
+                77169
+            ],
+            [
+                "sh",
+                339
+            ],
+            [
+                "xml",
+                39
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "buster"
+        ]
+    },
+    "type": "directory",
+    "version": "1.8~20170412-3"
+}

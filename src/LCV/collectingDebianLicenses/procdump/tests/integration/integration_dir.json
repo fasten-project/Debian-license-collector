@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ProcDumpTestApplication.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runProcDumpAndValidate.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scenarios",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "signal",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "integration",
+    "package": "procdump",
+    "path": "procdump/1.2-2/tests/integration",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/procdump/1.2-2/",
+        "metric": {
+            "size": 464
+        },
+        "pts_link": "https://tracker.debian.org/pkg/procdump",
+        "sloc": [
+            [
+                "ansic",
+                2518
+            ],
+            [
+                "sh",
+                255
+            ],
+            [
+                "makefile",
+                76
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/procdump",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2-2"
+}

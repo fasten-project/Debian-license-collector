@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "1.4-2.0_db_convert",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "convert_mysql_to_sqlite",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "convert_sqlite_to_mysql",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "utils",
+    "package": "opendnssec",
+    "path": "opendnssec/1:2.1.10-1/enforcer/utils",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/opendnssec/1:2.1.10-1/",
+        "metric": {
+            "size": 8148
+        },
+        "pts_link": "https://tracker.debian.org/pkg/opendnssec",
+        "sloc": [
+            [
+                "ansic",
+                73794
+            ],
+            [
+                "sh",
+                4764
+            ],
+            [
+                "sql",
+                1296
+            ],
+            [
+                "makefile",
+                591
+            ],
+            [
+                "perl",
+                305
+            ],
+            [
+                "python",
+                283
+            ],
+            [
+                "xml",
+                88
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/opendnssec",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.1.10-1"
+}

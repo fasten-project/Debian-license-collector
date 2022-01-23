@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "images",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pull-or-rebuild-image.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "docker",
+    "package": "pmemkv-python",
+    "path": "pmemkv-python/1.0-3/utils/docker",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pmemkv-python/1.0-3/",
+        "metric": {
+            "size": 272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pmemkv-python",
+        "sloc": [
+            [
+                "python",
+                871
+            ],
+            [
+                "cpp",
+                590
+            ],
+            [
+                "sh",
+                290
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/kilobyte/pmemkv-python/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0-3"
+}

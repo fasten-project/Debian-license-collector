@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_gnu.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_timeout.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_Werror_fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "restrict-test-find.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "posixtestsuite",
+    "path": "posixtestsuite/1.5.2-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/posixtestsuite/1.5.2-8/",
+        "metric": {
+            "size": 14440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/posixtestsuite",
+        "sloc": [
+            [
+                "ansic",
+                117313
+            ],
+            [
+                "xml",
+                7497
+            ],
+            [
+                "sh",
+                1148
+            ],
+            [
+                "makefile",
+                315
+            ],
+            [
+                "perl",
+                34
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://git.hadrons.org/cgit/debian/pkgs/posixtestsuite.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.2-8"
+}

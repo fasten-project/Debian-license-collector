@@ -1,0 +1,938 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "api",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "convolution_common.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnnl_test_common.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnnl_test_common_ocl.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnnl_test_macros.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gtest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 154,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "internals",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "main.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "regression",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sycl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test_batch_normalization_common.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_batch_normalization_f32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1060,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_batch_normalization_s8.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1060,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_binary.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15070,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_comparison_operators.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_concat.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_backward_data_common.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_backward_data_f32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_backward_weights_common.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_backward_weights_f32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_eltwise_forward_common.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_eltwise_forward_f32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_eltwise_forward_x8s8f32s32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_format_any.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_forward_common.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_forward_f32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_forward_u8s8fp.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_convolution_forward_u8s8s32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_cross_engine_reorder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2938,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_deconvolution.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_dnnl_threading.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_eltwise.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_bf16bf16bf16.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_bf16bf16f32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1091,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_common.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_f16.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_f16f16f32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_f32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_s8s8s32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1077,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_s8u8s32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_u8s8s32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gemm_u8u8s32.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_global_scratchpad.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_iface_attr.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_iface_handle.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_iface_pd.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_iface_pd_iter.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_iface_primitive_cache.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_iface_runtime_attr.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_iface_runtime_dims.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_iface_wino_convolution.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_inner_product_backward_data.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_inner_product_backward_weights.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_inner_product_forward.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ip_formats.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_isa_hints.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_isa_iface.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_isa_mask.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_layer_normalization.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_logsoftmax.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_lrn_backward.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_lrn_forward.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_malloc.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_malloc.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_matmul.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_pooling_backward.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 73752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_pooling_forward.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123825,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_primitive_cache_mt.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_reduction.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_reorder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20918,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_reorder_common.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_reorder_formats.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_resampling.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_rnn_forward.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_shuffle.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_softmax.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sum.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "gtests",
+    "package": "onednn",
+    "path": "onednn/2.2.2+ds-3/tests/gtests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/onednn/2.2.2+ds-3/",
+        "metric": {
+            "size": 34452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/onednn",
+        "sloc": [
+            [
+                "cpp",
+                442322
+            ],
+            [
+                "lisp",
+                20589
+            ],
+            [
+                "ansic",
+                12191
+            ],
+            [
+                "xml",
+                252
+            ],
+            [
+                "python",
+                231
+            ],
+            [
+                "sh",
+                68
+            ],
+            [
+                "makefile",
+                50
+            ],
+            [
+                "javascript",
+                46
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/deeplearning-team/onednn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.2+ds-3"
+}

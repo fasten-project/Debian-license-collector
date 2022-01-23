@@ -1,0 +1,158 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "clone",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "context",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 17,
+                "symlink_dest": "../common/context",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "delete",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 16,
+                "symlink_dest": "../common/delete",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ln",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mkimage",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 17,
+                "symlink_dest": "../common/mkimage",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mkswap",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 16,
+                "symlink_dest": "../common/mkswap",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mv",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 18,
+                "symlink_dest": "../common/dummy.sh",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mvds",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "qcow2",
+    "package": "opennebula",
+    "path": "opennebula/3.4.1-3.1/src/tm_mad/qcow2",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/opennebula/3.4.1-3.1/",
+        "metric": {
+            "size": 9680
+        },
+        "pts_link": "https://tracker.debian.org/pkg/opennebula",
+        "sloc": [
+            [
+                "cpp",
+                35288
+            ],
+            [
+                "ruby",
+                24818
+            ],
+            [
+                "sh",
+                5212
+            ],
+            [
+                "java",
+                4001
+            ],
+            [
+                "xml",
+                1163
+            ],
+            [
+                "yacc",
+                821
+            ],
+            [
+                "sql",
+                252
+            ],
+            [
+                "lex",
+                216
+            ],
+            [
+                "ansic",
+                192
+            ],
+            [
+                "makefile",
+                91
+            ],
+            [
+                "python",
+                46
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-opennebula/opennebula.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.1-3.1"
+}

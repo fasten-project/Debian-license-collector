@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dns.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openbsd-compat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "dnssec-sshfp.patch",
+    "package": "openssh",
+    "path": "openssh/1:8.7p1-4/.pc/dnssec-sshfp.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openssh/1:8.7p1-4/",
+        "metric": {
+            "size": 15760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openssh",
+        "sloc": [
+            [
+                "ansic",
+                116681
+            ],
+            [
+                "sh",
+                13177
+            ],
+            [
+                "makefile",
+                1530
+            ],
+            [
+                "cpp",
+                615
+            ],
+            [
+                "awk",
+                341
+            ],
+            [
+                "csh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ssh-team/openssh",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:8.7p1-4"
+}

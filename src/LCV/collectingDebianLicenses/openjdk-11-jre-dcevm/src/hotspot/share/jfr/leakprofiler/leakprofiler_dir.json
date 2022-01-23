@@ -1,0 +1,160 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "chains",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "checkpoint",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "leakProfiler.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "leakProfiler.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sampling",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "startOperation.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stopOperation.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utilities",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "leakprofiler",
+    "package": "openjdk-11-jre-dcevm",
+    "path": "openjdk-11-jre-dcevm/11.0.12+7-1/src/hotspot/share/jfr/leakprofiler",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openjdk-11-jre-dcevm/11.0.12+7-1/",
+        "metric": {
+            "size": 221052
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openjdk-11-jre-dcevm",
+        "sloc": [
+            [
+                "java",
+                1360115
+            ],
+            [
+                "cpp",
+                832709
+            ],
+            [
+                "ansic",
+                209376
+            ],
+            [
+                "xml",
+                62473
+            ],
+            [
+                "sh",
+                8122
+            ],
+            [
+                "asm",
+                3279
+            ],
+            [
+                "python",
+                1661
+            ],
+            [
+                "javascript",
+                942
+            ],
+            [
+                "makefile",
+                382
+            ],
+            [
+                "sed",
+                172
+            ],
+            [
+                "perl",
+                114
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/openjdk-11-jre-dcevm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "11.0.12+7-1"
+}

@@ -1,0 +1,214 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build_hurd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-underlinking.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hppa.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ia64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libdir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manpage_macros",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mpifort.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-warning-unused.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opal_fifo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pkg-config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verbose-ompi-rules.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version-script.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 249423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "openmpi",
+    "path": "openmpi/4.1.2-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openmpi/4.1.2-1/",
+        "metric": {
+            "size": 126828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openmpi",
+        "sloc": [
+            [
+                "ansic",
+                687649
+            ],
+            [
+                "makefile",
+                42974
+            ],
+            [
+                "f90",
+                19220
+            ],
+            [
+                "sh",
+                7182
+            ],
+            [
+                "java",
+                6360
+            ],
+            [
+                "perl",
+                3590
+            ],
+            [
+                "cpp",
+                2227
+            ],
+            [
+                "python",
+                1350
+            ],
+            [
+                "lex",
+                989
+            ],
+            [
+                "fortran",
+                61
+            ],
+            [
+                "tcl",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/hpc-team/openmpi",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.1.2-1"
+}

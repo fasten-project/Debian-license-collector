@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arc4random.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arc4random_freebsd.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "compat",
+    "package": "openntpd",
+    "path": "openntpd/1:6.2p3-4.2/.pc/03-kfreebsd.patch/compat",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openntpd/1:6.2p3-4.2/",
+        "metric": {
+            "size": 2472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openntpd",
+        "sloc": [
+            [
+                "ansic",
+                9413
+            ],
+            [
+                "sh",
+                4425
+            ],
+            [
+                "yacc",
+                692
+            ],
+            [
+                "makefile",
+                310
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/openntpd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:6.2p3-4.2"
+}

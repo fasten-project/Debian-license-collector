@@ -1,0 +1,198 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cherry-pick.1.4.0-10-g6adffc1.bcrelay-fix-typo.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cherry-pick.1.4.0-11-g4ea2db6.ff.bcrelay-c-replace-sprintf-with-snprintf.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cherry-pick.1.4.0-14-gb84360b.pptpctrl-exit-when-bailing.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cherry-pick.1.4.0-16-g0c0ad67.check-for-remote-ip-duplicates-in-pptpd-conf.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cherry-pick.1.4.0-18-gd7b9552.fix-segfault-in-pptpctrl-argument-parser.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cherry-pick.1.4.0-20-g4da603d.propagate-cc-to-subdirectories.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "local.build_hardening-flags.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "local.build_plugin.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "local.fix-typos.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "local.install-nonroot.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "pptpd",
+    "path": "pptpd/1.4.0-12/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pptpd/1.4.0-12/",
+        "metric": {
+            "size": 1456
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pptpd",
+        "sloc": [
+            [
+                "ansic",
+                4938
+            ],
+            [
+                "sh",
+                793
+            ],
+            [
+                "makefile",
+                102
+            ],
+            [
+                "perl",
+                87
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://git.in-ulm.de/cbiedl/pptpd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.0-12"
+}

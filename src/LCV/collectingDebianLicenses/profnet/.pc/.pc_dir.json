@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "skip_some_flags_for_fortran.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "spelling",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "profnet",
+    "path": "profnet/1.0.22-7/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/profnet/1.0.22-7/",
+        "metric": {
+            "size": 2316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/profnet",
+        "sloc": [
+            [
+                "fortran",
+                12103
+            ],
+            [
+                "makefile",
+                201
+            ],
+            [
+                "perl",
+                124
+            ],
+            [
+                "sh",
+                20
+            ],
+            [
+                "csh",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/profnet",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.22-7"
+}

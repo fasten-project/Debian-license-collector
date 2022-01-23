@@ -1,0 +1,189 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "init.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mysql-remote-root",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-deploy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-deploy-fix-heat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-deploy-fix-nova",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-deploy-proxy-network",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-deploy-tempest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-preseed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-purge",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-tempest-ci",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-tempest-ci_mgmt-lan",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-tempest-merge-repo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preseed-lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tempest_exclude.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "src",
+    "package": "openstack-meta-packages",
+    "path": "openstack-meta-packages/0.32/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openstack-meta-packages/0.32/",
+        "metric": {
+            "size": 408
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openstack-meta-packages",
+        "sloc": [
+            [
+                "sh",
+                2934
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/debian/openstack-meta-packages",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.32"
+}

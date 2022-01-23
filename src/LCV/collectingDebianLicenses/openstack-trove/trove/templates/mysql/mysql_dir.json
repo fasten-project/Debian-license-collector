@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "5.5",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "config.template",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mysql-test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "replica.config.template",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "replica_source.config.template",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "validation-rules.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mysql",
+    "package": "openstack-trove",
+    "path": "openstack-trove/1:16.0.0-1/trove/templates/mysql",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openstack-trove/1:16.0.0-1/",
+        "metric": {
+            "size": 7576
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openstack-trove",
+        "sloc": [
+            [
+                "python",
+                65290
+            ],
+            [
+                "sh",
+                2691
+            ],
+            [
+                "makefile",
+                54
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/openstack-trove",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:16.0.0-1"
+}

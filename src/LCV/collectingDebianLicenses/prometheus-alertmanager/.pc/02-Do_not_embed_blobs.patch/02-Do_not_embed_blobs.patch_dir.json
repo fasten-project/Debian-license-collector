@@ -1,0 +1,90 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cli",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cmd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "notify",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "template",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ui",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "02-Do_not_embed_blobs.patch",
+    "package": "prometheus-alertmanager",
+    "path": "prometheus-alertmanager/0.23.0-4/.pc/02-Do_not_embed_blobs.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus-alertmanager/0.23.0-4/",
+        "metric": {
+            "size": 7524
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus-alertmanager",
+        "sloc": [
+            [
+                "sh",
+                180
+            ],
+            [
+                "makefile",
+                163
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/prometheus-alertmanager",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.23.0-4"
+}

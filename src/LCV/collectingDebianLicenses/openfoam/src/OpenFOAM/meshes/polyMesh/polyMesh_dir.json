@@ -1,0 +1,233 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "globalMeshData",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mapPolyMesh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "polyBoundaryMesh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "polyMesh.C",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "polyMesh.H",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "polyMeshCheck",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "polyMeshClear.C",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "polyMeshFromShapeMesh.C",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "polyMeshIO.C",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "polyMeshInitMesh.C",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "polyMeshTetDecomposition",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 154,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "polyMeshUpdate.C",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "polyPatches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "syncTools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "zones",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "polyMesh",
+    "package": "openfoam",
+    "path": "openfoam/1912.200626-1/src/OpenFOAM/meshes/polyMesh",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openfoam/1912.200626-1/",
+        "metric": {
+            "size": 238940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openfoam",
+        "sloc": [
+            [
+                "cpp",
+                1159638
+            ],
+            [
+                "sh",
+                15902
+            ],
+            [
+                "ansic",
+                5195
+            ],
+            [
+                "lex",
+                660
+            ],
+            [
+                "xml",
+                387
+            ],
+            [
+                "python",
+                282
+            ],
+            [
+                "awk",
+                212
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "sed",
+                88
+            ],
+            [
+                "csh",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/openfoam",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1912.200626-1"
+}

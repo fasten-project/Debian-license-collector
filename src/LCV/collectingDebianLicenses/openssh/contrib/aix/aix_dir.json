@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "buildbff.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inventory.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pam.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "aix",
+    "package": "openssh",
+    "path": "openssh/1:8.7p1-4/contrib/aix",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openssh/1:8.7p1-4/",
+        "metric": {
+            "size": 15760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openssh",
+        "sloc": [
+            [
+                "ansic",
+                116681
+            ],
+            [
+                "sh",
+                13177
+            ],
+            [
+                "makefile",
+                1530
+            ],
+            [
+                "cpp",
+                615
+            ],
+            [
+                "awk",
+                341
+            ],
+            [
+                "csh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ssh-team/openssh",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:8.7p1-4"
+}

@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "oci-agent-daemon",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oci-agent-report-status",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oci-agent-sign-live-ssh-host-keys",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oci-install-pre-reboot-hook",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oci-install-with-report",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-cluster-installer-bodi-hook-script",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "oci-agent",
+    "package": "openstack-cluster-installer",
+    "path": "openstack-cluster-installer/41/oci-agent",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openstack-cluster-installer/41/",
+        "metric": {
+            "size": 2768
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openstack-cluster-installer",
+        "sloc": [
+            [
+                "php",
+                16617
+            ],
+            [
+                "sh",
+                10310
+            ],
+            [
+                "ruby",
+                37
+            ],
+            [
+                "makefile",
+                25
+            ],
+            [
+                "xml",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/debian/openstack-cluster-installer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "41"
+}

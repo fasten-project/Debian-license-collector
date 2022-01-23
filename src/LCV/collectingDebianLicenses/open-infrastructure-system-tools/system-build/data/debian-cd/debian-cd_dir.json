@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "jessie",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "squeeze",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sid",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "squeeze",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "squeeze",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "stretch",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "squeeze",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "debian-cd",
+    "package": "open-infrastructure-system-tools",
+    "path": "open-infrastructure-system-tools/20190301-lts1-2/system-build/data/debian-cd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/open-infrastructure-system-tools/20190301-lts1-2/",
+        "metric": {
+            "size": 3700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/open-infrastructure-system-tools",
+        "sloc": [
+            [
+                "sh",
+                14279
+            ],
+            [
+                "makefile",
+                441
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://git.progress-linux.org/users/daniel.baumann/debian/packages/open-infrastructure-system-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20190301-lts1-2"
+}

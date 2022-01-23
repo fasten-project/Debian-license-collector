@@ -1,0 +1,219 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-build-contrib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-pager.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-gettext-domains.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18097,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-timezone-symlinks.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-check-rlimits-nofile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-libpq-defaultsocketdir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-testsuite-params.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-unnecessary-libs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-relax-sslkey-permscheck.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-pkglibdir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-server-includedir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-pg_restore-ignore-failing-tables.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-tutorial-README.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-contrib-oracle-enable.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "51-contrib-xml2-enable.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "52-contrib-dbase-enable-iconv.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "55-contrib-admin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "postgresql-8.1",
+    "path": "postgresql-8.1/8.1.19-0etch1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 8,
+        "license": "/copyright/license/postgresql-8.1/8.1.19-0etch1/",
+        "metric": {
+            "size": 11904
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postgresql-8.1",
+        "sloc": [
+            [
+                "sh",
+                105
+            ],
+            [
+                "makefile",
+                66
+            ]
+        ],
+        "suites": [
+            "etch"
+        ]
+    },
+    "type": "directory",
+    "version": "8.1.19-0etch1"
+}

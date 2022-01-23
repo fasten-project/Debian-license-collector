@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1001_avoid_MAKEFLAGS.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "1003-reproducible_build.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "1004-use-imagemagick-compare-for-testsuite.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "png++",
+    "path": "png++/0.2.10-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/png++/0.2.10-1/",
+        "metric": {
+            "size": 4412
+        },
+        "pts_link": "https://tracker.debian.org/pkg/png++",
+        "sloc": [
+            [
+                "cpp",
+                3070
+            ],
+            [
+                "makefile",
+                111
+            ],
+            [
+                "sh",
+                51
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/pngplusplus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.10-1"
+}

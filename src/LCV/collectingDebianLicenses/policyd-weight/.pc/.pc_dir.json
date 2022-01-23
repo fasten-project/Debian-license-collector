@@ -1,0 +1,238 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_change_lockpath.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02_cacherejectmsg.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03_fix_perl_warnings.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "04_fix_spelling_man.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "05_fix_issuing_group.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "06_del_non_func_ipv6_dnsbl.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "07_del_rfc-ignorant.org.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "08_del_dnsbl.njabl.org.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "09_fix_net_dns_usage.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "10_replace_net_dns_dn_expand.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "11_fix_ipv6_socket_creation.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "12_del_rhsbl.ahbl.org.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "13_fix_default_rhsbl_dnsbl_in_man5.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "14_ignore_rfc1918_a_records_config_option.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "policyd-weight",
+    "path": "policyd-weight/0.1.15.2-12/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 275,
+        "license": "/copyright/license/policyd-weight/0.1.15.2-12/",
+        "metric": {
+            "size": 1824
+        },
+        "pts_link": "https://tracker.debian.org/pkg/policyd-weight",
+        "sloc": [
+            [
+                "perl",
+                2832
+            ],
+            [
+                "sh",
+                201
+            ],
+            [
+                "makefile",
+                35
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1.15.2-12"
+}

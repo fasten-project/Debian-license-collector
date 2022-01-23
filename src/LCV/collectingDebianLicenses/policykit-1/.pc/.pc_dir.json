@@ -1,0 +1,161 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_pam_polkit.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02_gettext.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "05_revert-admin-identities-unix-group-wheel.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "08_chdir_root.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-pass-positional-parameters-to-i18n.merge_file.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "policykit-1",
+    "path": "policykit-1/0.120-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/policykit-1/0.120-2/",
+        "metric": {
+            "size": 7576
+        },
+        "pts_link": "https://tracker.debian.org/pkg/policykit-1",
+        "sloc": [
+            [
+                "ansic",
+                17453
+            ],
+            [
+                "sh",
+                5040
+            ],
+            [
+                "xml",
+                3534
+            ],
+            [
+                "cpp",
+                1539
+            ],
+            [
+                "makefile",
+                839
+            ],
+            [
+                "python",
+                112
+            ],
+            [
+                "javascript",
+                83
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "perl",
+                11
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/utopia-team/polkit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.120-2"
+}

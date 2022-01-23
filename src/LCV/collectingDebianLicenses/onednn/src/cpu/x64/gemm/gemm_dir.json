@@ -1,0 +1,234 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "amx",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "bf16",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "f32",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_driver.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_driver.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_info.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_info.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_pack.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_pack.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_pack_storage.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_partition.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_threading.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_utils.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemv_driver.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemv_driver.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s8x8s32",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "gemm",
+    "package": "onednn",
+    "path": "onednn/2.2.2+ds-3/src/cpu/x64/gemm",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/onednn/2.2.2+ds-3/",
+        "metric": {
+            "size": 34452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/onednn",
+        "sloc": [
+            [
+                "cpp",
+                442322
+            ],
+            [
+                "lisp",
+                20589
+            ],
+            [
+                "ansic",
+                12191
+            ],
+            [
+                "xml",
+                252
+            ],
+            [
+                "python",
+                231
+            ],
+            [
+                "sh",
+                68
+            ],
+            [
+                "makefile",
+                50
+            ],
+            [
+                "javascript",
+                46
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/deeplearning-team/onednn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.2+ds-3"
+}

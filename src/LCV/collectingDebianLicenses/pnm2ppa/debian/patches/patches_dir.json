@@ -1,0 +1,109 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Fix-signedness-of-c.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Make-sure-examples-have-shebangs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Fix-various-errors-in-the-pnm2ppa-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Drop-usage-of-__DATE__-and-__TIME__-hindering-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Declare-syslog_message-correctly-for-GCC-10-FTBFS.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "pnm2ppa",
+    "path": "pnm2ppa/1.13-13/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pnm2ppa/1.13-13/",
+        "metric": {
+            "size": 1736
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pnm2ppa",
+        "sloc": [
+            [
+                "ansic",
+                7506
+            ],
+            [
+                "sh",
+                4222
+            ],
+            [
+                "makefile",
+                125
+            ],
+            [
+                "python",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/printing-team/pnm2ppa",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13-13"
+}

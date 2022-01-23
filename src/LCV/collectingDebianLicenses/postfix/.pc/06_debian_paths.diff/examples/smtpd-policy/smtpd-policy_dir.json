@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "greylist.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "smtpd-policy",
+    "package": "postfix",
+    "path": "postfix/3.6.3-5/.pc/06_debian_paths.diff/examples/smtpd-policy",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postfix/3.6.3-5/",
+        "metric": {
+            "size": 27032
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postfix",
+        "sloc": [
+            [
+                "ansic",
+                126907
+            ],
+            [
+                "makefile",
+                17874
+            ],
+            [
+                "sh",
+                7294
+            ],
+            [
+                "perl",
+                2958
+            ],
+            [
+                "python",
+                1468
+            ],
+            [
+                "awk",
+                158
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postfix-team/postfix-dev",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.6.3-5"
+}

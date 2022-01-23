@@ -1,0 +1,200 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "FIBase",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "SIBase",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "adjointEikonalSolver",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "adjointMeshMovementSolver",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "adjointSensitivity",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sensitivityBezier",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sensitivityBezierFI",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sensitivityMultiple",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sensitivitySurface",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sensitivitySurfacePoints",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sensitivityVolBSplines",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sensitivityVolBSplinesFI",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "incompressible",
+    "package": "openfoam",
+    "path": "openfoam/1912.200626-1/src/optimisation/adjointOptimisation/adjoint/optimisation/adjointSensitivity/incompressible",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openfoam/1912.200626-1/",
+        "metric": {
+            "size": 238940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openfoam",
+        "sloc": [
+            [
+                "cpp",
+                1159638
+            ],
+            [
+                "sh",
+                15902
+            ],
+            [
+                "ansic",
+                5195
+            ],
+            [
+                "lex",
+                660
+            ],
+            [
+                "xml",
+                387
+            ],
+            [
+                "python",
+                282
+            ],
+            [
+                "awk",
+                212
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "sed",
+                88
+            ],
+            [
+                "csh",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/openfoam",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1912.200626-1"
+}

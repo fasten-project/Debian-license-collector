@@ -1,0 +1,238 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "buildrpm.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clang-format-pmix.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "construct_dictionary.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "coverity",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "make_dist_tarball",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_manpage.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_tarball",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 17,
+                "symlink_dest": "make_dist_tarball",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nightly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "perf_tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "platform",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pmix-release.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pmix-valgrind.supp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pmix.spec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pmix_jenkins.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-my-copyright.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "whitespace-purge.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "contrib",
+    "package": "pmix",
+    "path": "pmix/4.1.1~rc6-1/contrib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pmix/4.1.1%7Erc6-1/",
+        "metric": {
+            "size": 9968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pmix",
+        "sloc": [
+            [
+                "ansic",
+                118448
+            ],
+            [
+                "sh",
+                4246
+            ],
+            [
+                "makefile",
+                2395
+            ],
+            [
+                "python",
+                1397
+            ],
+            [
+                "perl",
+                1071
+            ],
+            [
+                "lex",
+                415
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org:/science-team/pmix.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.1.1~rc6-1"
+}

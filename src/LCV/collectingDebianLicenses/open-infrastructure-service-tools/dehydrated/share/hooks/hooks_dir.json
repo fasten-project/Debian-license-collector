@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "deploy_cert.fullchain-privkey",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1025,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deploy_ocsp.fullchain-privkey",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exit_hook.fix-permissions",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exit_hook.service-reload",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "hooks",
+    "package": "open-infrastructure-service-tools",
+    "path": "open-infrastructure-service-tools/20211213-1/dehydrated/share/hooks",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/open-infrastructure-service-tools/20211213-1/",
+        "metric": {
+            "size": 7128
+        },
+        "pts_link": "https://tracker.debian.org/pkg/open-infrastructure-service-tools",
+        "sloc": [
+            [
+                "sh",
+                718
+            ],
+            [
+                "makefile",
+                433
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://git.progress-linux.org/users/daniel.baumann/debian/packages/open-infrastructure-service-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20211213-1"
+}

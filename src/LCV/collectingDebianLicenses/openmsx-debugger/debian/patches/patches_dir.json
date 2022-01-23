@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "hardening",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verbose",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6001,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "openmsx-debugger",
+    "path": "openmsx-debugger/0.1~git20200913-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openmsx-debugger/0.1%7Egit20200913-1/",
+        "metric": {
+            "size": 2220
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openmsx-debugger",
+        "sloc": [
+            [
+                "cpp",
+                11983
+            ],
+            [
+                "python",
+                631
+            ],
+            [
+                "sh",
+                45
+            ],
+            [
+                "makefile",
+                22
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1~git20200913-1"
+}

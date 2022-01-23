@@ -1,0 +1,242 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00git-aarch64.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "00git-vpath.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "00git-vpath2.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "01-vpath3.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02-relax-sslkey-permscheck.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03-python-includedirs.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "04-config-update.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "50-per-version-dirs.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "51-default-sockets-in-var.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "52-tutorial-README.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "53-pg_service.conf_directory_doc.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "54-debian-alternatives-for-external-tools.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "postgresql-9.1",
+    "path": "postgresql-9.1/9.1.22-0+deb8u1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 59031,
+        "license": "/copyright/license/postgresql-9.1/9.1.22-0+deb8u1/",
+        "metric": {
+            "size": 109652
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postgresql-9.1",
+        "sloc": [
+            [
+                "ansic",
+                578763
+            ],
+            [
+                "sql",
+                44694
+            ],
+            [
+                "yacc",
+                26399
+            ],
+            [
+                "perl",
+                6541
+            ],
+            [
+                "lex",
+                6173
+            ],
+            [
+                "sh",
+                5282
+            ],
+            [
+                "makefile",
+                3779
+            ],
+            [
+                "asm",
+                65
+            ],
+            [
+                "sed",
+                15
+            ],
+            [
+                "python",
+                12
+            ]
+        ],
+        "suites": [
+            "jessie"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-postgresql/postgresql.git/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.1.22-0+deb8u1"
+}

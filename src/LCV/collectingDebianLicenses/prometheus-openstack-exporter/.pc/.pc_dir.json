@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python3-shebang.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "prometheus-openstack-exporter",
+    "path": "prometheus-openstack-exporter/0.1.4-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus-openstack-exporter/0.1.4-2/",
+        "metric": {
+            "size": 256
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus-openstack-exporter",
+        "sloc": [
+            [
+                "python",
+                765
+            ],
+            [
+                "sh",
+                77
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/jeh-guest/pkg-prometheus-openstack-exporter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.4-2"
+}

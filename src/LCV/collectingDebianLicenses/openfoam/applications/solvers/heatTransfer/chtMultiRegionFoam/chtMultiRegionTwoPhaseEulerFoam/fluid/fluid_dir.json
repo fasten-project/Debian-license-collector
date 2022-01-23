@@ -1,0 +1,145 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "compressibleMultiRegionCourantNo.H",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "createFluidFields.H",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "initContinuityErrs.H",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readFluidMultiRegionPIMPLEControls.H",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setRegionFluidFields.H",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "solveFluid.H",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storeOldFluidFields.H",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fluid",
+    "package": "openfoam",
+    "path": "openfoam/1912.200626-1/applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionTwoPhaseEulerFoam/fluid",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openfoam/1912.200626-1/",
+        "metric": {
+            "size": 238940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openfoam",
+        "sloc": [
+            [
+                "cpp",
+                1159638
+            ],
+            [
+                "sh",
+                15902
+            ],
+            [
+                "ansic",
+                5195
+            ],
+            [
+                "lex",
+                660
+            ],
+            [
+                "xml",
+                387
+            ],
+            [
+                "python",
+                282
+            ],
+            [
+                "awk",
+                212
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "sed",
+                88
+            ],
+            [
+                "csh",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/openfoam",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1912.200626-1"
+}

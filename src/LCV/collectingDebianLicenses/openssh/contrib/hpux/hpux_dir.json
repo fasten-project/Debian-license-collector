@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "egd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "egd.rc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshd.rc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "hpux",
+    "package": "openssh",
+    "path": "openssh/1:8.7p1-4/contrib/hpux",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openssh/1:8.7p1-4/",
+        "metric": {
+            "size": 15760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openssh",
+        "sloc": [
+            [
+                "ansic",
+                116681
+            ],
+            [
+                "sh",
+                13177
+            ],
+            [
+                "makefile",
+                1530
+            ],
+            [
+                "cpp",
+                615
+            ],
+            [
+                "awk",
+                341
+            ],
+            [
+                "csh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ssh-team/openssh",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:8.7p1-4"
+}

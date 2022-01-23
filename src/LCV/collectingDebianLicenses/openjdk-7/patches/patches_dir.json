@@ -1,0 +1,157 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "boot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cacao",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "jamvm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "jamvm-2.5.3-fix.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nss-config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr2124.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rh1022017.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rhino.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "systemtap_gc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "openjdk-7",
+    "path": "openjdk-7/7u181-2.6.14-1~deb8u1/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openjdk-7/7u181-2.6.14-1%7Edeb8u1/",
+        "metric": {
+            "size": 75108
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openjdk-7",
+        "sloc": [
+            [
+                "java",
+                166015
+            ],
+            [
+                "cpp",
+                6334
+            ],
+            [
+                "sh",
+                4663
+            ],
+            [
+                "makefile",
+                4465
+            ],
+            [
+                "ansic",
+                2141
+            ],
+            [
+                "perl",
+                1022
+            ],
+            [
+                "python",
+                310
+            ],
+            [
+                "asm",
+                83
+            ]
+        ],
+        "suites": [
+            "jessie"
+        ],
+        "vcs_browser": "https://code.launchpad.net/~openjdk/openjdk/openjdk7",
+        "vcs_type": "bzr"
+    },
+    "type": "directory",
+    "version": "7u181-2.6.14-1~deb8u1"
+}

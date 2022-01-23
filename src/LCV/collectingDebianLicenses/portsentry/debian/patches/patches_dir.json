@@ -1,0 +1,116 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_fix_Makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00_fix_README.install.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00_fix_portsentry.c.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00_fix_portsentry_config.h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_dpkg-buildflags.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "portsentry",
+    "path": "portsentry/1.2-14/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 202,
+        "license": "/copyright/license/portsentry/1.2-14/",
+        "metric": {
+            "size": 636
+        },
+        "pts_link": "https://tracker.debian.org/pkg/portsentry",
+        "sloc": [
+            [
+                "ansic",
+                3670
+            ],
+            [
+                "makefile",
+                463
+            ],
+            [
+                "sh",
+                184
+            ],
+            [
+                "perl",
+                94
+            ],
+            [
+                "csh",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=collab-maint/portsentry.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2-14"
+}

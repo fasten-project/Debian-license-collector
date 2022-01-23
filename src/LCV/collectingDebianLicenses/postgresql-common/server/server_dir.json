@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "pg_config.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1879,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postgresql.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-with-jit.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "server",
+    "package": "postgresql-common",
+    "path": "postgresql-common/237/server",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postgresql-common/237/",
+        "metric": {
+            "size": 1444
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postgresql-common",
+        "sloc": [
+            [
+                "perl",
+                4111
+            ],
+            [
+                "sh",
+                1505
+            ],
+            [
+                "makefile",
+                270
+            ],
+            [
+                "sql",
+                13
+            ],
+            [
+                "ansic",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/postgresql-common",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "237"
+}

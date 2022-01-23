@@ -1,0 +1,238 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "02_kfreebsd_support.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_ldap3_by_default.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_remove_gdbm_support.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_debian_defaults.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_debian_manpage_differences.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_debian_readme_differences.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_debian_paths.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_sasl_config.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_openssl_version_check.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40_chroot_by_default.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "41_rmail.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50_LANG.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 685,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "70_postfix-check.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "71_debianize_collate.pl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian-man-name.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postfix-dup-postconf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "postfix",
+    "path": "postfix/3.6.3-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postfix/3.6.3-5/",
+        "metric": {
+            "size": 27032
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postfix",
+        "sloc": [
+            [
+                "ansic",
+                126907
+            ],
+            [
+                "makefile",
+                17874
+            ],
+            [
+                "sh",
+                7294
+            ],
+            [
+                "perl",
+                2958
+            ],
+            [
+                "python",
+                1468
+            ],
+            [
+                "awk",
+                158
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postfix-team/postfix-dev",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.6.3-5"
+}

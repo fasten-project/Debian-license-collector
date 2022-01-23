@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix-gcc-4.6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc_fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mayhem.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "probalign",
+    "path": "probalign/1.4-9/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/probalign/1.4-9/",
+        "metric": {
+            "size": 368
+        },
+        "pts_link": "https://tracker.debian.org/pkg/probalign",
+        "sloc": [
+            [
+                "cpp",
+                4964
+            ],
+            [
+                "makefile",
+                27
+            ],
+            [
+                "sh",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/probalign",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4-9"
+}

@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001_build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_reproducible-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_gcc7_build_failures.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "openhackware",
+    "path": "openhackware/0.4.1+git-20140423.c559da7c-4.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openhackware/0.4.1+git-20140423.c559da7c-4.1/",
+        "metric": {
+            "size": 1312
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openhackware",
+        "sloc": [
+            [
+                "ansic",
+                22217
+            ],
+            [
+                "asm",
+                657
+            ],
+            [
+                "makefile",
+                183
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-qemu/openhackware.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.1+git-20140423.c559da7c-4.1"
+}

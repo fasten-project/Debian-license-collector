@@ -1,0 +1,155 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuzz_decode_message.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuzz_decrypt.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuzz_group_decrypt.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuzz_unpickle_account.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuzz_unpickle_megolm_outbound.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuzz_unpickle_session.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "fuzzers",
+    "package": "olm",
+    "path": "olm/3.2.8~dfsg-1/fuzzing/fuzzers",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/olm/3.2.8%7Edfsg-1/",
+        "metric": {
+            "size": 2816
+        },
+        "pts_link": "https://tracker.debian.org/pkg/olm",
+        "sloc": [
+            [
+                "ansic",
+                10894
+            ],
+            [
+                "cpp",
+                10090
+            ],
+            [
+                "java",
+                3147
+            ],
+            [
+                "objc",
+                2224
+            ],
+            [
+                "javascript",
+                1868
+            ],
+            [
+                "python",
+                1861
+            ],
+            [
+                "makefile",
+                453
+            ],
+            [
+                "sh",
+                218
+            ],
+            [
+                "asm",
+                7
+            ],
+            [
+                "xml",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/matrix-team/olm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.8~dfsg-1"
+}

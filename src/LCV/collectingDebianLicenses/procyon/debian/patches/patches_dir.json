@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-disable-fatjar-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-cli-program-name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-jcommander-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-java11-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1095,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "procyon",
+    "path": "procyon/0.5.36-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/procyon/0.5.36-1/",
+        "metric": {
+            "size": 8000
+        },
+        "pts_link": "https://tracker.debian.org/pkg/procyon",
+        "sloc": [
+            [
+                "java",
+                122164
+            ],
+            [
+                "xml",
+                238
+            ],
+            [
+                "makefile",
+                7
+            ],
+            [
+                "sh",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/procyon",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.36-1"
+}

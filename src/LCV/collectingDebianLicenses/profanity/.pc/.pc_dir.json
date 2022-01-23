@@ -1,0 +1,120 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "donotdependongit.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fix-format-string.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fix-make-globbing.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "profanity",
+    "path": "profanity/0.11.1-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/profanity/0.11.1-1/",
+        "metric": {
+            "size": 5976
+        },
+        "pts_link": "https://tracker.debian.org/pkg/profanity",
+        "sloc": [
+            [
+                "ansic",
+                71771
+            ],
+            [
+                "sh",
+                4388
+            ],
+            [
+                "makefile",
+                511
+            ],
+            [
+                "python",
+                212
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/xmpp-team/profanity",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.11.1-1"
+}

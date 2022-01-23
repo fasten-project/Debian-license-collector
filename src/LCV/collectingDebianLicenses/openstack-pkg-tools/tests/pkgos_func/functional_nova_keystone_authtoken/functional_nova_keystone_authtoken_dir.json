@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "convert_script",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nova-pike.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nova-queens.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_pike_to_queens",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_queens_to_queens",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "functional_nova_keystone_authtoken",
+    "package": "openstack-pkg-tools",
+    "path": "openstack-pkg-tools/117/tests/pkgos_func/functional_nova_keystone_authtoken",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openstack-pkg-tools/117/",
+        "metric": {
+            "size": 904
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openstack-pkg-tools",
+        "sloc": [
+            [
+                "sh",
+                3994
+            ],
+            [
+                "makefile",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/debian/openstack-pkg-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "117"
+}

@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "expected",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pgtap-core.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sql",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "test",
+    "package": "postgresql-semver",
+    "path": "postgresql-semver/0.31.2-1/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postgresql-semver/0.31.2-1/",
+        "metric": {
+            "size": 388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postgresql-semver",
+        "sloc": [
+            [
+                "sql",
+                3644
+            ],
+            [
+                "ansic",
+                512
+            ],
+            [
+                "makefile",
+                40
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/lechner/postgresql-semver",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.31.2-1"
+}

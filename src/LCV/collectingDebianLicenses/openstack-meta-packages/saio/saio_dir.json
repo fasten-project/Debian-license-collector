@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rsyncd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsyslog.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "swift",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "saio",
+    "package": "openstack-meta-packages",
+    "path": "openstack-meta-packages/0.32/saio",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openstack-meta-packages/0.32/",
+        "metric": {
+            "size": 408
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openstack-meta-packages",
+        "sloc": [
+            [
+                "sh",
+                2934
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/debian/openstack-meta-packages",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.32"
+}

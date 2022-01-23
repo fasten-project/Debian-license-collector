@@ -1,0 +1,169 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable_sched_test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fix_checks",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ps_checks",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pwait_rename",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "remove_strtod_tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "uptime_test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch_hostname_max_define",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "procps",
+    "path": "procps/2:3.3.17-5/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/procps/2:3.3.17-5/",
+        "metric": {
+            "size": 9456
+        },
+        "pts_link": "https://tracker.debian.org/pkg/procps",
+        "sloc": [
+            [
+                "ansic",
+                23478
+            ],
+            [
+                "sh",
+                5057
+            ],
+            [
+                "makefile",
+                520
+            ],
+            [
+                "exp",
+                434
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/procps",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:3.3.17-5"
+}

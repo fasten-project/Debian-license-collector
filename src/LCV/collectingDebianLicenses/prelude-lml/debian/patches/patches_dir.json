@@ -1,0 +1,132 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001-debian_log_paths",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002-Fix_spellcheck.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003-fix-test_rwlock1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "004-fix_thread_create.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "005-Use-pkgconfig-for-libprelude.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "006-fix-gnutls-deps.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "007-Disable_GnuLib_Tests_perror2_strerror.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "prelude-lml",
+    "path": "prelude-lml/5.2.0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prelude-lml/5.2.0-2/",
+        "metric": {
+            "size": 9452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prelude-lml",
+        "sloc": [
+            [
+                "ansic",
+                58308
+            ],
+            [
+                "sh",
+                12879
+            ],
+            [
+                "makefile",
+                177
+            ],
+            [
+                "python",
+                21
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/totol-guest/prelude-lml",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.2.0-2"
+}

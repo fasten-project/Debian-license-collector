@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-conf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-prosody-lua52.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-buildflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-fix-package.path-of-ejabberd2prosody.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-use-lua52.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "prosody",
+    "path": "prosody/0.11.11-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prosody/0.11.11-2/",
+        "metric": {
+            "size": 2984
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prosody",
+        "sloc": [
+            [
+                "ansic",
+                2498
+            ],
+            [
+                "sh",
+                744
+            ],
+            [
+                "makefile",
+                184
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/xmpp-team/prosody",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.11.11-2"
+}

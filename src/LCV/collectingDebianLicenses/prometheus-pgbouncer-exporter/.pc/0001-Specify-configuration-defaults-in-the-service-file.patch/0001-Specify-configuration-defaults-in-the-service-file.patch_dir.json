@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "prometheus-pgbouncer-exporter.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "0001-Specify-configuration-defaults-in-the-service-file.patch",
+    "package": "prometheus-pgbouncer-exporter",
+    "path": "prometheus-pgbouncer-exporter/1.7-2/.pc/0001-Specify-configuration-defaults-in-the-service-file.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus-pgbouncer-exporter/1.7-2/",
+        "metric": {
+            "size": 204
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus-pgbouncer-exporter",
+        "sloc": [
+            [
+                "python",
+                369
+            ],
+            [
+                "sh",
+                36
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/prometheus-pgbouncer-exporter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7-2"
+}

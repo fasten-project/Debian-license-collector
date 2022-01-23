@@ -1,0 +1,219 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "JVM_SetVmMemoryPressure.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arguments-java8u40.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "distro-name.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dmh-field-accessors-java8u172.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dont-clear-f1.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gc-java8u40.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gcc7-warnings.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "hotspot-disable-werror.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "light-jdk8u181-b13.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "light-jdk8u66-b17-deopt-cp.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "light-updateClassRedefinedCount-java8.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "openjdk-8-jre-dcevm",
+    "path": "openjdk-8-jre-dcevm/8u181-1~bpo9+1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openjdk-8-jre-dcevm/8u181-1%7Ebpo9+1/",
+        "metric": {
+            "size": 65816
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openjdk-8-jre-dcevm",
+        "sloc": [
+            [
+                "cpp",
+                572557
+            ],
+            [
+                "java",
+                259274
+            ],
+            [
+                "xml",
+                16359
+            ],
+            [
+                "ansic",
+                9559
+            ],
+            [
+                "asm",
+                2774
+            ],
+            [
+                "sh",
+                2403
+            ],
+            [
+                "makefile",
+                2391
+            ]
+        ],
+        "suites": [
+            "stretch-backports"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/openjdk-8-jre-dcevm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "8u181-1~bpo9+1"
+}

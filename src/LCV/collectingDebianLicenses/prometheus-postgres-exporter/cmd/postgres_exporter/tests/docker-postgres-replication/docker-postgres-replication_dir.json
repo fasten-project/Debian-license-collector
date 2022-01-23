@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Dockerfile",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dockerfile.p2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "docker-compose.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "docker-entrypoint.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3982,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup-replication.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "docker-postgres-replication",
+    "package": "prometheus-postgres-exporter",
+    "path": "prometheus-postgres-exporter/0.10.0-1/cmd/postgres_exporter/tests/docker-postgres-replication",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus-postgres-exporter/0.10.0-1/",
+        "metric": {
+            "size": 616
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus-postgres-exporter",
+        "sloc": [
+            [
+                "sh",
+                415
+            ],
+            [
+                "makefile",
+                50
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/prometheus-postgres-exporter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.10.0-1"
+}

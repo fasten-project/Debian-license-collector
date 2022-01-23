@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "alert",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "alertgroup",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "alertmanager_client.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "general",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "receiver",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "silence",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "client",
+    "package": "prometheus-alertmanager",
+    "path": "prometheus-alertmanager/0.23.0-4/api/v2/client",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus-alertmanager/0.23.0-4/",
+        "metric": {
+            "size": 7524
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus-alertmanager",
+        "sloc": [
+            [
+                "sh",
+                180
+            ],
+            [
+                "makefile",
+                163
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/prometheus-alertmanager",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.23.0-4"
+}

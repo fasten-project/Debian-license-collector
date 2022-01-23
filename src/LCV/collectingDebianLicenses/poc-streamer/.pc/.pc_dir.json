@@ -1,0 +1,177 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "010_add-support-to-features.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "020_fix-FTBFS-64-bit.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "030_fix-faulty-frame-sizes.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "040_fix-time-formatting.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "050_fix-typo-manpage.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "060_add-includes.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "070_add-GCC-hardening.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "poc-streamer",
+    "path": "poc-streamer/0.4.2-5/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/poc-streamer/0.4.2-5/",
+        "metric": {
+            "size": 924
+        },
+        "pts_link": "https://tracker.debian.org/pkg/poc-streamer",
+        "sloc": [
+            [
+                "ansic",
+                8782
+            ],
+            [
+                "makefile",
+                308
+            ],
+            [
+                "ruby",
+                152
+            ],
+            [
+                "perl",
+                135
+            ],
+            [
+                "yacc",
+                115
+            ],
+            [
+                "lex",
+                36
+            ],
+            [
+                "sh",
+                30
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/poc-streamer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.2-5"
+}

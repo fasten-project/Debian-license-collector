@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "node_exporter.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sysconfig.node_exporter",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd",
+    "package": "prometheus-node-exporter",
+    "path": "prometheus-node-exporter/1.3.1~ds-1/examples/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus-node-exporter/1.3.1%7Eds-1/",
+        "metric": {
+            "size": 6736
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus-node-exporter",
+        "sloc": [
+            [
+                "ansic",
+                1377
+            ],
+            [
+                "sh",
+                630
+            ],
+            [
+                "makefile",
+                169
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/prometheus-node-exporter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.1~ds-1"
+}

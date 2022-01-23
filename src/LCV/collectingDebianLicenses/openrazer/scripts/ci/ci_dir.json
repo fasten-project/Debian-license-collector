@@ -1,0 +1,223 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt-update.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-astyle-formatting.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-autopep8-formatting.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-pylint.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ci.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compile-driver.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install-check-deps.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install-daemon-deps.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install-driver-deps.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "launch-daemon.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup-fakedriver.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-auto-generate.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-daemon.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-daemon.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-duplicate-fake-driver-serials.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-hex-casing.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ci",
+    "package": "openrazer",
+    "path": "openrazer/3.2.0+dfsg-3/scripts/ci",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openrazer/3.2.0+dfsg-3/",
+        "metric": {
+            "size": 3168
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openrazer",
+        "sloc": [
+            [
+                "python",
+                11042
+            ],
+            [
+                "ansic",
+                10463
+            ],
+            [
+                "sh",
+                603
+            ],
+            [
+                "makefile",
+                181
+            ],
+            [
+                "xml",
+                175
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/openrazer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.0+dfsg-3"
+}

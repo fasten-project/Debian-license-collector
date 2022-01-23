@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localhost",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "localhost-pg14",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "postgresql-plproxy",
+    "path": "postgresql-plproxy/2.10.0-7/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postgresql-plproxy/2.10.0-7/",
+        "metric": {
+            "size": 652
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postgresql-plproxy",
+        "sloc": [
+            [
+                "ansic",
+                3458
+            ],
+            [
+                "sql",
+                1112
+            ],
+            [
+                "lex",
+                340
+            ],
+            [
+                "yacc",
+                171
+            ],
+            [
+                "makefile",
+                97
+            ],
+            [
+                "sh",
+                17
+            ],
+            [
+                "awk",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/postgresql-plproxy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.10.0-7"
+}

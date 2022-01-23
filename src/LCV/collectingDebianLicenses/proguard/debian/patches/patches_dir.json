@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-fix-usage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-build-classpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-disable-wtk-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-disable-gson-download.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "proguard",
+    "path": "proguard/6.2.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/proguard/6.2.0-1/",
+        "metric": {
+            "size": 8676
+        },
+        "pts_link": "https://tracker.debian.org/pkg/proguard",
+        "sloc": [
+            [
+                "java",
+                97747
+            ],
+            [
+                "xml",
+                947
+            ],
+            [
+                "sh",
+                208
+            ],
+            [
+                "makefile",
+                88
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/proguard",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.2.0-1"
+}

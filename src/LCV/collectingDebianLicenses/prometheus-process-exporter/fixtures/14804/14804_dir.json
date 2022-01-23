@@ -1,0 +1,134 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cgroup",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cmdline",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exe",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 25,
+                "symlink_dest": "/usr/bin/process-exporter",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "io",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "limits",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "status",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 968,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "14804",
+    "package": "prometheus-process-exporter",
+    "path": "prometheus-process-exporter/0.7.10-1/fixtures/14804",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus-process-exporter/0.7.10-1/",
+        "metric": {
+            "size": 440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus-process-exporter",
+        "sloc": [
+            [
+                "makefile",
+                87
+            ],
+            [
+                "sh",
+                58
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/prometheus-process-exporter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.10-1"
+}

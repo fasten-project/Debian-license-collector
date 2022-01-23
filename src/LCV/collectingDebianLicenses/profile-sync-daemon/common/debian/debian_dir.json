@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prerm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "profile-sync-daemon",
+    "path": "profile-sync-daemon/6.34-1/common/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/profile-sync-daemon/6.34-1/",
+        "metric": {
+            "size": 292
+        },
+        "pts_link": "https://tracker.debian.org/pkg/profile-sync-daemon",
+        "sloc": [
+            [
+                "sh",
+                659
+            ],
+            [
+                "makefile",
+                76
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/JanLuca/profile-sync-daemon-debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.34-1"
+}

@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "hapolicy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 126,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "postfwd-client.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rblcheck.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "request.sample",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tools",
+    "package": "postfwd",
+    "path": "postfwd/1.35-7/tools",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postfwd/1.35-7/",
+        "metric": {
+            "size": 1568
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postfwd",
+        "sloc": [
+            [
+                "perl",
+                5574
+            ],
+            [
+                "sh",
+                292
+            ],
+            [
+                "makefile",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://gitlab.uncompleted.org/debian/postfwd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.35-7"
+}

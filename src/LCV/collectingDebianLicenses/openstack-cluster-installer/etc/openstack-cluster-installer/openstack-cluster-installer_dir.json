@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "auto-racking.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21022,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardware-profiles.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hponcfg-activate-ipmi-over-lan.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oci-firmware-upgrade-config.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openstack-cluster-installer.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pki",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pubkey.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "openstack-cluster-installer",
+    "package": "openstack-cluster-installer",
+    "path": "openstack-cluster-installer/41/etc/openstack-cluster-installer",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openstack-cluster-installer/41/",
+        "metric": {
+            "size": 2768
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openstack-cluster-installer",
+        "sloc": [
+            [
+                "php",
+                16617
+            ],
+            [
+                "sh",
+                10310
+            ],
+            [
+                "ruby",
+                37
+            ],
+            [
+                "makefile",
+                25
+            ],
+            [
+                "xml",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/debian/openstack-cluster-installer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "41"
+}

@@ -1,0 +1,244 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "acousticDampingSource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "actuationDiskSource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "buoyancyEnergy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "buoyancyForce",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "directionalPressureGradientExplicitSource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "effectivenessHeatExchangerSource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "explicitPorositySource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "jouleHeatingSource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "meanVelocityForce",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "multiphaseStabilizedTurbulence",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "phaseLimitStabilization",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "radialActuationDiskSource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rotorDiskSource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "solidificationMeltingSource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tabulatedAccelerationSource",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "viscousDissipation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "derived",
+    "package": "openfoam",
+    "path": "openfoam/1912.200626-1/src/fvOptions/sources/derived",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openfoam/1912.200626-1/",
+        "metric": {
+            "size": 238940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openfoam",
+        "sloc": [
+            [
+                "cpp",
+                1159638
+            ],
+            [
+                "sh",
+                15902
+            ],
+            [
+                "ansic",
+                5195
+            ],
+            [
+                "lex",
+                660
+            ],
+            [
+                "xml",
+                387
+            ],
+            [
+                "python",
+                282
+            ],
+            [
+                "awk",
+                212
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "sed",
+                88
+            ],
+            [
+                "csh",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/openfoam",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1912.200626-1"
+}

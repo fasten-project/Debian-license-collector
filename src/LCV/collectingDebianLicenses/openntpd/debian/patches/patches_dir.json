@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-use-debian-ntp-pool.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-syslog.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 848,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-kfreebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-ntpd-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_gcc-10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "openntpd",
+    "path": "openntpd/1:6.2p3-4.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openntpd/1:6.2p3-4.2/",
+        "metric": {
+            "size": 2472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openntpd",
+        "sloc": [
+            [
+                "ansic",
+                9413
+            ],
+            [
+                "sh",
+                4425
+            ],
+            [
+                "yacc",
+                692
+            ],
+            [
+                "makefile",
+                310
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/openntpd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:6.2p3-4.2"
+}

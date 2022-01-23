@@ -1,0 +1,205 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "agent_fuzz.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "agent_fuzz_helper.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "authopt_fuzz.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixed-keys.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kex_fuzz.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "privkey_fuzz.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pubkey_fuzz.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sig_fuzz.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2040,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-sk-null.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshsig_fuzz.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sshsigopt_fuzz.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testdata",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "fuzz-harness",
+    "package": "openssh",
+    "path": "openssh/1:8.7p1-4/regress/misc/fuzz-harness",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openssh/1:8.7p1-4/",
+        "metric": {
+            "size": 15760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openssh",
+        "sloc": [
+            [
+                "ansic",
+                116681
+            ],
+            [
+                "sh",
+                13177
+            ],
+            [
+                "makefile",
+                1530
+            ],
+            [
+                "cpp",
+                615
+            ],
+            [
+                "awk",
+                341
+            ],
+            [
+                "csh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ssh-team/openssh",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:8.7p1-4"
+}

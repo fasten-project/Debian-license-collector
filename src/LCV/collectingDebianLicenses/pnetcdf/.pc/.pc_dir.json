@@ -1,0 +1,130 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-erange-fill-test.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "manpages.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "pnetcdf",
+    "path": "pnetcdf/1.12.2-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pnetcdf/1.12.2-1/",
+        "metric": {
+            "size": 30120
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pnetcdf",
+        "sloc": [
+            [
+                "ansic",
+                84714
+            ],
+            [
+                "f90",
+                10505
+            ],
+            [
+                "fortran",
+                9028
+            ],
+            [
+                "cpp",
+                8858
+            ],
+            [
+                "sh",
+                4788
+            ],
+            [
+                "perl",
+                2833
+            ],
+            [
+                "makefile",
+                2812
+            ],
+            [
+                "yacc",
+                1227
+            ],
+            [
+                "lex",
+                216
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org:/science-team/pnetcdf.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.12.2-1"
+}

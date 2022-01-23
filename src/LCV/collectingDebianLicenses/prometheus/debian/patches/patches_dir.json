@@ -1,0 +1,245 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-Do_not_embed_blobs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-Default_settings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-Disable_kubernetes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-Disable_hetzner_robot.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-Fix-test-prom-invocations.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-Disable_TSDB_lockfile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-Disable_fsnotify_mips64el.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-Fix_hanging_test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-Set_temporary_storage_path_for_tsdb.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-Disable_jaeger.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14-Disable_wal_test_goleak.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-Disable-uyuni.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "16-Disable_xds.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "17-Disable-linode.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "18-Disable-scaleway.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "91-Revert_switch_to_go_zookeeper.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "92-Revert-openstack-gophercloud-API-change.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "prometheus",
+    "path": "prometheus/2.31.1+ds2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus/2.31.1+ds2-2/",
+        "metric": {
+            "size": 22596
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus",
+        "sloc": [
+            [
+                "javascript",
+                2767
+            ],
+            [
+                "yacc",
+                586
+            ],
+            [
+                "sh",
+                427
+            ],
+            [
+                "lex",
+                180
+            ],
+            [
+                "makefile",
+                132
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/prometheus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.31.1+ds2-2"
+}

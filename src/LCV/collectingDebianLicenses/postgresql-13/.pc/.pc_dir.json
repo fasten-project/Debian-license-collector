@@ -1,0 +1,228 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-per-version-dirs.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "51-default-sockets-in-var.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "52-tutorial-README.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "53-pg_service.conf_directory_doc.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "54-debian-alternatives-for-external-tools.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "70-history",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extension_destdir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "filter-debug-prefix-map",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "initdb-startup-message",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libpgport-pkglibdir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "postgresql-13",
+    "path": "postgresql-13/13.5-0+deb11u1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postgresql-13/13.5-0+deb11u1/",
+        "metric": {
+            "size": 151280
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postgresql-13",
+        "sloc": [
+            [
+                "ansic",
+                871885
+            ],
+            [
+                "sql",
+                92568
+            ],
+            [
+                "yacc",
+                33912
+            ],
+            [
+                "xml",
+                31046
+            ],
+            [
+                "perl",
+                29197
+            ],
+            [
+                "lex",
+                8734
+            ],
+            [
+                "makefile",
+                6044
+            ],
+            [
+                "sh",
+                4905
+            ],
+            [
+                "cpp",
+                679
+            ],
+            [
+                "python",
+                158
+            ],
+            [
+                "asm",
+                65
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bullseye"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/postgresql",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.5-0+deb11u1"
+}

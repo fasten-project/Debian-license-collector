@@ -1,0 +1,65 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "openscap_daemon",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "async_python37.patch",
+    "package": "openscap-daemon",
+    "path": "openscap-daemon/0.1.10-3/.pc/async_python37.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openscap-daemon/0.1.10-3/",
+        "metric": {
+            "size": 7616
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openscap-daemon",
+        "sloc": [
+            [
+                "xml",
+                86526
+            ],
+            [
+                "python",
+                5874
+            ],
+            [
+                "sh",
+                247
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/openscap-daemon",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.10-3"
+}

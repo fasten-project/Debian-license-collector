@@ -1,0 +1,954 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".cstyleignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alloc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alloc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badblock.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badblock.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badblock_ndctl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badblock_none.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common.rc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_cow.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_fallocate.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_global.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_prefault.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2857,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_sds.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dlsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "errno_freebsd.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extent.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extent_freebsd.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extent_linux.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fault_injection.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_posix.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fs_posix.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fs_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libpmemcommon.vcxproj",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libpmemcommon.vcxproj.filters",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_posix.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_auto_flush.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_auto_flush_linux.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_auto_flush_none.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_auto_flush_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_auto_flush_windows.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_badblock.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_deep.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_deep_linux.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_deep_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_dimm.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_dimm_ndctl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_dimm_none.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_dimm_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_posix.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_thread.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_thread_posix.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_thread_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14745,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "out.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pmemcommon.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pmemcommon.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2435,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pool_hdr.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pool_hdr.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "queue.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rand.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rand.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shutdown_state.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shutdown_state.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sys_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9765,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util_pmem.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util_posix.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3848,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uuid.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uuid.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uuid_freebsd.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uuid_linux.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uuid_windows.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "valgrind",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 152,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "valgrind_internal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vec.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vecq.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "common",
+    "package": "pmdk-convert",
+    "path": "pmdk-convert/1.7-1/nvml/1.7/src/common",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pmdk-convert/1.7-1/",
+        "metric": {
+            "size": 38340
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pmdk-convert",
+        "sloc": [
+            [
+                "ansic",
+                275146
+            ],
+            [
+                "sh",
+                25641
+            ],
+            [
+                "makefile",
+                2871
+            ],
+            [
+                "python",
+                1818
+            ],
+            [
+                "pascal",
+                1100
+            ],
+            [
+                "perl",
+                1100
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/kilobyte/pmdk-convert/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7-1"
+}

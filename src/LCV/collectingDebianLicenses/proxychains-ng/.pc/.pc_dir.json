@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-Use-proper-library-version-for-libproxychains.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Install-conffile-as-proxychains4.conf.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "proxychains-ng",
+    "path": "proxychains-ng/4.15-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/proxychains-ng/4.15-1/",
+        "metric": {
+            "size": 428
+        },
+        "pts_link": "https://tracker.debian.org/pkg/proxychains-ng",
+        "sloc": [
+            [
+                "ansic",
+                3460
+            ],
+            [
+                "sh",
+                325
+            ],
+            [
+                "makefile",
+                74
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/proxychains-ng",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.15-1"
+}

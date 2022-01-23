@@ -1,0 +1,138 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-correct-edition-data.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "07-no-QWebView.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "08-fix-build-qt5.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "09-accept-newer-postgres.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "postbooks",
+    "path": "postbooks/4.11.3-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postbooks/4.11.3-2/",
+        "metric": {
+            "size": 111536
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postbooks",
+        "sloc": [
+            [
+                "cpp",
+                317795
+            ],
+            [
+                "sh",
+                607
+            ],
+            [
+                "xml",
+                214
+            ],
+            [
+                "python",
+                140
+            ],
+            [
+                "awk",
+                104
+            ],
+            [
+                "makefile",
+                50
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/xtuple-maintainers-team/postbooks",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.11.3-2"
+}

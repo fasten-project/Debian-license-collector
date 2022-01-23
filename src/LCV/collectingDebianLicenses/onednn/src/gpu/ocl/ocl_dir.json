@@ -1,0 +1,1730 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "capi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "convolution_inner_product.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "convolution_inner_product.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cross_engine_reorder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cross_engine_reorder.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_inner_product.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_inner_product.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_inner_product.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_matmul.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_matmul.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_post_ops_inner_product.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_post_ops_inner_product.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gemm_post_ops_inner_product.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_1x1_conv_fwd_data_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_bwd_data_mb_block_x8s8x8.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_bwd_data_x8s8x8.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_dw_fwd_data_mb_block_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_dw_fwd_data_ow_block_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_fwd_data_first_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32060,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_fwd_data_mb_block_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_fwd_data_ow_block_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_nhwc_fwd_dw_mb_block_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_nhwc_fwd_dw_ow_block_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_nhwc_fwd_first_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_conv_nhwc_fwd_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_nhwc_1x1_conv_fwd_x8s8x.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18912,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_x8s8x_1x1_convolution.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_x8s8x_1x1_convolution.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6918,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_x8s8x_compensation.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_x8s8x_convolution.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen12lp_x8s8x_convolution.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_batch_normalization.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_batch_normalization.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_binary.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_binary.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_binary.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_bnorm.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_conv_bwd_data.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_conv_bwd_weights.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_conv_dw_bwd_data.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_conv_dw_fwd_data.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_conv_fwd_data.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_conv_nhwc_bwd_data.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8874,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_conv_nhwc_bwd_weights_f32.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_conv_nhwc_fwd_data.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_convolution.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_convolution.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_eltwise.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4620,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_eltwise.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_eltwise.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_pooling.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_pooling.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_pooling.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_reduction.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_reduction.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_reduction.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_softmax.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_softmax.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_softmax.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_sum.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_sum.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_sum.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_wino_conv_fwd_data_2x3.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_wino_conv_fwd_data_fused.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_wino_convolution.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen9_wino_convolution.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel_utils.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_eltwise.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_engine.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2685,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_gpu_detect.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_gpu_detect.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_gpu_device_info.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_gpu_device_info.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_gpu_engine.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_gpu_engine.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_gpu_kernel.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_gpu_kernel.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2890,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_kernel_list.cpp.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_math_utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8177,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_memory_storage.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_memory_storage.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_post_ops.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_stream.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_stream.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_types.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_utils.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_utils.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_zero_points.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "offsets.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_batch_normalization.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_batch_normalization.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_binary.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_binary.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_binary.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_bnorm.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_concat.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_convolution.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7898,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_convolution.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_convolution.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_deconv_backward_bias.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_deconvolution.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_eltwise.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_eltwise.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_eltwise.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_inner_product.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_inner_product.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_inner_product.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_layer_normalization.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_layer_normalization.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_layer_normalization.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_lrn.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_lrn.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_lrn.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_matmul.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_matmul.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_matmul.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_pooling.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_pooling.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_pooling.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_prelu.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_prelu.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_prelu.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_reduction.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_reduction.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_reduction.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_resampling.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7009,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_resampling.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1986,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_resampling.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_shuffle.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_shuffle.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_shuffle.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_softmax.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_softmax.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_softmax.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_sum.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_zero_pad.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_zero_pad.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_zero_pad.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rnn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "shuffle_by_reorder.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_concat.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_concat.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_concat.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_reorder.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_reorder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_reorder.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_sum.cl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_sum.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2054,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_sum.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verbose.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ocl",
+    "package": "onednn",
+    "path": "onednn/2.2.2+ds-3/src/gpu/ocl",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/onednn/2.2.2+ds-3/",
+        "metric": {
+            "size": 34452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/onednn",
+        "sloc": [
+            [
+                "cpp",
+                442322
+            ],
+            [
+                "lisp",
+                20589
+            ],
+            [
+                "ansic",
+                12191
+            ],
+            [
+                "xml",
+                252
+            ],
+            [
+                "python",
+                231
+            ],
+            [
+                "sh",
+                68
+            ],
+            [
+                "makefile",
+                50
+            ],
+            [
+                "javascript",
+                46
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/deeplearning-team/onednn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.2+ds-3"
+}

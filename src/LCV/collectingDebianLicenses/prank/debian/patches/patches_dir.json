@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-gcc6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "prank",
+    "path": "prank/0.0.170427+dfsg-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prank/0.0.170427+dfsg-3/",
+        "metric": {
+            "size": 1228
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prank",
+        "sloc": [
+            [
+                "cpp",
+                24023
+            ],
+            [
+                "makefile",
+                515
+            ],
+            [
+                "sh",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/prank",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.170427+dfsg-3"
+}

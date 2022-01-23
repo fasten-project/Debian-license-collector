@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "S30initrd-preseed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "S32env-preseed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "S33preseed_early_command",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "S60auto-install",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian-installer-startup.d",
+    "package": "preseed",
+    "path": "preseed/1.110/debian-installer-startup.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/preseed/1.110/",
+        "metric": {
+            "size": 844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/preseed",
+        "sloc": [
+            [
+                "sh",
+                435
+            ],
+            [
+                "perl",
+                153
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/preseed",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.110"
+}

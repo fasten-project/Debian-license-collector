@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "rescue-ssh.target",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-agent.override",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-agent.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-session-cleanup",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-session-cleanup.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh.socket",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh%40.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd",
+    "package": "openssh",
+    "path": "openssh/1:8.7p1-4/debian/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openssh/1:8.7p1-4/",
+        "metric": {
+            "size": 15760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openssh",
+        "sloc": [
+            [
+                "ansic",
+                116681
+            ],
+            [
+                "sh",
+                13177
+            ],
+            [
+                "makefile",
+                1530
+            ],
+            [
+                "cpp",
+                615
+            ],
+            [
+                "awk",
+                341
+            ],
+            [
+                "csh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ssh-team/openssh",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:8.7p1-4"
+}

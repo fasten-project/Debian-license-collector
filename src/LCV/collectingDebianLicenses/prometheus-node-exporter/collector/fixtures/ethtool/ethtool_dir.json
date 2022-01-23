@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bond0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "eth0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "ethtool",
+    "package": "prometheus-node-exporter",
+    "path": "prometheus-node-exporter/1.3.1~ds-1/collector/fixtures/ethtool",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus-node-exporter/1.3.1%7Eds-1/",
+        "metric": {
+            "size": 6736
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus-node-exporter",
+        "sloc": [
+            [
+                "ansic",
+                1377
+            ],
+            [
+                "sh",
+                630
+            ],
+            [
+                "makefile",
+                169
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/prometheus-node-exporter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.1~ds-1"
+}

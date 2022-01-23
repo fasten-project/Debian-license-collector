@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "do-test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "misc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "runtests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "oldsys-preseed",
+    "path": "oldsys-preseed/3.22/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/oldsys-preseed/3.22/",
+        "metric": {
+            "size": 1380
+        },
+        "pts_link": "https://tracker.debian.org/pkg/oldsys-preseed",
+        "sloc": [
+            [
+                "xml",
+                438
+            ],
+            [
+                "sh",
+                384
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/oldsys-preseed",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.22"
+}

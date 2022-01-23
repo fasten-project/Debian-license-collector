@@ -1,0 +1,265 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gpio_conf_stm32.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmoctospi_crc32.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmoctospi_crc32.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmoctospi_erase_check.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmoctospi_erase_check.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmoctospi_read.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmoctospi_read.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 891,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmoctospi_write.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmoctospi_write.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmqspi_crc32.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmqspi_crc32.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmqspi_erase_check.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmqspi_erase_check.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmqspi_read.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmqspi_read.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmqspi_write.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stmqspi_write.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "stmqspi",
+    "package": "openocd",
+    "path": "openocd/0.11.0-1/contrib/loaders/flash/stmqspi",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openocd/0.11.0-1/",
+        "metric": {
+            "size": 36272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openocd",
+        "sloc": [
+            [
+                "ansic",
+                403366
+            ],
+            [
+                "sh",
+                9209
+            ],
+            [
+                "tcl",
+                8263
+            ],
+            [
+                "asm",
+                3798
+            ],
+            [
+                "makefile",
+                1866
+            ],
+            [
+                "cpp",
+                1671
+            ],
+            [
+                "perl",
+                1197
+            ],
+            [
+                "python",
+                1083
+            ],
+            [
+                "xml",
+                77
+            ],
+            [
+                "haskell",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/electronics-team/openocd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.11.0-1"
+}

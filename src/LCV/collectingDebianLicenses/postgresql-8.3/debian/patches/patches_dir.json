@@ -1,0 +1,197 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-build-contrib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-pager.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-gettext-domains.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-psql-passwordprompt.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-check-rlimits-nofile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-libpq-defaultsocketdir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-relax-sslkey-permscheck.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-pkglibdir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-server-includedir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-tutorial-README.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-pg_regress-socketpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-psql-sensible-editor.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-pg_service.conf_directory_doc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14-pg_config-paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-dict-fallback-dir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "postgresql-8.3",
+    "path": "postgresql-8.3/8.3.17-0lenny1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 12,
+        "license": "/copyright/license/postgresql-8.3/8.3.17-0lenny1/",
+        "metric": {
+            "size": 14572
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postgresql-8.3",
+        "sloc": [
+            [
+                "sh",
+                118
+            ],
+            [
+                "makefile",
+                108
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "8.3.17-0lenny1"
+}

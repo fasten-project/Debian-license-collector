@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cmd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "promql",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "13-Disable_jaeger.patch",
+    "package": "prometheus",
+    "path": "prometheus/2.31.1+ds2-2/.pc/13-Disable_jaeger.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/prometheus/2.31.1+ds2-2/",
+        "metric": {
+            "size": 22596
+        },
+        "pts_link": "https://tracker.debian.org/pkg/prometheus",
+        "sloc": [
+            [
+                "javascript",
+                2767
+            ],
+            [
+                "yacc",
+                586
+            ],
+            [
+                "sh",
+                427
+            ],
+            [
+                "lex",
+                180
+            ],
+            [
+                "makefile",
+                132
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/prometheus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.31.1+ds2-2"
+}

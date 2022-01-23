@@ -1,0 +1,142 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-Fix-signedness-of-c.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Make-sure-examples-have-shebangs.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Fix-various-errors-in-the-pnm2ppa-manpage.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Drop-usage-of-__DATE__-and-__TIME__-hindering-build.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Declare-syslog_message-correctly-for-GCC-10-FTBFS.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "pnm2ppa",
+    "path": "pnm2ppa/1.13-13/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/pnm2ppa/1.13-13/",
+        "metric": {
+            "size": 1736
+        },
+        "pts_link": "https://tracker.debian.org/pkg/pnm2ppa",
+        "sloc": [
+            [
+                "ansic",
+                7506
+            ],
+            [
+                "sh",
+                4222
+            ],
+            [
+                "makefile",
+                125
+            ],
+            [
+                "python",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/printing-team/pnm2ppa",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13-13"
+}

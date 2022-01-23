@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lock",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "portalocker",
+    "path": "portalocker/2.2.1-1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/portalocker/2.2.1-1/",
+        "metric": {
+            "size": 224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/portalocker",
+        "sloc": [
+            [
+                "python",
+                1074
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/portalocker",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.1-1"
+}

@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "001_build.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "002_reproducible-build.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_gcc7_build_failures.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "openhackware",
+    "path": "openhackware/0.4.1+git-20140423.c559da7c-4.1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openhackware/0.4.1+git-20140423.c559da7c-4.1/",
+        "metric": {
+            "size": 1312
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openhackware",
+        "sloc": [
+            [
+                "ansic",
+                22217
+            ],
+            [
+                "asm",
+                657
+            ],
+            [
+                "makefile",
+                183
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-qemu/openhackware.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.1+git-20140423.c559da7c-4.1"
+}

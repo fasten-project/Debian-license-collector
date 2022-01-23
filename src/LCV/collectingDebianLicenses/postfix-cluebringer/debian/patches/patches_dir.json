@@ -1,0 +1,161 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_webui_config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_config_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_fix_db_queries.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_bounce_handling.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_better_error_logging.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_better_ehlo_processing.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "adjust_lib_paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian-changes-2.0.10-1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian-changes-2.0.10-1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update_version_number",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "postfix-cluebringer",
+    "path": "postfix-cluebringer/2.0.10-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postfix-cluebringer/2.0.10-1/",
+        "metric": {
+            "size": 1680
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postfix-cluebringer",
+        "sloc": [
+            [
+                "perl",
+                4408
+            ],
+            [
+                "php",
+                4197
+            ],
+            [
+                "sh",
+                464
+            ],
+            [
+                "makefile",
+                71
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "2.0.10-1"
+}

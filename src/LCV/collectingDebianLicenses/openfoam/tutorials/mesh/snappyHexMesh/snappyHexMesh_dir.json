@@ -1,0 +1,200 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Allrun",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "addLayersToFaceZone",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "aerofoilNACA0012_directionalRefinement",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "distributedTriSurfaceMesh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "flange",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gap_detection",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "iglooWithFridges",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 63,
+                "symlink_dest": "../../heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "iglooWithFridgesDirectionalRefinement",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "motorBike",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 41,
+                "symlink_dest": "../../incompressible/simpleFoam/motorBike",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "motorBike_leakDetection",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "opposite_walls",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "snappyMultiRegionHeater",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 61,
+                "symlink_dest": "../../heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "snappyHexMesh",
+    "package": "openfoam",
+    "path": "openfoam/1912.200626-1/tutorials/mesh/snappyHexMesh",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/openfoam/1912.200626-1/",
+        "metric": {
+            "size": 238940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/openfoam",
+        "sloc": [
+            [
+                "cpp",
+                1159638
+            ],
+            [
+                "sh",
+                15902
+            ],
+            [
+                "ansic",
+                5195
+            ],
+            [
+                "lex",
+                660
+            ],
+            [
+                "xml",
+                387
+            ],
+            [
+                "python",
+                282
+            ],
+            [
+                "awk",
+                212
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "sed",
+                88
+            ],
+            [
+                "csh",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/openfoam",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1912.200626-1"
+}

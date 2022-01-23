@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "installcheck",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "postgresql-hll",
+    "path": "postgresql-hll/2.16-1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/postgresql-hll/2.16-1/",
+        "metric": {
+            "size": 58708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/postgresql-hll",
+        "sloc": [
+            [
+                "ansic",
+                2798
+            ],
+            [
+                "sql",
+                2158
+            ],
+            [
+                "cpp",
+                201
+            ],
+            [
+                "makefile",
+                33
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/postgresql-hll",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.16-1"
+}
