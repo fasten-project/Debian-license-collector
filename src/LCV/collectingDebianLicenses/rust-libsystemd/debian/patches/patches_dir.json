@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bump-sha2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "new-hmac-api.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "relax-deps.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rust-libsystemd",
+    "path": "rust-libsystemd/0.2.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-libsystemd/0.2.1-2/",
+        "metric": {
+            "size": 216
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-libsystemd",
+        "sloc": [
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libsystemd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.1-2"
+}

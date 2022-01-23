@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "convert_mirc_servers_ini.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 827,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manage",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tx-sync.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "quassel",
+    "path": "quassel/1:0.13.1-5/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/quassel/1:0.13.1-5/",
+        "metric": {
+            "size": 25640
+        },
+        "pts_link": "https://tracker.debian.org/pkg/quassel",
+        "sloc": [
+            [
+                "cpp",
+                66953
+            ],
+            [
+                "perl",
+                15837
+            ],
+            [
+                "ansic",
+                4418
+            ],
+            [
+                "sql",
+                1225
+            ],
+            [
+                "sh",
+                328
+            ],
+            [
+                "xml",
+                263
+            ],
+            [
+                "python",
+                224
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/extras/quassel",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:0.13.1-5"
+}

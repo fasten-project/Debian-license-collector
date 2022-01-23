@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-compiler-builtins-Disable-128bit-atomic-operations.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-rand-Enable-c2-chacha-simd-feature.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-stdsimd-Disable-unsupported-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-rand-Disable-failing-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0022-sysroot-Disable-not-compiling-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0023-sysroot-Ignore-failing-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0027-sysroot-128bit-atomic-operations.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rustc",
+    "path": "rustc/1.56.0+dfsg1-2/compiler/rustc_codegen_cranelift/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rustc/1.56.0+dfsg1-2/",
+        "metric": {
+            "size": 312772
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rustc",
+        "sloc": [
+            [
+                "xml",
+                147952
+            ],
+            [
+                "sh",
+                8163
+            ],
+            [
+                "javascript",
+                7298
+            ],
+            [
+                "python",
+                6591
+            ],
+            [
+                "ansic",
+                5546
+            ],
+            [
+                "cpp",
+                4900
+            ],
+            [
+                "makefile",
+                3205
+            ],
+            [
+                "asm",
+                1438
+            ],
+            [
+                "ruby",
+                68
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/rust",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.56.0+dfsg1-2"
+}

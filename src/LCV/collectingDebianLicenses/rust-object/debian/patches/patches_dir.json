@@ -1,0 +1,74 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bump-flate2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-rustc-dep-of-std.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 703,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-wasm-feature.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "rust-object",
+    "path": "rust-object/0.20.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/rust-object/0.20.0-1/",
+        "metric": {
+            "size": 1152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/rust-object",
+        "sloc": [
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/object",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.20.0-1"
+}

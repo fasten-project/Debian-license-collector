@@ -1,0 +1,973 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fake_usb_device_handle.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fake_usb_device_handle.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuzz_corpus",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mock_usb_device.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_usb_device.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_usb_device_handle.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_usb_device_handle.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_usb_service.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_usb_service.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mojo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_libusb_device_handle.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_libusb_device_handle.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_libusb_device_ref.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_libusb_device_ref.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_winusb_handle.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_winusb_handle.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_configuration_android.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_configuration_android.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_context.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_context.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_context_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_descriptors.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_descriptors.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_descriptors_fuzzer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 455,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_descriptors_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4316,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_android.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_android.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_android.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_android.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_impl.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_impl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_usbfs.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_usbfs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_handle_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_impl.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_impl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_linux.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_linux.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_device_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_endpoint_android.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_endpoint_android.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_error.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_error.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_interface_android.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_interface_android.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_android.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_android.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1984,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_impl.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_impl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_linux.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_linux.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_service_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usb_string_read_fuzzer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "webusb_descriptors.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "webusb_descriptors.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "webusb_descriptors_fuzzer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "webusb_descriptors_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "usb",
+    "package": "qtwebengine-opensource-src",
+    "path": "qtwebengine-opensource-src/5.15.7+dfsg-2/src/3rdparty/chromium/services/device/usb",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtwebengine-opensource-src/5.15.7+dfsg-2/",
+        "metric": {
+            "size": 2161044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtwebengine-opensource-src",
+        "sloc": [
+            [
+                "cpp",
+                13183846
+            ],
+            [
+                "ansic",
+                4303818
+            ],
+            [
+                "javascript",
+                1960781
+            ],
+            [
+                "python",
+                599616
+            ],
+            [
+                "asm",
+                529954
+            ],
+            [
+                "xml",
+                496618
+            ],
+            [
+                "java",
+                151702
+            ],
+            [
+                "objc",
+                80776
+            ],
+            [
+                "perl",
+                73785
+            ],
+            [
+                "sh",
+                71092
+            ],
+            [
+                "cs",
+                30383
+            ],
+            [
+                "makefile",
+                21754
+            ],
+            [
+                "yacc",
+                9062
+            ],
+            [
+                "tcl",
+                8285
+            ],
+            [
+                "php",
+                5896
+            ],
+            [
+                "sql",
+                5473
+            ],
+            [
+                "pascal",
+                4510
+            ],
+            [
+                "lex",
+                2884
+            ],
+            [
+                "lisp",
+                2727
+            ],
+            [
+                "ruby",
+                683
+            ],
+            [
+                "awk",
+                200
+            ],
+            [
+                "sed",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/qt/qtwebengine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.15.7+dfsg-2"
+}

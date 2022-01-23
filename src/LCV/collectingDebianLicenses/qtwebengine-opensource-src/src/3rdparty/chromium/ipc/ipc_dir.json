@@ -1,0 +1,1468 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 940,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SECURITY_OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "constants.mojom",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "features.gni",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handle_attachment_fuchsia.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handle_attachment_fuchsia.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handle_attachment_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handle_attachment_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handle_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handle_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc.mojom",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_common.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_factory.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_factory.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_handle.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_mojo.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_mojo.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_mojo_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_nacl.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_nacl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_proxy.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_proxy.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_proxy_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_proxy_unittest_messages.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_reader.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6958,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_reader.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_channel_reader_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_cpu_perftest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_fuzzing_tests.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_listener.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_logging.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_logging.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_attachment.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_attachment.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_attachment_set.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_attachment_set.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_attachment_set_posix_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_macros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_null_macros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_pipe_reader.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_pipe_reader.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4028,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_protobuf_utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_protobuf_utils_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_start.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_support_export.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_templates.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_templates_impl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_utils.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_message_utils_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_bootstrap.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_bootstrap.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_bootstrap_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6759,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_handle_attachment.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_handle_attachment.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_message_helper.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_message_helper.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 938,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_param_traits.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_param_traits.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_mojo_perftest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_param_traits.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_perftest_messages.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_perftest_messages.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 521,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_perftest_util.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_perftest_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_platform_file.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_platform_file.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_platform_file_attachment_posix.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_platform_file_attachment_posix.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_security_test_util.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 843,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_security_test_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_send_fds_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5955,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sender.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sync_channel.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sync_channel.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9903,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sync_channel_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sync_message.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sync_message.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sync_message_filter.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sync_message_filter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sync_message_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_sync_message_unittest.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_test.mojom",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_test_base.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2447,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_test_base.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3982,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_test_channel_listener.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_test_channel_listener.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_test_sink.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ipc_test_sink.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mach_port_attachment_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mach_port_attachment_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mach_port_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mach_port_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_filter.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_filter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_filter_router.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2912,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_filter_router.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_mojom_traits.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_mojom_traits.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_router.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_router.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_view.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_view.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "native_handle_type_converters.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "native_handle_type_converters.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_traits_log_macros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_traits_macros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_traits_read_macros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_traits_write_macros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_all_perftests.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_all_unittests.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "struct_constructor_macros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sync_socket_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_proto.proto",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace_ipc_message.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace_ipc_message.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1316,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ipc",
+    "package": "qtwebengine-opensource-src",
+    "path": "qtwebengine-opensource-src/5.15.7+dfsg-2/src/3rdparty/chromium/ipc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtwebengine-opensource-src/5.15.7+dfsg-2/",
+        "metric": {
+            "size": 2161044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtwebengine-opensource-src",
+        "sloc": [
+            [
+                "cpp",
+                13183846
+            ],
+            [
+                "ansic",
+                4303818
+            ],
+            [
+                "javascript",
+                1960781
+            ],
+            [
+                "python",
+                599616
+            ],
+            [
+                "asm",
+                529954
+            ],
+            [
+                "xml",
+                496618
+            ],
+            [
+                "java",
+                151702
+            ],
+            [
+                "objc",
+                80776
+            ],
+            [
+                "perl",
+                73785
+            ],
+            [
+                "sh",
+                71092
+            ],
+            [
+                "cs",
+                30383
+            ],
+            [
+                "makefile",
+                21754
+            ],
+            [
+                "yacc",
+                9062
+            ],
+            [
+                "tcl",
+                8285
+            ],
+            [
+                "php",
+                5896
+            ],
+            [
+                "sql",
+                5473
+            ],
+            [
+                "pascal",
+                4510
+            ],
+            [
+                "lex",
+                2884
+            ],
+            [
+                "lisp",
+                2727
+            ],
+            [
+                "ruby",
+                683
+            ],
+            [
+                "awk",
+                200
+            ],
+            [
+                "sed",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/qt/qtwebengine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.15.7+dfsg-2"
+}

@@ -1,0 +1,885 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blob_bytes_consumer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blob_bytes_consumer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blob_bytes_consumer_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "body.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "body.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2843,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "body.idl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "body_stream_buffer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "body_stream_buffer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "body_stream_buffer_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bytes_consumer_tee.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bytes_consumer_tee.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bytes_consumer_tee_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bytes_consumer_test_util.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bytes_consumer_test_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bytes_uploader.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bytes_uploader.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bytes_uploader_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_data_loader.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_data_loader.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_data_loader_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35087,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_header_list.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_header_list.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_header_list_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_manager.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_manager.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_request_data.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_request_data.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_request_data_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_response_data.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_response_data.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch_response_data_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "form_data_bytes_consumer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "form_data_bytes_consumer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "form_data_bytes_consumer_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_fetch.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "global_fetch.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "headers.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "headers.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "headers.idl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multipart_parser.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multipart_parser.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multipart_parser_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "place_holder_bytes_consumer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "place_holder_bytes_consumer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "place_holder_bytes_consumer_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readable_stream_bytes_consumer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readable_stream_bytes_consumer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readable_stream_bytes_consumer_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "request.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "request.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "request.idl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "request_init.idl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "request_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response.idl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response_init.idl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testing",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "trust_token.idl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trust_token_issuance_authorization.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trust_token_issuance_authorization.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trust_token_to_mojom.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trust_token_to_mojom.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1958,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "window_fetch.idl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "worker_fetch.idl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fetch",
+    "package": "qtwebengine-opensource-src",
+    "path": "qtwebengine-opensource-src/5.15.7+dfsg-2/src/3rdparty/chromium/third_party/blink/renderer/core/fetch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtwebengine-opensource-src/5.15.7+dfsg-2/",
+        "metric": {
+            "size": 2161044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtwebengine-opensource-src",
+        "sloc": [
+            [
+                "cpp",
+                13183846
+            ],
+            [
+                "ansic",
+                4303818
+            ],
+            [
+                "javascript",
+                1960781
+            ],
+            [
+                "python",
+                599616
+            ],
+            [
+                "asm",
+                529954
+            ],
+            [
+                "xml",
+                496618
+            ],
+            [
+                "java",
+                151702
+            ],
+            [
+                "objc",
+                80776
+            ],
+            [
+                "perl",
+                73785
+            ],
+            [
+                "sh",
+                71092
+            ],
+            [
+                "cs",
+                30383
+            ],
+            [
+                "makefile",
+                21754
+            ],
+            [
+                "yacc",
+                9062
+            ],
+            [
+                "tcl",
+                8285
+            ],
+            [
+                "php",
+                5896
+            ],
+            [
+                "sql",
+                5473
+            ],
+            [
+                "pascal",
+                4510
+            ],
+            [
+                "lex",
+                2884
+            ],
+            [
+                "lisp",
+                2727
+            ],
+            [
+                "ruby",
+                683
+            ],
+            [
+                "awk",
+                200
+            ],
+            [
+                "sed",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/qt/qtwebengine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.15.7+dfsg-2"
+}

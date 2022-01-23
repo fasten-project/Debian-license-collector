@@ -1,0 +1,160 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bgpd.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "isisd.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ospf6d.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ospfd.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pimd.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "quagga.sysconfig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ripd.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ripngd.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "watchquagga.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1177,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zebra.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "redhat",
+    "package": "quagga",
+    "path": "quagga/1.2.4-3/.pc/0010-Patch-init-scripts-for-Debian.patch/redhat",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/quagga/1.2.4-3/",
+        "metric": {
+            "size": 16788
+        },
+        "pts_link": "https://tracker.debian.org/pkg/quagga",
+        "sloc": [
+            [
+                "ansic",
+                262230
+            ],
+            [
+                "sh",
+                5570
+            ],
+            [
+                "makefile",
+                717
+            ],
+            [
+                "perl",
+                329
+            ],
+            [
+                "lisp",
+                62
+            ],
+            [
+                "awk",
+                30
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/quagga",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.4-3"
+}

@@ -1,0 +1,973 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dev",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "documentation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pp_array_output.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_bool.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_codecs.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_completion_callback.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_directory_entry.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_errors.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_file_info.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_graphics_3d.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_input_event.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_instance.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_macros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_module.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_point.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1955,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_rect.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_resource.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_size.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_stdint.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_time.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_touch_point.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_var.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_audio.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_audio_buffer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_audio_config.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_audio_encoder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_console.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_core.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_file_io.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_file_ref.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_file_system.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_fullscreen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3025,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_gamepad.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2756,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_graphics_2d.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_graphics_3d.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_host_resolver.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_image_data.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_input_event.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_instance.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3060,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_media_stream_audio_track.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_media_stream_video_track.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_message_loop.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_messaging.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_mouse_cursor.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_mouse_lock.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_net_address.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_network_list.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_network_monitor.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3056,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_network_proxy.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_opengles2.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_tcp_socket.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_text_input_controller.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_udp_socket.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_url_loader.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9837,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_url_request_info.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_url_response_info.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_var.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_var_array.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_var_array_buffer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_var_dictionary.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_video_decoder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_video_encoder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_video_frame.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_view.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_vpn_provider.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppb_websocket.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppp_graphics_3d.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppp_input_event.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppp_instance.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppp_message_handler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppp_messaging.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppp_mouse_lock.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "trusted",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "c",
+    "package": "qtwebengine-opensource-src",
+    "path": "qtwebengine-opensource-src/5.15.7+dfsg-2/src/3rdparty/chromium/ppapi/c",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtwebengine-opensource-src/5.15.7+dfsg-2/",
+        "metric": {
+            "size": 2161044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtwebengine-opensource-src",
+        "sloc": [
+            [
+                "cpp",
+                13183846
+            ],
+            [
+                "ansic",
+                4303818
+            ],
+            [
+                "javascript",
+                1960781
+            ],
+            [
+                "python",
+                599616
+            ],
+            [
+                "asm",
+                529954
+            ],
+            [
+                "xml",
+                496618
+            ],
+            [
+                "java",
+                151702
+            ],
+            [
+                "objc",
+                80776
+            ],
+            [
+                "perl",
+                73785
+            ],
+            [
+                "sh",
+                71092
+            ],
+            [
+                "cs",
+                30383
+            ],
+            [
+                "makefile",
+                21754
+            ],
+            [
+                "yacc",
+                9062
+            ],
+            [
+                "tcl",
+                8285
+            ],
+            [
+                "php",
+                5896
+            ],
+            [
+                "sql",
+                5473
+            ],
+            [
+                "pascal",
+                4510
+            ],
+            [
+                "lex",
+                2884
+            ],
+            [
+                "lisp",
+                2727
+            ],
+            [
+                "ruby",
+                683
+            ],
+            [
+                "awk",
+                200
+            ],
+            [
+                "sed",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/qt/qtwebengine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.15.7+dfsg-2"
+}

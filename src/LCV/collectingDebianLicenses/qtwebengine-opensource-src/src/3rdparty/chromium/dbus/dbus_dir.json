@@ -1,0 +1,676 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 90,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bus.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bus.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bus_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_export.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_statistics.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_statistics.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_statistics_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "end_to_end_async_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "end_to_end_sync_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exported_object.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exported_object.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "message_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_bus.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_bus.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_exported_object.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_exported_object.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_object_proxy.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_object_proxy.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_manager.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_manager.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_manager_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_path.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_path.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_proxy.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_proxy.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "object_proxy_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "property.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "property.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "property_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21056,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_dbus_error.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scoped_dbus_error.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "signal_sender_verification_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "string_util.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "string_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "string_util_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1053,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_proto.proto",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_server.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_service.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "values_util.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "values_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "values_util_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dbus",
+    "package": "qtwebengine-opensource-src",
+    "path": "qtwebengine-opensource-src/5.15.7+dfsg-2/src/3rdparty/chromium/dbus",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/qtwebengine-opensource-src/5.15.7+dfsg-2/",
+        "metric": {
+            "size": 2161044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/qtwebengine-opensource-src",
+        "sloc": [
+            [
+                "cpp",
+                13183846
+            ],
+            [
+                "ansic",
+                4303818
+            ],
+            [
+                "javascript",
+                1960781
+            ],
+            [
+                "python",
+                599616
+            ],
+            [
+                "asm",
+                529954
+            ],
+            [
+                "xml",
+                496618
+            ],
+            [
+                "java",
+                151702
+            ],
+            [
+                "objc",
+                80776
+            ],
+            [
+                "perl",
+                73785
+            ],
+            [
+                "sh",
+                71092
+            ],
+            [
+                "cs",
+                30383
+            ],
+            [
+                "makefile",
+                21754
+            ],
+            [
+                "yacc",
+                9062
+            ],
+            [
+                "tcl",
+                8285
+            ],
+            [
+                "php",
+                5896
+            ],
+            [
+                "sql",
+                5473
+            ],
+            [
+                "pascal",
+                4510
+            ],
+            [
+                "lex",
+                2884
+            ],
+            [
+                "lisp",
+                2727
+            ],
+            [
+                "ruby",
+                683
+            ],
+            [
+                "awk",
+                200
+            ],
+            [
+                "sed",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/qt/qtwebengine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.15.7+dfsg-2"
+}
