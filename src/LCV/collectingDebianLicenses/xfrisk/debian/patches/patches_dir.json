@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "010_xgethostname.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_pass-hardening-flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "030_fix-ftbfs-with-hardening-flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 447,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "040_fix-spelling-errors.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "xfrisk",
+    "path": "xfrisk/1.2-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/xfrisk/1.2-8/",
+        "metric": {
+            "size": 2332
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xfrisk",
+        "sloc": [
+            [
+                "ansic",
+                16880
+            ],
+            [
+                "makefile",
+                272
+            ],
+            [
+                "sh",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/xfrisk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2-8"
+}

@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "htdig",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mnogosearch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "namazu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "udmsearch",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 11,
+                "symlink_dest": "mnogosearch",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "search",
+    "package": "wwwoffle",
+    "path": "wwwoffle/2.9f-2.2/cache/html/fr/search",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2077,
+        "license": "/copyright/license/wwwoffle/2.9f-2.2/",
+        "metric": {
+            "size": 7716
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wwwoffle",
+        "sloc": [
+            [
+                "ansic",
+                23951
+            ],
+            [
+                "sh",
+                6815
+            ],
+            [
+                "lex",
+                4201
+            ],
+            [
+                "perl",
+                917
+            ],
+            [
+                "makefile",
+                623
+            ],
+            [
+                "ruby",
+                181
+            ],
+            [
+                "lisp",
+                14
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "2.9f-2.2"
+}

@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "indexer-full.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indexer-full.old.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indexer-incr.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 17,
+                "symlink_dest": "indexer-full.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indexer-incr.old.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 21,
+                "symlink_dest": "indexer-full.old.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "result.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "conf",
+    "package": "wwwoffle",
+    "path": "wwwoffle/2.9f-2.2/cache/search/mnogosearch/conf",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2077,
+        "license": "/copyright/license/wwwoffle/2.9f-2.2/",
+        "metric": {
+            "size": 7716
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wwwoffle",
+        "sloc": [
+            [
+                "ansic",
+                23951
+            ],
+            [
+                "sh",
+                6815
+            ],
+            [
+                "lex",
+                4201
+            ],
+            [
+                "perl",
+                917
+            ],
+            [
+                "makefile",
+                623
+            ],
+            [
+                "ruby",
+                181
+            ],
+            [
+                "lisp",
+                14
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "2.9f-2.2"
+}

@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "config",
+            "percent_encoded_name": "config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "create-pubkey.py",
+            "percent_encoded_name": "create-pubkey.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openssl-selfsigned.conf",
+            "percent_encoded_name": "openssl-selfsigned.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup_tests.sh",
+            "percent_encoded_name": "setup_tests.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 803,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_inside_docker.sh",
+            "percent_encoded_name": "test_inside_docker.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "xrootd",
+    "path": "xrootd/5.4.0-2/src/XrdSciTokens/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/xrootd/5.4.0-2/",
+        "metric": {
+            "size": 20900
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xrootd",
+        "sloc": [
+            [
+                "cpp",
+                233390
+            ],
+            [
+                "sh",
+                2636
+            ],
+            [
+                "python",
+                2067
+            ],
+            [
+                "ansic",
+                999
+            ],
+            [
+                "perl",
+                814
+            ],
+            [
+                "makefile",
+                219
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ellert/xrootd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.4.0-2"
+}

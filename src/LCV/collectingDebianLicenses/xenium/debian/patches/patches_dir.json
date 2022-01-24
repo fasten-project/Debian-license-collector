@@ -1,0 +1,90 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AdjustCMake.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect-thread-sanitizer.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-gcc11-FTBFS.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-privacy-breach.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "xenium",
+    "path": "xenium/0.0.2+ds-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/xenium/0.0.2+ds-6/",
+        "metric": {
+            "size": 1144
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xenium",
+        "sloc": [
+            [
+                "cpp",
+                12299
+            ],
+            [
+                "makefile",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/xenium",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.2+ds-6"
+}

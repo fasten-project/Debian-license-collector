@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-eof-defined.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-config-files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-optimize.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-wwwstat-2.01.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1958,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-getopts.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "wwwstat",
+    "path": "wwwstat/2.0-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 249,
+        "license": "/copyright/license/wwwstat/2.0-7/",
+        "metric": {
+            "size": 960
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wwwstat",
+        "sloc": [
+            [
+                "perl",
+                9399
+            ],
+            [
+                "makefile",
+                28
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ],
+        "vcs_browser": "http://gitorious.org/wwwstat/wwwstat-pkg",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0-7"
+}

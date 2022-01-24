@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "add_gtk_libraries_to_linker.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avoid_linking_to_unneeded_libs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_debian_packaged_niftilib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "xmedcon",
+    "path": "xmedcon/0.16.3+dfsg-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/xmedcon/0.16.3+dfsg-1/",
+        "metric": {
+            "size": 3576
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xmedcon",
+        "sloc": [
+            [
+                "ansic",
+                42236
+            ],
+            [
+                "makefile",
+                398
+            ],
+            [
+                "sh",
+                74
+            ],
+            [
+                "xml",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/xmedcon",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.16.3+dfsg-1"
+}

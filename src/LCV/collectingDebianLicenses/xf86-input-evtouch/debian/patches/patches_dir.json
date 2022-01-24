@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_fix_warnings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_calibration_1.6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_server-1.6-ftbfs.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_server-1.7-ftbfs.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_fix_CURSORDIR.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_add_TSC-10_to_evdev_rules.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "xf86-input-evtouch",
+    "path": "xf86-input-evtouch/0.8.8-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 658,
+        "license": "/copyright/license/xf86-input-evtouch/0.8.8-4/",
+        "metric": {
+            "size": 1684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xf86-input-evtouch",
+        "sloc": [
+            [
+                "sh",
+                10123
+            ],
+            [
+                "ansic",
+                6736
+            ],
+            [
+                "makefile",
+                241
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-xorg/driver/xserver-xorg-input-evtouch.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8.8-4"
+}

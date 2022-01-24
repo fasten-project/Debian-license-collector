@@ -1,0 +1,130 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_xdiskusage.1_typos-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_xdiskusage.spec_typos.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_xdiskusage.C_amd64-gcc4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 765,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_xdiskusage.C_check_standard_input.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_xdiskusage.C_support_4.3TB_and_more.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_xdiskusage.C_used_Ki_Mi_Gi.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_fix_ftbfs_with_gcc_4.7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "xdiskusage",
+    "path": "xdiskusage/1.48-10.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 590,
+        "license": "/copyright/license/xdiskusage/1.48-10.1/",
+        "metric": {
+            "size": 444
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xdiskusage",
+        "sloc": [
+            [
+                "cpp",
+                5910
+            ],
+            [
+                "sh",
+                152
+            ],
+            [
+                "makefile",
+                103
+            ]
+        ],
+        "suites": [
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.48-10.1"
+}

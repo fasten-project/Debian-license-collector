@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-misc.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-nostrip.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_dpkg_buildflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_hardening_cflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_testsuite.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "wp2x",
+    "path": "wp2x/2.5-mhi-13/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 629,
+        "license": "/copyright/license/wp2x/2.5-mhi-13/",
+        "metric": {
+            "size": 708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/wp2x",
+        "sloc": [
+            [
+                "ansic",
+                2068
+            ],
+            [
+                "makefile",
+                80
+            ],
+            [
+                "perl",
+                70
+            ],
+            [
+                "sh",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=collab-maint/wp2x.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5-mhi-13"
+}

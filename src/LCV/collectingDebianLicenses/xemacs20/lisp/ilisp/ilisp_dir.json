@@ -1,0 +1,848 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ACKNOWLEDGMENTS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 848,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GETTING-ILISP",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "HISTORY",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "INSTALLATION",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Welcome",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allegro.lisp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bridge.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cl-ilisp.lisp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cmulisp.lisp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comint-ipc.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comint-v18.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "completer.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "completer.new.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "completer.no-fun.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilcompat.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ild.mail",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilfsf18.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilfsf19.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-acl.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-aut.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-bat.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-bug.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-chs.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-cl.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-cmp.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-cmt.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2745,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-cmu.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-cpat.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-def.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-dia.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-doc.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-el.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-ext.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-hi.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19843,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-hlw.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-hnd.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-ind.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-inp.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-kcl.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-key.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7686,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-kil.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-low.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-luc.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-mak.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-menu.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-mnb.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-mod.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-mov.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-out.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-pkg.lisp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-prc.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-prn.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3028,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-rng.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-s2c.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-sch.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-snd.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-src.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-sym.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-utl.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-val.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-xfr.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp-xls.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilisp.emacs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "illuc19.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ilxemacs.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lispworks.lisp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lucid.lisp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scheme2c.mail",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ilisp",
+    "package": "xemacs20",
+    "path": "xemacs20/20.4-13/lisp/ilisp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 57643,
+        "license": "/copyright/license/xemacs20/20.4-13/",
+        "metric": {
+            "size": 67324
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xemacs20",
+        "sloc": [
+            [
+                "lisp",
+                586197
+            ],
+            [
+                "ansic",
+                184662
+            ],
+            [
+                "sh",
+                4296
+            ],
+            [
+                "asm",
+                3179
+            ],
+            [
+                "makefile",
+                2021
+            ],
+            [
+                "perl",
+                1059
+            ],
+            [
+                "csh",
+                96
+            ],
+            [
+                "sed",
+                22
+            ]
+        ],
+        "suites": [
+            "slink"
+        ]
+    },
+    "type": "directory",
+    "version": "20.4-13"
+}

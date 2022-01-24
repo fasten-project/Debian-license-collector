@@ -1,0 +1,197 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001_bx-qemu.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002_kvm-bios-update-smbios-table-to-report-memory-above-4g.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003_kvm-bios-generate-mptable-unconditionally.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004_kvm-bios-resolve-memory-device-roll-over-reporting--issues-with-32g-guests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005_kvm-bios-fix-smbios-memory-device-length-boundary--condition.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006_qemu-bios-use-preprocessor-for-pci-link-routing.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007_bios-add-26-pci-slots%2C-bringing-the-total-to-32.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008_qemu-bios-provide-gpe-_l0x-methods.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0009_qemu-bios-pci-hotplug-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010_bios-mark-the-acpi-sci-interrupt-as-connected-to-irq-9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0011_read-additional-acpi-tables-from-a-vm.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "HEAD",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bios-pq",
+    "package": "xen-qemu-dm-4.0",
+    "path": "xen-qemu-dm-4.0/4.0.1-2+squeeze3/pc-bios/bios-pq",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 62237,
+        "license": "/copyright/license/xen-qemu-dm-4.0/4.0.1-2+squeeze3/",
+        "metric": {
+            "size": 20240
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xen-qemu-dm-4.0",
+        "sloc": [
+            [
+                "ansic",
+                395557
+            ],
+            [
+                "asm",
+                4322
+            ],
+            [
+                "sh",
+                1816
+            ],
+            [
+                "objc",
+                806
+            ],
+            [
+                "makefile",
+                587
+            ],
+            [
+                "xml",
+                409
+            ],
+            [
+                "perl",
+                343
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=users/zigo/xen-qemu-dm-4.0.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.0.1-2+squeeze3"
+}

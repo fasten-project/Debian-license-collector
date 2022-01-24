@@ -1,0 +1,688 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "SConscript",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TODO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auth.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auth.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "constants.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output_table.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output_table.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output_updates.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output_updates.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "packet_assembly.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "packet_queue.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "packet_queue.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "packets.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "peer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "peer.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "port.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "port.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "port_io.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "port_manager.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "port_vars.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "redist.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "redist.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rib_notifier_base.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rib_notifier_base.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rip_module.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rip_varrw.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rip_varrw.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "route_db.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "route_db.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "route_entry.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7772,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "route_entry.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "trace.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update_queue.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update_queue.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xorp_rip_main.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_config.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_config.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_port_io.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_port_io.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_port_manager.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_port_manager.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_process_spy.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_process_spy.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_redist_manager.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_redist_manager.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_rib_notifier.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_rib_notifier.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_target_common.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_target_rip.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_target_rip.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_target_ripng.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xrl_target_ripng.hh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "rip",
+    "package": "xorp",
+    "path": "xorp/1.8.6~wip.20160715-2/rip",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 55022,
+        "license": "/copyright/license/xorp/1.8.6%7Ewip.20160715-2/",
+        "metric": {
+            "size": 29132
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xorp",
+        "sloc": [
+            [
+                "cpp",
+                379507
+            ],
+            [
+                "sh",
+                28464
+            ],
+            [
+                "ansic",
+                20843
+            ],
+            [
+                "python",
+                7672
+            ],
+            [
+                "lex",
+                1715
+            ],
+            [
+                "yacc",
+                1592
+            ],
+            [
+                "awk",
+                956
+            ],
+            [
+                "perl",
+                217
+            ],
+            [
+                "makefile",
+                193
+            ],
+            [
+                "xml",
+                166
+            ],
+            [
+                "sed",
+                33
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/viewsvn/pkg-xorp/trunk/xorp/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.8.6~wip.20160715-2"
+}

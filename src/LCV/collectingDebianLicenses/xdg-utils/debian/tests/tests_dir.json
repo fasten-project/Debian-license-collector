@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "entry",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "with-bash",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 5,
+                "symlink_dest": "entry",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "with-dash",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 5,
+                "symlink_dest": "entry",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "xdg-utils",
+    "path": "xdg-utils/1.1.3-4.1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/xdg-utils/1.1.3-4.1/",
+        "metric": {
+            "size": 1636
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xdg-utils",
+        "sloc": [
+            [
+                "sh",
+                7962
+            ],
+            [
+                "xml",
+                3213
+            ],
+            [
+                "perl",
+                335
+            ],
+            [
+                "makefile",
+                205
+            ],
+            [
+                "awk",
+                41
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/freedesktop-team/xdg-utils",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.3-4.1"
+}

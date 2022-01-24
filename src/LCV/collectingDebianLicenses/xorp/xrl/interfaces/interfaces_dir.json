@@ -1,0 +1,754 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "SConscript",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bgp.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bgp_mib_traps.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 447,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cli_manager.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cli_processor.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "coord.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "datain.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_click.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_fib.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_fib_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_firewall.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_ifmgr.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_ifmgr_mirror.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_ifmgr_replicator.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_rawlink.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_rawlink_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_rawpkt4.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4447,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_rawpkt4_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_rawpkt6.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fea_rawpkt6_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fib2mrib.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "finder.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "finder_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "finder_event_notifier.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "finder_event_observer.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 609,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fti.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "isis.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mfea.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mfea_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mld6igmp.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mld6igmp_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "olsr4.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ospfv2.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10064,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ospfv3.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pim.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy_backend.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy_redist4.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy_redist6.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "profile.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "profile_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "redist4.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1923,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "redist6.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1923,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "redist_transaction4.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "redist_transaction6.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rib.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rib_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rip.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ripng.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtrmgr.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rtrmgr_client.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socket4.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socket4_user.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socket6.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socket6_user.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "static_routes.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_peer.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_xrls.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vrrp.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wrapper4.xif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "interfaces",
+    "package": "xorp",
+    "path": "xorp/1.8.6~wip.20160715-2/xrl/interfaces",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 55022,
+        "license": "/copyright/license/xorp/1.8.6%7Ewip.20160715-2/",
+        "metric": {
+            "size": 29132
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xorp",
+        "sloc": [
+            [
+                "cpp",
+                379507
+            ],
+            [
+                "sh",
+                28464
+            ],
+            [
+                "ansic",
+                20843
+            ],
+            [
+                "python",
+                7672
+            ],
+            [
+                "lex",
+                1715
+            ],
+            [
+                "yacc",
+                1592
+            ],
+            [
+                "awk",
+                956
+            ],
+            [
+                "perl",
+                217
+            ],
+            [
+                "makefile",
+                193
+            ],
+            [
+                "xml",
+                166
+            ],
+            [
+                "sed",
+                33
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/viewsvn/pkg-xorp/trunk/xorp/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.8.6~wip.20160715-2"
+}

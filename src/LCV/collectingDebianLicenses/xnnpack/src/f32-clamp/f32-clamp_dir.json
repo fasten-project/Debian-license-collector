@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "avx.c.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avx512f.c.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "neon.c.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1890,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scalar.c.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sse.c.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wasmsimd.c.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "f32-clamp",
+    "package": "xnnpack",
+    "path": "xnnpack/0.0~git20201221.e1ffe15-2.1/src/f32-clamp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/xnnpack/0.0%7Egit20201221.e1ffe15-2.1/",
+        "metric": {
+            "size": 60476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xnnpack",
+        "sloc": [
+            [
+                "cpp",
+                592109
+            ],
+            [
+                "ansic",
+                516597
+            ],
+            [
+                "asm",
+                30464
+            ],
+            [
+                "python",
+                8639
+            ],
+            [
+                "sh",
+                3113
+            ],
+            [
+                "makefile",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/deeplearning-team/xnnpack",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0~git20201221.e1ffe15-2.1"
+}

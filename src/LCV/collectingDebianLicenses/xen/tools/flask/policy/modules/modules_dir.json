@@ -1,0 +1,229 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "all_system_role.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dom0.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "domU.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 942,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guest_features.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "isolated_domU.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nic_dev.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nomigrate.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prot_domU.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vm_role.cons",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vm_role.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xen.if",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xen.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3041,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xenstore.te",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "modules",
+    "package": "xen",
+    "path": "xen/4.14.3+32-g9de3671772-1/tools/flask/policy/modules",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/xen/4.14.3+32-g9de3671772-1/",
+        "metric": {
+            "size": 36532
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xen",
+        "sloc": [
+            [
+                "ansic",
+                488850
+            ],
+            [
+                "asm",
+                8087
+            ],
+            [
+                "python",
+                6941
+            ],
+            [
+                "makefile",
+                6925
+            ],
+            [
+                "sh",
+                6612
+            ],
+            [
+                "ml",
+                4911
+            ],
+            [
+                "perl",
+                4420
+            ],
+            [
+                "cpp",
+                1885
+            ],
+            [
+                "lex",
+                813
+            ],
+            [
+                "yacc",
+                644
+            ],
+            [
+                "pascal",
+                489
+            ],
+            [
+                "sed",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/xen-team/debian-xen",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.14.3+32-g9de3671772-1"
+}

@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Maildir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mailbox",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mailproc.sample.tab",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pop3.ipmap.sample.tab",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "user.tab",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "xmailuser",
+    "package": "xmail",
+    "path": "xmail/1.27-1.1/MailRoot/domains/xmailserver.test/xmailuser",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 17281,
+        "license": "/copyright/license/xmail/1.27-1.1/",
+        "metric": {
+            "size": 6840
+        },
+        "pts_link": "https://tracker.debian.org/pkg/xmail",
+        "sloc": [
+            [
+                "cpp",
+                33176
+            ],
+            [
+                "ansic",
+                20400
+            ],
+            [
+                "sh",
+                487
+            ],
+            [
+                "perl",
+                268
+            ],
+            [
+                "makefile",
+                106
+            ]
+        ],
+        "suites": [
+            "squeeze",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.27-1.1"
+}
