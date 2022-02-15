@@ -1,0 +1,156 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-nospoof-fix.patch",
+            "percent_encoded_name": "01-nospoof-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-drop-inetd-support.patch",
+            "percent_encoded_name": "02-drop-inetd-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-add-several-missing-includes.patch",
+            "percent_encoded_name": "03-add-several-missing-includes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-fix-definition-of-bp-for-tgetent-call.patch",
+            "percent_encoded_name": "04-fix-definition-of-bp-for-tgetent-call.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-prevent-segfault-on-part.patch",
+            "percent_encoded_name": "05-prevent-segfault-on-part.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-clean-up-several-warnings.patch",
+            "percent_encoded_name": "06-clean-up-several-warnings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-add-isatty-3-check-in-case-of-stdin.patch",
+            "percent_encoded_name": "07-add-isatty-3-check-in-case-of-stdin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-avoid-NULL-dereferences.patch",
+            "percent_encoded_name": "08-avoid-NULL-dereferences.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-argc.patch",
+            "percent_encoded_name": "20-argc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7754,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "percent_encoded_name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "tinyirc",
+    "path": "tinyirc/1:1.1.dfsg.1-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tinyirc/1:1.1.dfsg.1-4/",
+        "metric": {
+            "size": 508
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tinyirc",
+        "sloc": [
+            [
+                "ansic",
+                10869
+            ],
+            [
+                "makefile",
+                60
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/tinyirc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.1.dfsg.1-4"
+}

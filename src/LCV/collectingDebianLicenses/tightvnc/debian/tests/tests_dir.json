@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "percent_encoded_name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-vnc-connection",
+            "percent_encoded_name": "test-vnc-connection",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-vnc-connection.d",
+            "percent_encoded_name": "test-vnc-connection.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "tightvnc",
+    "path": "tightvnc/1:1.3.10-5/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tightvnc/1:1.3.10-5/",
+        "metric": {
+            "size": 14532
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tightvnc",
+        "sloc": [
+            [
+                "ansic",
+                209602
+            ],
+            [
+                "asm",
+                780
+            ],
+            [
+                "perl",
+                539
+            ],
+            [
+                "makefile",
+                532
+            ],
+            [
+                "sh",
+                258
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-remote-team/tightvnc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.3.10-5"
+}

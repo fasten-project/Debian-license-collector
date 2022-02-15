@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian",
+            "percent_encoded_name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "percent_encoded_name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tg-completion.patch",
+            "percent_encoded_name": "tg-completion.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "topgit-0.8..upstream.diff",
+            "percent_encoded_name": "topgit-0.8..upstream.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "topgit",
+    "path": "topgit/0.8-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/topgit/0.8-2/",
+        "metric": {
+            "size": 340
+        },
+        "pts_link": "https://tracker.debian.org/pkg/topgit",
+        "sloc": [
+            [
+                "sh",
+                1573
+            ],
+            [
+                "makefile",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/topgit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8-2"
+}

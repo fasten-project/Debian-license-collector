@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "vncserver@.service.in",
+            "percent_encoded_name": "vncserver%40.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vncsession-start.in",
+            "percent_encoded_name": "vncsession-start.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vncsession.c",
+            "percent_encoded_name": "vncsession.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "vncserver",
+    "package": "tigervnc",
+    "path": "tigervnc/1.12.0+dfsg-2/.pc/0210-use-tigervncsession-name.patch/unix/vncserver",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tigervnc/1.12.0+dfsg-2/",
+        "metric": {
+            "size": 8920
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tigervnc",
+        "sloc": [
+            [
+                "cpp",
+                35447
+            ],
+            [
+                "java",
+                34251
+            ],
+            [
+                "ansic",
+                11827
+            ],
+            [
+                "perl",
+                4328
+            ],
+            [
+                "makefile",
+                911
+            ],
+            [
+                "sh",
+                350
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-remote-team/tigervnc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.12.0+dfsg-2"
+}

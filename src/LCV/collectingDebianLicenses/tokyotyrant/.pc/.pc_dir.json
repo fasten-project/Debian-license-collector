@@ -1,0 +1,195 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "percent_encoded_name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "percent_encoded_name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "percent_encoded_name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "000-pkg-config-move-private-libs-to-Libs.private",
+            "percent_encoded_name": "000-pkg-config-move-private-libs-to-Libs.private",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "001-rpath-defines",
+            "percent_encoded_name": "001-rpath-defines",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "002-remove-unused-libraries",
+            "percent_encoded_name": "002-remove-unused-libraries",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "003-run-service-make-check",
+            "percent_encoded_name": "003-run-service-make-check",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "004-kfreebsd-fix",
+            "percent_encoded_name": "004-kfreebsd-fix",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "005-change-default-port",
+            "percent_encoded_name": "005-change-default-port",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "006-no-add-needed",
+            "percent_encoded_name": "006-no-add-needed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "007-libdl-underlinkage",
+            "percent_encoded_name": "007-libdl-underlinkage",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "percent_encoded_name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "tokyotyrant",
+    "path": "tokyotyrant/1.1.40-4.2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1482,
+        "license": "/copyright/license/tokyotyrant/1.1.40-4.2/",
+        "metric": {
+            "size": 1892
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tokyotyrant",
+        "sloc": [
+            [
+                "ansic",
+                15331
+            ],
+            [
+                "sh",
+                427
+            ],
+            [
+                "makefile",
+                295
+            ],
+            [
+                "perl",
+                192
+            ],
+            [
+                "awk",
+                91
+            ],
+            [
+                "ruby",
+                42
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "1.1.40-4.2"
+}

@@ -1,0 +1,183 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Foo-with-entrypoints-exposed",
+            "percent_encoded_name": "Foo-with-entrypoints-exposed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "With-foo-added-then-removed",
+            "percent_encoded_name": "With-foo-added-then-removed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 148,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "add-foo-despite-foo-already-existin",
+            "percent_encoded_name": "add-foo-despite-foo-already-existin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "add-to-path-foo",
+            "percent_encoded_name": "add-to-path-foo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "config.texttest",
+            "percent_encoded_name": "config.texttest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "edit-permissions-foo",
+            "percent_encoded_name": "edit-permissions-foo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "expose-entrypoints-foo",
+            "percent_encoded_name": "expose-entrypoints-foo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "hide-entry-points-foo",
+            "percent_encoded_name": "hide-entry-points-foo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "remove-foo",
+            "percent_encoded_name": "remove-foo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "remove-from-path-foo",
+            "percent_encoded_name": "remove-from-path-foo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run.sh",
+            "percent_encoded_name": "run.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testsuite.texttest",
+            "percent_encoded_name": "testsuite.texttest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "With-one-subuser-named-foo",
+    "package": "subuser",
+    "path": "subuser/0.6.2-3/test/subuser/With-one-subuser-named-foo",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/subuser/0.6.2-3/",
+        "metric": {
+            "size": 4208
+        },
+        "pts_link": "https://tracker.debian.org/pkg/subuser",
+        "sloc": [
+            [
+                "python",
+                5201
+            ],
+            [
+                "sh",
+                380
+            ],
+            [
+                "makefile",
+                73
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.6.2-3"
+}

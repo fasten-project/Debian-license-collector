@@ -1,0 +1,187 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "percent_encoded_name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "percent_encoded_name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "percent_encoded_name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_fix-manpages.patch",
+            "percent_encoded_name": "01_fix-manpages.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02_disable-bypass-lan.patch",
+            "percent_encoded_name": "02_disable-bypass-lan.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03_systemd-service.patch",
+            "percent_encoded_name": "03_systemd-service.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "04_disable-libtls-tests.patch",
+            "percent_encoded_name": "04_disable-libtls-tests.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "percent_encoded_name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dont-load-kernel-libipsec-plugin-by-default.patch",
+            "percent_encoded_name": "dont-load-kernel-libipsec-plugin-by-default.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "strongswan",
+    "path": "strongswan/5.9.4-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/strongswan/5.9.4-1/",
+        "metric": {
+            "size": 58308
+        },
+        "pts_link": "https://tracker.debian.org/pkg/strongswan",
+        "sloc": [
+            [
+                "ansic",
+                385088
+            ],
+            [
+                "sh",
+                10049
+            ],
+            [
+                "makefile",
+                6353
+            ],
+            [
+                "sql",
+                2830
+            ],
+            [
+                "javascript",
+                1948
+            ],
+            [
+                "python",
+                822
+            ],
+            [
+                "xml",
+                608
+            ],
+            [
+                "perl",
+                586
+            ],
+            [
+                "cs",
+                522
+            ],
+            [
+                "lex",
+                485
+            ],
+            [
+                "yacc",
+                441
+            ],
+            [
+                "ruby",
+                398
+            ],
+            [
+                "ada",
+                114
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/strongswan",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.9.4-1"
+}

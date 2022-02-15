@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "enable-hardening.diff",
+            "percent_encoded_name": "enable-hardening.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kfreebsd-no-keepidle.patch",
+            "percent_encoded_name": "kfreebsd-no-keepidle.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "only-use-syscall-futex-on-x86-and-x64.diff",
+            "percent_encoded_name": "only-use-syscall-futex-on-x86-and-x64.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "percent_encoded_name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "stud",
+    "path": "stud/0.3-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/stud/0.3-3/",
+        "metric": {
+            "size": 536
+        },
+        "pts_link": "https://tracker.debian.org/pkg/stud",
+        "sloc": [
+            [
+                "ansic",
+                4652
+            ],
+            [
+                "sh",
+                166
+            ],
+            [
+                "makefile",
+                77
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-stud/pkg-stud.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3-3"
+}

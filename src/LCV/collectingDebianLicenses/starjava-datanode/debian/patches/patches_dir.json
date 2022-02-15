@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Fix-build.xml-for-use-outside-of-starjava.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Remove-AST-references.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Remove-HDS-references.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Remove-NDX-HDX-references.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Remove-javax.media.jai-dependency.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Use-commons.compress-instead-of-ant-tar.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "starjava-datanode",
+    "path": "starjava-datanode/1.0+2020.10.01-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/starjava-datanode/1.0+2020.10.01-1/",
+        "metric": {
+            "size": 1664
+        },
+        "pts_link": "https://tracker.debian.org/pkg/starjava-datanode",
+        "sloc": [
+            [
+                "java",
+                10637
+            ],
+            [
+                "xml",
+                522
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-astro-team/starjava-datanode",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0+2020.10.01-1"
+}

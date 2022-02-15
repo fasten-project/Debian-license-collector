@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "license.txt",
+            "percent_encoded_name": "license.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "local",
+            "percent_encoded_name": "local",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "torbrowser.Browser.firefox",
+            "percent_encoded_name": "torbrowser.Browser.firefox",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "torbrowser.Tor.tor",
+            "percent_encoded_name": "torbrowser.Tor.tor",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tunables",
+            "percent_encoded_name": "tunables",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "apparmor",
+    "package": "torbrowser-launcher",
+    "path": "torbrowser-launcher/0.3.5-2/apparmor",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/torbrowser-launcher/0.3.5-2/",
+        "metric": {
+            "size": 828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/torbrowser-launcher",
+        "sloc": [
+            [
+                "python",
+                1051
+            ],
+            [
+                "sh",
+                76
+            ],
+            [
+                "xml",
+                32
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-privacy-team/torbrowser-launcher",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.5-2"
+}

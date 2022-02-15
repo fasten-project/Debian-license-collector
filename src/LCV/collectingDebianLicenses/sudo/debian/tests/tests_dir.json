@@ -1,0 +1,131 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-getroot",
+            "percent_encoded_name": "01-getroot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03",
+            "percent_encoded_name": "03",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03-getroot-ldap",
+            "percent_encoded_name": "03-getroot-ldap",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common",
+            "percent_encoded_name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "percent_encoded_name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ldif",
+            "percent_encoded_name": "ldif",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "sudo",
+    "path": "sudo/1.9.8p2-1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/sudo/1.9.8p2-1/",
+        "metric": {
+            "size": 21296
+        },
+        "pts_link": "https://tracker.debian.org/pkg/sudo",
+        "sloc": [
+            [
+                "ansic",
+                98596
+            ],
+            [
+                "sh",
+                12308
+            ],
+            [
+                "makefile",
+                9044
+            ],
+            [
+                "yacc",
+                2432
+            ],
+            [
+                "lex",
+                1345
+            ],
+            [
+                "python",
+                362
+            ],
+            [
+                "perl",
+                320
+            ],
+            [
+                "sed",
+                229
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/sudo-team/sudo",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.8p2-1"
+}

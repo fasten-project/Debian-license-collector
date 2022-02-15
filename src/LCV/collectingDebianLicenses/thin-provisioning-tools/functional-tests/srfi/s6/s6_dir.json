@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "basic-string-ports",
+            "percent_encoded_name": "basic-string-ports",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "basic-string-ports.mzscheme.sls",
+            "percent_encoded_name": "basic-string-ports.mzscheme.sls",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basic-string-ports.sls",
+            "percent_encoded_name": "basic-string-ports.sls",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "s6",
+    "package": "thin-provisioning-tools",
+    "path": "thin-provisioning-tools/0.9.0-1/functional-tests/srfi/s6",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/thin-provisioning-tools/0.9.0-1/",
+        "metric": {
+            "size": 3428
+        },
+        "pts_link": "https://tracker.debian.org/pkg/thin-provisioning-tools",
+        "sloc": [
+            [
+                "cpp",
+                26886
+            ],
+            [
+                "lisp",
+                11539
+            ],
+            [
+                "sh",
+                3442
+            ],
+            [
+                "ansic",
+                1377
+            ],
+            [
+                "xml",
+                544
+            ],
+            [
+                "makefile",
+                432
+            ],
+            [
+                "ruby",
+                155
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/lvm-team/thin-provisioning-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.0-1"
+}

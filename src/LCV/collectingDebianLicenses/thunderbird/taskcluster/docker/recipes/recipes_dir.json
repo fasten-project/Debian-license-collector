@@ -1,0 +1,235 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common.sh",
+            "percent_encoded_name": "common.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian-test-system-setup.sh",
+            "percent_encoded_name": "debian-test-system-setup.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dot-config",
+            "percent_encoded_name": "dot-config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "hgrc",
+            "percent_encoded_name": "hgrc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install-node.sh",
+            "percent_encoded_name": "install-node.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_openjdk.sh",
+            "percent_encoded_name": "prepare_openjdk.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup_packages.sh",
+            "percent_encoded_name": "setup_packages.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubuntu1804-test-system-setup-base.sh",
+            "percent_encoded_name": "ubuntu1804-test-system-setup-base.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ubuntu1804-test-system-setup.sh",
+            "percent_encoded_name": "ubuntu1804-test-system-setup.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xvfb.sh",
+            "percent_encoded_name": "xvfb.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "recipes",
+    "package": "thunderbird",
+    "path": "thunderbird/1:91.5.1-1/taskcluster/docker/recipes",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/thunderbird/1:91.5.1-1/",
+        "metric": {
+            "size": 3006600
+        },
+        "pts_link": "https://tracker.debian.org/pkg/thunderbird",
+        "sloc": [
+            [
+                "cpp",
+                6078955
+            ],
+            [
+                "javascript",
+                4780406
+            ],
+            [
+                "ansic",
+                3336834
+            ],
+            [
+                "python",
+                863008
+            ],
+            [
+                "asm",
+                366600
+            ],
+            [
+                "xml",
+                204277
+            ],
+            [
+                "java",
+                152477
+            ],
+            [
+                "sh",
+                111435
+            ],
+            [
+                "makefile",
+                21388
+            ],
+            [
+                "perl",
+                15285
+            ],
+            [
+                "yacc",
+                4583
+            ],
+            [
+                "objc",
+                3026
+            ],
+            [
+                "lex",
+                1720
+            ],
+            [
+                "exp",
+                762
+            ],
+            [
+                "pascal",
+                635
+            ],
+            [
+                "awk",
+                564
+            ],
+            [
+                "sql",
+                453
+            ],
+            [
+                "php",
+                436
+            ],
+            [
+                "lisp",
+                432
+            ],
+            [
+                "ruby",
+                99
+            ],
+            [
+                "sed",
+                69
+            ],
+            [
+                "csh",
+                45
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/mozilla-team/thunderbird/commits/debian/sid/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:91.5.1-1"
+}

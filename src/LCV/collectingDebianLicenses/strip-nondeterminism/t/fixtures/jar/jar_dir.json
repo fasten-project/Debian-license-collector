@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "android.apk.in",
+            "percent_encoded_name": "android.apk.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "android.apk.out",
+            "percent_encoded_name": "android.apk.out",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 14,
+                "symlink_dest": "android.apk.in",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jdependency.jar.in",
+            "percent_encoded_name": "jdependency.jar.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jdependency.jar.out",
+            "percent_encoded_name": "jdependency.jar.out",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "jar",
+    "package": "strip-nondeterminism",
+    "path": "strip-nondeterminism/1.13.0-1/t/fixtures/jar",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/strip-nondeterminism/1.13.0-1/",
+        "metric": {
+            "size": 732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/strip-nondeterminism",
+        "sloc": [
+            [
+                "perl",
+                1301
+            ],
+            [
+                "sh",
+                16
+            ],
+            [
+                "makefile",
+                9
+            ],
+            [
+                "python",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/reproducible-builds/strip-nondeterminism",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.0-1"
+}

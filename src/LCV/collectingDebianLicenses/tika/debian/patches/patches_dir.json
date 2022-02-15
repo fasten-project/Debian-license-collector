@@ -1,0 +1,152 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-jar-packaging.patch",
+            "percent_encoded_name": "01-jar-packaging.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-osgi-compatibility.patch",
+            "percent_encoded_name": "05-osgi-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-optional-parser-dependencies.patch",
+            "percent_encoded_name": "06-optional-parser-dependencies.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-ignore-unsupported-parsers.patch",
+            "percent_encoded_name": "09-ignore-unsupported-parsers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-java11-compatibility.patch",
+            "percent_encoded_name": "11-java11-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-json-compatibility.patch",
+            "percent_encoded_name": "12-json-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13-missing-dependencies.patch",
+            "percent_encoded_name": "13-missing-dependencies.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14-CVE-2020-1950_CVE-2020-1951.patch",
+            "percent_encoded_name": "14-CVE-2020-1950_CVE-2020-1951.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "percent_encoded_name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "tika",
+    "path": "tika/1.22-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tika/1.22-2/",
+        "metric": {
+            "size": 60180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tika",
+        "sloc": [
+            [
+                "java",
+                117392
+            ],
+            [
+                "xml",
+                13548
+            ],
+            [
+                "python",
+                1105
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/tika",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.22-2"
+}

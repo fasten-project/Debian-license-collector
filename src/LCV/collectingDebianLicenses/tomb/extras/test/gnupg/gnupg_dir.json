@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "gpg.conf",
+            "percent_encoded_name": "gpg.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private-keys-v1.d",
+            "percent_encoded_name": "private-keys-v1.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pubring.gpg",
+            "percent_encoded_name": "pubring.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trustdb.gpg",
+            "percent_encoded_name": "trustdb.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "gnupg",
+    "package": "tomb",
+    "path": "tomb/2.9+dfsg1-1/extras/test/gnupg",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/tomb/2.9+dfsg1-1/",
+        "metric": {
+            "size": 4644
+        },
+        "pts_link": "https://tracker.debian.org/pkg/tomb",
+        "sloc": [
+            [
+                "sh",
+                6712
+            ],
+            [
+                "python",
+                1116
+            ],
+            [
+                "ansic",
+                496
+            ],
+            [
+                "cpp",
+                165
+            ],
+            [
+                "makefile",
+                144
+            ],
+            [
+                "perl",
+                57
+            ],
+            [
+                "xml",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/tomb",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.9+dfsg1-1"
+}

@@ -1,0 +1,199 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-show-gui-only-if-tbb-not-installed.patch",
+            "percent_encoded_name": "01-show-gui-only-if-tbb-not-installed.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-remove-double-common-assignment.patch",
+            "percent_encoded_name": "02-remove-double-common-assignment.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 898,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-Remove-use-of-deprecated-platform.dist-fixes-446.patch",
+            "percent_encoded_name": "03-Remove-use-of-deprecated-platform.dist-fixes-446.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-Fix-use-case-that-enforce-install-of-EN-version-on-n.patch",
+            "percent_encoded_name": "04-Fix-use-case-that-enforce-install-of-EN-version-on-n.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-fix-failure-in-detect-installed-torbrowser.patch",
+            "percent_encoded_name": "05-fix-failure-in-detect-installed-torbrowser.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-Update-apparmor-profile.patch",
+            "percent_encoded_name": "06-Update-apparmor-profile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-Fix-U2F-for-Yubikey-5-tokens.patch",
+            "percent_encoded_name": "07-Fix-U2F-for-Yubikey-5-tokens.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-AppArmor-support-Wayland-display-protocol.patch",
+            "percent_encoded_name": "08-AppArmor-support-Wayland-display-protocol.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-Remove-extra-override-for-X11-sockets.patch",
+            "percent_encoded_name": "09-Remove-extra-override-for-X11-sockets.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-AppArmor-allow-Firefox-to-enumerate-GPUs-and-use-graph.patch",
+            "percent_encoded_name": "10-AppArmor-allow-Firefox-to-enumerate-GPUs-and-use-graph.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-AppArmor-silence-a-denial-for-access-we-don-t-need.patch",
+            "percent_encoded_name": "11-AppArmor-silence-a-denial-for-access-we-don-t-need.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "po",
+            "percent_encoded_name": "po",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "percent_encoded_name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "torbrowser-launcher",
+    "path": "torbrowser-launcher/0.3.5-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/torbrowser-launcher/0.3.5-2/",
+        "metric": {
+            "size": 828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/torbrowser-launcher",
+        "sloc": [
+            [
+                "python",
+                1051
+            ],
+            [
+                "sh",
+                76
+            ],
+            [
+                "xml",
+                32
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-privacy-team/torbrowser-launcher",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.5-2"
+}

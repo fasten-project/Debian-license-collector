@@ -1,0 +1,595 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "010_require_cert",
+            "percent_encoded_name": "010_require_cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "011_verify_peer",
+            "percent_encoded_name": "011_verify_peer",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "012_verify_chain",
+            "percent_encoded_name": "012_verify_chain",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "013_CRL_file",
+            "percent_encoded_name": "013_CRL_file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "014_PSK_secrets",
+            "percent_encoded_name": "014_PSK_secrets",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "015_p12_cert",
+            "percent_encoded_name": "015_p12_cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_IPv6",
+            "percent_encoded_name": "020_IPv6",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "021_FIPS",
+            "percent_encoded_name": "021_FIPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "022_bind",
+            "percent_encoded_name": "022_bind",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "028_redirect_chain",
+            "percent_encoded_name": "028_redirect_chain",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "029_no_redirect_chain",
+            "percent_encoded_name": "029_no_redirect_chain",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "030_simple_execute",
+            "percent_encoded_name": "030_simple_execute",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "031_redirect",
+            "percent_encoded_name": "031_redirect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1455,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "032_no_redirect",
+            "percent_encoded_name": "032_no_redirect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "033_redirect_exec",
+            "percent_encoded_name": "033_redirect_exec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "034_no_redirect_exec",
+            "percent_encoded_name": "034_no_redirect_exec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "035_SNI",
+            "percent_encoded_name": "035_SNI",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "036_no_SNI",
+            "percent_encoded_name": "036_no_SNI",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "037_failover_prio1",
+            "percent_encoded_name": "037_failover_prio1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "038_failover_prio2",
+            "percent_encoded_name": "038_failover_prio2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "039_failover_rr",
+            "percent_encoded_name": "039_failover_rr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "040_reload",
+            "percent_encoded_name": "040_reload",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "041_exec_connect",
+            "percent_encoded_name": "041_exec_connect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "042_inetd",
+            "percent_encoded_name": "042_inetd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "043_session_delay",
+            "percent_encoded_name": "043_session_delay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "044_session_nodelay",
+            "percent_encoded_name": "044_session_nodelay",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "045_include",
+            "percent_encoded_name": "045_include",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "046_resume_PSK",
+            "percent_encoded_name": "046_resume_PSK",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "047_resume_redirect",
+            "percent_encoded_name": "047_resume_redirect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "048_resume_noredirect",
+            "percent_encoded_name": "048_resume_noredirect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "049_redirect_nocert",
+            "percent_encoded_name": "049_redirect_nocert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "050_ticket_secrets",
+            "percent_encoded_name": "050_ticket_secrets",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "051_resume_cache_old",
+            "percent_encoded_name": "051_resume_cache_old",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "052_resume_cache",
+            "percent_encoded_name": "052_resume_cache",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "053_resume_ticket",
+            "percent_encoded_name": "053_resume_ticket",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1709,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "054_resume_TLSv1_3",
+            "percent_encoded_name": "054_resume_TLSv1_3",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "055_socket_closed",
+            "percent_encoded_name": "055_socket_closed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "110_failure_require_cert",
+            "percent_encoded_name": "110_failure_require_cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "111_failure_verify_peer",
+            "percent_encoded_name": "111_failure_verify_peer",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "112_failure_verify_chain",
+            "percent_encoded_name": "112_failure_verify_chain",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "113_failure_CRL_file",
+            "percent_encoded_name": "113_failure_CRL_file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "114_failure_PSK_secrets",
+            "percent_encoded_name": "114_failure_PSK_secrets",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "115_failure_wrong_config",
+            "percent_encoded_name": "115_failure_wrong_config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "121_failure_FIPS_ciphers",
+            "percent_encoded_name": "121_failure_FIPS_ciphers",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "122_failure_FIPS_curves",
+            "percent_encoded_name": "122_failure_FIPS_curves",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "recipes",
+    "package": "stunnel4",
+    "path": "stunnel4/3:5.60+dfsg-1/tests/recipes",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/stunnel4/3:5.60+dfsg-1/",
+        "metric": {
+            "size": 4512
+        },
+        "pts_link": "https://tracker.debian.org/pkg/stunnel4",
+        "sloc": [
+            [
+                "ansic",
+                17227
+            ],
+            [
+                "sh",
+                6085
+            ],
+            [
+                "pascal",
+                2719
+            ],
+            [
+                "python",
+                715
+            ],
+            [
+                "cpp",
+                650
+            ],
+            [
+                "perl",
+                428
+            ],
+            [
+                "makefile",
+                218
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/stunnel/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3:5.60+dfsg-1"
+}

@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "lib-src",
+            "percent_encoded_name": "lib-src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib-src-reg",
+            "percent_encoded_name": "lib-src-reg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "wrap-gmp-gmpxx",
+            "percent_encoded_name": "wrap-gmp-gmpxx",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "dont-install-libs-or-headers.patch",
+    "package": "topcom",
+    "path": "topcom/0.17.8+ds-3/.pc/dont-install-libs-or-headers.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/topcom/0.17.8+ds-3/",
+        "metric": {
+            "size": 78572
+        },
+        "pts_link": "https://tracker.debian.org/pkg/topcom",
+        "sloc": [
+            [
+                "cpp",
+                16640
+            ],
+            [
+                "sh",
+                975
+            ],
+            [
+                "makefile",
+                345
+            ],
+            [
+                "ansic",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/math-team/topcom",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.17.8+ds-3"
+}

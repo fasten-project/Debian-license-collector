@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "override.conf",
+            "percent_encoded_name": "override.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thinkfan-sleep.service",
+            "percent_encoded_name": "thinkfan-sleep.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thinkfan-wakeup.service",
+            "percent_encoded_name": "thinkfan-wakeup.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thinkfan.service.cmake",
+            "percent_encoded_name": "thinkfan.service.cmake",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd",
+    "package": "thinkfan",
+    "path": "thinkfan/1.2.1-3.1/rcscripts/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/thinkfan/1.2.1-3.1/",
+        "metric": {
+            "size": 592
+        },
+        "pts_link": "https://tracker.debian.org/pkg/thinkfan",
+        "sloc": [
+            [
+                "cpp",
+                2783
+            ],
+            [
+                "ansic",
+                492
+            ],
+            [
+                "sh",
+                119
+            ],
+            [
+                "xml",
+                23
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/thinkfan",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.1-3.1"
+}

@@ -1,0 +1,109 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Use-RANDFILE-to-avoid-leaving-stray-file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Make-steno.conf-usable-for-Debian-pakcage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Enable-full-hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Fix-spelling.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Fix-unit-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "stenographer",
+    "path": "stenographer/1.0.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/stenographer/1.0.1-2/",
+        "metric": {
+            "size": 19148
+        },
+        "pts_link": "https://tracker.debian.org/pkg/stenographer",
+        "sloc": [
+            [
+                "cpp",
+                2085
+            ],
+            [
+                "sh",
+                782
+            ],
+            [
+                "yacc",
+                257
+            ],
+            [
+                "makefile",
+                102
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/stenographer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.1-2"
+}

@@ -1,0 +1,939 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interactive.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0000-dummy.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0000-init.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0001-subdir-branches.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0002-status.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0003-id.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0004-main.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t0100-help.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1000-branch-create.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1001-branch-rename.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1002-branch-clone.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1003-new.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1004-pack-ref.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1005-branch-delete.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1100-clone-under.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1200-push-modified.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1201-pull-trailing.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1202-push-undo.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1203-push-conflict.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1204-pop-keep.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1205-push-subdir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1206-push-hidden.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1207-push-tree.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1208-push-and-pop.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1209-pop-spill.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1300-uncommit.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1301-repair.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1302-repair-interop.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1303-commit.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1304-repair-hidden.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1500-float.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1501-sink.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1502-float-conflict-1.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 900,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1503-float-conflict-2.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1600-delete-one.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1601-delete-many.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1986,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1602-delete-spill.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1700-goto.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1800-import",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "t1800-import.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t1900-mail.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2000-sync.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2100-pull-policy-fetch.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2101-pull-policy-pull.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2102-pull-policy-rebase.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2200-rebase.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2201-rebase-file-dir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2300-refresh-subdir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2400-diff.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2500-clean.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2600-squash.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2700-refresh.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2701-refresh-p.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2702-refresh-rm.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2800-goto-subdir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2900-rename.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3000-dirty-merge.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3100-reset.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3101-reset-hard.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3102-undo.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3103-undo-hard.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3104-redo.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3105-undo-external-mod.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3200-non-ascii-filenames.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3300-edit.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7028,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3400-pick.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3500-hide-unhide.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t4000-upgrade",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "t4000-upgrade.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t4100-publish.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t4200-import-s.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t4300-export.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1940,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t4400-encodings.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t5000-refresh-submodules.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t6000-config.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t7504-commit-msg-hook.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9001,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-lib.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "t",
+    "package": "stgit",
+    "path": "stgit/0.19-1/t",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/stgit/0.19-1/",
+        "metric": {
+            "size": 1752
+        },
+        "pts_link": "https://tracker.debian.org/pkg/stgit",
+        "sloc": [
+            [
+                "python",
+                10558
+            ],
+            [
+                "sh",
+                5739
+            ],
+            [
+                "lisp",
+                2678
+            ],
+            [
+                "makefile",
+                142
+            ],
+            [
+                "perl",
+                42
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/stgit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.19-1"
+}

@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-fix-paths.patch",
+            "percent_encoded_name": "01-fix-paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 980,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-rename-binary.patch",
+            "percent_encoded_name": "02-rename-binary.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-runas-user.patch",
+            "percent_encoded_name": "03-runas-user.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-restore-pidfile-default.patch",
+            "percent_encoded_name": "04-restore-pidfile-default.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-des-hash.patch",
+            "percent_encoded_name": "06-des-hash.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "percent_encoded_name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "stunnel4",
+    "path": "stunnel4/3:5.60+dfsg-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/stunnel4/3:5.60+dfsg-1/",
+        "metric": {
+            "size": 4512
+        },
+        "pts_link": "https://tracker.debian.org/pkg/stunnel4",
+        "sloc": [
+            [
+                "ansic",
+                17227
+            ],
+            [
+                "sh",
+                6085
+            ],
+            [
+                "pascal",
+                2719
+            ],
+            [
+                "python",
+                715
+            ],
+            [
+                "cpp",
+                650
+            ],
+            [
+                "perl",
+                428
+            ],
+            [
+                "makefile",
+                218
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/stunnel/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3:5.60+dfsg-1"
+}

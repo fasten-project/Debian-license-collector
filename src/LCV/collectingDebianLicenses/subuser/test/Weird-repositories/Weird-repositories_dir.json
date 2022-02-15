@@ -1,0 +1,147 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "With-subuser-foo-having-broken-permissions",
+            "percent_encoded_name": "With-subuser-foo-having-broken-permissions",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "With-subuser-foo-having-no-installed-image",
+            "percent_encoded_name": "With-subuser-foo-having-no-installed-image",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "add-broken-non-existant-dependency",
+            "percent_encoded_name": "add-broken-non-existant-dependency",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "add-broken-permissions-file",
+            "percent_encoded_name": "add-broken-permissions-file",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "add-broken-syntax",
+            "percent_encoded_name": "add-broken-syntax",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "image-source-with-spaces",
+            "percent_encoded_name": "image-source-with-spaces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "incorrect-permission-types",
+            "percent_encoded_name": "incorrect-permission-types",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "subuser-add-€-from-€@local-test-repo-§€č",
+            "percent_encoded_name": "subuser-add-%E2%82%AC-from-%E2%82%AC%40local-test-repo-%C2%A7%E2%82%AC%C4%8D",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testsuite.texttest",
+            "percent_encoded_name": "testsuite.texttest",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Weird-repositories",
+    "package": "subuser",
+    "path": "subuser/0.6.2-3/test/Weird-repositories",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/subuser/0.6.2-3/",
+        "metric": {
+            "size": 4208
+        },
+        "pts_link": "https://tracker.debian.org/pkg/subuser",
+        "sloc": [
+            [
+                "python",
+                5201
+            ],
+            [
+                "sh",
+                380
+            ],
+            [
+                "makefile",
+                73
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.6.2-3"
+}

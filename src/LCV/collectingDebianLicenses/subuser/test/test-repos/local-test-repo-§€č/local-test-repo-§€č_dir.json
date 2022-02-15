@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "blah",
+            "percent_encoded_name": "blah",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "image source with spaces",
+            "percent_encoded_name": "image%20source%20with%20spaces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "permissions-with-incorrect-types",
+            "percent_encoded_name": "permissions-with-incorrect-types",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "€",
+            "percent_encoded_name": "%E2%82%AC",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "local-test-repo-§€č",
+    "package": "subuser",
+    "path": "subuser/0.6.2-3/test/test-repos/local-test-repo-§€č",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/subuser/0.6.2-3/",
+        "metric": {
+            "size": 4208
+        },
+        "pts_link": "https://tracker.debian.org/pkg/subuser",
+        "sloc": [
+            [
+                "python",
+                5201
+            ],
+            [
+                "sh",
+                380
+            ],
+            [
+                "makefile",
+                73
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.6.2-3"
+}

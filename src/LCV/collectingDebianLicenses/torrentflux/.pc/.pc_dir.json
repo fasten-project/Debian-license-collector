@@ -1,0 +1,182 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "percent_encoded_name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "percent_encoded_name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "percent_encoded_name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_timtuckerfixes.dpatch",
+            "percent_encoded_name": "01_timtuckerfixes.dpatch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02_dbconfig-common.dpatch",
+            "percent_encoded_name": "02_dbconfig-common.dpatch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03_remove_initial_db_insert.dpatch",
+            "percent_encoded_name": "03_remove_initial_db_insert.dpatch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "05_change_env_to_python.dpatch",
+            "percent_encoded_name": "05_change_env_to_python.dpatch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "17_remove_UPnP_options.dpatch",
+            "percent_encoded_name": "17_remove_UPnP_options.dpatch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "19_add_demonoid_search.dpatch",
+            "percent_encoded_name": "19_add_demonoid_search.dpatch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "20_torrents_with_only_announce_list.dpatch",
+            "percent_encoded_name": "20_torrents_with_only_announce_list.dpatch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "percent_encoded_name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "torrentflux",
+    "path": "torrentflux/2.4-5.1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/torrentflux/2.4-5.1/",
+        "metric": {
+            "size": 6224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/torrentflux",
+        "sloc": [
+            [
+                "php",
+                36493
+            ],
+            [
+                "python",
+                12565
+            ],
+            [
+                "sh",
+                3364
+            ],
+            [
+                "sql",
+                340
+            ],
+            [
+                "makefile",
+                43
+            ],
+            [
+                "xml",
+                22
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/collab-maint/ext-maint/torrentflux/trunk/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "2.4-5.1"
+}
